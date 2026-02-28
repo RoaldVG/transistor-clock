@@ -1,0 +1,2179 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d5ecf7c5-cc32-42f9-83f7-6a2bca05c924")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 91.44 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33c2250b-022e-44e0-a156-9dc2bcc25d49")
+	)
+	(junction
+		(at 90.17 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "476da5e8-efc8-4343-a6d8-936145074a72")
+	)
+	(junction
+		(at 181.61 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78e33d1d-a75e-49ad-afb8-4e13ecac9e59")
+	)
+	(junction
+		(at 91.44 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8805f144-4aa1-42e0-aa5b-6bc986168750")
+	)
+	(junction
+		(at 90.17 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c992036e-5331-46fc-8d0c-082fb14e5fd5")
+	)
+	(junction
+		(at 90.17 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f73d197f-5b3d-4820-90cd-1b4d518ac069")
+	)
+	(wire
+		(pts
+			(xy 91.44 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "054d6524-e28d-4551-b913-66bd061d7d8f")
+	)
+	(wire
+		(pts
+			(xy 90.17 143.51) (xy 105.41 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066d9a0c-fbfe-4771-8be2-dbd89b382b02")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 196.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3a44ac-1e6f-4dc7-82ff-2aee77b8862b")
+	)
+	(wire
+		(pts
+			(xy 71.12 57.15) (xy 73.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21160c5a-cc8c-4401-85f1-6f99208f9f41")
+	)
+	(wire
+		(pts
+			(xy 71.12 27.94) (xy 73.66 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2183954e-83fe-4b4b-86cc-646e2271bb6a")
+	)
+	(wire
+		(pts
+			(xy 91.44 53.34) (xy 106.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b44a8a-260c-4a2a-aee7-c83723b6dc38")
+	)
+	(wire
+		(pts
+			(xy 118.11 129.54) (xy 124.46 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30603d1c-cef6-495e-a0a8-10a6c3c4167c")
+	)
+	(wire
+		(pts
+			(xy 68.58 134.62) (xy 72.39 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c9172e-6277-46ad-817f-a35f0f8527cb")
+	)
+	(wire
+		(pts
+			(xy 100.33 110.49) (xy 105.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35739857-9fe8-4cde-ac29-e7e149af3b58")
+	)
+	(wire
+		(pts
+			(xy 86.36 31.75) (xy 118.11 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370c3923-ae63-4d8e-83fb-2d52d187ddf9")
+	)
+	(wire
+		(pts
+			(xy 119.38 69.85) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3974ecbd-3440-4e96-a080-f93b70a35785")
+	)
+	(wire
+		(pts
+			(xy 90.17 161.29) (xy 105.41 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d072776-fbcc-4c14-b47b-8b3823c9695b")
+	)
+	(wire
+		(pts
+			(xy 100.33 107.95) (xy 105.41 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebf51fd-5e1c-4bf4-8f40-b452c42a77fa")
+	)
+	(wire
+		(pts
+			(xy 100.33 125.73) (xy 105.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4505be2f-54b3-48a4-9d74-eadf5681e0b7")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e913f6-2290-4e9b-9f55-0611f71079cf")
+	)
+	(wire
+		(pts
+			(xy 100.33 146.05) (xy 105.41 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe8937e-11d0-4f7f-af22-98e3f67c11a1")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f11b8c-9d88-4e73-9d9f-df4d407b9cbf")
+	)
+	(wire
+		(pts
+			(xy 191.77 53.34) (xy 196.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531661c4-b488-49ae-b1b9-dd6d3eefbcc2")
+	)
+	(wire
+		(pts
+			(xy 191.77 50.8) (xy 196.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb49d57-ea7b-4980-b53b-44606b50a39b")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 125.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d15627f-4578-4f91-b2be-80e959abf427")
+	)
+	(wire
+		(pts
+			(xy 160.02 35.56) (xy 163.83 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d96e56b-1bc3-4fce-8883-ce3b0ba6f9a2")
+	)
+	(wire
+		(pts
+			(xy 91.44 57.15) (xy 91.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7415d877-281f-4b70-9308-a905d6ae24ea")
+	)
+	(wire
+		(pts
+			(xy 71.12 54.61) (xy 73.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7876d6b2-2130-49b3-bcba-51e123e02f38")
+	)
+	(wire
+		(pts
+			(xy 71.12 35.56) (xy 73.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79660776-abec-4fae-8537-67a7100574cc")
+	)
+	(wire
+		(pts
+			(xy 118.11 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2990cd-1538-4b96-859c-5b085f642cf7")
+	)
+	(wire
+		(pts
+			(xy 105.41 113.03) (xy 90.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba25ae8-c38e-4596-bd72-a7e47677d285")
+	)
+	(wire
+		(pts
+			(xy 118.11 165.1) (xy 124.46 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd9dab5-f445-419b-bd27-f66cfa5c282f")
+	)
+	(wire
+		(pts
+			(xy 100.33 148.59) (xy 105.41 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87969951-0a03-4268-ad71-3765af2a232a")
+	)
+	(wire
+		(pts
+			(xy 100.33 128.27) (xy 105.41 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d005037-bea3-4541-ae33-545e53268777")
+	)
+	(wire
+		(pts
+			(xy 86.36 57.15) (xy 91.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d566c98-35b7-4dc4-9cc9-0426104e4bc3")
+	)
+	(wire
+		(pts
+			(xy 71.12 33.02) (xy 73.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5832a8-763f-4870-bff9-0d36f8fd05d3")
+	)
+	(wire
+		(pts
+			(xy 191.77 33.02) (xy 196.85 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e06b6ba-a85a-4703-843f-7bfc063f4375")
+	)
+	(wire
+		(pts
+			(xy 90.17 130.81) (xy 105.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9322ed10-66ea-48cf-9da5-db1ae4ccac03")
+	)
+	(wire
+		(pts
+			(xy 71.12 30.48) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999fc084-9485-4daa-b7fc-5398813cc130")
+	)
+	(wire
+		(pts
+			(xy 181.61 38.1) (xy 181.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd48aeb-2e2e-4e28-b96f-a73a3eafc85a")
+	)
+	(wire
+		(pts
+			(xy 90.17 143.51) (xy 90.17 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22a236f-4c4e-4466-9186-9f0e8967ef1c")
+	)
+	(wire
+		(pts
+			(xy 209.55 36.83) (xy 215.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49fa97b-4766-4b5f-9214-9e56eb9378de")
+	)
+	(wire
+		(pts
+			(xy 101.6 48.26) (xy 106.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71a932f-40fa-4a08-8846-775b0292888d")
+	)
+	(wire
+		(pts
+			(xy 100.33 166.37) (xy 105.41 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a791f477-e413-49d1-96d7-4e743c58a212")
+	)
+	(wire
+		(pts
+			(xy 191.77 35.56) (xy 196.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaef0b91-8bf6-4950-83c5-6e205d6bfa58")
+	)
+	(wire
+		(pts
+			(xy 68.58 132.08) (xy 72.39 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7902f7-acdd-4873-8dbb-2b824d535ceb")
+	)
+	(wire
+		(pts
+			(xy 100.33 163.83) (xy 105.41 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3d3f72-cd76-4173-b219-211e51b85833")
+	)
+	(wire
+		(pts
+			(xy 119.38 52.07) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1571a58-620d-4755-9cd3-c4b6cb1c44a4")
+	)
+	(wire
+		(pts
+			(xy 101.6 68.58) (xy 106.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cf2ead-5cdb-40a5-9fb8-1fce8f3e4658")
+	)
+	(wire
+		(pts
+			(xy 90.17 134.62) (xy 90.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b506e024-238a-4dde-b07e-498b39a4c797")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 91.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba65ba1f-7303-4634-999a-168ad645ab19")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0afb00f-a22f-40f4-ba7b-e74f71179c85")
+	)
+	(wire
+		(pts
+			(xy 90.17 113.03) (xy 90.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23409c7-867c-4ccf-9035-dfda8b0b38d9")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56a422b-651e-499a-b585-7614ecd1f02d")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c715bf48-ec80-4cc9-8952-64c0cd8e96d8")
+	)
+	(wire
+		(pts
+			(xy 209.55 54.61) (xy 215.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b1f039-5d24-41ce-a78f-aa9e5e6ed9b9")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc61a133-3ca6-4524-9cc2-5569290d120b")
+	)
+	(wire
+		(pts
+			(xy 90.17 143.51) (xy 90.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f380e4-e440-405e-a006-3741daa57fdd")
+	)
+	(wire
+		(pts
+			(xy 85.09 134.62) (xy 90.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6449488-a90a-470f-8498-9338c6954307")
+	)
+	(wire
+		(pts
+			(xy 118.11 147.32) (xy 124.46 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d60a6f-a8d3-46db-b69b-86862a6b5e68")
+	)
+	(wire
+		(pts
+			(xy 181.61 38.1) (xy 196.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26050df-9714-4686-9031-b2f5940eb442")
+	)
+	(wire
+		(pts
+			(xy 176.53 38.1) (xy 181.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56a0a81-4bf6-40ba-b981-9de54eeb7a88")
+	)
+	(wire
+		(pts
+			(xy 160.02 38.1) (xy 163.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa58281a-8434-4951-9571-bd462bb44fd9")
+	)
+	(hierarchical_label "Q0"
+		(shape input)
+		(at 101.6 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05db5242-e744-4743-bdbd-e0bfbf01c9ce")
+	)
+	(hierarchical_label "\\Q0"
+		(shape input)
+		(at 100.33 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "064dc689-4a2b-43ac-bd0b-df8b0c5c63d2")
+	)
+	(hierarchical_label "\\Q1"
+		(shape input)
+		(at 191.77 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e40a4be-6f85-45a7-8e42-768161599770")
+	)
+	(hierarchical_label "\\Q1"
+		(shape input)
+		(at 100.33 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18dfa969-b1bd-4fed-b216-84c2ca852f78")
+	)
+	(hierarchical_label "Q1"
+		(shape input)
+		(at 100.33 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c503de1-64cd-4573-88ea-d29f7a430cad")
+	)
+	(hierarchical_label "Q0"
+		(shape input)
+		(at 100.33 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "208ed21d-7f29-47f2-9b19-2fb8b0307ff6")
+	)
+	(hierarchical_label "\\Q3"
+		(shape input)
+		(at 71.12 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25ca5ccb-62e1-454c-be9c-c0365f98d254")
+	)
+	(hierarchical_label "\\Q1"
+		(shape input)
+		(at 71.12 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2aeb4f6c-4d28-4c7e-8b8f-06b454585cb3")
+	)
+	(hierarchical_label "9"
+		(shape input)
+		(at 215.9 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "316b5c2e-3640-4209-94da-83188e8af47c")
+	)
+	(hierarchical_label "0"
+		(shape input)
+		(at 118.11 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "352e5014-a3ec-43ac-9211-aaaf837e24d7")
+	)
+	(hierarchical_label "7"
+		(shape input)
+		(at 124.46 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4085eb13-7029-4450-9fa2-47931206d3f6")
+	)
+	(hierarchical_label "Q2"
+		(shape input)
+		(at 68.58 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "507c952d-35d0-44d6-97b1-e60e2673f601")
+	)
+	(hierarchical_label "\\Q0"
+		(shape input)
+		(at 71.12 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ba73cb6-d414-4955-85d7-96cae085dfcc")
+	)
+	(hierarchical_label "\\Q0"
+		(shape input)
+		(at 191.77 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64619f92-a11a-4a09-8872-5f8cc8882864")
+	)
+	(hierarchical_label "\\Q2"
+		(shape input)
+		(at 71.12 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66f3c929-4f96-4e97-a89d-06888718e7ab")
+	)
+	(hierarchical_label "\\Q0"
+		(shape input)
+		(at 100.33 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "793706e7-d9ef-497f-bc38-98ae1e1521a3")
+	)
+	(hierarchical_label "\\Q1"
+		(shape input)
+		(at 101.6 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8158c9c8-5e3d-4e69-b50e-aaae0fbaaa1e")
+	)
+	(hierarchical_label "Q1"
+		(shape input)
+		(at 101.6 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "874486b5-aedb-4108-905e-d6eb4cab7a9e")
+	)
+	(hierarchical_label "\\Q1"
+		(shape input)
+		(at 100.33 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87503ac6-baed-4ffa-8467-da89e69a427f")
+	)
+	(hierarchical_label "\\Q1"
+		(shape input)
+		(at 191.77 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bd1ee1b-fce2-45cf-85a6-2cb37d4bfe09")
+	)
+	(hierarchical_label "Q3"
+		(shape input)
+		(at 160.02 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9342f431-9b37-4d1f-aa3b-567559677a47")
+	)
+	(hierarchical_label "8"
+		(shape input)
+		(at 215.9 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b9bc110-19e3-4909-a322-8b6b85d448dd")
+	)
+	(hierarchical_label "2"
+		(shape input)
+		(at 125.73 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fe0156f-20b7-4809-96f6-27cf3c6b1ad1")
+	)
+	(hierarchical_label "Q0"
+		(shape input)
+		(at 100.33 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a35f1d14-9272-40be-bbc6-930f88da882e")
+	)
+	(hierarchical_label "6"
+		(shape input)
+		(at 124.46 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7e4d1dc-f6c6-4ccc-b6b2-dd693ab1165a")
+	)
+	(hierarchical_label "4"
+		(shape input)
+		(at 124.46 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abbec9de-6833-4d35-9928-6030a3ac28cc")
+	)
+	(hierarchical_label "5"
+		(shape input)
+		(at 124.46 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd0c087b-5733-4237-8e62-e36f2526ea7f")
+	)
+	(hierarchical_label "\\Q3"
+		(shape input)
+		(at 68.58 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d675b53b-3d1e-4f8a-91ea-c2b788dcdf8f")
+	)
+	(hierarchical_label "Q1"
+		(shape input)
+		(at 100.33 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d687dce4-6cf8-4a11-954a-ae116dc58754")
+	)
+	(hierarchical_label "Q0"
+		(shape input)
+		(at 101.6 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc27f29d-b4e7-455c-9d2a-da105e052266")
+	)
+	(hierarchical_label "3"
+		(shape input)
+		(at 125.73 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4094f7f-5431-402f-b560-06168c6c1fcc")
+	)
+	(hierarchical_label "Q1"
+		(shape input)
+		(at 101.6 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee1b9bb3-d37e-44a5-89fa-ecd623eb3781")
+	)
+	(hierarchical_label "1"
+		(shape input)
+		(at 125.73 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f08f48c6-6536-472f-b87d-4fa29dd47e00")
+	)
+	(hierarchical_label "\\Q2"
+		(shape input)
+		(at 160.02 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3e120f3-24bc-4812-8a64-84d7131e2170")
+	)
+	(hierarchical_label "\\Q2"
+		(shape input)
+		(at 71.12 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4628f84-7a18-48d0-ac18-32397d98aeea")
+	)
+	(hierarchical_label "\\Q3"
+		(shape input)
+		(at 71.12 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6c369d5-f467-465b-bb73-cb6488f7c879")
+	)
+	(hierarchical_label "Q0"
+		(shape input)
+		(at 191.77 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd50ec07-c928-433d-a74a-dc5e3904f390")
+	)
+	(hierarchical_label "\\Q0"
+		(shape input)
+		(at 101.6 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe25553e-ae1c-4b40-956f-31ceec6e6dae")
+	)
+	(sheet
+		(at 163.83 31.75)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "0537d70e-fdb2-48d0-9d8f-3ccbc082f689")
+		(property "Sheetname" "nand10"
+			(at 163.83 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand.kicad_sch"
+			(at 163.83 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 163.83 35.56 180)
+			(uuid "5c20f642-cf05-4eb6-9642-4754a3722284")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 163.83 38.1 180)
+			(uuid "1652c1f8-5050-4d0f-bd92-92886d8d574f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 176.53 38.1 0)
+			(uuid "b1599654-79c1-49c3-b70c-bd4efdc226f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "261")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "285")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "299")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 105.41)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "1f73eec5-e37d-4aca-84d0-9dc8999fef11")
+		(property "Sheetname" "nand9"
+			(at 105.41 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand3.kicad_sch"
+			(at 105.41 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 105.41 107.95 180)
+			(uuid "09934b78-682a-4436-8491-5ecfd4d66bf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 105.41 110.49 180)
+			(uuid "a4cb457e-92c1-47dc-91e6-4cddead9d6b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 118.11 111.76 0)
+			(uuid "f7da817a-8cd6-4728-83a0-3a00de2cc1f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C" input
+			(at 105.41 113.03 180)
+			(uuid "4808b3e9-9f8f-4d98-8452-1db54d295b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "257")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "281")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "295")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 25.4)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "2c94928a-7da0-4567-8b95-91a86493c9bc")
+		(property "Sheetname" "nand"
+			(at 73.66 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand4.kicad_sch"
+			(at 73.66 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 73.66 27.94 180)
+			(uuid "34d714f5-7908-4f59-bff3-1db7b2cdb0a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 73.66 30.48 180)
+			(uuid "63083c6f-85e6-4a78-b288-f2debf3facb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "C" input
+			(at 73.66 33.02 180)
+			(uuid "26017a65-9e44-4653-9325-11f6be1a376f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D" input
+			(at 73.66 35.56 180)
+			(uuid "8df293d2-5d98-48cf-8245-09a8b23acce5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 86.36 31.75 0)
+			(uuid "167c7422-17e4-46df-9f89-5f3e14a8ccdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "259")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "283")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "297")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 123.19)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "40ce095c-7068-416d-94d2-7640024bdbc8")
+		(property "Sheetname" "nand6"
+			(at 105.41 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand3.kicad_sch"
+			(at 105.41 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 105.41 125.73 180)
+			(uuid "d9ac8188-3b42-4e33-bf83-718b7f23c016")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 105.41 128.27 180)
+			(uuid "a39d7765-6599-470d-affa-6016fad083fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 118.11 129.54 0)
+			(uuid "64044e6a-86d2-4b12-8507-0cd3314d23a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C" input
+			(at 105.41 130.81 180)
+			(uuid "b91092f9-f4e6-4982-81e5-51b44e99188c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "266")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "290")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "304")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 63.5)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "593df0df-4d29-466d-81f4-0d5ba52265a1")
+		(property "Sheetname" "nand3"
+			(at 106.68 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand3.kicad_sch"
+			(at 106.68 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 106.68 66.04 180)
+			(uuid "d4ff61d3-fbd9-45cb-a8fb-d25e9f50b784")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 106.68 68.58 180)
+			(uuid "a3cc0574-6269-4b9a-b174-4d9ad251b974")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 119.38 69.85 0)
+			(uuid "19bb5e79-e0e9-44e2-b9fc-da84b54bdbe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C" input
+			(at 106.68 71.12 180)
+			(uuid "fbbb647f-7d90-47dd-ad8c-cd3d58415ac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "256")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "280")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "294")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 128.27)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "94ca1186-7521-4de7-bb01-26bc5fdac090")
+		(property "Sheetname" "nand5"
+			(at 72.39 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand.kicad_sch"
+			(at 72.39 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 72.39 132.08 180)
+			(uuid "67ef221c-1b9f-4fd4-8259-b3ee30bff4c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 72.39 134.62 180)
+			(uuid "be22dc62-f987-4eb8-8b3e-f4a8dce5b8b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 85.09 134.62 0)
+			(uuid "13fdf283-a628-40a4-ae51-80fbd5596c55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "265")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "289")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "303")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 45.72)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "964355d9-3db8-41e3-a71e-58bcac1d5cad")
+		(property "Sheetname" "nand2"
+			(at 106.68 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand3.kicad_sch"
+			(at 106.68 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 106.68 48.26 180)
+			(uuid "1abf1d07-3b6d-4933-924c-8cb3ed0151a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 106.68 50.8 180)
+			(uuid "ea237c94-ccba-4541-8813-481ab3764b8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 119.38 52.07 0)
+			(uuid "686596b2-08b3-4391-9c9c-71e8e8826279")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C" input
+			(at 106.68 53.34 180)
+			(uuid "39adcfb3-91c6-4fbc-ad1f-0b3739c21edb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "262")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "286")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "300")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 81.28)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "d33fcc44-7cbe-47be-a796-10e1334bc8f9")
+		(property "Sheetname" "nand4"
+			(at 106.68 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand3.kicad_sch"
+			(at 106.68 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 106.68 83.82 180)
+			(uuid "11efdbcc-4922-47d8-aaa8-cdbd56c0efca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 106.68 86.36 180)
+			(uuid "baa8b1e2-05bc-4d3f-a718-0acd6f7df912")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 119.38 87.63 0)
+			(uuid "93737404-3694-4d15-b1e8-9af0cd5aed80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C" input
+			(at 106.68 88.9 180)
+			(uuid "48ee1629-d0c0-41fd-8236-1fbb43ad34f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "258")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "282")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "296")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 48.26)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "db2a7d1d-1103-475a-9ce0-12a0d4122134")
+		(property "Sheetname" "nand11"
+			(at 196.85 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand3.kicad_sch"
+			(at 196.85 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 196.85 50.8 180)
+			(uuid "39ed375a-54fa-41de-9398-9db0fac7c613")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 196.85 53.34 180)
+			(uuid "1437009e-e787-42e5-9741-507a85d2f7be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 209.55 54.61 0)
+			(uuid "0408e645-0c4f-47b8-bd21-f25e62bc528c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C" input
+			(at 196.85 55.88 180)
+			(uuid "cc93eeb3-4213-49a2-a9fc-8804215e9414")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "263")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "287")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "301")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 30.48)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "ddbb03ab-6e9e-41a3-b451-18067f9f1881")
+		(property "Sheetname" "nand12"
+			(at 196.85 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand3.kicad_sch"
+			(at 196.85 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 196.85 33.02 180)
+			(uuid "8fb6b165-8fab-4b0b-8629-6602e402b758")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 196.85 35.56 180)
+			(uuid "13d86e15-f080-4aa3-968a-cbf8a5ba3115")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 209.55 36.83 0)
+			(uuid "6141f250-ff08-4889-b800-d356ac719b96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C" input
+			(at 196.85 38.1 180)
+			(uuid "c0095762-1699-409a-aa9a-43d1bfe28485")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "264")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "288")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "302")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 158.75)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "ddc100d9-9d8f-46a4-b090-180cd44015e7")
+		(property "Sheetname" "nand8"
+			(at 105.41 158.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand3.kicad_sch"
+			(at 105.41 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 105.41 161.29 180)
+			(uuid "96cdfbae-3010-4510-9127-88cb52a41738")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 105.41 163.83 180)
+			(uuid "a6ac93b3-bb0e-4c40-bcd8-fcfafd3ed200")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 118.11 165.1 0)
+			(uuid "f6d2803c-813a-4530-be11-a4a46045c00f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C" input
+			(at 105.41 166.37 180)
+			(uuid "ed00615f-d701-456c-973f-bf85343980e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "267")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "291")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "305")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 50.8)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "dec7f243-ef49-4d45-98d8-91c73e416837")
+		(property "Sheetname" "nand1"
+			(at 73.66 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand.kicad_sch"
+			(at 73.66 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 73.66 54.61 180)
+			(uuid "7e05cc9a-5377-4168-bc11-63c1db8ab523")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 73.66 57.15 180)
+			(uuid "35ba8221-ae9f-4946-bc94-957947d55212")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 86.36 57.15 0)
+			(uuid "e465dcac-df80-42c2-8b9f-7120e3b747a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "260")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "284")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "298")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 140.97)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "fb4e473b-06b7-40f9-96be-7741d483a67e")
+		(property "Sheetname" "nand7"
+			(at 105.41 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand3.kicad_sch"
+			(at 105.41 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 105.41 143.51 180)
+			(uuid "de6afd75-ebbc-42aa-b173-2a6f909900a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 105.41 146.05 180)
+			(uuid "c50056e5-d70c-4873-aef1-45545a0cf71e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 118.11 147.32 0)
+			(uuid "672e0f30-8770-4f12-818b-23850852d382")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C" input
+			(at 105.41 148.59 180)
+			(uuid "95b85a9c-1e91-4e03-9998-d6ae6bcfed4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
+					(page "268")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
+					(page "292")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
+					(page "306")
+				)
+			)
+		)
+	)
+)

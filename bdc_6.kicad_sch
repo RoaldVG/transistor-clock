@@ -1,0 +1,71 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "065ec8a0-0044-4321-b559-a8b407f0b45c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 96.52 88.9)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "1b1bce57-52d2-47a4-ac2f-4da4fa84b9ff")
+		(property "Sheetname" "NOT"
+			(at 96.52 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "not.kicad_sch"
+			(at 96.52 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 96.52 91.44 180)
+			(uuid "5ef958c6-00c3-4bce-9a08-ea13b9227d2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" input
+			(at 109.22 91.44 0)
+			(uuid "2518ccf7-b548-40e7-89cb-29e901a258d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/8b9224c8-f667-4bdb-aaa7-6f82b55834ac"
+					(page "97")
+				)
+			)
+		)
+	)
+)
