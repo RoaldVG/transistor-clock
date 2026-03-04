@@ -1264,7 +1264,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4007"
+		(symbol "Diode:MRA4007T3G"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1282,7 +1282,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4007"
+			(property "Value" "MRA4007T3G"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1290,7 +1290,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -1299,7 +1299,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1308,7 +1308,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1344,7 +1344,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?41*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1353,7 +1353,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4007_0_1"
+			(symbol "MRA4007T3G_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -1391,7 +1391,7 @@
 					)
 				)
 			)
-			(symbol "1N4007_1_1"
+			(symbol "MRA4007T3G_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3373,6 +3373,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 72.39) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc1eb80-d82e-43b0-ac16-deaa01427983")
+	)
+	(wire
+		(pts
 			(xy 60.96 184.15) (xy 60.96 187.96)
 		)
 		(stroke
@@ -3903,16 +3913,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 72.39) (xy 87.63 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be08675f-b8b8-4810-a21e-cd87472eb4ba")
-	)
-	(wire
-		(pts
 			(xy 40.64 128.27) (xy 40.64 134.62)
 		)
 		(stroke
@@ -4330,6 +4330,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:MRA4007T3G")
+		(at 78.74 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02755794-e3f3-450a-870c-d5fa5a4c228a")
+		(property "Reference" "D2"
+			(at 78.74 66.9755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MRA4007T3G"
+			(at 78.74 69.3998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 78.74 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4153a867-ae7f-453f-b0a0-c95a0a3bb7b2")
+		)
+		(pin "1"
+			(uuid "ee89d405-b530-4c48-b941-99c5d44d0de4")
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 33.02 124.46 0)
 		(unit 1)
@@ -4641,92 +4727,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4007")
-		(at 78.74 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "093fc5f8-8d08-4316-8896-8c13c4f4567f")
-		(property "Reference" "D2"
-			(at 78.74 56.8155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 78.74 59.2398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 78.74 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 78.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 78.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 78.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 78.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "048d9efc-2ebf-4436-a3a2-2c3e9d475981")
-		)
-		(pin "1"
-			(uuid "85394232-11da-4783-af63-ae32160211a2")
-		)
-		(instances
-			(project ""
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 148.59 55.88 0)
 		(unit 1)
@@ -4861,7 +4861,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4007")
+		(lib_id "Diode:MRA4007T3G")
 		(at 78.74 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4869,8 +4869,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b1e25a2-6d08-4607-aace-37366f670501")
-		(property "Reference" "D4"
+		(uuid "14d37b51-7885-457b-b08b-5452af90e4f3")
+		(property "Reference" "D1"
 			(at 78.74 72.0555 0)
 			(effects
 				(font
@@ -4878,7 +4878,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "MRA4007T3G"
 			(at 78.74 74.4798 0)
 			(effects
 				(font
@@ -4886,7 +4886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 78.74 81.915 0)
 			(effects
 				(font
@@ -4895,7 +4895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -4904,7 +4904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -4932,15 +4932,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "391ca773-f3a5-48c3-8357-df21f68a8dc4")
+			(uuid "1c2289f2-0e00-4448-9f4e-c0dc7d1b15c0")
 		)
 		(pin "1"
-			(uuid "1bd351fb-505b-47e1-a8b5-789d200fedf5")
+			(uuid "18597abb-920d-4db5-ab59-655c33220f47")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5872,92 +5872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4007")
-		(at 78.74 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5192290b-4242-4cda-84bf-217e1f49ae99")
-		(property "Reference" "D3"
-			(at 78.74 66.9755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 78.74 69.3998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 78.74 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 78.74 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 78.74 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 78.74 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 78.74 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "79360d7c-91ac-4c40-be99-c6fa423ff350")
-		)
-		(pin "1"
-			(uuid "a3879d85-e0a9-4e75-8c9e-8a83cb094fb5")
-		)
-		(instances
-			(project ""
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 110.49 67.31 180)
 		(unit 1)
@@ -6225,92 +6139,6 @@
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 78.74 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75b8f713-9bc2-4491-8f52-399fc84d21b4")
-		(property "Reference" "D1"
-			(at 78.74 50.4655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 78.74 52.8898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 78.74 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 78.74 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 78.74 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 78.74 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 78.74 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dbc4962-2894-49a3-a94a-91ebf1b4be6c")
-		)
-		(pin "2"
-			(uuid "16e5bb04-9b58-4cf4-8259-ca223bd7caf3")
-		)
-		(instances
-			(project ""
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7561,6 +7389,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:MRA4007T3G")
+		(at 78.74 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf2fbce1-b49a-439a-a9a5-07a531a7e30e")
+		(property "Reference" "D3"
+			(at 78.74 56.8155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MRA4007T3G"
+			(at 78.74 59.2398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 78.74 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF"
+			(at 78.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+			(at 78.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bae15faf-def0-4642-b99e-8751294a2f68")
+		)
+		(pin "1"
+			(uuid "8117a5b3-0cba-44b8-ba36-dd993e485638")
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 50.8 187.96 90)
 		(unit 1)
@@ -7690,6 +7604,92 @@
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MRA4007T3G")
+		(at 78.74 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4cf98b3-cc2b-4f37-a36e-77cdd992f87c")
+		(property "Reference" "D8"
+			(at 78.74 50.4655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MRA4007T3G"
+			(at 78.74 52.8898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 78.74 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96eedd19-a3a4-487a-811c-b123c2cf69a8")
+		)
+		(pin "1"
+			(uuid "c8952924-7e7c-4c75-bf35-0ced601e628a")
+		)
+		(instances
+			(project ""
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
+					(reference "D8")
 					(unit 1)
 				)
 			)
