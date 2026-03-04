@@ -5,7 +5,7 @@
 	(uuid "fe93132c-fae7-4e2e-a34c-ce3b83f88fb8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "power:VDD"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -26,7 +26,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VDD"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VDD_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -108,7 +108,7 @@
 					)
 				)
 			)
-			(symbol "VDD_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -130,6 +130,12 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(junction
+		(at 55.88 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "036ccf2e-1c30-4b93-9fd2-d31738d91b4d")
 	)
 	(junction
 		(at 121.92 113.03)
@@ -202,12 +208,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3e69d1c-d7f2-480c-9b0a-0d256d35e192")
-	)
-	(junction
-		(at 55.88 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0cf21d7-5d74-4dfe-bf4f-62c47442e4d3")
 	)
 	(junction
 		(at 208.28 91.44)
@@ -944,7 +944,7 @@
 		(uuid "e2c69e4e-1f58-48d2-9edb-ed86cd5335ac")
 	)
 	(symbol
-		(lib_id "power:VDD")
+		(lib_id "power:+3V3")
 		(at 55.88 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -952,7 +952,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d7b6ec7b-fb5f-4387-9b59-782f6b970bd7")
+		(uuid "21faa1c0-94b2-41ad-b27f-c286266d36fe")
 		(property "Reference" "#PWR022"
 			(at 55.88 102.87 0)
 			(effects
@@ -962,7 +962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "+3V3"
 			(at 55.88 94.9269 0)
 			(effects
 				(font
@@ -988,7 +988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 55.88 99.06 0)
 			(effects
 				(font
@@ -998,7 +998,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "283dedf2-1868-45ed-91c1-8b329c71487c")
+			(uuid "28c212c5-739d-4d19-a91c-75f1545d2241")
 		)
 		(instances
 			(project "transistor-clock"

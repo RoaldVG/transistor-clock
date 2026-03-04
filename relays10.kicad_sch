@@ -731,6 +731,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -832,131 +957,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(wire
 		(pts
@@ -1000,6 +1000,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 109.22) (xy 184.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0c5d0f-1b01-40c6-adca-af2818d86469")
+	)
+	(wire
+		(pts
 			(xy 171.45 46.99) (xy 176.53 46.99)
 		)
 		(stroke
@@ -1010,6 +1020,36 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 109.22) (xy 49.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6613523c-4be3-442b-b164-b09f1fb2e266")
+	)
+	(wire
+		(pts
+			(xy 49.53 52.07) (xy 49.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac3dd93-4f8f-4d87-ab4d-d413017bb58e")
+	)
+	(wire
+		(pts
+			(xy 139.7 109.22) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6c6262-ea57-4647-9c8a-ae36e4687b01")
+	)
+	(wire
+		(pts
 			(xy 36.83 104.14) (xy 41.91 104.14)
 		)
 		(stroke
@@ -1017,6 +1057,46 @@
 			(type default)
 		)
 		(uuid "75c34cb3-7ad9-4083-acc5-223fc8bcfa06")
+	)
+	(wire
+		(pts
+			(xy 95.25 109.22) (xy 95.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb90357-fa7f-4cab-a7cd-b80a8cd78af5")
+	)
+	(wire
+		(pts
+			(xy 139.7 52.07) (xy 139.7 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8577ff09-3fe9-4bc6-bb0a-10e8476c09c0")
+	)
+	(wire
+		(pts
+			(xy 228.6 109.22) (xy 228.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c410ac3-e728-43b3-919f-da2144761f32")
+	)
+	(wire
+		(pts
+			(xy 184.15 52.07) (xy 184.15 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928b885e-b3de-4fe6-bfd3-6e7fed562a79")
 	)
 	(wire
 		(pts
@@ -1040,6 +1120,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 52.07) (xy 95.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b25417-0b5f-4b02-95e5-1d069d6de768")
+	)
+	(wire
+		(pts
 			(xy 127 46.99) (xy 132.08 46.99)
 		)
 		(stroke
@@ -1047,6 +1137,16 @@
 			(type default)
 		)
 		(uuid "f423adbc-8a20-4455-a2d0-b835ff239b32")
+	)
+	(wire
+		(pts
+			(xy 228.6 52.07) (xy 228.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca6011f-0ef6-4d7d-8c4e-ce80483719c4")
 	)
 	(wire
 		(pts
@@ -1583,84 +1683,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04f50410-73c6-42b4-bbdf-840831001f5f")
-		(property "Reference" "R64"
-			(at 51.308 111.8178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 51.308 114.2421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 47.752 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24e42e3d-6514-40bd-a6e6-4601e2a84794")
-		)
-		(pin "1"
-			(uuid "e7440d76-0351-4a23-8f65-85c45c03b80d")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "R64")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "R59")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 54.61 0)
 		(unit 1)
@@ -1729,80 +1751,6 @@
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
 					(reference "#PWR0426")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 184.15 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09951afe-4feb-4313-b0cc-dfeaf6d4c4d8")
-		(property "Reference" "#PWR0400"
-			(at 184.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 184.15 94.9269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 184.15 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4d642c0-5d55-45ba-befb-cc6db162a24a")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "#PWR0400")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "#PWR0331")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR0442")
 					(unit 1)
 				)
 			)
@@ -1901,7 +1849,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "PRY1-3V-450-1A-EF"
 			(at 111.252 125.6721 0)
 			(effects
 				(font
@@ -1969,17 +1917,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 95.25 99.06 0)
+		(lib_id "power:+3V3")
+		(at 139.7 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1244a6d4-2340-4f94-9d17-2c2d644fa333")
+		(uuid "118afda3-8407-45e0-a8e2-531489165412")
 		(property "Reference" "#PWR0388"
-			(at 95.25 102.87 0)
+			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,8 +1935,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 95.25 94.9269 0)
+		(property "Value" "+3V3"
+			(at 139.7 94.9269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +1944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 99.06 0)
+			(at 139.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +1953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 99.06 0)
+			(at 139.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,8 +1961,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 95.25 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 139.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +1971,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6eec9a36-2e80-47f8-bf3f-ca6f8e245700")
+			(uuid "590e7c95-76fc-4b3f-a490-466e669572d7")
 		)
 		(instances
 			(project "transistor-clock"
@@ -2032,11 +1980,11 @@
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "#PWR0327")
+					(reference "#PWR0400")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR0422")
+					(reference "#PWR0394")
 					(unit 1)
 				)
 			)
@@ -2121,84 +2069,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 95.25 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1666dc36-491a-4980-a969-cc7063ffd88b")
-		(property "Reference" "R68"
-			(at 97.028 111.8178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 97.028 114.2421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 93.472 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "91c0a114-4e9c-44f0-9aee-17003706892b")
-		)
-		(pin "1"
-			(uuid "40103826-335d-42f8-bc94-b52c8f224d12")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "R68")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "R91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
 		(at 54.61 67.31 0)
 		(unit 1)
@@ -2216,7 +2086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "PRY1-3V-450-1A-EF"
 			(at 65.532 68.5221 0)
 			(effects
 				(font
@@ -2470,7 +2340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "PRY1-3V-450-1A-EF"
 			(at 244.602 125.6721 0)
 			(effects
 				(font
@@ -2555,7 +2425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "PRY1-3V-450-1A-EF"
 			(at 200.152 68.5221 0)
 			(effects
 				(font
@@ -2641,7 +2511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "PRY1-3V-450-1A-EF"
 			(at 200.152 125.6721 0)
 			(effects
 				(font
@@ -2867,6 +2737,80 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 184.15 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a7da87d-ae5a-48dc-93e1-c194cc60dc00")
+		(property "Reference" "#PWR0406"
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 184.15 94.9269 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 184.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67edd91c-37d7-4601-9074-d8fb58a99f59")
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
+					(reference "#PWR0406")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(reference "#PWR0434")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(reference "#PWR0422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 228.6 74.93 0)
 		(unit 1)
@@ -3043,7 +2987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "PRY1-3V-450-1A-EF"
 			(at 65.532 125.6721 0)
 			(effects
 				(font
@@ -3179,80 +3123,6 @@
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
 					(reference "#PWR0443")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 49.53 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a308741-7e15-4f22-b2a6-d9ab6cb50a44")
-		(property "Reference" "#PWR0304"
-			(at 49.53 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 49.53 37.7769 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 49.53 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8b668c9-e735-4426-9a77-efc5bbf7bd5b")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "#PWR0304")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "#PWR0343")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR0373")
 					(unit 1)
 				)
 			)
@@ -3411,80 +3281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 228.6 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "562fdcec-1b39-4f08-b814-1442dcfa7718")
-		(property "Reference" "#PWR0404"
-			(at 228.6 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 228.6 37.7769 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 228.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df3ab88a-a5f4-452e-a70b-eaa6cbdebbe1")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "#PWR0404")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "#PWR0335")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR0446")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
 		(at 144.78 67.31 0)
 		(unit 1)
@@ -3502,7 +3298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "PRY1-3V-450-1A-EF"
 			(at 155.702 68.5221 0)
 			(effects
 				(font
@@ -3570,35 +3366,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 55.88 0)
+		(lib_id "power:+3V3")
+		(at 228.6 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b471b93-f01b-4b80-9323-0883f578b9f2")
-		(property "Reference" "R79"
-			(at 230.378 54.6678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 230.378 57.0921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 226.822 55.88 90)
+		(uuid "5b2f0514-7d8c-47bf-9bb6-1ca409667d35")
+		(property "Reference" "#PWR0436"
+			(at 228.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,8 +3384,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 228.6 55.88 0)
+		(property "Value" "+3V3"
+			(at 228.6 94.9269 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,8 +3401,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 228.6 55.88 0)
+		(property "Datasheet" ""
+			(at 228.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,24 +3410,30 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2c6e901e-5232-4e17-abbd-bc94f8386213")
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 228.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "abcbf6ba-b2ef-41ac-9728-dd8bf5150e81")
+			(uuid "8c815ac3-d238-4f80-bca2-8ca3fed9a185")
 		)
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "R79")
+					(reference "#PWR0436")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "R32")
+					(reference "#PWR0442")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "R107")
+					(reference "#PWR0440")
 					(unit 1)
 				)
 			)
@@ -3666,7 +3458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "PRY1-3V-450-1A-EF"
 			(at 155.702 125.6721 0)
 			(effects
 				(font
@@ -3907,7 +3699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "PRY1-3V-450-1A-EF"
 			(at 111.252 68.5221 0)
 			(effects
 				(font
@@ -4299,7 +4091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "PRY1-3V-450-1A-EF"
 			(at 244.602 68.5221 0)
 			(effects
 				(font
@@ -4599,7 +4391,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
+		(lib_id "power:+3V3")
 		(at 49.53 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4607,8 +4399,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9a6e17d5-af1c-4eb1-b856-317ee05f8a0c")
-		(property "Reference" "#PWR0382"
+		(uuid "996f91ba-f598-4707-ad21-a2efa937a2ac")
+		(property "Reference" "#PWR0327"
 			(at 49.53 102.87 0)
 			(effects
 				(font
@@ -4617,7 +4409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "+3V3"
 			(at 49.53 94.9269 0)
 			(effects
 				(font
@@ -4643,7 +4435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 49.53 99.06 0)
 			(effects
 				(font
@@ -4653,37 +4445,37 @@
 			)
 		)
 		(pin "1"
-			(uuid "46a05cd7-955f-46d4-9fe0-22a40071bcb8")
+			(uuid "3048d1dd-d0a2-4f03-a7d4-4db95f0f107b")
 		)
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "#PWR0382")
+					(reference "#PWR0327")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "#PWR0378")
+					(reference "#PWR0331")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR0378")
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 139.7 41.91 0)
+		(lib_id "power:+3V3")
+		(at 49.53 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a0fd9807-f62b-415f-bd18-08b4aba9141f")
-		(property "Reference" "#PWR0392"
-			(at 139.7 45.72 0)
+		(uuid "998912ed-3a5c-4771-9ac9-d24e139daeb9")
+		(property "Reference" "#PWR0304"
+			(at 49.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,8 +4483,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 139.7 37.7769 0)
+		(property "Value" "+3V3"
+			(at 49.53 37.7769 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 41.91 0)
+			(at 49.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 41.91 0)
+			(at 49.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,82 +4509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 139.7 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d53b9536-be2a-47c7-aeb2-0a7c1503b36f")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "#PWR0392")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "#PWR0339")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR0429")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 184.15 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2c2d73d-ee84-4fb6-9c8c-a88ccb8cd5be")
-		(property "Reference" "#PWR0398"
-			(at 184.15 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 184.15 37.7769 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 184.15 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 49.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,12 +4519,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ecae9ee-cca6-48e7-8b18-b4d17754c2c4")
+			(uuid "2a5fb4c6-eea3-4be8-b2b1-92ef8e6175a7")
 		)
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "#PWR0398")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
@@ -4814,7 +4532,81 @@
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR0440")
+					(reference "#PWR0335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 228.6 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c67e5e9-ff88-442c-a9c9-85de2e76a831")
+		(property "Reference" "#PWR0424"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 228.6 37.7769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 228.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab7d7156-d278-4b3c-bdd7-7efc84b9348e")
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
+					(reference "#PWR0424")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(reference "#PWR0430")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(reference "#PWR0429")
 					(unit 1)
 				)
 			)
@@ -4979,232 +4771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 228.6 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aed584a2-f22d-4b71-8caf-28a299775ef3")
-		(property "Reference" "#PWR0406"
-			(at 228.6 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 228.6 94.9269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 228.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97bb6890-45a1-44bf-bd3a-1edb1e9ac1b0")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "#PWR0406")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "#PWR0333")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR0448")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 95.25 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afec4129-8e1b-4479-850d-528e0ac3ce7b")
-		(property "Reference" "#PWR0386"
-			(at 95.25 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 95.25 37.7769 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 95.25 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f866ac27-ae47-413d-8240-5ec37b6976e0")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "#PWR0386")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "#PWR0341")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR0417")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 139.7 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b010c587-e953-42f2-9cb1-01b1f84390ef")
-		(property "Reference" "R71"
-			(at 141.478 54.6678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 141.478 57.0921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 137.922 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d21d304f-ca41-4e83-848f-8c7339205e59")
-		)
-		(pin "1"
-			(uuid "cdb037e9-d121-4a2b-ab4c-6f01d625ff46")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "R71")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "R36")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "R97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 36.83 107.95 0)
 		(unit 1)
@@ -5277,6 +4843,154 @@
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 139.7 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b82fdcaa-2ac3-43c4-9fa0-24a456f418d5")
+		(property "Reference" "#PWR0373"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 139.7 37.7769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44569202-6eb4-4029-8f59-0127a7eadb3e")
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
+					(reference "#PWR0373")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(reference "#PWR0392")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(reference "#PWR0386")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 95.25 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c169e96c-6a0c-4b33-b40b-39b565c2f2ae")
+		(property "Reference" "#PWR0333"
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 95.25 94.9269 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3166c8e5-9617-4fc8-8df0-bce2150ac59e")
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
+					(reference "#PWR0333")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(reference "#PWR0382")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(reference "#PWR0378")
 					(unit 1)
 				)
 			)
@@ -5435,6 +5149,80 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 95.25 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c488882a-558a-4049-b70f-793c1b96503b")
+		(property "Reference" "#PWR0339"
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 95.25 37.7769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9548f54a-f41a-4f76-a1f3-ab0c89525f53")
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
+					(reference "#PWR0339")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(reference "#PWR0343")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(reference "#PWR0341")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 82.55 50.8 0)
 		(unit 1)
@@ -5507,84 +5295,6 @@
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
 					(reference "R85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 139.7 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9ca701e-c74c-4289-997f-d0ec59b1f348")
-		(property "Reference" "R72"
-			(at 141.478 111.8178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 141.478 114.2421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 137.922 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43e41e6a-a153-48d3-ac0c-69c895f2045c")
-		)
-		(pin "1"
-			(uuid "80afd0f7-6c07-4108-8476-97194aa43031")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "R72")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -5747,84 +5457,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d64e542c-8bf8-4a1b-9ff5-3ca58ee67f1e")
-		(property "Reference" "R80"
-			(at 230.378 111.8178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 230.378 114.2421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 226.822 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efd770c1-cae0-46c7-926e-12e102c08588")
-		)
-		(pin "1"
-			(uuid "e99ef1ba-ea3a-4cf3-b0dc-19968ea96886")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "R80")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "R108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 171.45 111.76 0)
 		(unit 1)
@@ -5893,84 +5525,6 @@
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
 					(reference "#PWR0439")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 49.53 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6ee6ef0-b78a-4936-87e9-e1b7a04e4ee8")
-		(property "Reference" "R63"
-			(at 51.308 54.6678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 51.308 57.0921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 47.752 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea267585-1a6e-416a-8dc7-6445e5a782b9")
-		)
-		(pin "1"
-			(uuid "7267f8ee-4177-4e6a-8435-14c52a495952")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "R63")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -6361,17 +5915,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 139.7 99.06 0)
+		(lib_id "power:+3V3")
+		(at 184.15 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f21c5a71-44fb-4283-9f76-1a14bef13a82")
-		(property "Reference" "#PWR0394"
-			(at 139.7 102.87 0)
+		(uuid "e9ad9e36-9321-4bad-9c80-898b42110814")
+		(property "Reference" "#PWR0398"
+			(at 184.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,8 +5933,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 139.7 94.9269 0)
+		(property "Value" "+3V3"
+			(at 184.15 37.7769 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +5942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 99.06 0)
+			(at 184.15 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +5951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 99.06 0)
+			(at 184.15 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,8 +5959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 139.7 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 184.15 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,20 +5969,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8da81131-d14a-434c-838f-a714366097a6")
+			(uuid "4a0b67a7-18b1-46d0-bce0-76feaec19355")
 		)
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "#PWR0394")
+					(reference "#PWR0398")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "#PWR0329")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR0434")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -6593,84 +6147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 95.25 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc109cec-7412-4427-8b12-31f41c1bceff")
-		(property "Reference" "R67"
-			(at 97.028 54.6678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 97.028 57.0921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 93.472 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5d7ab32-371d-40fe-80e9-8b712ef6a35f")
-		)
-		(pin "1"
-			(uuid "7cc194c8-0990-4fef-8725-ba97194e9e23")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "R67")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "R38")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "R89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 139.7 132.08 0)
 		(unit 1)
@@ -6745,84 +6221,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 184.15 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd8a1f13-14e9-4603-bf86-310753905bab")
-		(property "Reference" "R76"
-			(at 185.928 111.8178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 185.928 114.2421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 182.372 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 184.15 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b9687a28-b324-4aec-8eab-6c693f273762")
-		)
-		(pin "1"
-			(uuid "de692879-3015-4df3-acb3-d77e2330e36e")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "R76")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "R28")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "R104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 49.53 74.93 0)
 		(unit 1)
@@ -6891,84 +6289,6 @@
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
 					(reference "#PWR0376")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 184.15 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff817eda-a44f-4245-b872-e0360633ca01")
-		(property "Reference" "R75"
-			(at 185.928 54.6678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 185.928 57.0921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 182.372 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7af0df65-f774-40ff-9206-d50cdb6e8c48")
-		)
-		(pin "1"
-			(uuid "21938248-8bcc-4f1e-b106-55ac09bcb955")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "R75")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "R34")
-					(unit 1)
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "R103")
 					(unit 1)
 				)
 			)
