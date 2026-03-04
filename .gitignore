@@ -1,3 +1,7 @@
 transistor-clock-backups/
 *.lck
-#auto_saved_files#
+\#auto_saved_files\#
+*.log
+*.net
+*.raw
+*-bak
