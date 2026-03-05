@@ -675,6 +675,182 @@
       "relays_h0"
     ],
     [
+      "75b3a1b7-4863-4735-866b-e92e7858d4fa",
+      "relay1"
+    ],
+    [
+      "75b3a1b7-4863-4735-866b-e92e7858d4fa",
+      "relay1"
+    ],
+    [
+      "a8442c2d-8547-4ce6-804a-f6af5a1835e7",
+      "relay2"
+    ],
+    [
+      "a8442c2d-8547-4ce6-804a-f6af5a1835e7",
+      "relay2"
+    ],
+    [
+      "06a98e2a-1e2f-4b44-96ce-6d629e728954",
+      "relay3"
+    ],
+    [
+      "06a98e2a-1e2f-4b44-96ce-6d629e728954",
+      "relay3"
+    ],
+    [
+      "82571192-bbc9-4100-afd3-cff39b4dd65a",
+      "relay4"
+    ],
+    [
+      "82571192-bbc9-4100-afd3-cff39b4dd65a",
+      "relay4"
+    ],
+    [
+      "f48f5b78-7c74-4ddc-bb22-3f61df436a38",
+      "relay5"
+    ],
+    [
+      "f48f5b78-7c74-4ddc-bb22-3f61df436a38",
+      "relay5"
+    ],
+    [
+      "1366ccf8-a60f-4faa-a762-1592a0ab5c13",
+      "relay"
+    ],
+    [
+      "e5934d49-adc9-44cf-a5e8-44aa98e52170",
+      "relay1"
+    ],
+    [
+      "8147a78c-704a-4632-bbdd-6a9ddb72f8df",
+      "relay2"
+    ],
+    [
+      "269be598-f749-49dd-8c9d-43fb5a017477",
+      "relay3"
+    ],
+    [
+      "45ddea19-c5e5-423f-abb5-fdcd02927863",
+      "relay4"
+    ],
+    [
+      "2f3875ba-15c5-4467-bef0-bd215b5e165f",
+      "relay5"
+    ],
+    [
+      "1366ccf8-a60f-4faa-a762-1592a0ab5c13",
+      "relay"
+    ],
+    [
+      "e5934d49-adc9-44cf-a5e8-44aa98e52170",
+      "relay1"
+    ],
+    [
+      "8147a78c-704a-4632-bbdd-6a9ddb72f8df",
+      "relay2"
+    ],
+    [
+      "269be598-f749-49dd-8c9d-43fb5a017477",
+      "relay3"
+    ],
+    [
+      "45ddea19-c5e5-423f-abb5-fdcd02927863",
+      "relay4"
+    ],
+    [
+      "2f3875ba-15c5-4467-bef0-bd215b5e165f",
+      "relay5"
+    ],
+    [
+      "1366ccf8-a60f-4faa-a762-1592a0ab5c13",
+      "relay"
+    ],
+    [
+      "e5934d49-adc9-44cf-a5e8-44aa98e52170",
+      "relay1"
+    ],
+    [
+      "8147a78c-704a-4632-bbdd-6a9ddb72f8df",
+      "relay2"
+    ],
+    [
+      "269be598-f749-49dd-8c9d-43fb5a017477",
+      "relay3"
+    ],
+    [
+      "45ddea19-c5e5-423f-abb5-fdcd02927863",
+      "relay4"
+    ],
+    [
+      "2f3875ba-15c5-4467-bef0-bd215b5e165f",
+      "relay5"
+    ],
+    [
+      "5dc15e9b-4f4c-4966-b80c-db6cb03a6496",
+      "relay6"
+    ],
+    [
+      "cf6e3420-0562-44b7-b693-3b636fbae111",
+      "relay7"
+    ],
+    [
+      "420a1771-e71c-4b41-b984-896450a6c1ac",
+      "relay8"
+    ],
+    [
+      "e4c23de8-748d-42f8-8f2f-a0966d77548f",
+      "relay9"
+    ],
+    [
+      "5dc15e9b-4f4c-4966-b80c-db6cb03a6496",
+      "relay6"
+    ],
+    [
+      "cf6e3420-0562-44b7-b693-3b636fbae111",
+      "relay7"
+    ],
+    [
+      "420a1771-e71c-4b41-b984-896450a6c1ac",
+      "relay8"
+    ],
+    [
+      "e4c23de8-748d-42f8-8f2f-a0966d77548f",
+      "relay9"
+    ],
+    [
+      "5dc15e9b-4f4c-4966-b80c-db6cb03a6496",
+      "relay6"
+    ],
+    [
+      "cf6e3420-0562-44b7-b693-3b636fbae111",
+      "relay7"
+    ],
+    [
+      "420a1771-e71c-4b41-b984-896450a6c1ac",
+      "relay8"
+    ],
+    [
+      "e4c23de8-748d-42f8-8f2f-a0966d77548f",
+      "relay9"
+    ],
+    [
+      "1f167a12-29be-4370-8ca7-0a77c3b8c67b",
+      "jk-flipflop1"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
       "230aee3b-3cdc-400c-8fed-9199df89dadd",
       "BCD_h0"
     ],
@@ -683,71 +859,255 @@
       "jk-flipflop"
     ],
     [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
     ],
     [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
     ],
     [
       "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
       "NAND3_1"
     ],
     [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
       "NAND3_2"
     ],
     [
-      "c9c3bf9c-d99e-4656-a622-c644cc31192b",
+      "5a24db74-34dd-4b69-bd86-fd3ee6fa9a56",
       "jk-flipflop1"
     ],
     [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
     ],
     [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
+      "1f167a12-29be-4370-8ca7-0a77c3b8c67b",
+      "jk-flipflop1"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
     ],
     [
       "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
       "NAND3_1"
     ],
     [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
       "NAND3_2"
     ],
     [
-      "ca8da155-9d85-4503-842b-c7578b7097d0",
-      "jk-flipflop3"
+      "5a24db74-34dd-4b69-bd86-fd3ee6fa9a56",
+      "jk-flipflop1"
     ],
     [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
     ],
     [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
     ],
     [
       "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
       "NAND3_1"
     ],
     [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
       "NAND3_2"
     ],
     [
-      "5e4c1c8f-42c9-4b38-b237-9e123928a27f",
+      "0eb3a6d8-9865-46c6-8dc2-4b506afaedee",
       "jk-flipflop2"
     ],
     [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "0eb3a6d8-9865-46c6-8dc2-4b506afaedee",
+      "jk-flipflop2"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "cf943e5d-5f58-41f0-8f9a-bccc8dde163e",
+      "NAND3_2"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
       "NAND3_3"
     ],
     [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
+      "5a24db74-34dd-4b69-bd86-fd3ee6fa9a56",
+      "jk-flipflop1"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "0f6f66b6-6937-4b6a-a090-d2ad2a4ac496",
+      "jk-flipflop2"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "0f6f66b6-6937-4b6a-a090-d2ad2a4ac496",
+      "jk-flipflop2"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "0f6f66b6-6937-4b6a-a090-d2ad2a4ac496",
+      "jk-flipflop2"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "5047e15a-bbdf-4073-accf-743d6aa8ed9a",
+      "jk-flipflop3"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "5047e15a-bbdf-4073-accf-743d6aa8ed9a",
+      "jk-flipflop3"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "5047e15a-bbdf-4073-accf-743d6aa8ed9a",
+      "jk-flipflop3"
+    ],
+    [
+      "62264382-f982-413c-b240-f9af3a56617f",
+      "NAND3_3"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
       "NAND3_4"
     ],
     [
@@ -755,8 +1115,64 @@
       "NAND3_1"
     ],
     [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "2fdff71d-e8f0-4bb9-a785-a80afd60790b",
+      "jk-flipflop1"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "b533f147-d102-4a91-8222-08e518a7c965",
+      "jk-flipflop2"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
+      "NAND3_1"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
     ],
     [
       "ef45f8fe-f8b4-480d-abd7-c9b5575c64d8",
@@ -767,44 +1183,36 @@
       "BCD_h1"
     ],
     [
-      "c1056dea-7aef-4c6e-a382-cbfe98da1a27",
-      "jk-flipflop"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
       "NAND3_4"
     ],
     [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
-    ],
-    [
-      "c939f1bd-3ede-41c2-9e1e-e98a22b0b9e3",
-      "jk-flipflop1"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
       "NAND3_4"
     ],
     [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
     ],
     [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
+    ],
+    [
+      "c8f46ac3-b69b-453b-9b4a-4c4ece28f424",
+      "NAND3_4"
     ],
     [
       "6fa12e35-b957-4335-be8e-d0857c2dd0bf",
@@ -815,80 +1223,8 @@
       "jk-flipflop"
     ],
     [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
       "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
       "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
-    ],
-    [
-      "c9c3bf9c-d99e-4656-a622-c644cc31192b",
-      "jk-flipflop1"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
-    ],
-    [
-      "ca8da155-9d85-4503-842b-c7578b7097d0",
-      "jk-flipflop3"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
-    ],
-    [
-      "5e4c1c8f-42c9-4b38-b237-9e123928a27f",
-      "jk-flipflop2"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
     ],
     [
       "ef45f8fe-f8b4-480d-abd7-c9b5575c64d8",
@@ -903,72 +1239,24 @@
       "NAND2"
     ],
     [
-      "d9451556-4d48-4887-8ba4-bc8d3d8d4af6",
-      "jk-flipflop2"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
       "2c36a9e9-de42-4705-9ad4-94f4cc168e2f",
       "counters"
-    ],
-    [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
     ],
     [
       "9df69b75-0a18-4c9e-a337-da81d4416521",
       "relays_s0"
     ],
     [
-      "efe366c3-83cf-4a96-9817-7483ca035e84",
-      "jk-flipflop1"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
+      "17c7051d-a3b7-4c1a-ac84-ddcbfb1b332c",
+      "relay"
     ],
     [
       "e78e492f-89ca-46c8-99ce-a0575e4ef576",
       "jk-flipflop"
     ],
     [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
       "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
       "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
     ],
     [
       "213ead95-e2da-4b6f-a756-d929eb6dfb1c",
@@ -979,80 +1267,8 @@
       "jk-flipflop"
     ],
     [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
       "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
       "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
-    ],
-    [
-      "c9c3bf9c-d99e-4656-a622-c644cc31192b",
-      "jk-flipflop1"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
-    ],
-    [
-      "ca8da155-9d85-4503-842b-c7578b7097d0",
-      "jk-flipflop3"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
-    ],
-    [
-      "5e4c1c8f-42c9-4b38-b237-9e123928a27f",
-      "jk-flipflop2"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
     ],
     [
       "ef45f8fe-f8b4-480d-abd7-c9b5575c64d8",
@@ -1067,64 +1283,12 @@
       "NAND2"
     ],
     [
-      "d9451556-4d48-4887-8ba4-bc8d3d8d4af6",
-      "jk-flipflop2"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
-    ],
-    [
-      "efe366c3-83cf-4a96-9817-7483ca035e84",
-      "jk-flipflop1"
-    ],
-    [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
-      "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
-      "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
-    ],
-    [
       "e78e492f-89ca-46c8-99ce-a0575e4ef576",
       "jk-flipflop"
     ],
     [
-      "5d4d4e0d-f7a4-4175-8e4d-c504c763d69c",
-      "NAND3_3"
-    ],
-    [
-      "0aebd10f-1986-4b5b-8f35-f855639619df",
-      "NAND3_4"
-    ],
-    [
       "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
       "NAND3_1"
-    ],
-    [
-      "fcdb64c8-afce-45cb-a72c-641c3763f2c2",
-      "NAND3_2"
     ],
     [
       "b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b",
@@ -1199,10 +1363,6 @@
       "nand4"
     ],
     [
-      "f6607670-eb42-4389-8793-abe07d209520",
-      "nand5"
-    ],
-    [
       "b526f3da-cd3f-44fb-a667-1a90246d5ad7",
       "nand3"
     ],
@@ -1213,10 +1373,6 @@
     [
       "ce418c28-966b-4921-8af8-a8da2b70a35b",
       "nand"
-    ],
-    [
-      "3a29ae60-7af2-4daa-8037-fa7ab4fb86d3",
-      "nand1"
     ],
     [
       "e3090ade-adf9-41e7-9c4d-7ceb9518aa28",
@@ -1347,10 +1503,6 @@
       "nand4"
     ],
     [
-      "f6607670-eb42-4389-8793-abe07d209520",
-      "nand5"
-    ],
-    [
       "b526f3da-cd3f-44fb-a667-1a90246d5ad7",
       "nand3"
     ],
@@ -1363,8 +1515,8 @@
       "nand"
     ],
     [
-      "3a29ae60-7af2-4daa-8037-fa7ab4fb86d3",
-      "nand1"
+      "17c7051d-a3b7-4c1a-ac84-ddcbfb1b332c",
+      "relay"
     ]
   ],
   "text_variables": {}

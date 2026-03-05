@@ -35,16 +35,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 57.15) (xy 73.66 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21160c5a-cc8c-4401-85f1-6f99208f9f41")
-	)
-	(wire
-		(pts
 			(xy 71.12 27.94) (xy 73.66 27.94)
 		)
 		(stroke
@@ -72,16 +62,6 @@
 			(type default)
 		)
 		(uuid "30603d1c-cef6-495e-a0a8-10a6c3c4167c")
-	)
-	(wire
-		(pts
-			(xy 68.58 134.62) (xy 72.39 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33c9172e-6277-46ad-817f-a35f0f8527cb")
 	)
 	(wire
 		(pts
@@ -175,23 +155,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 54.61) (xy 73.66 54.61)
+			(xy 83.82 57.15) (xy 91.44 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7876d6b2-2130-49b3-bcba-51e123e02f38")
-	)
-	(wire
-		(pts
-			(xy 71.12 35.56) (xy 73.66 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79660776-abec-4fae-8537-67a7100574cc")
 	)
 	(wire
 		(pts
@@ -222,16 +192,6 @@
 			(type default)
 		)
 		(uuid "8d005037-bea3-4541-ae33-545e53268777")
-	)
-	(wire
-		(pts
-			(xy 86.36 57.15) (xy 91.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d566c98-35b7-4dc4-9cc9-0426104e4bc3")
 	)
 	(wire
 		(pts
@@ -275,7 +235,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 132.08) (xy 72.39 132.08)
+			(xy 86.36 134.62) (xy 90.17 134.62)
 		)
 		(stroke
 			(width 0)
@@ -373,16 +333,6 @@
 		)
 		(uuid "cc61a133-3ca6-4524-9cc2-5569290d120b")
 	)
-	(wire
-		(pts
-			(xy 85.09 134.62) (xy 90.17 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6449488-a90a-470f-8498-9338c6954307")
-	)
 	(hierarchical_label "\\Q1"
 		(shape input)
 		(at 101.6 50.8 180)
@@ -393,17 +343,6 @@
 			(justify right)
 		)
 		(uuid "09842e2c-2db1-4ed5-85df-9313d5e93995")
-	)
-	(hierarchical_label "\\Q3"
-		(shape input)
-		(at 71.12 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09e516ea-c5b4-4e64-9318-a2bf3275c090")
 	)
 	(hierarchical_label "\\Q0"
 		(shape input)
@@ -417,7 +356,7 @@
 		(uuid "1aafea7e-6e23-4a38-843d-d2de4ca09661")
 	)
 	(hierarchical_label "2"
-		(shape input)
+		(shape output)
 		(at 125.73 69.85 0)
 		(effects
 			(font
@@ -426,17 +365,6 @@
 			(justify left)
 		)
 		(uuid "208dcd12-bc4a-4ac1-8430-dd25910524ac")
-	)
-	(hierarchical_label "\\Q3"
-		(shape input)
-		(at 71.12 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27c762fa-747f-40a4-bb4f-ea4201eea31a")
 	)
 	(hierarchical_label "\\Q0"
 		(shape input)
@@ -460,19 +388,8 @@
 		)
 		(uuid "3cbc6c24-b7cf-426f-92ed-eda9132ab439")
 	)
-	(hierarchical_label "\\Q3"
-		(shape input)
-		(at 68.58 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f293204-174b-4394-bd75-2b22cdc08200")
-	)
 	(hierarchical_label "4"
-		(shape input)
+		(shape output)
 		(at 124.46 111.76 0)
 		(effects
 			(font
@@ -527,7 +444,7 @@
 		(uuid "66b072df-23ed-48bb-9a90-17473bec65be")
 	)
 	(hierarchical_label "0"
-		(shape input)
+		(shape output)
 		(at 118.11 31.75 0)
 		(effects
 			(font
@@ -538,7 +455,7 @@
 		(uuid "6cab6421-6a8f-41bb-90d5-2adfb271f461")
 	)
 	(hierarchical_label "1"
-		(shape input)
+		(shape output)
 		(at 125.73 52.07 0)
 		(effects
 			(font
@@ -560,7 +477,7 @@
 		(uuid "812d6b5b-4618-4ae0-a3c5-3849fb15ba44")
 	)
 	(hierarchical_label "5"
-		(shape input)
+		(shape output)
 		(at 124.46 129.54 0)
 		(effects
 			(font
@@ -572,7 +489,7 @@
 	)
 	(hierarchical_label "\\Q2"
 		(shape input)
-		(at 71.12 54.61 180)
+		(at 83.82 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -605,7 +522,7 @@
 	)
 	(hierarchical_label "Q2"
 		(shape input)
-		(at 68.58 132.08 180)
+		(at 86.36 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -637,7 +554,7 @@
 		(uuid "f9673ebb-06db-4ede-843a-6682b8138722")
 	)
 	(hierarchical_label "3"
-		(shape input)
+		(shape output)
 		(at 125.73 87.63 0)
 		(effects
 			(font
@@ -702,7 +619,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 119.38 87.63 0)
 			(uuid "70270327-d5b9-4e62-9541-e1c836b4bf83")
 			(effects
@@ -729,82 +646,6 @@
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
 					(page "311")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 73.66 50.8)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "3a29ae60-7af2-4daa-8037-fa7ab4fb86d3")
-		(property "Sheetname" "nand1"
-			(at 73.66 50.0884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "nand.kicad_sch"
-			(at 73.66 61.5446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "A" input
-			(at 73.66 54.61 180)
-			(uuid "b9f361ee-ace5-47e7-808a-178b464a0ed0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "B" input
-			(at 73.66 57.15 180)
-			(uuid "705cde26-0e3e-4a10-a2e9-288a7624fd86")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" input
-			(at 86.36 57.15 0)
-			(uuid "a20af34d-8c40-41f1-86d1-c6a0f738041d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(page "278")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(page "316")
 				)
 			)
 		)
@@ -864,7 +705,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 118.11 111.76 0)
 			(uuid "83942c15-0de8-4bf6-b374-b6e808b1cc80")
 			(effects
@@ -950,7 +791,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 118.11 129.54 0)
 			(uuid "0a1a46ed-a01e-424e-8025-b5c9937f5d0e")
 			(effects
@@ -1036,7 +877,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 119.38 69.85 0)
 			(uuid "7d389327-fae5-48c2-a3b4-a468f54a7bad")
 			(effects
@@ -1093,7 +934,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "nand4.kicad_sch"
+		(property "Sheetfile" "nand3.kicad_sch"
 			(at 73.66 38.6846 0)
 			(effects
 				(font
@@ -1132,17 +973,7 @@
 				(justify left)
 			)
 		)
-		(pin "D" input
-			(at 73.66 35.56 180)
-			(uuid "d1e330e8-202a-4e87-84e2-f1d35f2c4bda")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 86.36 31.75 0)
 			(uuid "523e392d-7119-40e7-bc1e-9d962520d86c")
 			(effects
@@ -1218,7 +1049,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 119.38 52.07 0)
 			(uuid "f57468e3-34ef-49e5-b633-d11ced2741a3")
 			(effects
@@ -1245,82 +1076,6 @@
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
 					(page "314")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 72.39 128.27)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "f6607670-eb42-4389-8793-abe07d209520")
-		(property "Sheetname" "nand5"
-			(at 72.39 127.5584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "nand.kicad_sch"
-			(at 72.39 139.0146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "A" input
-			(at 72.39 132.08 180)
-			(uuid "4595a967-41fd-40b5-ba85-6d50933800f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "B" input
-			(at 72.39 134.62 180)
-			(uuid "540f7b4e-a684-4f69-a4d9-66bc298c5a54")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" input
-			(at 85.09 134.62 0)
-			(uuid "e6d8eae0-b6f4-4962-9a6a-f95cc0504a09")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(page "274")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(page "312")
 				)
 			)
 		)

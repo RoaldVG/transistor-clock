@@ -138,12 +138,6 @@
 		(uuid "452b1ad3-3785-4560-8beb-3bb8773de5ee")
 	)
 	(junction
-		(at 64.77 114.935)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4728f913-f1cc-4b1b-a421-320a2adfa9a8")
-	)
-	(junction
 		(at 88.9 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -166,12 +160,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc71bb89-38b4-409a-8e5c-ac722f8a035c")
-	)
-	(junction
-		(at 64.77 112.395)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fea2513d-dd6f-4e20-915c-bae362e9f459")
 	)
 	(wire
 		(pts
@@ -225,16 +213,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 115.57) (xy 64.77 114.935)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49afc1a0-42ca-4f24-97f6-225ffc6b529c")
-	)
-	(wire
-		(pts
 			(xy 88.9 118.11) (xy 88.9 125.73)
 		)
 		(stroke
@@ -245,7 +223,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 114.935) (xy 64.77 112.395)
+			(xy 64.77 111.76) (xy 64.77 113.03)
 		)
 		(stroke
 			(width 0)
@@ -355,16 +333,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 112.395) (xy 64.77 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7ffddc9-6b42-485d-a92a-96d024fee2b8")
-	)
-	(wire
-		(pts
 			(xy 105.41 111.76) (xy 114.3 111.76)
 		)
 		(stroke
@@ -424,7 +392,7 @@
 		(uuid "fbef3387-5c6f-4b8c-9c19-39a3c487b7b7")
 	)
 	(hierarchical_label "Q1"
-		(shape input)
+		(shape output)
 		(at 114.3 85.09 90)
 		(effects
 			(font
@@ -435,7 +403,7 @@
 		(uuid "070f5d18-8bf6-473f-b42f-1f4e0b6e043d")
 	)
 	(hierarchical_label "Out"
-		(shape input)
+		(shape output)
 		(at 123.19 111.76 0)
 		(effects
 			(font
@@ -446,7 +414,7 @@
 		(uuid "095a02b1-8a27-4bfb-be29-34ef8ca5e8b0")
 	)
 	(hierarchical_label "Q0"
-		(shape input)
+		(shape output)
 		(at 85.09 85.09 90)
 		(effects
 			(font
@@ -477,7 +445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1312d0c6-e673-4662-a840-199d10c9bd99")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0175"
 			(at 55.88 102.87 0)
 			(effects
 				(font
@@ -527,14 +495,14 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e5d5ceff-c3df-4aeb-b3ac-c735ee65b6d1"
-					(reference "#PWR057")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 64.77 107.315)
+		(at 64.77 107.95)
 		(size 13.97 13.335)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -549,9 +517,9 @@
 		(fill
 			(color 255 255 255 0.0000)
 		)
-		(uuid "c1056dea-7aef-4c6e-a382-cbfe98da1a27")
-		(property "Sheetname" "jk-flipflop"
-			(at 64.77 106.6034 0)
+		(uuid "2fdff71d-e8f0-4bb9-a785-a80afd60790b")
+		(property "Sheetname" "jk-flipflop1"
+			(at 64.77 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +528,7 @@
 			)
 		)
 		(property "Sheetfile" "jkflipflop.kicad_sch"
-			(at 64.77 121.2346 0)
+			(at 64.77 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -570,7 +538,7 @@
 		)
 		(pin "CLK" input
 			(at 64.77 109.22 180)
-			(uuid "7193ffa7-5cfc-4b08-a436-520da24e0a23")
+			(uuid "2f2119d6-6fb7-434a-9246-c37c76a9c9fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,7 +548,7 @@
 		)
 		(pin "Clr" input
 			(at 64.77 118.11 180)
-			(uuid "155d9d13-480f-4d3a-bf24-5121aada41de")
+			(uuid "1885a19b-f0d6-495d-8d26-d89f6d833e85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,8 +557,8 @@
 			)
 		)
 		(pin "J" input
-			(at 64.77 112.395 180)
-			(uuid "f2990992-b57f-4373-8724-30d6161aed6d")
+			(at 64.77 113.03 180)
+			(uuid "3959f0c6-64a7-4e15-9aea-64d53a32bf26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,8 +567,8 @@
 			)
 		)
 		(pin "K" input
-			(at 64.77 114.935 180)
-			(uuid "45bbdb0e-c0d5-41e5-8890-7f4bd409ec4e")
+			(at 64.77 115.57 180)
+			(uuid "cf7d7901-66bd-43f9-891e-f1c47b0bb2d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -609,8 +577,8 @@
 			)
 		)
 		(pin "Preset" input
-			(at 78.74 118.745 0)
-			(uuid "e14d9c4b-b76f-4e68-8cbe-7b3787487c89")
+			(at 78.74 119.38 0)
+			(uuid "91f78ead-c8f0-4599-bb2c-2b36d5ce95da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,9 +586,9 @@
 				(justify right)
 			)
 		)
-		(pin "Q" input
+		(pin "Q" output
 			(at 78.74 111.76 0)
-			(uuid "f322ea3c-c788-4365-990e-2236a5afb9c0")
+			(uuid "2c11f8a4-885d-4976-b0d5-9ab03ff079bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,9 +596,9 @@
 				(justify right)
 			)
 		)
-		(pin "\\Q" input
-			(at 78.74 114.935 0)
-			(uuid "aeec4568-e03e-4efd-aaf8-2f1f0956ecaf")
+		(pin "\\Q" output
+			(at 78.74 115.57 0)
+			(uuid "4918cec5-697d-45a0-9def-1003aae6b0d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -641,7 +609,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e5d5ceff-c3df-4aeb-b3ac-c735ee65b6d1"
-					(page "138")
+					(page "122")
 				)
 			)
 		)
@@ -662,8 +630,8 @@
 		(fill
 			(color 255 255 255 0.0000)
 		)
-		(uuid "c939f1bd-3ede-41c2-9e1e-e98a22b0b9e3")
-		(property "Sheetname" "jk-flipflop1"
+		(uuid "b533f147-d102-4a91-8222-08e518a7c965")
+		(property "Sheetname" "jk-flipflop2"
 			(at 91.44 107.2384 0)
 			(effects
 				(font
@@ -683,7 +651,7 @@
 		)
 		(pin "CLK" input
 			(at 91.44 109.22 180)
-			(uuid "331be1de-1bac-4dc9-ad19-1304824db7fc")
+			(uuid "6d22b31f-33d4-4564-a1ce-418f9bcde8db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -693,7 +661,7 @@
 		)
 		(pin "Clr" input
 			(at 91.44 118.11 180)
-			(uuid "da45ed96-ca1d-4670-b692-b6f3af65f3ac")
+			(uuid "d2260cd4-5ed2-41fa-8203-7affeb924991")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +671,7 @@
 		)
 		(pin "J" input
 			(at 91.44 113.03 180)
-			(uuid "cd5c16f2-9238-4436-9d66-3c56482e97e4")
+			(uuid "e068d8af-c2b2-4dfa-8870-0f67b42e6daf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +681,7 @@
 		)
 		(pin "K" input
 			(at 91.44 115.57 180)
-			(uuid "4826eee5-a2b7-42c3-8395-a5301ddcad50")
+			(uuid "7dcf33bc-0cae-48a4-9bf3-868663c8cc33")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +691,7 @@
 		)
 		(pin "Preset" input
 			(at 105.41 119.38 0)
-			(uuid "1706c023-7c8b-4db9-8f0d-e1de34bf0e1c")
+			(uuid "4130f744-54b6-4df8-a5c1-6968965dea84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,9 +699,9 @@
 				(justify right)
 			)
 		)
-		(pin "Q" input
+		(pin "Q" output
 			(at 105.41 111.76 0)
-			(uuid "a1a7ce41-1fe6-4022-99ef-76f03dd8bba3")
+			(uuid "fa7de1cd-e1a9-4a7b-a09c-a192f198c034")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,9 +709,9 @@
 				(justify right)
 			)
 		)
-		(pin "\\Q" input
+		(pin "\\Q" output
 			(at 105.41 115.57 0)
-			(uuid "c568b2cd-fdae-4f9a-9dba-b92464878819")
+			(uuid "461ab98f-e9f3-4bb8-aaf5-942a2d7044db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +722,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e5d5ceff-c3df-4aeb-b3ac-c735ee65b6d1"
-					(page "146")
+					(page "127")
 				)
 			)
 		)

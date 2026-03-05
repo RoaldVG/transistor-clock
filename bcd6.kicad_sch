@@ -670,7 +670,7 @@
 		(uuid "fbef3387-5c6f-4b8c-9c19-39a3c487b7b7")
 	)
 	(hierarchical_label "Q1"
-		(shape input)
+		(shape output)
 		(at 114.3 85.09 90)
 		(effects
 			(font
@@ -681,7 +681,7 @@
 		(uuid "04cd5d76-1f24-4f73-8371-d4e8a1c3295b")
 	)
 	(hierarchical_label "Q2"
-		(shape input)
+		(shape output)
 		(at 144.78 85.09 90)
 		(effects
 			(font
@@ -692,7 +692,7 @@
 		(uuid "0879cf95-df31-4b71-a235-bcfa8e398d2b")
 	)
 	(hierarchical_label "\\Q2"
-		(shape input)
+		(shape output)
 		(at 142.24 115.57 0)
 		(effects
 			(font
@@ -703,7 +703,7 @@
 		(uuid "1338fa7f-cef3-454b-b0c3-76bb0283c4e4")
 	)
 	(hierarchical_label "Q0"
-		(shape input)
+		(shape output)
 		(at 85.09 85.09 90)
 		(effects
 			(font
@@ -714,7 +714,7 @@
 		(uuid "3c1893eb-f14f-4289-8152-0c53a81abdda")
 	)
 	(hierarchical_label "\\Q1"
-		(shape input)
+		(shape output)
 		(at 110.49 115.57 0)
 		(effects
 			(font
@@ -725,7 +725,7 @@
 		(uuid "97ae7383-5d06-49ca-9eb0-dac77c1016c0")
 	)
 	(hierarchical_label "\\Q0"
-		(shape input)
+		(shape output)
 		(at 81.28 115.57 0)
 		(effects
 			(font
@@ -736,7 +736,7 @@
 		(uuid "aa153c73-da7a-492f-b787-8e9e9921ae9c")
 	)
 	(hierarchical_label "Out"
-		(shape input)
+		(shape output)
 		(at 181.61 92.71 0)
 		(effects
 			(font
@@ -767,7 +767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a9edcbe-4b58-4bc1-bcfd-71a642bc17d2")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0241"
 			(at 55.88 102.87 0)
 			(effects
 				(font
@@ -817,12 +817,244 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
-					(reference "#PWR0181")
+					(reference "#PWR0365")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6e22859f-9bca-4d3f-9901-b092abdf20a9"
-					(reference "#PWR0109")
+					(reference "#PWR0241")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 107.95)
+		(size 13.97 13.335)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "0eb3a6d8-9865-46c6-8dc2-4b506afaedee")
+		(property "Sheetname" "jk-flipflop2"
+			(at 123.19 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jkflipflop.kicad_sch"
+			(at 123.19 121.8696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 123.19 109.22 180)
+			(uuid "ab04555a-b575-4847-a942-d93e1fa9e967")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Clr" input
+			(at 123.19 118.11 180)
+			(uuid "83a16d25-b3ef-4ce5-b880-498dbcde9bdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "J" input
+			(at 123.19 113.03 180)
+			(uuid "67e20e4b-b19d-4ac7-86d1-416f94e68f3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "K" input
+			(at 123.19 115.57 180)
+			(uuid "70c34276-4a43-45a0-a79f-e377669a0612")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Preset" input
+			(at 137.16 119.38 0)
+			(uuid "eea49a1a-96b2-4da8-a4be-925599be91ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Q" output
+			(at 137.16 111.76 0)
+			(uuid "6a2bfce9-5225-4ab1-9d7e-bbdbab3347bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "\\Q" output
+			(at 137.16 115.57 0)
+			(uuid "15ac29b4-e4f2-4c28-a006-94db2553f8c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6e22859f-9bca-4d3f-9901-b092abdf20a9"
+					(page "73")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
+					(page "78")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 107.95)
+		(size 13.97 13.335)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "1f167a12-29be-4370-8ca7-0a77c3b8c67b")
+		(property "Sheetname" "jk-flipflop1"
+			(at 91.44 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jkflipflop.kicad_sch"
+			(at 91.44 121.8696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 91.44 109.22 180)
+			(uuid "d928b32f-ad7e-40ee-a4be-2ef211f4ae80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Clr" input
+			(at 91.44 118.11 180)
+			(uuid "2ace8e59-e0c6-4942-a861-78f12414ed53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "J" input
+			(at 91.44 113.03 180)
+			(uuid "9fb75236-0749-40e2-a7ef-57d321a80d10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "K" input
+			(at 91.44 115.57 180)
+			(uuid "d0172ccf-a7e6-492b-ae52-89ffd903ac7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Preset" input
+			(at 105.41 119.38 0)
+			(uuid "50966726-0465-4930-9b09-8da0a2fe831e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Q" output
+			(at 105.41 111.76 0)
+			(uuid "9790c5fc-a17f-4968-b90f-282d4f72d87f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "\\Q" output
+			(at 105.41 115.57 0)
+			(uuid "81291d0c-1a2e-4f99-b7a4-f7ce53689f02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6e22859f-9bca-4d3f-9901-b092abdf20a9"
+					(page "51")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
+					(page "64")
 				)
 			)
 		)
@@ -883,7 +1115,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 172.72 92.71 0)
 			(uuid "592fd34d-2be9-4207-9f4a-ed73ac7e93cb")
 			(effects
@@ -900,122 +1132,6 @@
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
 					(page "239")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 123.19 107.95)
-		(size 13.97 13.335)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "d9451556-4d48-4887-8ba4-bc8d3d8d4af6")
-		(property "Sheetname" "jk-flipflop2"
-			(at 123.19 107.2384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "jkflipflop.kicad_sch"
-			(at 123.19 121.8696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 123.19 109.22 180)
-			(uuid "a85213e4-059d-46fd-b329-f86dfb08f831")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Clr" input
-			(at 123.19 118.11 180)
-			(uuid "18f6f000-7693-44e7-99d6-d20f226d5a3d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "J" input
-			(at 123.19 113.03 180)
-			(uuid "e69ccee5-b3a6-4bd6-9e3f-d28c56c73f00")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "K" input
-			(at 123.19 115.57 180)
-			(uuid "29cbdf73-38ba-44a8-a9ed-702710cff488")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Preset" input
-			(at 137.16 119.38 0)
-			(uuid "ea524873-e4b0-4345-b672-238a187baf3a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Q" input
-			(at 137.16 111.76 0)
-			(uuid "d53ef27c-a9f8-43bc-9ba7-8e1b43969b13")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "\\Q" input
-			(at 137.16 115.57 0)
-			(uuid "4cc362c9-cd40-415b-b532-faa4f5c5da9d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6e22859f-9bca-4d3f-9901-b092abdf20a9"
-					(page "175")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
-					(page "240")
 				)
 			)
 		)
@@ -1105,7 +1221,7 @@
 				(justify right)
 			)
 		)
-		(pin "Q" input
+		(pin "Q" output
 			(at 78.74 111.76 0)
 			(uuid "3356c040-8b9f-4c74-a6fe-e856780c8e04")
 			(effects
@@ -1115,7 +1231,7 @@
 				(justify right)
 			)
 		)
-		(pin "\\Q" input
+		(pin "\\Q" output
 			(at 78.74 115.57 0)
 			(uuid "9411a7bd-edf2-4752-bbe4-45acb05bf0f6")
 			(effects
@@ -1132,122 +1248,6 @@
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
 					(page "250")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 91.44 107.95)
-		(size 13.97 13.335)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "efe366c3-83cf-4a96-9817-7483ca035e84")
-		(property "Sheetname" "jk-flipflop1"
-			(at 91.44 107.2384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "jkflipflop.kicad_sch"
-			(at 91.44 121.8696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 91.44 109.22 180)
-			(uuid "47d76c30-4982-4387-9b14-6b0248c86eaf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Clr" input
-			(at 91.44 118.11 180)
-			(uuid "6e748a26-d208-448a-99fa-085d0fbeb84f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "J" input
-			(at 91.44 113.03 180)
-			(uuid "3c7f8c41-05a4-42e9-8a46-624a3fb505c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "K" input
-			(at 91.44 115.57 180)
-			(uuid "01f4b8a7-745b-43e9-87b5-e4f646c082e6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Preset" input
-			(at 105.41 119.38 0)
-			(uuid "8c7a5e6d-fc7f-4d7b-b2b3-b46ec00ea001")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Q" input
-			(at 105.41 111.76 0)
-			(uuid "c627ac4c-c81d-4088-a0e7-7d8e7010fd6a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "\\Q" input
-			(at 105.41 115.57 0)
-			(uuid "21e4dc6a-842a-4251-b47b-4d4715098f7b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6e22859f-9bca-4d3f-9901-b092abdf20a9"
-					(page "181")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
-					(page "245")
 				)
 			)
 		)

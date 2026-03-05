@@ -710,7 +710,7 @@
 		(uuid "2aeb4f6c-4d28-4c7e-8b8f-06b454585cb3")
 	)
 	(hierarchical_label "9"
-		(shape input)
+		(shape output)
 		(at 215.9 54.61 0)
 		(effects
 			(font
@@ -721,7 +721,7 @@
 		(uuid "316b5c2e-3640-4209-94da-83188e8af47c")
 	)
 	(hierarchical_label "0"
-		(shape input)
+		(shape output)
 		(at 118.11 31.75 0)
 		(effects
 			(font
@@ -732,7 +732,7 @@
 		(uuid "352e5014-a3ec-43ac-9211-aaaf837e24d7")
 	)
 	(hierarchical_label "7"
-		(shape input)
+		(shape output)
 		(at 124.46 165.1 0)
 		(effects
 			(font
@@ -853,7 +853,7 @@
 		(uuid "9342f431-9b37-4d1f-aa3b-567559677a47")
 	)
 	(hierarchical_label "8"
-		(shape input)
+		(shape output)
 		(at 215.9 36.83 0)
 		(effects
 			(font
@@ -864,7 +864,7 @@
 		(uuid "9b9bc110-19e3-4909-a322-8b6b85d448dd")
 	)
 	(hierarchical_label "2"
-		(shape input)
+		(shape output)
 		(at 125.73 69.85 0)
 		(effects
 			(font
@@ -886,7 +886,7 @@
 		(uuid "a35f1d14-9272-40be-bbc6-930f88da882e")
 	)
 	(hierarchical_label "6"
-		(shape input)
+		(shape output)
 		(at 124.46 147.32 0)
 		(effects
 			(font
@@ -897,7 +897,7 @@
 		(uuid "a7e4d1dc-f6c6-4ccc-b6b2-dd693ab1165a")
 	)
 	(hierarchical_label "4"
-		(shape input)
+		(shape output)
 		(at 124.46 111.76 0)
 		(effects
 			(font
@@ -908,7 +908,7 @@
 		(uuid "abbec9de-6833-4d35-9928-6030a3ac28cc")
 	)
 	(hierarchical_label "5"
-		(shape input)
+		(shape output)
 		(at 124.46 129.54 0)
 		(effects
 			(font
@@ -952,7 +952,7 @@
 		(uuid "dc27f29d-b4e7-455c-9d2a-da105e052266")
 	)
 	(hierarchical_label "3"
-		(shape input)
+		(shape output)
 		(at 125.73 87.63 0)
 		(effects
 			(font
@@ -974,7 +974,7 @@
 		(uuid "ee1b9bb3-d37e-44a5-89fa-ecd623eb3781")
 	)
 	(hierarchical_label "1"
-		(shape input)
+		(shape output)
 		(at 125.73 52.07 0)
 		(effects
 			(font
@@ -1094,7 +1094,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 176.53 38.1 0)
 			(uuid "b1599654-79c1-49c3-b70c-bd4efdc226f8")
 			(effects
@@ -1173,7 +1173,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 118.11 111.76 0)
 			(uuid "f7da817a-8cd6-4728-83a0-3a00de2cc1f8")
 			(effects
@@ -1282,7 +1282,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 86.36 31.75 0)
 			(uuid "167c7422-17e4-46df-9f89-5f3e14a8ccdf")
 			(effects
@@ -1361,7 +1361,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 118.11 129.54 0)
 			(uuid "64044e6a-86d2-4b12-8507-0cd3314d23a3")
 			(effects
@@ -1450,7 +1450,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 119.38 69.85 0)
 			(uuid "19bb5e79-e0e9-44e2-b9fc-da84b54bdbe0")
 			(effects
@@ -1618,7 +1618,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 119.38 52.07 0)
 			(uuid "686596b2-08b3-4391-9c9c-71e8e8826279")
 			(effects
@@ -1707,7 +1707,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 119.38 87.63 0)
 			(uuid "93737404-3694-4d15-b1e8-9af0cd5aed80")
 			(effects
@@ -1796,7 +1796,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 209.55 54.61 0)
 			(uuid "0408e645-0c4f-47b8-bd21-f25e62bc528c")
 			(effects
@@ -1885,7 +1885,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 209.55 36.83 0)
 			(uuid "6141f250-ff08-4889-b800-d356ac719b96")
 			(effects
@@ -1974,7 +1974,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 118.11 165.1 0)
 			(uuid "f6d2803c-813a-4530-be11-a4a46045c00f")
 			(effects
@@ -2063,7 +2063,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 86.36 57.15 0)
 			(uuid "e465dcac-df80-42c2-8b9f-7120e3b747a4")
 			(effects
@@ -2142,7 +2142,7 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 118.11 147.32 0)
 			(uuid "672e0f30-8770-4f12-818b-23850852d382")
 			(effects

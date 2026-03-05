@@ -1170,7 +1170,7 @@
 		(uuid "de777ea0-91b6-426d-ad26-12cd2f013829")
 	)
 	(hierarchical_label "Out"
-		(shape input)
+		(shape output)
 		(at 123.19 90.17 0)
 		(effects
 			(font
@@ -1190,7 +1190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "353ff060-b23b-4a2a-a523-1cf920c539dd")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR015"
 			(at 137.16 68.58 0)
 			(effects
 				(font
@@ -1240,15 +1240,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/03f5a64c-acc7-49a6-878d-c157134676c1"
-					(reference "#PWR0446")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/a0fc00b7-683e-4c06-a14c-1ec0a74c6be8"
-					(reference "#PWR0125")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/f9206f2e-f283-4df4-91d8-f928dc25ba86"
-					(reference "#PWR0448")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1348,7 +1348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "509367cc-8d63-4f77-87f2-a5c45ed2c7bf")
-		(property "Reference" "#PWR0322"
+		(property "Reference" "#PWR013"
 			(at 116.84 58.42 0)
 			(effects
 				(font
@@ -1398,15 +1398,15 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/03f5a64c-acc7-49a6-878d-c157134676c1"
-					(reference "#PWR0324")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/a0fc00b7-683e-4c06-a14c-1ec0a74c6be8"
-					(reference "#PWR0322")
+					(reference "#PWR013")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/f9206f2e-f283-4df4-91d8-f928dc25ba86"
-					(reference "#PWR0450")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1588,7 +1588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81ecfa56-de45-4a75-b7f1-1fe2530e6169")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 137.16 58.42 0)
 			(effects
 				(font
@@ -1638,15 +1638,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/03f5a64c-acc7-49a6-878d-c157134676c1"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/a0fc00b7-683e-4c06-a14c-1ec0a74c6be8"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/f9206f2e-f283-4df4-91d8-f928dc25ba86"
-					(reference "#PWR0120")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1662,7 +1662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3cb2125-ac47-4c5a-9416-597f07d6cb80")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 96.52 96.52 0)
 			(effects
 				(font
@@ -1712,15 +1712,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/03f5a64c-acc7-49a6-878d-c157134676c1"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/a0fc00b7-683e-4c06-a14c-1ec0a74c6be8"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/f9206f2e-f283-4df4-91d8-f928dc25ba86"
-					(reference "#PWR015")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1818,7 +1818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb97a507-eff4-48b7-8d77-7a9ad78b1ef2")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 96.52 113.03 0)
 			(effects
 				(font
@@ -1868,15 +1868,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/03f5a64c-acc7-49a6-878d-c157134676c1"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/a0fc00b7-683e-4c06-a14c-1ec0a74c6be8"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/f9206f2e-f283-4df4-91d8-f928dc25ba86"
-					(reference "#PWR016")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1892,7 +1892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e653c522-84b9-418d-98f1-767ae153551c")
-		(property "Reference" "C8"
+		(property "Reference" "C13"
 			(at 140.081 57.2078 0)
 			(effects
 				(font
@@ -1910,7 +1910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.1252 62.23 0)
 			(effects
 				(font
@@ -1946,15 +1946,15 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/03f5a64c-acc7-49a6-878d-c157134676c1"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/a0fc00b7-683e-4c06-a14c-1ec0a74c6be8"
-					(reference "C8")
+					(reference "C13")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/f9206f2e-f283-4df4-91d8-f928dc25ba86"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)

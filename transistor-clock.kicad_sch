@@ -2922,10 +2922,22 @@
 		(uuid "b06416cd-99a5-45e1-b3e7-c9bf0e555e8d")
 	)
 	(junction
+		(at 176.276 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5c52e93-7c3d-4ef2-9fc9-6568a4c32928")
+	)
+	(junction
 		(at 64.77 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b71784f7-ac0c-4c9d-a809-8d9b8a77029f")
+	)
+	(junction
+		(at 176.276 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf8b46a0-a000-4e28-ba5e-e073bc0e960d")
 	)
 	(junction
 		(at 100.33 92.71)
@@ -3070,6 +3082,16 @@
 			(type default)
 		)
 		(uuid "065c22cf-a525-4643-b79f-d501f0df05c3")
+	)
+	(wire
+		(pts
+			(xy 175.26 27.94) (xy 176.276 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ae3cc7-1d55-45ca-beb2-62dd403b9652")
 	)
 	(wire
 		(pts
@@ -3220,6 +3242,16 @@
 			(type default)
 		)
 		(uuid "2bfce9b5-78d6-48f1-9406-5f99439f7607")
+	)
+	(wire
+		(pts
+			(xy 176.276 27.94) (xy 176.53 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e08ac14-bd47-4966-9cd8-6370ab21d2eb")
 	)
 	(wire
 		(pts
@@ -3620,6 +3652,16 @@
 			(type default)
 		)
 		(uuid "7c3c9859-bc71-48aa-805b-5d43f1ec7a7b")
+	)
+	(wire
+		(pts
+			(xy 175.26 25.4) (xy 176.276 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb25c76-cf8d-407f-9693-240c1d2a4b89")
 	)
 	(wire
 		(pts
@@ -4213,6 +4255,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.276 25.4) (xy 176.53 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73e79ce-503f-4135-beee-fa08b0c5d65f")
+	)
+	(wire
+		(pts
 			(xy 68.58 55.88) (xy 68.58 62.23)
 		)
 		(stroke
@@ -4231,6 +4283,26 @@
 		)
 		(uuid "ff33dbcd-256e-4567-96ce-5ce81584260d")
 	)
+	(label "Sqr1"
+		(at 138.43 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a874284-fca2-4216-98b2-a9b3b75ec417")
+	)
+	(label "Sqr2"
+		(at 227.33 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "611862a6-eafd-422f-808f-b4c9eaad50b9")
+	)
 	(label "Clk"
 		(at 116.84 168.91 0)
 		(effects
@@ -4241,93 +4313,35 @@
 		)
 		(uuid "6ac69740-815b-4a99-8ebb-1889b3a221eb")
 	)
-	(global_label "Sqr2"
-		(shape input)
-		(at 227.33 29.21 270)
-		(fields_autoplaced yes)
+	(label "Sqr1"
+		(at 175.26 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "502e3ded-5896-48ce-ab10-d44e62997862")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.33 36.5494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "b4120cd3-582c-4e3e-aa49-ec0019612170")
 	)
-	(global_label "Sqr1"
-		(shape input)
-		(at 138.43 147.32 0)
-		(fields_autoplaced yes)
+	(label "Clk"
+		(at 175.26 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "7439e44d-086f-4bca-96cc-a889f4985afa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.7694 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "c159c9bf-c0b4-43b1-965e-d9ac930a2d27")
 	)
-	(global_label "Sqr2"
-		(shape input)
+	(label "Sqr2"
 		(at 138.43 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "8513ada7-a4f7-4530-a224-3824b8862f6e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.7694 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Clk"
-		(shape input)
-		(at 116.84 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d9ae563d-7cda-4c45-afe2-6349a780941f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.7885 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "c2bfc583-fd9d-4a0e-b7f4-08e3ea8945e4")
 	)
 	(symbol
 		(lib_id "Diode:MRA4007T3G")
@@ -4339,7 +4353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02755794-e3f3-450a-870c-d5fa5a4c228a")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 78.74 66.9755 0)
 			(effects
 				(font
@@ -4409,7 +4423,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4495,7 +4509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0334bc40-ff50-46a4-bdc5-1d3946643e95")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 126.492 66.0978 90)
 			(effects
 				(font
@@ -4504,7 +4518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13V"
+		(property "Value" "13V SMAF4743A"
 			(at 126.492 68.5221 90)
 			(effects
 				(font
@@ -4513,7 +4527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Vishay_SMPA"
 			(at 124.46 67.31 0)
 			(effects
 				(font
@@ -4549,7 +4563,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4736,7 +4750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c2cd528-676e-4c16-bd23-0bffd266ec90")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 148.59 59.69 0)
 			(effects
 				(font
@@ -4786,7 +4800,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4818,7 +4832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 133.6548 0)
 			(effects
 				(font
@@ -4870,7 +4884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d37b51-7885-457b-b08b-5452af90e4f3")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 78.74 72.0555 0)
 			(effects
 				(font
@@ -4940,7 +4954,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4956,7 +4970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ff7088f-df7d-4ca6-8006-71cb2e2c5ce4")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 112.268 58.4778 0)
 			(effects
 				(font
@@ -5010,7 +5024,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5026,7 +5040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225c9eff-f879-48c5-b27a-4e6d41df5265")
-		(property "Reference" "Q5"
+		(property "Reference" "Q6"
 			(at 124.46 23.5161 90)
 			(effects
 				(font
@@ -5102,7 +5116,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "Q5")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -5134,7 +5148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 133.6548 0)
 			(effects
 				(font
@@ -5186,7 +5200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32494618-8b97-4e17-8733-f5382b819036")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 148.59 73.66 0)
 			(effects
 				(font
@@ -5236,7 +5250,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5321,7 +5335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3609370f-c86f-4323-80ff-074dfcafd0da")
-		(property "Reference" "J13"
+		(property "Reference" "J7"
 			(at 228.5492 23.5528 90)
 			(effects
 				(font
@@ -5330,7 +5344,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "h1_return"
+		(property "Value" "Conn_01x01_Socket"
 			(at 228.5492 25.9771 90)
 			(effects
 				(font
@@ -5340,7 +5354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 227.33 24.13 0)
 			(effects
 				(font
@@ -5373,7 +5387,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "J13")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5389,7 +5403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "362390dd-88fb-470d-a360-7f10e1bebf1b")
-		(property "Reference" "C47"
+		(property "Reference" "C4"
 			(at 103.251 31.8078 0)
 			(effects
 				(font
@@ -5407,7 +5421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.2952 36.83 0)
 			(effects
 				(font
@@ -5443,7 +5457,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C47")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5524,7 +5538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47d27291-eead-4c76-bccd-be999c7757eb")
-		(property "Reference" "J8"
+		(property "Reference" "J2"
 			(at 205.6892 23.5528 90)
 			(effects
 				(font
@@ -5533,7 +5547,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "s0_return"
+		(property "Value" "Conn_01x01_Socket"
 			(at 205.6892 25.9771 90)
 			(effects
 				(font
@@ -5543,7 +5557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 204.47 24.13 0)
 			(effects
 				(font
@@ -5576,7 +5590,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "J8")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5592,7 +5606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "486505ff-3933-419b-bf65-d7f72ea1dbbc")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 103.251 80.0678 0)
 			(effects
 				(font
@@ -5610,7 +5624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.2952 85.09 0)
 			(effects
 				(font
@@ -5646,7 +5660,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5881,7 +5895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64025da6-0707-44be-96ea-b23acf843c5e")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 113.411 66.0978 0)
 			(effects
 				(font
@@ -5899,7 +5913,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.5248 63.5 0)
 			(effects
 				(font
@@ -5935,7 +5949,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5950,7 +5964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6527b2e0-b0d6-4e69-9201-f85aed9fca57")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 210.7692 23.5528 90)
 			(effects
 				(font
@@ -5959,7 +5973,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "s1_return"
+		(property "Value" "Conn_01x01_Socket"
 			(at 210.7692 25.9771 90)
 			(effects
 				(font
@@ -5969,7 +5983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 209.55 24.13 0)
 			(effects
 				(font
@@ -6002,7 +6016,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6018,7 +6032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dc62f1a-500a-43dd-af71-b2366fc68903")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 112.268 87.6878 0)
 			(effects
 				(font
@@ -6072,7 +6086,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6163,7 +6177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 90.678 145.9921 0)
 			(effects
 				(font
@@ -6172,7 +6186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.122 144.78 90)
 			(effects
 				(font
@@ -6224,7 +6238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fa832cc-742a-48b1-a332-d669a093e876")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 141.351 57.5888 0)
 			(effects
 				(font
@@ -6242,7 +6256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 139.3952 63.5 0)
 			(effects
 				(font
@@ -6278,7 +6292,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6294,7 +6308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "827cb63c-45a1-4327-8d0e-c02383215fcd")
-		(property "Reference" "C48"
+		(property "Reference" "C7"
 			(at 113.411 39.4278 0)
 			(effects
 				(font
@@ -6312,7 +6326,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.5248 36.83 0)
 			(effects
 				(font
@@ -6348,7 +6362,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C48")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6364,7 +6378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83f51138-a644-432a-aa8c-6de9a6ff0b84")
-		(property "Reference" "#PWR0508"
+		(property "Reference" "#PWR08"
 			(at 148.59 33.02 0)
 			(effects
 				(font
@@ -6414,7 +6428,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "#PWR0508")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6737,7 +6751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98d61339-6da0-4fce-905e-1f3665d0585b")
-		(property "Reference" "J11"
+		(property "Reference" "J5"
 			(at 220.9292 23.5528 90)
 			(effects
 				(font
@@ -6746,7 +6760,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "m1_return"
+		(property "Value" "Conn_01x01_Socket"
 			(at 220.9292 25.9771 90)
 			(effects
 				(font
@@ -6756,7 +6770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 219.71 24.13 0)
 			(effects
 				(font
@@ -6789,7 +6803,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "J11")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6875,7 +6889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bca99bc-8965-41bd-abbd-b7de8e2cdb6a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 100.33 77.47 0)
 			(effects
 				(font
@@ -6925,7 +6939,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6941,7 +6955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3781bdc-c07c-498e-a2b1-6c19f9bdbc17")
-		(property "Reference" "#PWR0507"
+		(property "Reference" "#PWR05"
 			(at 100.33 50.8 0)
 			(effects
 				(font
@@ -6991,7 +7005,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "#PWR0507")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7007,7 +7021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa2551bc-2897-47a2-a779-db7ffeb21d61")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 126.492 39.4278 90)
 			(effects
 				(font
@@ -7016,7 +7030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V9"
+		(property "Value" "3V9 KDZVTR3.9B"
 			(at 126.492 41.8521 90)
 			(effects
 				(font
@@ -7025,7 +7039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 124.46 40.64 0)
 			(effects
 				(font
@@ -7061,7 +7075,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7078,7 +7092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad36cda8-7c5b-4a19-bb0e-980c3d220696")
-		(property "Reference" "Q7"
+		(property "Reference" "Q8"
 			(at 124.46 95.9795 90)
 			(effects
 				(font
@@ -7154,7 +7168,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -7170,7 +7184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afb6682b-585b-41f9-a1e3-d8d8653aa2d6")
-		(property "Reference" "Q6"
+		(property "Reference" "Q7"
 			(at 124.46 50.1861 90)
 			(effects
 				(font
@@ -7246,7 +7260,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "Q6")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -7262,7 +7276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7759b88-c8be-4476-87f0-9c7164e6c937")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 100.33 99.06 0)
 			(effects
 				(font
@@ -7312,7 +7326,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7328,7 +7342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bab479b5-a4d1-4712-bd83-d46fecf7b3a7")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 113.411 80.0678 0)
 			(effects
 				(font
@@ -7346,7 +7360,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.5248 77.47 0)
 			(effects
 				(font
@@ -7382,7 +7396,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7398,7 +7412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf2fbce1-b49a-439a-a9a5-07a531a7e30e")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 78.74 56.8155 0)
 			(effects
 				(font
@@ -7468,7 +7482,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7551,7 +7565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d13dd18d-c9b0-43e9-919e-7750392fe1c8")
-		(property "Reference" "J12"
+		(property "Reference" "J6"
 			(at 224.7392 23.5528 90)
 			(effects
 				(font
@@ -7560,7 +7574,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "h0_return"
+		(property "Value" "Conn_01x01_Socket"
 			(at 224.7392 25.9771 90)
 			(effects
 				(font
@@ -7570,7 +7584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 223.52 24.13 0)
 			(effects
 				(font
@@ -7603,7 +7617,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "J12")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7619,7 +7633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4cf98b3-cc2b-4f37-a36e-77cdd992f87c")
-		(property "Reference" "D8"
+		(property "Reference" "D1"
 			(at 78.74 50.4655 0)
 			(effects
 				(font
@@ -7689,7 +7703,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D8")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7704,7 +7718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de738f2c-cff3-490f-8205-eaacceed752e")
-		(property "Reference" "J10"
+		(property "Reference" "J4"
 			(at 215.8492 23.5528 90)
 			(effects
 				(font
@@ -7713,7 +7727,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "m0_return"
+		(property "Value" "Conn_01x01_Socket"
 			(at 215.8492 25.9771 90)
 			(effects
 				(font
@@ -7723,7 +7737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 214.63 24.13 0)
 			(effects
 				(font
@@ -7756,7 +7770,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "J10")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7842,7 +7856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e34a4901-d838-4b9a-8f49-de3af65c15cf")
-		(property "Reference" "C49"
+		(property "Reference" "C10"
 			(at 141.351 30.9188 0)
 			(effects
 				(font
@@ -7860,7 +7874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 139.3952 36.83 0)
 			(effects
 				(font
@@ -7896,7 +7910,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C49")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8049,7 +8063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e855f889-2194-42a2-b9c0-d208dc57a472")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 103.251 58.4778 0)
 			(effects
 				(font
@@ -8067,7 +8081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.2952 63.5 0)
 			(effects
 				(font
@@ -8103,7 +8117,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8137,7 +8151,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.9348 168.91 0)
 			(effects
 				(font
@@ -8259,7 +8273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3224101-9c74-4e22-9f37-e88ae40187f6")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 141.351 80.9568 0)
 			(effects
 				(font
@@ -8277,7 +8291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 137.4648 77.47 0)
 			(effects
 				(font
@@ -8313,7 +8327,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8345,7 +8359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 34.29 67.31 0)
 			(effects
 				(font
@@ -8397,7 +8411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc4083b8-803d-4f33-9538-43cd7da2e0bf")
-		(property "Reference" "Q8"
+		(property "Reference" "Q5"
 			(at 120.4214 137.2178 0)
 			(effects
 				(font
@@ -8475,7 +8489,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "Q8")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -8491,7 +8505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe03925b-f980-42ee-a000-7c5801bcdeb4")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 126.492 80.0678 90)
 			(effects
 				(font
@@ -8500,7 +8514,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "13V"
+		(property "Value" "13V SMAF4743A"
 			(at 126.492 82.4921 90)
 			(effects
 				(font
@@ -8509,7 +8523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Vishay_SMPA"
 			(at 124.46 81.28 0)
 			(effects
 				(font
@@ -8545,7 +8559,7 @@
 		(instances
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8606,9 +8620,9 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 110.49 168.91 0)
-			(uuid "53a8ec57-020a-4f24-bbde-2acd46380437")
+			(uuid "d9d1a8f5-c3ce-4e07-8412-2a0af68243ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +8640,7 @@
 	)
 	(sheet
 		(at 176.276 23.622)
-		(size 12.7 3.81)
+		(size 12.7 6.858)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8651,12 +8665,32 @@
 			)
 		)
 		(property "Sheetfile" "counters.kicad_sch"
-			(at 176.276 28.0166 0)
+			(at 176.276 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Clk" input
+			(at 176.276 25.4 180)
+			(uuid "564eb1ac-f4d8-406c-9fa3-ede442a90718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sqr1" input
+			(at 176.276 27.94 180)
+			(uuid "5abf040b-ced6-4631-abb3-dd9fe5a81fe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -8722,9 +8756,9 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 81.28 168.91 0)
-			(uuid "f3c5166e-6777-4dd0-a397-5775e8f509f6")
+			(uuid "cb58b68b-2983-47bb-91ee-dc0d17a81f29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8795,9 +8829,9 @@
 				(justify left)
 			)
 		)
-		(pin "Out" input
+		(pin "Out" output
 			(at 49.53 167.64 0)
-			(uuid "e2d4c7d0-7291-4b68-ace5-70aebfe62063")
+			(uuid "a85a9236-e8dc-41fc-8c60-86c0a0b482e9")
 			(effects
 				(font
 					(size 1.27 1.27)
