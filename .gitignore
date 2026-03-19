@@ -5,3 +5,4 @@ transistor-clock-backups/
 *.net
 *.raw
 *-bak
+_autosave*

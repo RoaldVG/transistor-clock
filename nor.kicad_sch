@@ -1235,7 +1235,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c84f8ec-bda8-4c7d-8805-01f5eb2f1937")
+			(uuid "fdff6452-8236-4e6a-952d-c5b933d4d22b")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1313,13 +1313,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "58f1e4d6-8df5-4226-b904-e459976fa460")
+			(uuid "b2938b99-d45b-4575-8aa6-3668da55b244")
 		)
 		(pin "3"
-			(uuid "f2823216-c2e4-4d27-8029-0011d6a92f4d")
+			(uuid "ee290f45-756d-4736-b324-58e2e8884869")
 		)
 		(pin "1"
-			(uuid "e73d1cc6-6572-4b3b-a544-18c585e51e0f")
+			(uuid "6ed89ab6-c386-415f-9492-f6c63e67b5cf")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1393,7 +1393,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "74a1d5f2-dd4d-41c3-8fa4-0791f1c8a54f")
+			(uuid "c0d6ad72-564e-4a38-bbd7-f4623c5ce8b4")
 		)
 		(instances
 			(project ""
@@ -1469,13 +1469,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "d6934248-ca11-4642-809c-f1bf2c658ead")
+			(uuid "9530bcf2-024d-443f-925b-6e57d378b30f")
 		)
 		(pin "3"
-			(uuid "a47749aa-49bc-4a44-b83c-be0ff7b65e55")
+			(uuid "56bd5aef-3fd3-4db0-b8cc-a75334d2059a")
 		)
 		(pin "1"
-			(uuid "807409fd-b3b7-41ab-8784-4968d3cee9a0")
+			(uuid "f0fc0ba2-b7c3-44f3-8796-d3ff301add69")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1553,13 +1553,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "ed9ad111-4857-4893-ace0-1670397b98e1")
+			(uuid "591fd8f6-cffe-4dc5-bca9-a13297421f78")
 		)
 		(pin "3"
-			(uuid "dc7c5294-106b-421c-87b9-7dea9bd42e37")
+			(uuid "c56522b4-cc4c-4b9a-9e71-331c19101912")
 		)
 		(pin "1"
-			(uuid "c2dbf7df-4c24-4313-bdef-5b1a845a4da7")
+			(uuid "5abba51b-8e9c-4f79-b996-9ce95ed28fce")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1633,7 +1633,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "97e1774e-b883-4e31-b245-c67743377eeb")
+			(uuid "18e4f655-4683-4675-817a-c21f82d9022f")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1707,7 +1707,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1ac4d16-a58f-4f6c-9d99-7c6689ca7aab")
+			(uuid "eaebaa92-4de5-43d0-9bf8-216ca75e9c78")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1783,13 +1783,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "11151f5d-9a70-46c4-8ab3-bdb433e5803f")
+			(uuid "3e435498-a539-4277-bf1d-477a04a0c5af")
 		)
 		(pin "1"
-			(uuid "7208c38f-5de2-4687-8bb4-5fd5479d87b3")
+			(uuid "18e6c0e2-bdf4-4745-8765-70907f7e01ca")
 		)
 		(pin "2"
-			(uuid "d6678d94-1c04-4d5d-9de6-2558920132ba")
+			(uuid "1b8faa98-36be-4f29-8460-55687878f536")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1863,7 +1863,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "915eff6b-53c5-48d3-b6ed-2e433b72ae44")
+			(uuid "b007501c-9402-4957-9194-2c2dd6119a84")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1938,10 +1938,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b795ed27-1cfc-4622-86de-d86d3e89e286")
+			(uuid "7adc8061-45b2-4de7-8329-dcbe71fe457a")
 		)
 		(pin "1"
-			(uuid "60c84da6-0866-4d53-92d6-d8473502c930")
+			(uuid "5e351b16-c4c1-43e6-891b-fa533eb78f70")
 		)
 		(instances
 			(project ""

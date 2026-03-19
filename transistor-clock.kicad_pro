@@ -117,7 +117,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.16,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -130,7 +130,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.16,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -620,7 +620,15 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "SPICE Model",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -675,164 +683,160 @@
       "relays_h0"
     ],
     [
-      "75b3a1b7-4863-4735-866b-e92e7858d4fa",
-      "relay1"
+      "d3e93d5e-a1fc-4c7c-a508-7db595ebfedb",
+      "SSR"
     ],
     [
-      "75b3a1b7-4863-4735-866b-e92e7858d4fa",
-      "relay1"
+      "ff416eb0-03cb-4ccc-949e-153ba2264def",
+      "SSR1"
     ],
     [
-      "a8442c2d-8547-4ce6-804a-f6af5a1835e7",
-      "relay2"
+      "6626287b-d974-40f9-9ea7-23830c44c414",
+      "SSR2"
     ],
     [
-      "a8442c2d-8547-4ce6-804a-f6af5a1835e7",
-      "relay2"
+      "afba333b-d480-4254-9b05-9cd5658bc5cd",
+      "SSR3"
     ],
     [
-      "06a98e2a-1e2f-4b44-96ce-6d629e728954",
-      "relay3"
+      "953a2389-d7b2-40e6-866c-826fb4d728cd",
+      "SSR4"
     ],
     [
-      "06a98e2a-1e2f-4b44-96ce-6d629e728954",
-      "relay3"
+      "96ebff71-d8f3-4e7b-873b-6eac5d9211fe",
+      "SSR5"
     ],
     [
-      "82571192-bbc9-4100-afd3-cff39b4dd65a",
-      "relay4"
+      "d3e93d5e-a1fc-4c7c-a508-7db595ebfedb",
+      "SSR"
     ],
     [
-      "82571192-bbc9-4100-afd3-cff39b4dd65a",
-      "relay4"
+      "ff416eb0-03cb-4ccc-949e-153ba2264def",
+      "SSR1"
     ],
     [
-      "f48f5b78-7c74-4ddc-bb22-3f61df436a38",
-      "relay5"
+      "6626287b-d974-40f9-9ea7-23830c44c414",
+      "SSR2"
     ],
     [
-      "f48f5b78-7c74-4ddc-bb22-3f61df436a38",
-      "relay5"
+      "afba333b-d480-4254-9b05-9cd5658bc5cd",
+      "SSR3"
     ],
     [
-      "1366ccf8-a60f-4faa-a762-1592a0ab5c13",
-      "relay"
+      "c3edbcfb-717c-4a94-a97d-02ba436f89d7",
+      "SSR"
     ],
     [
-      "e5934d49-adc9-44cf-a5e8-44aa98e52170",
-      "relay1"
+      "c3edbcfb-717c-4a94-a97d-02ba436f89d7",
+      "SSR"
     ],
     [
-      "8147a78c-704a-4632-bbdd-6a9ddb72f8df",
-      "relay2"
+      "15db2445-1473-4b3c-92f0-b8ffa27cca0a",
+      "SSR3"
     ],
     [
-      "269be598-f749-49dd-8c9d-43fb5a017477",
-      "relay3"
+      "15db2445-1473-4b3c-92f0-b8ffa27cca0a",
+      "SSR3"
     ],
     [
-      "45ddea19-c5e5-423f-abb5-fdcd02927863",
-      "relay4"
+      "15db2445-1473-4b3c-92f0-b8ffa27cca0a",
+      "SSR3"
     ],
     [
-      "2f3875ba-15c5-4467-bef0-bd215b5e165f",
-      "relay5"
+      "64041083-6a73-407d-a787-759771b2dfa9",
+      "SSR4"
     ],
     [
-      "1366ccf8-a60f-4faa-a762-1592a0ab5c13",
-      "relay"
+      "c3edbcfb-717c-4a94-a97d-02ba436f89d7",
+      "SSR"
     ],
     [
-      "e5934d49-adc9-44cf-a5e8-44aa98e52170",
-      "relay1"
+      "c1e31d30-8ebd-4ea5-b34c-0f6904955596",
+      "SSR1"
     ],
     [
-      "8147a78c-704a-4632-bbdd-6a9ddb72f8df",
-      "relay2"
+      "64041083-6a73-407d-a787-759771b2dfa9",
+      "SSR4"
     ],
     [
-      "269be598-f749-49dd-8c9d-43fb5a017477",
-      "relay3"
+      "64041083-6a73-407d-a787-759771b2dfa9",
+      "SSR4"
     ],
     [
-      "45ddea19-c5e5-423f-abb5-fdcd02927863",
-      "relay4"
+      "92b50169-5039-4e91-8fe7-7fa2eb695860",
+      "SSR5"
     ],
     [
-      "2f3875ba-15c5-4467-bef0-bd215b5e165f",
-      "relay5"
+      "92b50169-5039-4e91-8fe7-7fa2eb695860",
+      "SSR5"
     ],
     [
-      "1366ccf8-a60f-4faa-a762-1592a0ab5c13",
-      "relay"
+      "c1e31d30-8ebd-4ea5-b34c-0f6904955596",
+      "SSR1"
     ],
     [
-      "e5934d49-adc9-44cf-a5e8-44aa98e52170",
-      "relay1"
+      "c1e31d30-8ebd-4ea5-b34c-0f6904955596",
+      "SSR1"
     ],
     [
-      "8147a78c-704a-4632-bbdd-6a9ddb72f8df",
-      "relay2"
+      "92b50169-5039-4e91-8fe7-7fa2eb695860",
+      "SSR5"
     ],
     [
-      "269be598-f749-49dd-8c9d-43fb5a017477",
-      "relay3"
+      "37451967-4315-4140-90d0-4ea3c15d6c1e",
+      "SSR6"
     ],
     [
-      "45ddea19-c5e5-423f-abb5-fdcd02927863",
-      "relay4"
+      "37451967-4315-4140-90d0-4ea3c15d6c1e",
+      "SSR6"
     ],
     [
-      "2f3875ba-15c5-4467-bef0-bd215b5e165f",
-      "relay5"
+      "37451967-4315-4140-90d0-4ea3c15d6c1e",
+      "SSR6"
     ],
     [
-      "5dc15e9b-4f4c-4966-b80c-db6cb03a6496",
-      "relay6"
+      "5e5e889a-a7ce-4008-9b7c-af9570d2b08c",
+      "SSR7"
     ],
     [
-      "cf6e3420-0562-44b7-b693-3b636fbae111",
-      "relay7"
+      "5e5e889a-a7ce-4008-9b7c-af9570d2b08c",
+      "SSR7"
     ],
     [
-      "420a1771-e71c-4b41-b984-896450a6c1ac",
-      "relay8"
+      "5e5e889a-a7ce-4008-9b7c-af9570d2b08c",
+      "SSR7"
     ],
     [
-      "e4c23de8-748d-42f8-8f2f-a0966d77548f",
-      "relay9"
+      "80f7c97a-6f0e-4467-ab9d-49ba8c065f45",
+      "SSR8"
     ],
     [
-      "5dc15e9b-4f4c-4966-b80c-db6cb03a6496",
-      "relay6"
+      "80f7c97a-6f0e-4467-ab9d-49ba8c065f45",
+      "SSR8"
     ],
     [
-      "cf6e3420-0562-44b7-b693-3b636fbae111",
-      "relay7"
+      "80f7c97a-6f0e-4467-ab9d-49ba8c065f45",
+      "SSR8"
     ],
     [
-      "420a1771-e71c-4b41-b984-896450a6c1ac",
-      "relay8"
+      "b0a924ae-8912-4433-a09e-6b17cf3097fb",
+      "SSR9"
     ],
     [
-      "e4c23de8-748d-42f8-8f2f-a0966d77548f",
-      "relay9"
+      "b0a924ae-8912-4433-a09e-6b17cf3097fb",
+      "SSR9"
     ],
     [
-      "5dc15e9b-4f4c-4966-b80c-db6cb03a6496",
-      "relay6"
+      "b0a924ae-8912-4433-a09e-6b17cf3097fb",
+      "SSR9"
     ],
     [
-      "cf6e3420-0562-44b7-b693-3b636fbae111",
-      "relay7"
+      "953a2389-d7b2-40e6-866c-826fb4d728cd",
+      "SSR4"
     ],
     [
-      "420a1771-e71c-4b41-b984-896450a6c1ac",
-      "relay8"
-    ],
-    [
-      "e4c23de8-748d-42f8-8f2f-a0966d77548f",
-      "relay9"
+      "96ebff71-d8f3-4e7b-873b-6eac5d9211fe",
+      "SSR5"
     ],
     [
       "1f167a12-29be-4370-8ca7-0a77c3b8c67b",
@@ -1215,6 +1219,26 @@
       "NAND3_4"
     ],
     [
+      "b56c9cf2-7431-4df4-8267-8bb928828c16",
+      "SSR2"
+    ],
+    [
+      "f7736d1d-3543-402e-89f8-6aa5c9a06f97",
+      "SSR1"
+    ],
+    [
+      "b56c9cf2-7431-4df4-8267-8bb928828c16",
+      "SSR2"
+    ],
+    [
+      "28231f20-b627-44ed-b0a7-f483d00221de",
+      "SSR2"
+    ],
+    [
+      "b56c9cf2-7431-4df4-8267-8bb928828c16",
+      "SSR2"
+    ],
+    [
       "6fa12e35-b957-4335-be8e-d0857c2dd0bf",
       "BCD_s0"
     ],
@@ -1247,10 +1271,6 @@
       "relays_s0"
     ],
     [
-      "17c7051d-a3b7-4c1a-ac84-ddcbfb1b332c",
-      "relay"
-    ],
-    [
       "e78e492f-89ca-46c8-99ce-a0575e4ef576",
       "jk-flipflop"
     ],
@@ -1269,6 +1289,10 @@
     [
       "5df6a7cb-c769-42a3-8a4d-3e7efb16015b",
       "NAND3_1"
+    ],
+    [
+      "155913f3-3b8c-475b-aafe-bb99ae654d22",
+      "SSR"
     ],
     [
       "ef45f8fe-f8b4-480d-abd7-c9b5575c64d8",
@@ -1376,7 +1400,7 @@
     ],
     [
       "e3090ade-adf9-41e7-9c4d-7ceb9518aa28",
-      "BDC_m2"
+      "BDC_h0"
     ],
     [
       "593df0df-4d29-466d-81f4-0d5ba52265a1",
@@ -1513,10 +1537,6 @@
     [
       "ce418c28-966b-4921-8af8-a8da2b70a35b",
       "nand"
-    ],
-    [
-      "17c7051d-a3b7-4c1a-ac84-ddcbfb1b332c",
-      "relay"
     ]
   ],
   "text_variables": {}

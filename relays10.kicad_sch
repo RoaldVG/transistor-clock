@@ -29,7 +29,7 @@
 	)
 	(hierarchical_label "Sqr1"
 		(shape input)
-		(at 64.77 93.98 180)
+		(at 64.77 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 	)
 	(hierarchical_label "Sqr1"
 		(shape input)
-		(at 144.78 93.98 180)
+		(at 144.78 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 	)
 	(hierarchical_label "2"
 		(shape input)
-		(at 119.38 90.17 180)
+		(at 119.38 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -95,7 +95,7 @@
 	)
 	(hierarchical_label "Out3"
 		(shape output)
-		(at 157.48 90.17 0)
+		(at 157.48 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -117,7 +117,7 @@
 	)
 	(hierarchical_label "Sqr1"
 		(shape input)
-		(at 172.72 93.98 180)
+		(at 172.72 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -128,7 +128,7 @@
 	)
 	(hierarchical_label "Out1"
 		(shape output)
-		(at 106.68 90.17 0)
+		(at 106.68 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -139,7 +139,7 @@
 	)
 	(hierarchical_label "Sqr1"
 		(shape input)
-		(at 93.98 93.98 180)
+		(at 93.98 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -150,7 +150,7 @@
 	)
 	(hierarchical_label "1"
 		(shape input)
-		(at 93.98 90.17 180)
+		(at 93.98 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -161,7 +161,7 @@
 	)
 	(hierarchical_label "Sqr1"
 		(shape input)
-		(at 119.38 93.98 180)
+		(at 119.38 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -205,7 +205,7 @@
 	)
 	(hierarchical_label "3"
 		(shape input)
-		(at 144.78 90.17 180)
+		(at 144.78 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -227,7 +227,7 @@
 	)
 	(hierarchical_label "Out2"
 		(shape output)
-		(at 132.08 90.17 0)
+		(at 132.08 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -238,7 +238,7 @@
 	)
 	(hierarchical_label "4"
 		(shape input)
-		(at 172.72 90.17 180)
+		(at 172.72 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -271,7 +271,7 @@
 	)
 	(hierarchical_label "0"
 		(shape input)
-		(at 64.77 90.17 180)
+		(at 64.77 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -304,7 +304,7 @@
 	)
 	(hierarchical_label "Out0"
 		(shape output)
-		(at 77.47 90.17 0)
+		(at 77.47 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -315,7 +315,7 @@
 	)
 	(hierarchical_label "Out4"
 		(shape output)
-		(at 185.42 90.17 0)
+		(at 185.42 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -336,8 +336,8 @@
 		(uuid "f8f40035-2ab9-43ad-a95f-196c2ea2abb1")
 	)
 	(sheet
-		(at 64.77 88.9)
-		(size 12.7 7.62)
+		(at 144.78 77.47)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -351,9 +351,9 @@
 		(fill
 			(color 255 255 255 0.0000)
 		)
-		(uuid "1366ccf8-a60f-4faa-a762-1592a0ab5c13")
-		(property "Sheetname" "relay"
-			(at 64.77 88.1884 0)
+		(uuid "15db2445-1473-4b3c-92f0-b8ffa27cca0a")
+		(property "Sheetname" "SSR3"
+			(at 144.78 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,8 +361,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "relay.kicad_sch"
-			(at 64.77 97.1046 0)
+		(property "Sheetfile" "ssr.kicad_sch"
+			(at 144.78 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -370,19 +370,9 @@
 				(justify left top)
 			)
 		)
-		(pin "ctrl" input
-			(at 64.77 90.17 180)
-			(uuid "fe789e4e-f39f-4369-81bd-b72706a8f11f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 77.47 90.17 0)
-			(uuid "b50349f4-8d72-4b1b-9fee-20b0027950aa")
+		(pin "AC1" bidirectional
+			(at 157.48 81.28 0)
+			(uuid "f11b9be6-7773-4151-80e2-6ac8c254d5c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,9 +380,9 @@
 				(justify right)
 			)
 		)
-		(pin "pwr" input
-			(at 64.77 93.98 180)
-			(uuid "8e464dde-d947-4af6-bfd5-028e9e2cfd50")
+		(pin "AC2" bidirectional
+			(at 144.78 85.09 180)
+			(uuid "3db2c4d0-cac2-413e-aa26-acb9bc45187c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,473 +390,9 @@
 				(justify left)
 			)
 		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(page "21")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(page "27")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(page "33")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 144.78 88.9)
-		(size 12.7 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "269be598-f749-49dd-8c9d-43fb5a017477")
-		(property "Sheetname" "relay3"
-			(at 144.78 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "relay.kicad_sch"
-			(at 144.78 97.1046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ctrl" input
-			(at 144.78 90.17 180)
-			(uuid "e4585a28-8165-4af4-9931-d7a9f829b84f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 157.48 90.17 0)
-			(uuid "01714c6b-62a6-40e9-94fe-0331839fb442")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "pwr" input
-			(at 144.78 93.98 180)
-			(uuid "be95df75-4933-4584-ac91-a97f359c784a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(page "24")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(page "30")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(page "36")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 64.77 104.14)
-		(size 12.7 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "2f3875ba-15c5-4467-bef0-bd215b5e165f")
-		(property "Sheetname" "relay5"
-			(at 64.77 103.4284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "relay.kicad_sch"
-			(at 64.77 112.3446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ctrl" input
-			(at 64.77 105.41 180)
-			(uuid "3e78caab-85df-4382-b0d5-f51a0c4394a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 77.47 105.41 0)
-			(uuid "28db22b7-2bbf-42d3-ba11-2cf7287c9627")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "pwr" input
-			(at 64.77 109.22 180)
-			(uuid "dff7d3c9-3193-44a5-9a64-36339a81899a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(page "26")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(page "32")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(page "38")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 144.78 105.41)
-		(size 12.7 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "420a1771-e71c-4b41-b984-896450a6c1ac")
-		(property "Sheetname" "relay8"
-			(at 144.78 104.6984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "relay.kicad_sch"
-			(at 144.78 113.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ctrl" input
-			(at 144.78 106.68 180)
-			(uuid "236fc4ec-1222-49aa-9a56-7598fb551015")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 157.48 106.68 0)
-			(uuid "6bb7e02c-9c4a-4749-801b-e946d77f6789")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "pwr" input
-			(at 144.78 110.49 180)
-			(uuid "eb50abcd-11cd-4168-9a0a-96ae169453eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(page "41")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(page "45")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(page "49")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 172.72 88.9)
-		(size 12.7 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "45ddea19-c5e5-423f-abb5-fdcd02927863")
-		(property "Sheetname" "relay4"
-			(at 172.72 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "relay.kicad_sch"
-			(at 172.72 97.1046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ctrl" input
-			(at 172.72 90.17 180)
-			(uuid "89ce000f-1ba3-40ed-9898-ee4d0810c5e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 185.42 90.17 0)
-			(uuid "3021a6d0-e7ae-4edb-ae9f-28902c6e20fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "pwr" input
-			(at 172.72 93.98 180)
-			(uuid "43bba747-ab60-4a39-a411-a6cbf8fe1157")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(page "25")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(page "31")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(page "37")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 93.98 105.41)
-		(size 12.7 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "5dc15e9b-4f4c-4966-b80c-db6cb03a6496")
-		(property "Sheetname" "relay6"
-			(at 93.98 104.6984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "relay.kicad_sch"
-			(at 93.98 113.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ctrl" input
-			(at 93.98 106.68 180)
-			(uuid "8fbeff26-a88c-4828-ac85-f89b39eeb04e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 106.68 106.68 0)
-			(uuid "215fbbfa-68bb-4125-ac10-8bc2413912dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "pwr" input
-			(at 93.98 110.49 180)
-			(uuid "e0837f21-2595-4718-af5c-81e5156977d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(page "39")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(page "43")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(page "47")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 119.38 88.9)
-		(size 12.7 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "8147a78c-704a-4632-bbdd-6a9ddb72f8df")
-		(property "Sheetname" "relay2"
-			(at 119.38 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "relay.kicad_sch"
-			(at 119.38 97.1046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ctrl" input
-			(at 119.38 90.17 180)
-			(uuid "f50c51df-e0a5-4009-b14f-f07eb2e884ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 132.08 90.17 0)
-			(uuid "267ebb59-ed24-4d93-8a42-b348ff7c40a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "pwr" input
-			(at 119.38 93.98 180)
-			(uuid "8ed6fd7a-d9e9-42dc-9d12-70a6455b2be7")
+		(pin "Ctrl" input
+			(at 144.78 81.28 180)
+			(uuid "a1461fbb-ce15-49ba-93f7-6fe013ed1dbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,17 +406,17 @@
 					(page "23")
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(page "29")
+					(page "24")
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(page "35")
+					(page "25")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 119.38 105.41)
-		(size 12.7 7.62)
+		(at 93.98 102.87)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -904,9 +430,9 @@
 		(fill
 			(color 255 255 255 0.0000)
 		)
-		(uuid "cf6e3420-0562-44b7-b693-3b636fbae111")
-		(property "Sheetname" "relay7"
-			(at 119.38 104.6984 0)
+		(uuid "37451967-4315-4140-90d0-4ea3c15d6c1e")
+		(property "Sheetname" "SSR6"
+			(at 93.98 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,8 +440,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "relay.kicad_sch"
-			(at 119.38 113.6146 0)
+		(property "Sheetfile" "ssr.kicad_sch"
+			(at 93.98 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,19 +449,9 @@
 				(justify left top)
 			)
 		)
-		(pin "ctrl" input
-			(at 119.38 106.68 180)
-			(uuid "595bd02f-5b69-4bef-a400-34fee626286f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 132.08 106.68 0)
-			(uuid "e78638b2-905e-43ba-b2fd-a7678f6e025f")
+		(pin "AC1" bidirectional
+			(at 106.68 106.68 0)
+			(uuid "84f8d72d-030f-406b-97f8-e8a8a4767fa0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,9 +459,19 @@
 				(justify right)
 			)
 		)
-		(pin "pwr" input
-			(at 119.38 110.49 180)
-			(uuid "8d8e9b72-4813-4284-8365-99bb78e397be")
+		(pin "AC2" bidirectional
+			(at 93.98 110.49 180)
+			(uuid "0e117cfe-7db1-49b7-9307-e5508b7b1e49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ctrl" input
+			(at 93.98 106.68 180)
+			(uuid "5478ffbc-c6ff-49ab-9b1c-57ffbd969462")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,20 +482,20 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(page "40")
+					(page "36")
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(page "44")
+					(page "37")
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(page "48")
+					(page "38")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 172.72 105.41)
-		(size 12.7 7.62)
+		(at 119.38 102.87)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -983,9 +509,9 @@
 		(fill
 			(color 255 255 255 0.0000)
 		)
-		(uuid "e4c23de8-748d-42f8-8f2f-a0966d77548f")
-		(property "Sheetname" "relay9"
-			(at 172.72 104.6984 0)
+		(uuid "5e5e889a-a7ce-4008-9b7c-af9570d2b08c")
+		(property "Sheetname" "SSR7"
+			(at 119.38 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,8 +519,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "relay.kicad_sch"
-			(at 172.72 113.6146 0)
+		(property "Sheetfile" "ssr.kicad_sch"
+			(at 119.38 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,19 +528,9 @@
 				(justify left top)
 			)
 		)
-		(pin "ctrl" input
-			(at 172.72 106.68 180)
-			(uuid "cfedbdb2-3e88-451e-b936-da0dc8ddc7e6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 185.42 106.68 0)
-			(uuid "b74a07c5-5f8f-47f5-acb9-e8b200adf1a8")
+		(pin "AC1" bidirectional
+			(at 132.08 106.68 0)
+			(uuid "de741db8-269b-4427-a760-4c551c796980")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,9 +538,177 @@
 				(justify right)
 			)
 		)
-		(pin "pwr" input
-			(at 172.72 110.49 180)
-			(uuid "c0aaf636-7174-47aa-a721-f4242be0dbbf")
+		(pin "AC2" bidirectional
+			(at 119.38 110.49 180)
+			(uuid "327793d6-fcb0-4f15-a29e-25fc4389babd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ctrl" input
+			(at 119.38 106.68 180)
+			(uuid "d50d4321-e728-4af2-9f5d-af14c7ab4901")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
+					(page "39")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(page "40")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(page "41")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 77.47)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "64041083-6a73-407d-a787-759771b2dfa9")
+		(property "Sheetname" "SSR4"
+			(at 172.72 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ssr.kicad_sch"
+			(at 172.72 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AC1" bidirectional
+			(at 185.42 81.28 0)
+			(uuid "d4f6469e-7f5d-49f7-a5ad-4967c4f5c243")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AC2" bidirectional
+			(at 172.72 85.09 180)
+			(uuid "8b2e3d4c-5d1d-41e9-86af-8e413efcf63e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ctrl" input
+			(at 172.72 81.28 180)
+			(uuid "471b5156-67e2-4ebc-92a9-dfffa145c2a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
+					(page "26")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(page "29")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 102.87)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "80f7c97a-6f0e-4467-ab9d-49ba8c065f45")
+		(property "Sheetname" "SSR8"
+			(at 144.78 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ssr.kicad_sch"
+			(at 144.78 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AC1" bidirectional
+			(at 157.48 106.68 0)
+			(uuid "eedfc589-4eb9-4ac5-ac23-adbf556ce823")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AC2" bidirectional
+			(at 144.78 110.49 180)
+			(uuid "10a50f2f-9787-4525-8227-9bf0e03295ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ctrl" input
+			(at 144.78 106.68 180)
+			(uuid "e4536f4b-d591-4234-9db4-9c84ca9b4079")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,17 +722,17 @@
 					(page "42")
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(page "46")
+					(page "43")
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(page "50")
+					(page "44")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 93.98 88.9)
-		(size 12.7 7.62)
+		(at 66.04 101.6)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1062,9 +746,9 @@
 		(fill
 			(color 255 255 255 0.0000)
 		)
-		(uuid "e5934d49-adc9-44cf-a5e8-44aa98e52170")
-		(property "Sheetname" "relay1"
-			(at 93.98 88.1884 0)
+		(uuid "92b50169-5039-4e91-8fe7-7fa2eb695860")
+		(property "Sheetname" "SSR5"
+			(at 66.04 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,8 +756,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "relay.kicad_sch"
-			(at 93.98 97.1046 0)
+		(property "Sheetfile" "ssr.kicad_sch"
+			(at 66.04 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,19 +765,9 @@
 				(justify left top)
 			)
 		)
-		(pin "ctrl" input
-			(at 93.98 90.17 180)
-			(uuid "a44d5294-c672-40af-861e-dd1a72210107")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Out" output
-			(at 106.68 90.17 0)
-			(uuid "1430f9df-4f07-4a97-99cb-9c63e49c8cf3")
+		(pin "AC1" bidirectional
+			(at 78.74 105.41 0)
+			(uuid "4ed7aa47-0507-4e84-9f03-2085613ade2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,9 +775,19 @@
 				(justify right)
 			)
 		)
-		(pin "pwr" input
-			(at 93.98 93.98 180)
-			(uuid "9d6f557b-5d78-42dd-b13e-2bda80b5b2ca")
+		(pin "AC2" bidirectional
+			(at 66.04 109.22 180)
+			(uuid "222fd550-25ee-4e96-9738-3d4fb35cebfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ctrl" input
+			(at 66.04 105.41 180)
+			(uuid "9e84bf0c-4e18-407a-a301-90ae0684baba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,13 +798,329 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(page "22")
+					(page "31")
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(page "32")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 102.87)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "b0a924ae-8912-4433-a09e-6b17cf3097fb")
+		(property "Sheetname" "SSR9"
+			(at 172.72 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ssr.kicad_sch"
+			(at 172.72 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AC1" bidirectional
+			(at 185.42 106.68 0)
+			(uuid "11dc20a1-f3b1-4d66-8b4c-13717ed9ae45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AC2" bidirectional
+			(at 172.72 110.49 180)
+			(uuid "715bcad8-ed42-476b-834e-656cc822da6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ctrl" input
+			(at 172.72 106.68 180)
+			(uuid "0ab6f8ff-3096-49cb-b716-8385c46cf1d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
+					(page "45")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(page "46")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(page "47")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 77.47)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "b56c9cf2-7431-4df4-8267-8bb928828c16")
+		(property "Sheetname" "SSR2"
+			(at 119.38 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ssr.kicad_sch"
+			(at 119.38 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AC1" bidirectional
+			(at 132.08 81.28 0)
+			(uuid "3dfb22db-4d71-493b-a273-e2cbad94f366")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AC2" bidirectional
+			(at 119.38 85.09 180)
+			(uuid "1f946283-d172-4b5f-a41c-b4daad4c2ae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ctrl" input
+			(at 119.38 81.28 180)
+			(uuid "d38ebfb2-b47d-4a35-91fb-1c2331481657")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
+					(page "146")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(page "148")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(page "150")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 77.47)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "c1e31d30-8ebd-4ea5-b34c-0f6904955596")
+		(property "Sheetname" "SSR1"
+			(at 93.98 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ssr.kicad_sch"
+			(at 93.98 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AC1" bidirectional
+			(at 106.68 81.28 0)
+			(uuid "892b5603-7082-4eec-b153-ce9c8341b135")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AC2" bidirectional
+			(at 93.98 85.09 180)
+			(uuid "8ad5b1c5-c071-4356-9ef6-b9271c7ad054")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ctrl" input
+			(at 93.98 81.28 180)
+			(uuid "45fabf4d-4802-4b04-b8a8-65330b5bd654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
 					(page "28")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(page "33")
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
 					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 77.47)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "c3edbcfb-717c-4a94-a97d-02ba436f89d7")
+		(property "Sheetname" "SSR"
+			(at 64.77 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ssr.kicad_sch"
+			(at 64.77 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AC1" bidirectional
+			(at 77.47 81.28 0)
+			(uuid "df878be4-2dbb-4475-ad9b-fe337ac3f586")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AC2" bidirectional
+			(at 64.77 85.09 180)
+			(uuid "765f259b-80da-4a85-b469-5ccee0b58d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ctrl" input
+			(at 64.77 81.28 180)
+			(uuid "6031b29c-00cb-443c-bac1-22cc16a257dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
+					(page "21")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
+					(page "22")
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
+					(page "27")
 				)
 			)
 		)

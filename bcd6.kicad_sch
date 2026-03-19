@@ -767,7 +767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a9edcbe-4b58-4bc1-bcfd-71a642bc17d2")
-		(property "Reference" "#PWR0241"
+		(property "Reference" "#PWR0233"
 			(at 55.88 102.87 0)
 			(effects
 				(font
@@ -817,11 +817,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
-					(reference "#PWR0365")
+					(reference "#PWR0261")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6e22859f-9bca-4d3f-9901-b092abdf20a9"
-					(reference "#PWR0241")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -1085,7 +1085,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "and.kicad_sch"
+		(property "Sheetfile" "nand.kicad_sch"
 			(at 152.4 98.3746 0)
 			(effects
 				(font
