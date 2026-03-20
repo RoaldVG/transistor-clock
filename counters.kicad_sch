@@ -5917,7 +5917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0186290e-bdf5-4e4b-8d25-cb7295e05485")
-		(property "Reference" "#PWR0247"
+		(property "Reference" "#PWR0237"
 			(at 209.55 105.41 0)
 			(effects
 				(font
@@ -5965,9 +5965,9 @@
 			(uuid "bd0619e1-b2cb-4f58-a8c8-cab7e837704d")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "#PWR0247")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -5984,7 +5984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ed199ae-c0fe-4446-8f0f-36a5849afaea")
-		(property "Reference" "#PWR0243"
+		(property "Reference" "#PWR0233"
 			(at 90.17 186.69 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "#PWR0243")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -6051,7 +6051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10790285-59bd-497d-aad1-55bea5129e0c")
-		(property "Reference" "#PWR0240"
+		(property "Reference" "#PWR0230"
 			(at 33.02 173.99 0)
 			(effects
 				(font
@@ -6099,9 +6099,9 @@
 			(uuid "254d09b7-eaa9-4567-b8a9-483f6505b001")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "#PWR0240")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -6118,7 +6118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11fba1f8-12c9-40ee-b750-1bdc6125b052")
-		(property "Reference" "#PWR0241"
+		(property "Reference" "#PWR0231"
 			(at 78.74 160.02 0)
 			(effects
 				(font
@@ -6168,7 +6168,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "#PWR0241")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -6246,7 +6246,7 @@
 			(uuid "c18506aa-d723-4113-85c5-7fd03470ca9c")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
 					(reference "J9")
 					(unit 1)
@@ -6317,7 +6317,7 @@
 			(uuid "caf18beb-d18d-43aa-8128-86c2e5b5a7d6")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
 					(reference "J13")
 					(unit 1)
@@ -6335,7 +6335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "384b6c8f-e2c2-4a38-9b54-ff6a82921013")
-		(property "Reference" "C40"
+		(property "Reference" "C35"
 			(at 194.691 149.9178 0)
 			(effects
 				(font
@@ -6389,7 +6389,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "C40")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -6455,7 +6455,7 @@
 			(uuid "1ee10097-b4d2-415d-bdd8-f6931fe19bb8")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
 					(reference "R13")
 					(unit 1)
@@ -6473,7 +6473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e8b7960-b7c7-4e9c-b73f-268cd8dfaf7f")
-		(property "Reference" "#PWR0246"
+		(property "Reference" "#PWR0236"
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -6521,9 +6521,9 @@
 			(uuid "e6874530-5dcf-4fb2-9bd2-49b838ea28b5")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "#PWR0246")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -6590,7 +6590,7 @@
 			(uuid "3884acf1-a1d6-468f-9b5c-85516608bf38")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
 					(reference "R14")
 					(unit 1)
@@ -6686,7 +6686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b727aa3-d93c-47f3-ad4c-cf9c40f8c95d")
-		(property "Reference" "C39"
+		(property "Reference" "C34"
 			(at 90.1122 157.099 0)
 			(effects
 				(font
@@ -6740,7 +6740,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "C39")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -6848,7 +6848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75c88a4d-c32e-4a4c-9086-8b21b709f50e")
-		(property "Reference" "C44"
+		(property "Reference" "C39"
 			(at 240.411 149.9178 0)
 			(effects
 				(font
@@ -6902,7 +6902,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "C44")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -6918,7 +6918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79fd732b-4184-46f9-af13-d36986f5e766")
-		(property "Reference" "#PWR0242"
+		(property "Reference" "#PWR0232"
 			(at 96.52 153.67 0)
 			(effects
 				(font
@@ -6968,7 +6968,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "#PWR0242")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -6984,7 +6984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ba66524-66c7-4acd-bc38-35ed2d23e1fa")
-		(property "Reference" "C42"
+		(property "Reference" "C37"
 			(at 217.551 149.9178 0)
 			(effects
 				(font
@@ -7038,7 +7038,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "C42")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -7123,7 +7123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fbffe74-3e42-43b1-8cce-05d3e0796fb3")
-		(property "Reference" "#PWR0245"
+		(property "Reference" "#PWR0235"
 			(at 191.77 161.29 0)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "#PWR0245")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -7189,7 +7189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96c1cf4b-cb8b-4ed3-96b2-c559463cb0af")
-		(property "Reference" "#PWR0239"
+		(property "Reference" "#PWR0229"
 			(at 39.37 140.97 0)
 			(effects
 				(font
@@ -7239,7 +7239,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "#PWR0239")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -7255,7 +7255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f04eaef-8985-4081-bbe1-c25bb505dd1b")
-		(property "Reference" "C41"
+		(property "Reference" "C36"
 			(at 206.121 149.9178 0)
 			(effects
 				(font
@@ -7309,7 +7309,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "C41")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -7326,7 +7326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a34813b5-1fa0-4cf3-8934-235a6ba8ae4f")
-		(property "Reference" "#PWR0238"
+		(property "Reference" "#PWR0228"
 			(at 21.59 147.32 0)
 			(effects
 				(font
@@ -7374,9 +7374,9 @@
 			(uuid "18328385-206e-4ac9-b2a7-eabfccaf9b92")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "#PWR0238")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -7468,7 +7468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0a33297-42f3-4095-9900-a3c25b96f3f9")
-		(property "Reference" "C43"
+		(property "Reference" "C38"
 			(at 228.981 149.9178 0)
 			(effects
 				(font
@@ -7522,7 +7522,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "C43")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -7589,7 +7589,7 @@
 			(uuid "ce028330-98c0-4482-a11b-3f150c10eed0")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
 					(reference "SW1")
 					(unit 1)
@@ -7699,7 +7699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d06afa1d-59b8-413b-838c-3393296c2e44")
-		(property "Reference" "#PWR0244"
+		(property "Reference" "#PWR0234"
 			(at 191.77 151.13 0)
 			(effects
 				(font
@@ -7749,7 +7749,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "#PWR0244")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -7766,7 +7766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d774bc63-41b7-42ec-8123-999b571959f6")
-		(property "Reference" "C38"
+		(property "Reference" "C33"
 			(at 32.9622 144.399 0)
 			(effects
 				(font
@@ -7818,9 +7818,9 @@
 			(uuid "fb5ca2d8-f8df-49e7-88c2-0e919740e98c")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
-					(reference "C38")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -8059,7 +8059,7 @@
 			(uuid "3109eace-afb7-4446-8052-d23c846ba572")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f"
 					(reference "J8")
 					(unit 1)

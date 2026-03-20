@@ -1160,13 +1160,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "a18bd75b-0324-47d8-8375-377650d7e170")
+			(uuid "a6effe63-5e11-4ef5-b8eb-c4d880960283")
 		)
 		(pin "2"
-			(uuid "194d58e0-7022-40b0-9d81-2d1389aab051")
+			(uuid "f059c9d2-4b6b-4d18-9352-131c924d18ca")
 		)
 		(pin "3"
-			(uuid "a6d026a7-1c6f-4997-9d6c-71ff74c92701")
+			(uuid "f7701607-4efc-432a-9fc4-ddba4d008a6e")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1244,13 +1244,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "0472da9c-271d-4ee8-987d-f0107782d5d2")
+			(uuid "16e65b90-18e7-415c-b26b-9ccdf6a6ac56")
 		)
 		(pin "2"
-			(uuid "ecefba91-ea5f-4dbf-927a-2c5ce7c37326")
+			(uuid "f5441e60-2016-4d84-8f33-362f3eb90388")
 		)
 		(pin "3"
-			(uuid "9b99584d-3b9e-46cf-a015-2e1699bd7cb3")
+			(uuid "efad4502-2dd4-41cc-a6fb-051d6dd0b637")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1327,13 +1327,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "4d752948-1fad-4d06-9105-1104fea9bcf3")
+			(uuid "d2f42715-4cfc-41e3-b590-4caca835657c")
 		)
 		(pin "3"
-			(uuid "8e5e2318-f54c-49e8-a08c-6156af4432ca")
+			(uuid "974fe846-4fc0-4411-897f-4f5dde48e4a8")
 		)
 		(pin "1"
-			(uuid "6aca161a-ba64-4797-85f4-0ce34d77f0d0")
+			(uuid "023b24a1-da10-4731-b0e4-3994a90a8210")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1410,13 +1410,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "ae0fb2b5-cf5b-4e85-b9db-ac0d178dd9b5")
+			(uuid "c756adcd-ccc9-4201-9a8f-d19b5173edea")
 		)
 		(pin "3"
-			(uuid "e25685b8-34a2-48fe-8489-ea60af9f2f64")
+			(uuid "f155381a-d6d6-4e6a-8933-f7a42ad8af2d")
 		)
 		(pin "1"
-			(uuid "74e33a76-d3be-440a-ba1f-b1912508f341")
+			(uuid "01d4049b-ffb9-4225-8f79-c0bf91171286")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1445,7 +1445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab043837-acd0-419e-a0c9-90af4b9f98aa")
-		(property "Reference" "#PWR0276"
+		(property "Reference" "#PWR0264"
 			(at 154.94 78.74 0)
 			(effects
 				(font
@@ -1490,20 +1490,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd40e3cf-9e6d-4a03-b327-7130c4c365b6")
+			(uuid "7ac1595a-8b04-4de6-ba25-0e4dbd2fb527")
 		)
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413/2c94928a-7da0-4567-8b95-91a86493c9bc"
-					(reference "#PWR0340")
+					(reference "#PWR0332")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b/2c94928a-7da0-4567-8b95-91a86493c9bc"
-					(reference "#PWR0276")
+					(reference "#PWR0264")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28/2c94928a-7da0-4567-8b95-91a86493c9bc"
-					(reference "#PWR0314")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -1568,13 +1568,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "75b5a7d9-48d1-4759-b115-5c07711e6b2a")
+			(uuid "b7f8d647-de4b-48d6-93bb-1641fee4910f")
 		)
 		(pin "3"
-			(uuid "df3e6a05-71a6-40ac-981e-8503031c06f4")
+			(uuid "5b3203df-87b3-4194-a692-56a1144d82a8")
 		)
 		(pin "1"
-			(uuid "6f33c046-beeb-48c3-8278-4e9ae4f115da")
+			(uuid "4974f517-46e9-4ef1-a610-7f07fe6e6eb3")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1651,13 +1651,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "c08a5910-c2a4-4dc8-941b-2f942747803f")
+			(uuid "0c374a96-ef57-430d-b0b4-152d39df881c")
 		)
 		(pin "3"
-			(uuid "b925507b-791e-4a70-a52f-42967647af5d")
+			(uuid "cc30954b-9d1b-4bb3-a2f5-f0322f238f9c")
 		)
 		(pin "1"
-			(uuid "98a09653-f064-4c46-8d11-da713578ce69")
+			(uuid "4169970c-cb65-492b-aef2-8926806bc0ad")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1686,7 +1686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c904f6eb-9e5b-466d-8eab-6ad1cc678b06")
-		(property "Reference" "#PWR0277"
+		(property "Reference" "#PWR0265"
 			(at 154.94 144.78 0)
 			(effects
 				(font
@@ -1731,20 +1731,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "00fb1c96-c03a-48bc-98e7-7fff331b7c23")
+			(uuid "c8fcdf0e-7bcc-40f4-b55e-fd0950ed4c05")
 		)
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413/2c94928a-7da0-4567-8b95-91a86493c9bc"
-					(reference "#PWR0341")
+					(reference "#PWR0333")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b/2c94928a-7da0-4567-8b95-91a86493c9bc"
-					(reference "#PWR0277")
+					(reference "#PWR0265")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28/2c94928a-7da0-4567-8b95-91a86493c9bc"
-					(reference "#PWR0315")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -1809,13 +1809,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1dc47f6-9cee-424d-90bc-2727fdb75602")
+			(uuid "2a5aa289-475c-423a-bf4d-173bbab63a71")
 		)
 		(pin "2"
-			(uuid "6740ebc8-a251-4592-aa10-8435372fd96e")
+			(uuid "f20cde14-2ff2-4d69-81c4-fbe87c7e4bd2")
 		)
 		(pin "3"
-			(uuid "d41ca65c-c325-4e87-a67e-4e73159538f3")
+			(uuid "4cdf9f3c-8b33-4f9b-bfa4-2962d1b740db")
 		)
 		(instances
 			(project "transistor-clock"
@@ -1893,13 +1893,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbfbd4df-1ab5-4c35-8d57-b790104aff1f")
+			(uuid "b85ae636-9b3b-438e-ad94-be638466bd80")
 		)
 		(pin "2"
-			(uuid "b40a5fc0-b475-4a3f-a8ce-30d297c9b227")
+			(uuid "781c67de-5771-48a1-bec3-13c8bb871a72")
 		)
 		(pin "3"
-			(uuid "e822b586-55f9-4b5c-86d8-0369b42cba2f")
+			(uuid "0d5f7874-413b-4112-925e-95175b5c81a9")
 		)
 		(instances
 			(project "transistor-clock"

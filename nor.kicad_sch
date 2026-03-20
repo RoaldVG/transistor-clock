@@ -1396,7 +1396,7 @@
 			(uuid "c0d6ad72-564e-4a38-bbd7-f4623c5ce8b4")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/03f5a64c-acc7-49a6-878d-c157134676c1"
 					(reference "#PWR018")
 					(unit 1)
@@ -1944,7 +1944,7 @@
 			(uuid "5e351b16-c4c1-43e6-891b-fa533eb78f70")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/03f5a64c-acc7-49a6-878d-c157134676c1"
 					(reference "C14")
 					(unit 1)

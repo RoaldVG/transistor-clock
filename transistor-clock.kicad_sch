@@ -4491,7 +4491,7 @@
 			(uuid "1de583f4-306a-4f83-9ae1-ec7a574998ae")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R1")
 					(unit 1)
@@ -4561,7 +4561,7 @@
 			(uuid "6f91d321-9e5f-4148-8e51-adcd5bfe8ed2")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "D6")
 					(unit 1)
@@ -4655,7 +4655,7 @@
 			(uuid "9a9ae7eb-cc3e-443a-8074-5aa55daf24f9")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "Q2")
 					(unit 1)
@@ -4732,7 +4732,7 @@
 			(uuid "28481d88-f4ed-4a06-bc6c-e40ce8bd9b47")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "Q3")
 					(unit 1)
@@ -4798,7 +4798,7 @@
 			(uuid "9730e99b-e2c1-4247-b7d0-07126b9c1d70")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "#PWR09")
 					(unit 1)
@@ -4866,7 +4866,7 @@
 			(uuid "741c954b-fe1e-4aae-a914-f5422f3b81a4")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "C2")
 					(unit 1)
@@ -5022,7 +5022,7 @@
 			(uuid "f7da0816-c533-4558-be35-e45ebc300f15")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R11")
 					(unit 1)
@@ -5182,7 +5182,7 @@
 			(uuid "53b6fd2d-c372-45ad-a16f-eeeb95aa7f05")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "C1")
 					(unit 1)
@@ -5318,7 +5318,7 @@
 			(uuid "240682d0-89e7-4e9d-b536-a52d95b622f7")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R6")
 					(unit 1)
@@ -5521,7 +5521,7 @@
 			(uuid "f3af5207-1f30-49e2-8e03-4d7c361293b9")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "#PWR03")
 					(unit 1)
@@ -5588,7 +5588,7 @@
 			(uuid "fe655a84-7b5d-425e-9730-376a0e08f904")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "J2")
 					(unit 1)
@@ -5658,7 +5658,7 @@
 			(uuid "f05b68cb-1284-4887-95ff-2d55c13af8dc")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "C6")
 					(unit 1)
@@ -5734,7 +5734,7 @@
 			(uuid "dd1938ee-a6da-43a9-bbdb-70fc4ce9bc7a")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "Q4")
 					(unit 1)
@@ -5800,7 +5800,7 @@
 			(uuid "e985354e-df88-4a05-ad15-bf89b6e98ae5")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "#PWR01")
 					(unit 1)
@@ -5877,7 +5877,7 @@
 			(uuid "c9a0df95-b5f9-4713-b856-d7aa5abc9c6c")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "T2")
 					(unit 1)
@@ -5947,7 +5947,7 @@
 			(uuid "6aa74373-636e-4e50-837c-5614740804b3")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "C8")
 					(unit 1)
@@ -6084,7 +6084,7 @@
 			(uuid "b1ee27b8-9717-4f5f-b7bd-1e96c20c10a6")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R12")
 					(unit 1)
@@ -6150,7 +6150,7 @@
 			(uuid "09fc1342-0403-43c6-8421-31ccfba7d274")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "#PWR02")
 					(unit 1)
@@ -6220,7 +6220,7 @@
 			(uuid "8b4a2e17-9a89-47da-b79f-7939d958ec12")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R9")
 					(unit 1)
@@ -6290,7 +6290,7 @@
 			(uuid "19b0bb87-ae5e-406d-a1fd-0b87ce90481f")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "C11")
 					(unit 1)
@@ -6426,7 +6426,7 @@
 			(uuid "7a60e4c8-0a80-473c-a024-8221d36a250f")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "#PWR08")
 					(unit 1)
@@ -6503,7 +6503,7 @@
 			(uuid "6b690ed4-bd0b-44e3-95ee-fdaa851ee01d")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "T1")
 					(unit 1)
@@ -6570,7 +6570,7 @@
 			(uuid "9c38e610-b995-4296-8812-1723f917a3ef")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "#PWR04")
 					(unit 1)
@@ -6734,7 +6734,7 @@
 			(uuid "f1b910a7-5764-4225-a09a-72feeb9a7721")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R2")
 					(unit 1)
@@ -6871,7 +6871,7 @@
 			(uuid "ebfb139f-566f-46aa-91a6-94d262ac006b")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R7")
 					(unit 1)
@@ -7166,7 +7166,7 @@
 			(uuid "3b30d7da-9c16-4825-9a72-eb9065b54dae")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "Q8")
 					(unit 1)
@@ -7258,7 +7258,7 @@
 			(uuid "b85b37d7-a0ab-4f72-9fe8-2b999a31fe6f")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "Q7")
 					(unit 1)
@@ -7548,7 +7548,7 @@
 			(uuid "69f099ee-d1cd-47e4-b1f7-f6cfccbd3249")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R4")
 					(unit 1)
@@ -7701,7 +7701,7 @@
 			(uuid "c8952924-7e7c-4c75-bf35-0ced601e628a")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "D1")
 					(unit 1)
@@ -7838,7 +7838,7 @@
 			(uuid "53e8fe11-0613-43e0-9dc4-41f9f9103483")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R8")
 					(unit 1)
@@ -7975,7 +7975,7 @@
 			(uuid "73a09121-c041-45e5-b4b7-321d4e128624")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R3")
 					(unit 1)
@@ -8115,7 +8115,7 @@
 			(uuid "87de36f5-6e7d-4d37-a237-2f9fdfb692ce")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "C5")
 					(unit 1)
@@ -8185,7 +8185,7 @@
 			(uuid "95e91e4a-0439-41c5-b877-d5c9c69b34bc")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "C3")
 					(unit 1)
@@ -8255,7 +8255,7 @@
 			(uuid "ff3c24d8-4a71-4c87-9be8-b4165bc3f444")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "R5")
 					(unit 1)
@@ -8393,7 +8393,7 @@
 			(uuid "6f004f70-e3fd-482b-82a7-e1f3d1f1cac7")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "J1")
 					(unit 1)
@@ -8557,7 +8557,7 @@
 			(uuid "1b0a3b4d-9e60-486b-9184-97f0a3d37aaf")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "D7")
 					(unit 1)
