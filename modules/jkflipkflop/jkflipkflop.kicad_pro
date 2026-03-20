@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 2.6,
+          "height": 2.6,
+          "width": 2.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -672,6 +672,22 @@
       "jk-flipflop2"
     ],
     [
+      "259d22b3-bbdc-4d1c-a30b-6746a4fa5b6c",
+      "jk-flipflop4"
+    ],
+    [
+      "f5963553-6aa4-4c38-94f7-0ece2baa12c7",
+      "NAND3_3"
+    ],
+    [
+      "d6e37a9b-f91b-4e37-845a-5afc70f5cc4a",
+      "NAND3_4"
+    ],
+    [
+      "d0c4935d-0038-4f97-89c3-d88a30c01440",
+      "NAND3_1"
+    ],
+    [
       "caa3c691-168b-4b9f-bbf3-d1a553e02d69",
       "jk-flipflop3"
     ],
@@ -690,6 +706,30 @@
     [
       "d6e37a9b-f91b-4e37-845a-5afc70f5cc4a",
       "NAND3_4"
+    ],
+    [
+      "e2f65bd2-9742-41b7-aa1a-9fa16eb9bcaa",
+      "NAND3_2"
+    ],
+    [
+      "6f09ade3-0ab2-4fe3-adfa-ab244f537d84",
+      "jk-flipflop5"
+    ],
+    [
+      "f5963553-6aa4-4c38-94f7-0ece2baa12c7",
+      "NAND3_3"
+    ],
+    [
+      "d6e37a9b-f91b-4e37-845a-5afc70f5cc4a",
+      "NAND3_4"
+    ],
+    [
+      "d0c4935d-0038-4f97-89c3-d88a30c01440",
+      "NAND3_1"
+    ],
+    [
+      "e2f65bd2-9742-41b7-aa1a-9fa16eb9bcaa",
+      "NAND3_2"
     ],
     [
       "d0c4935d-0038-4f97-89c3-d88a30c01440",

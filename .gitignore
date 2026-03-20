@@ -1,4 +1,4 @@
-transistor-clock-backups/
+*-backups/
 *.lck
 \#auto_saved_files\#
 *.log
