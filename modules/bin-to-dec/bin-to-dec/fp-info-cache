@@ -1,4 +1,4 @@
-28115879325247161
+28121201445522914
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -111152,3 +111152,24 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
+mpcie
+mpcie-full-card
+
+
+0
+60
+52
+mpcie
+mpcie-half-card
+
+
+0
+56
+52
+mpcie
+mpcie-socket
+
+mpci, pci, pci express
+0
+60
+52

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 2.6,
+          "height": 2.6,
+          "width": 2.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -615,6 +615,10 @@
       "Root"
     ],
     [
+      "56916597-06d0-4a11-97bd-1503266c17ac",
+      "BDC1"
+    ],
+    [
       "5653fc28-2bc8-4af2-8007-5d6d268cbb44",
       "BDC"
     ],
@@ -625,6 +629,58 @@
     [
       "def7b1f3-460f-431f-aae7-cfd2b7e594c8",
       "nand4"
+    ],
+    [
+      "02af9b4c-5a00-41c6-9bab-af66b05d8229",
+      "nand6"
+    ],
+    [
+      "8ee20511-ed8c-440b-be49-5bddea04a22c",
+      "nand5"
+    ],
+    [
+      "3a4d62b6-d9e9-4542-816e-4c0c9af2d4e2",
+      "nand8"
+    ],
+    [
+      "b213b1ae-6923-4282-a3cd-39c5e8218402",
+      "nand7"
+    ],
+    [
+      "a252f2da-4fcb-47bd-92d9-0d9a35376730",
+      "nand1"
+    ],
+    [
+      "4a951fd5-0b7d-4b36-9277-9bc22b670f62",
+      "nand3"
+    ],
+    [
+      "79eb9f3c-3e83-4c18-8cdb-93b8da84deb3",
+      "nand2"
+    ],
+    [
+      "f6ccbfec-8dc5-4010-ac3f-a448bba123af",
+      "nand"
+    ],
+    [
+      "3eb00425-b421-49ba-b9e4-55b6a2bbd01e",
+      "nand11"
+    ],
+    [
+      "c4f7acdb-6884-4133-9f18-fa2eb9d2c731",
+      "nand12"
+    ],
+    [
+      "bb5d11ea-2665-4696-a8b1-333e14f91e52",
+      "nand10"
+    ],
+    [
+      "def7b1f3-460f-431f-aae7-cfd2b7e594c8",
+      "nand4"
+    ],
+    [
+      "7b16cff8-bb81-478b-b84d-95244957693b",
+      "nand9"
     ],
     [
       "02af9b4c-5a00-41c6-9bab-af66b05d8229",
