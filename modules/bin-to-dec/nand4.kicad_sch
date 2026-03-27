@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "6845b83c-a6f0-413e-9e3b-f2a443f3c183")
+	(uuid "3dc8f864-1eab-4749-b233-f50a58f36215")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Transistor_FET:2N7002"
@@ -831,205 +831,327 @@
 		)
 	)
 	(junction
-		(at 147.32 68.58)
+		(at 144.78 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e805784-0126-4985-96d8-bfdf30f81ad8")
+		(uuid "009e4b0c-5d50-46e4-999a-5c20190e48dc")
 	)
 	(junction
-		(at 147.32 66.04)
+		(at 156.21 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b92bb6eb-e84f-4988-8f3c-c056724adafa")
+		(uuid "1a24be6d-29c5-4695-a42e-10b265942b8d")
 	)
 	(junction
-		(at 147.32 55.88)
+		(at 156.21 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bc232116-f00c-4dd8-9139-b3d3814b09da")
+		(uuid "1b8b5766-dc04-458b-bb8d-b878eafc1042")
+	)
+	(junction
+		(at 144.78 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2345ffdc-c1c4-4149-a667-408470e1d147")
+	)
+	(junction
+		(at 132.08 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd610b1c-4657-430c-85ce-43225978a2a1")
+	)
+	(junction
+		(at 144.78 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddc36587-8beb-4fbd-9eb8-e5cccf0c030e")
+	)
+	(junction
+		(at 132.08 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fffc7f6c-5555-4c43-9fb0-fc4a22c66bed")
 	)
 	(wire
 		(pts
-			(xy 147.32 81.28) (xy 147.32 85.09)
+			(xy 144.78 92.71) (xy 144.78 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ac67817-8abe-494f-a8a4-1a563814ad97")
+		(uuid "30d1f8f9-ba3c-4633-a267-3a5239f22ba2")
 	)
 	(wire
 		(pts
-			(xy 135.89 66.04) (xy 147.32 66.04)
+			(xy 107.95 77.47) (xy 132.08 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c633e8a-f873-44c3-ad2c-4403197e7dae")
+		(uuid "3d66e75a-e673-4429-a67f-ba8e9b21a221")
 	)
 	(wire
 		(pts
-			(xy 135.89 55.88) (xy 147.32 55.88)
+			(xy 144.78 116.84) (xy 144.78 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "193e1edb-7628-4a14-a89e-0a4c3e0c9243")
+		(uuid "439fbfca-a664-43cc-be52-a54d1ac84f80")
 	)
 	(wire
 		(pts
-			(xy 147.32 68.58) (xy 147.32 71.12)
+			(xy 107.95 67.31) (xy 132.08 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ab0bfe6-53d4-4911-8632-e28bf71c1777")
+		(uuid "4c665cb2-3bf5-4085-96e2-6ebe33bcc1cf")
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 147.32 68.58)
+			(xy 144.78 77.47) (xy 156.21 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20c083f6-0d7b-49ea-b5af-130e1fd19178")
+		(uuid "4e4b3512-dcf7-4b73-9e93-66d3c9f5c597")
 	)
 	(wire
 		(pts
-			(xy 147.32 68.58) (xy 158.75 68.58)
+			(xy 144.78 80.01) (xy 156.21 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ac5abed-2fea-418e-9b84-86e202024923")
+		(uuid "5b716c9b-c44f-4578-9d46-ba127e82c1d5")
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 160.02 66.04)
+			(xy 144.78 67.31) (xy 156.21 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "684ef6dd-e9b8-4265-b367-f3539753dd1d")
+		(uuid "757bf84e-21b8-4e1f-a98a-f80a9cfbd6b5")
 	)
 	(wire
 		(pts
-			(xy 147.32 55.88) (xy 160.02 55.88)
+			(xy 132.08 67.31) (xy 144.78 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bb9144c-e7d4-487e-ae93-bfcaef229b0b")
+		(uuid "7b1627ff-2cc9-4ce2-8c38-c5ab913313c5")
+	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbbf217-0367-4b4e-9f6a-a253f93ff110")
+	)
+	(wire
+		(pts
+			(xy 144.78 80.01) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97109ccb-7936-431a-a372-652fb7a88f46")
+	)
+	(wire
+		(pts
+			(xy 132.08 77.47) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4af0db7-561f-4e4a-914c-f499f872d4a1")
+	)
+	(wire
+		(pts
+			(xy 156.21 67.31) (xy 180.34 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23764dd-1794-41c5-83d4-983d736f23e9")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65f9ee9-00c9-42a3-8319-2b8c5a2d1a5d")
+	)
+	(hierarchical_label "B"
+		(shape input)
+		(at 139.7 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23eb4f2a-50c1-41af-b356-5bd30c03f372")
+	)
+	(hierarchical_label "B"
+		(shape input)
+		(at 137.16 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53285b0b-3876-4b9a-8ac4-dc9105937fb7")
 	)
 	(hierarchical_label "Out"
 		(shape output)
-		(at 158.75 68.58 0)
+		(at 156.21 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0cb82575-7b64-4b8f-b8f6-7a8abcb2e127")
+		(uuid "5822a561-cdf1-4404-ad48-cf4b125a47d2")
 	)
-	(hierarchical_label "A"
+	(hierarchical_label "D"
 		(shape input)
-		(at 139.7 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44c52dca-21b1-4e97-b0b3-75b296c7afd0")
-	)
-	(hierarchical_label "B"
-		(shape input)
-		(at 139.7 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a0895705-3d92-4e43-b883-56818c77e06f")
-	)
-	(hierarchical_label "B"
-		(shape input)
-		(at 167.64 60.96 0)
+		(at 187.96 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ad733e6c-7816-4744-a215-83a5bd125ed3")
+		(uuid "667ae47f-bc26-457f-b8d3-e6844b081a09")
 	)
 	(hierarchical_label "A"
 		(shape input)
-		(at 128.27 60.96 180)
+		(at 137.16 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f5b40a89-111c-477c-ad9f-8bdcfa10d01e")
+		(uuid "9a79501b-dd44-462e-9176-d1de1f776be3")
+	)
+	(hierarchical_label "C"
+		(shape input)
+		(at 163.83 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1b59cb0-d08c-4f24-b165-5b20b7e71a43")
+	)
+	(hierarchical_label "D"
+		(shape input)
+		(at 137.16 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bff1d31a-44a7-4a62-83b0-de5ccb73049b")
+	)
+	(hierarchical_label "C"
+		(shape input)
+		(at 137.16 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c83eaa31-24fc-4fdc-a500-09a215c4c9f1")
+	)
+	(hierarchical_label "A"
+		(shape input)
+		(at 100.33 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dec4b534-733c-4e48-acbb-b2dc5d159965")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 147.32 95.25 0)
+		(lib_id "Transistor_FET:2N7002")
+		(at 142.24 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "313f4e09-7c5a-4f69-a7a1-45c1282f7dee")
-		(property "Reference" "#PWR08"
-			(at 147.32 101.6 0)
+		(uuid "2d8d4f51-269f-4046-a188-38cf7efc22d7")
+		(property "Reference" "Q28"
+			(at 147.447 124.5178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 147.447 126.9421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 147.32 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 147.32 99.3831 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 147.32 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 95.25 0)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 142.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,20 +1160,244 @@
 			)
 		)
 		(pin "1"
-			(uuid "f86d6435-8a45-41b9-aa7b-8958de5ba6d4")
+			(uuid "379ed14f-2e53-462c-b252-e6ed101863e3")
+		)
+		(pin "2"
+			(uuid "eac1c46f-b003-4fe1-9c2b-d03948891070")
+		)
+		(pin "3"
+			(uuid "f727cd40-6edc-49f4-a386-1dda1f982dfe")
 		)
 		(instances
 			(project "bin-to-dec"
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/8559444b-ed80-4591-94fd-530ce32ce577"
-					(reference "#PWR026")
+				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
+					(reference "Q28")
 					(unit 1)
 				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54"
-					(reference "#PWR016")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 142.24 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44e693ce-bb65-4b47-bbe1-de9bfad803a6")
+		(property "Reference" "Q33"
+			(at 147.447 86.4178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 147.447 88.8421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 147.32 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cdc4f13-ba70-4f9b-b989-9d71b001ceaf")
+		)
+		(pin "2"
+			(uuid "c8d6098e-99e8-400c-abc8-c5fd31dda296")
+		)
+		(pin "3"
+			(uuid "0a630669-a789-46a8-aaf2-be7c852d4ac8")
+		)
+		(instances
+			(project "bin-to-dec"
+				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
+					(reference "Q33")
 					(unit 1)
 				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/c84f6135-6667-4c7e-9ce8-5338f93253d6"
-					(reference "#PWR08")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMP3099L")
+		(at 134.62 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76af46e4-0b4c-44f0-a03a-2d28dd48ef6a")
+		(property "Reference" "Q34"
+			(at 129.413 73.6022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP3099L"
+			(at 129.413 71.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 129.54 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b7563b4-97d8-4735-affd-4423d9776e5b")
+		)
+		(pin "3"
+			(uuid "bd921436-7334-4b4f-a345-ddd5b57bbbac")
+		)
+		(pin "1"
+			(uuid "ed5082fc-2abf-4e9d-aaa6-02646710344e")
+		)
+		(instances
+			(project "bin-to-dec"
+				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
+					(reference "Q34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMP3099L")
+		(at 182.88 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ddf2c12-8705-4cce-9548-f0c516f3cf75")
+		(property "Reference" "Q36"
+			(at 177.673 73.6022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP3099L"
+			(at 177.673 71.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 177.8 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 182.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4377906-d565-4552-ba2e-473354407c45")
+		)
+		(pin "3"
+			(uuid "22ae07bc-1952-49aa-86c0-b86a428b36c0")
+		)
+		(pin "1"
+			(uuid "6843af85-47cc-494f-bc18-8b6fe6da2aa4")
+		)
+		(instances
+			(project "bin-to-dec"
+				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
+					(reference "Q36")
 					(unit 1)
 				)
 			)
@@ -1059,16 +1405,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 147.32 55.88 0)
+		(at 144.78 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3fc0ab98-af0d-4b6b-9491-deae8f245d16")
-		(property "Reference" "#PWR07"
-			(at 147.32 59.69 0)
+		(uuid "ab043837-acd0-419e-a0c9-90af4b9f98aa")
+		(property "Reference" "#PWR05"
+			(at 144.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1423,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 147.32 51.7469 0)
+			(at 144.78 63.1769 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 55.88 0)
+			(at 144.78 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 55.88 0)
+			(at 144.78 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1449,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 147.32 55.88 0)
+			(at 144.78 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,104 +1458,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0f749d1-a640-43f2-b7b9-c242766d9dec")
+			(uuid "e7ed02dd-fb59-4315-9661-b412626b155f")
 		)
 		(instances
 			(project "bin-to-dec"
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/8559444b-ed80-4591-94fd-530ce32ce577"
-					(reference "#PWR025")
-					(unit 1)
-				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54"
-					(reference "#PWR015")
-					(unit 1)
-				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/c84f6135-6667-4c7e-9ce8-5338f93253d6"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 144.78 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8feb5ee6-7518-4933-b259-7263193e62ef")
-		(property "Reference" "Q11"
-			(at 149.987 88.9578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 149.987 91.3821 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 149.86 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe067587-f652-4721-bd7b-1a2e4ae2a085")
-		)
-		(pin "2"
-			(uuid "03833ac6-102a-4088-baf4-486131fe1057")
-		)
-		(pin "3"
-			(uuid "a91764d3-c8a2-4103-bbdb-f708a061b5d7")
-		)
-		(instances
-			(project "bin-to-dec"
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/8559444b-ed80-4591-94fd-530ce32ce577"
-					(reference "Q61")
-					(unit 1)
-				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54"
-					(reference "Q33")
-					(unit 1)
-				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/c84f6135-6667-4c7e-9ce8-5338f93253d6"
-					(reference "Q11")
+				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1217,183 +1471,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMP3099L")
-		(at 162.56 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "979308b0-0772-43ab-989f-4fe9092daeda")
-		(property "Reference" "Q12"
-			(at 157.353 62.1722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMP3099L"
-			(at 157.353 59.7479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 157.48 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 162.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a43a5cd8-9478-4cf1-bdeb-b228e034cbea")
-		)
-		(pin "3"
-			(uuid "9d7bcd89-185b-41de-a2c3-4d3f7f9f01c4")
-		)
-		(pin "1"
-			(uuid "9f9664c4-a15f-4d52-b3a7-6662b536a17c")
-		)
-		(instances
-			(project "bin-to-dec"
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/8559444b-ed80-4591-94fd-530ce32ce577"
-					(reference "Q62")
-					(unit 1)
-				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54"
-					(reference "Q34")
-					(unit 1)
-				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/c84f6135-6667-4c7e-9ce8-5338f93253d6"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 144.78 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5a06c3a-ed64-41b1-ae0b-1a6a58288472")
-		(property "Reference" "Q10"
-			(at 149.987 74.9878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 149.987 77.4121 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 149.86 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 149.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 144.78 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e758e598-379f-4982-8819-1c0235513cbe")
-		)
-		(pin "2"
-			(uuid "49b53cc9-a640-481f-98bb-54952927a3d8")
-		)
-		(pin "3"
-			(uuid "7c1b0b01-17ff-4601-9339-d50aca618630")
-		)
-		(instances
-			(project "bin-to-dec"
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/8559444b-ed80-4591-94fd-530ce32ce577"
-					(reference "Q60")
-					(unit 1)
-				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54"
-					(reference "Q32")
-					(unit 1)
-				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/c84f6135-6667-4c7e-9ce8-5338f93253d6"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:DMP3099L")
-		(at 133.35 60.96 0)
+		(at 105.41 72.39 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fa7a95eb-d224-4395-ab01-91091cba8502")
-		(property "Reference" "Q9"
-			(at 138.557 62.1722 0)
+		(uuid "acf02ad6-49f3-49ff-a0a9-718dccaa7b30")
+		(property "Reference" "Q25"
+			(at 110.617 73.6022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1489,7 @@
 			)
 		)
 		(property "Value" "DMP3099L"
-			(at 138.557 59.7479 0)
+			(at 110.617 71.1779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1498,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 138.43 59.055 0)
+			(at 110.49 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1509,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
-			(at 138.43 57.15 0)
+			(at 110.49 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,7 +1519,7 @@
 			)
 		)
 		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 133.35 60.96 0)
+			(at 105.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,26 +1528,311 @@
 			)
 		)
 		(pin "2"
-			(uuid "52bae0e0-49c5-426b-81cd-01f86c8b2600")
+			(uuid "799acb2b-4eb0-48d8-856e-9f7bb19cfb38")
 		)
 		(pin "3"
-			(uuid "0d4cb03b-5563-4825-8785-d59a9b7bbd59")
+			(uuid "dd625483-ea11-4904-8548-d39661c840a3")
 		)
 		(pin "1"
-			(uuid "a6660af7-9d49-4685-8bae-1e744e0eb7ed")
+			(uuid "1c0c1cdd-e745-4b79-bd4e-8f83afea11ce")
 		)
 		(instances
 			(project "bin-to-dec"
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/8559444b-ed80-4591-94fd-530ce32ce577"
-					(reference "Q59")
+				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
+					(reference "Q25")
 					(unit 1)
 				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54"
-					(reference "Q31")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMP3099L")
+		(at 158.75 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb06c368-8160-4ab3-9c58-fc0b9e93d317")
+		(property "Reference" "Q35"
+			(at 153.543 73.6022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP3099L"
+			(at 153.543 71.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 153.67 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c02a1b1-65c6-4516-8ca3-a70ed91824dd")
+		)
+		(pin "3"
+			(uuid "a4e02321-bfd6-4408-a60a-60f0795d5bc5")
+		)
+		(pin "1"
+			(uuid "28d836a9-71fb-45ec-a0fb-d22329e0b741")
+		)
+		(instances
+			(project "bin-to-dec"
+				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
+					(reference "Q35")
 					(unit 1)
 				)
-				(path "/b244e12b-f85f-4579-ba5e-848643f54694/c84f6135-6667-4c7e-9ce8-5338f93253d6"
-					(reference "Q9")
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c904f6eb-9e5b-466d-8eab-6ad1cc678b06")
+		(property "Reference" "#PWR06"
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 134.9431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ba22baf-eb82-47a4-8834-353901582585")
+		)
+		(instances
+			(project "bin-to-dec"
+				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 142.24 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfabc3d2-efac-4db0-9453-9a84da087881")
+		(property "Reference" "Q26"
+			(at 147.447 100.3878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 147.447 102.8121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 147.32 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb550977-f6d1-4126-b8d4-841c41abdc20")
+		)
+		(pin "2"
+			(uuid "98928282-3a58-40aa-834c-f13c24f7ea0d")
+		)
+		(pin "3"
+			(uuid "180ddf0b-7b80-4f4b-bdcc-85eaf9aa9088")
+		)
+		(instances
+			(project "bin-to-dec"
+				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
+					(reference "Q26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 142.24 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfb17e07-5472-4924-b093-08ee80b8d213")
+		(property "Reference" "Q27"
+			(at 147.447 110.5478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 147.447 112.9721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 147.32 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c24cdb50-ac46-41f5-81a6-2da3313f8cf0")
+		)
+		(pin "2"
+			(uuid "2b0a88a9-41c1-457c-b0ab-ec7dd193c8c3")
+		)
+		(pin "3"
+			(uuid "2fbf5324-94f0-4bb0-8c94-40ab7c81458a")
+		)
+		(instances
+			(project "bin-to-dec"
+				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
+					(reference "Q27")
 					(unit 1)
 				)
 			)
