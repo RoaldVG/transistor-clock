@@ -1428,7 +1428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMP3099L"
+		(property "Value" "AO3401A"
 			(at 129.667 53.3979 0)
 			(effects
 				(font
@@ -1448,7 +1448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8553305450243108864"
 			(at 129.54 50.8 0)
 			(effects
 				(font
@@ -1467,7 +1467,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2940610"
+		(property "LCSC Part #" "C15127"
 			(at 124.46 54.61 0)
 			(effects
 				(font
@@ -1651,7 +1651,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMP3099L"
+		(property "Value" "AO3401A"
 			(at 164.973 53.3979 0)
 			(effects
 				(font
@@ -1671,7 +1671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8553305450243108864"
 			(at 165.1 50.8 0)
 			(effects
 				(font
@@ -1690,7 +1690,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2940610"
+		(property "LCSC Part #" "C15127"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -1874,7 +1874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMP3099L"
+		(property "Value" "AO3401A"
 			(at 143.383 53.3979 0)
 			(effects
 				(font
@@ -1894,7 +1894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8553305450243108864"
 			(at 143.51 50.8 0)
 			(effects
 				(font
@@ -1913,7 +1913,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2940610"
+		(property "LCSC Part #" "C15127"
 			(at 148.59 54.61 0)
 			(effects
 				(font
