@@ -229,8 +229,8 @@
 			(uuid "cdc6f84a-8b55-4ce2-a8b6-240992e59c9b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -560,8 +560,8 @@
 			(uuid "e3b2cdcc-2548-4081-9bc9-fc465ea6384d")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -615,13 +615,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q72"
-			(at 0 -2.4 90)
+			(at 1.4725 1.5575 180)
 			(layer "F.SilkS")
 			(uuid "972d8231-8de8-4f68-b982-15be55043c90")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -951,8 +951,8 @@
 			(uuid "288e3ab7-c241-4519-a1f0-db0d7752206e")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1006,13 +1006,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q71"
-			(at 0 -2.4 90)
+			(at -2.2583 -0.03 180)
 			(layer "F.SilkS")
 			(uuid "b455ec52-9ddc-49dd-8cdb-b956f303b12e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1342,8 +1342,8 @@
 			(uuid "4194676c-c0f0-41cf-82d7-8d5a6b830058")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1397,13 +1397,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q64"
-			(at 0 -2.4 0)
+			(at 0.4025 -2.1045 0)
 			(layer "F.SilkS")
 			(uuid "9613d26a-91b1-41ca-b97e-b9165a0df8cc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1733,8 +1733,8 @@
 			(uuid "fef69f4f-81ba-46d6-8fef-234a05669097")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1793,8 +1793,8 @@
 			(uuid "0a16b04b-ea27-4c86-a211-f0783e467b81")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1912,8 +1912,8 @@
 			(uuid "fc8f5a3a-3d88-48e4-9258-9ce9a8e5f938")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1955,13 +1955,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q14"
-			(at -3.912282 0.196016 0)
+			(at -3.172282 0.046016 0)
 			(layer "F.SilkS")
 			(uuid "83281bad-8726-4768-a3f0-f3d97cbbe047")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2291,8 +2291,8 @@
 			(uuid "d8bb4a27-6de1-4049-8907-6480f1c538d5")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2346,13 +2346,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q50"
-			(at 0 -2.4 0)
+			(at 0 2.5968 0)
 			(layer "F.SilkS")
 			(uuid "d179598e-99d1-4b7b-b8ea-40b427e24e97")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2682,8 +2682,8 @@
 			(uuid "048b2d86-0b7f-46a3-bd31-b35186c2c899")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2737,13 +2737,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q36"
-			(at 5.2005 9.0014 180)
+			(at 2.4775 -0.03 180)
 			(layer "F.SilkS")
 			(uuid "28d92966-11af-4633-ba94-fdd0c002e7b5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3073,8 +3073,8 @@
 			(uuid "3361521f-d7d9-4fb6-a9df-94f6f323025e")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3133,8 +3133,8 @@
 			(uuid "8e4c3658-73ef-4c2f-aa7b-72ee063487cd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3464,8 +3464,8 @@
 			(uuid "faeaf673-f540-479c-aa30-43c37c800373")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3519,13 +3519,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q73"
-			(at 0 -2.4 90)
+			(at -2.3345 0.102 180)
 			(layer "F.SilkS")
 			(uuid "e9a544c9-6235-4a09-b164-78c87bdf238e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3855,8 +3855,8 @@
 			(uuid "e9ac52f5-c76b-44b8-b0cc-206d1671bb26")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3910,13 +3910,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q35"
-			(at 5.0977 9.0734 180)
+			(at 2.5225 0.05 180)
 			(layer "F.SilkS")
 			(uuid "abf3e6d2-1e8d-481b-a8df-134d02e32422")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4246,8 +4246,8 @@
 			(uuid "a7200381-9b6e-4b51-b827-caa63dd4451a")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4306,8 +4306,8 @@
 			(uuid "f75d3b37-f5ee-4558-b288-2dfb1deea8db")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4637,8 +4637,8 @@
 			(uuid "24a11d4d-2957-4c86-b3a7-582e96e08b1b")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4692,13 +4692,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q24"
-			(at 0 -2.4 0)
+			(at 0.0075 -2.16 0)
 			(layer "F.SilkS")
 			(uuid "02a21b11-753e-495c-8650-f71e818ae7b6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5028,8 +5028,8 @@
 			(uuid "517bcc11-297d-4c96-b671-e725e8436ae6")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5083,21 +5083,20 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q12"
-			(at 0 -2.4 0)
+			(at -3.412484 0.031984 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7c9804cf-f9d3-41be-b3d6-5fc757aa59cc")
+			(uuid "481f3bb5-0257-4134-ba72-d82b34ad0ea6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "AO3401A"
 			(at 0 2.4 0)
 			(layer "F.Fab")
-			(uuid "b71e08ae-39fe-4518-82ca-77d6fc49b471")
+			(uuid "0516f804-504c-407c-a012-53032b1db95e")
 			(effects
 				(font
 					(size 1 1)
@@ -5109,7 +5108,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf97c2e1-1b90-4f2f-af6f-acf69cd907ee")
+			(uuid "037016db-7e14-4149-9786-c2242f327d99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5120,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f413d113-ae3d-4eff-850c-140897942efa")
+			(uuid "1971e4d4-fefe-4ddd-807b-c2000a9160e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,8 +5419,8 @@
 			(uuid "f0173ffa-a126-428c-a5e6-8565eff82992")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5475,13 +5474,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q37"
-			(at 2.8755 0.0892 180)
+			(at 2.6025 -0.04 180)
 			(layer "F.SilkS")
 			(uuid "34bc36d8-a855-4ae4-8469-90c5b59aac45")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5811,8 +5810,8 @@
 			(uuid "1a5c7bf4-e556-48a6-83b5-fa5669286e4f")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5866,13 +5865,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q10"
-			(at -3.396282 -0.052984 0)
+			(at -3.066282 0.007016 0)
 			(layer "F.SilkS")
 			(uuid "22d231e6-9f90-469f-875a-2f18655fdac6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6202,8 +6201,8 @@
 			(uuid "c2a8235c-baad-469a-b7b9-c7cda970f4f0")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6257,13 +6256,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q9"
-			(at -3.582282 0.066016 0)
+			(at -2.842282 0.066016 0)
 			(layer "F.SilkS")
 			(uuid "58796aff-bb2e-49bf-a1fa-6336325ca81c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6593,8 +6592,8 @@
 			(uuid "a0e51d44-235f-4609-a3fa-396d41e60b16")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6653,8 +6652,8 @@
 			(uuid "e87962ab-4f0d-4741-bc2f-60aab0eafcff")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6984,8 +6983,8 @@
 			(uuid "b116a197-879e-4576-8c19-414d93330a8c")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7044,8 +7043,8 @@
 			(uuid "19006941-2fd5-4959-919f-815c672a71b4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7375,8 +7374,8 @@
 			(uuid "45bd441f-ff39-4d46-9891-650bfa5e88d7")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7435,8 +7434,8 @@
 			(uuid "65361a77-579e-4c34-9894-0fc8a246e94f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7766,8 +7765,8 @@
 			(uuid "458e8769-38dc-45b8-86a0-e9ce81ca26fa")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7821,13 +7820,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q69"
-			(at 0 -2.4 0)
+			(at -0.075266 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "2036eb4c-c86b-4951-afe8-c73fd12b0ba8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8157,8 +8156,8 @@
 			(uuid "bb8bd68b-651c-45b3-ba77-58590b999b09")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8217,8 +8216,8 @@
 			(uuid "0042ad96-d1d8-43d3-ab7f-2c4c1ff9de0d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8548,8 +8547,8 @@
 			(uuid "02aa47a2-0097-4db1-aeb3-cb9ed44996f4")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8603,13 +8602,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q60"
-			(at 0 -2.4 0)
+			(at 0 -2.13 0)
 			(layer "F.SilkS")
 			(uuid "f831152c-5297-4c33-a3ec-24978e834695")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8939,8 +8938,8 @@
 			(uuid "fc81c419-86be-4205-9aeb-80365516ccbe")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8999,8 +8998,8 @@
 			(uuid "b3d6e45f-1c96-4717-a554-6a95c3d2d237")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9330,8 +9329,8 @@
 			(uuid "a78dc366-04e9-48ba-976f-3b6c63fa6f8d")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9390,8 +9389,8 @@
 			(uuid "077e4e53-b3ab-4c76-abe3-a2572e3123d5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9721,8 +9720,8 @@
 			(uuid "a2983b07-a2a7-4b8a-84f3-7243709edc44")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9776,13 +9775,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q41"
-			(at 2.6977 0.018 180)
+			(at 2.4825 0.03 180)
 			(layer "F.SilkS")
 			(uuid "7bf13490-1326-48c8-b944-3f358d4a3831")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10112,8 +10111,8 @@
 			(uuid "cad7771f-e709-4f8e-9afa-c7306e5d931c")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10172,8 +10171,8 @@
 			(uuid "5f5cd7ac-817e-4d5b-b4bb-a01671948f38")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10291,8 +10290,8 @@
 			(uuid "09843a96-8c05-4924-8883-f94742aa0e1c")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10334,13 +10333,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q20"
-			(at 0 -2.4 0)
+			(at -0.0675 -2.22 0)
 			(layer "F.SilkS")
 			(uuid "d2a57c33-a6f1-493b-808c-d640d33d827c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10670,8 +10669,8 @@
 			(uuid "27bf35af-4483-4d36-b086-2dd61e10290a")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10730,8 +10729,8 @@
 			(uuid "66866ab3-bc24-461a-af28-52787fa4823c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11061,8 +11060,8 @@
 			(uuid "ff34ae2c-6a0a-47cb-8c5e-fd099ffee769")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11112,17 +11111,17 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "622cf7df-acd8-44f5-852f-630846da0677")
-		(at 173.3775 130.635)
+		(at 173.45 131.24)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q27"
-			(at 0 -2.4 0)
+			(at -0.02 -2.16 0)
 			(layer "F.SilkS")
 			(uuid "86ff40e3-fb08-42e6-a36d-5494af1be3ab")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11452,8 +11451,8 @@
 			(uuid "45babbde-46c9-46e1-b013-d7d104d1a5da")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11512,8 +11511,8 @@
 			(uuid "e871acb2-86a8-43be-b6cb-4580a896abf9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11843,8 +11842,8 @@
 			(uuid "2aca738b-a49c-4f57-b90a-21905764b314")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11898,13 +11897,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q28"
-			(at 0 -2.4 0)
+			(at -0.0075 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "45543835-199a-44bb-b99b-be4adc5d6b5f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12234,8 +12233,8 @@
 			(uuid "fb201b7a-86f1-44cb-b4f3-7cac4d684e89")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12289,13 +12288,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q11"
-			(at -3.886282 0.037016 0)
+			(at -3.096282 0.107016 0)
 			(layer "F.SilkS")
 			(uuid "43347939-e195-42f3-af9f-05ff84a40293")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12625,8 +12624,8 @@
 			(uuid "206211c1-2474-4618-babc-d885a4921c59")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12685,8 +12684,8 @@
 			(uuid "32eccd2b-7323-4cee-8013-a26ca7ef3609")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13016,8 +13015,8 @@
 			(uuid "4680c083-88e7-4a06-aa78-7ad2d1dc5745")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13067,17 +13066,17 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "6f60cf8a-50cc-4402-b6cb-0ba39605de9e")
-		(at 169.285 130.635)
+		(at 169.3575 131.24)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q19"
-			(at 0 -2.4 0)
+			(at -0.0675 -2.22 0)
 			(layer "F.SilkS")
 			(uuid "b89a9706-f1e0-47ba-a1bc-f3988c039a9d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13407,8 +13406,8 @@
 			(uuid "33ead034-2a85-4086-adad-fdbc7b2f3cde")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13467,8 +13466,8 @@
 			(uuid "5a456d5b-f57e-45b7-8861-1d35c9fb9dc3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13798,8 +13797,8 @@
 			(uuid "ae82d0b0-eb5b-4514-ad1a-25bbeea53cbf")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13857,8 +13856,8 @@
 			(uuid "96c5d056-d950-42b5-9d4d-64078e500818")
 			(effects
 				(font
-					(size 1.524 1.524)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -14668,8 +14667,8 @@
 			(uuid "0988d359-80c1-4c15-8f45-4f0aad6aa6d6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -14787,8 +14786,8 @@
 			(uuid "5222414e-47da-4510-825a-f215674f2b1d")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -14835,8 +14834,8 @@
 			(uuid "b709fa51-446e-4789-b1f2-578164eeeb4c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -15166,8 +15165,8 @@
 			(uuid "77781ab4-3aed-4d41-87ed-fcc9c923a04f")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -15226,8 +15225,8 @@
 			(uuid "2ca469d2-529c-4c97-a0a5-4aae0327b635")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -15557,8 +15556,8 @@
 			(uuid "3c3eb8a4-7b15-47c8-9eac-009755e57fbf")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -15617,8 +15616,8 @@
 			(uuid "2745e9f6-5778-4396-affa-b611a31079f6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -15948,8 +15947,8 @@
 			(uuid "bf2ea307-742d-4ca4-8092-c546a094fa51")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -16008,8 +16007,8 @@
 			(uuid "566641d4-cfb1-4084-a373-227210f3d5c5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -16339,8 +16338,8 @@
 			(uuid "89b879b3-47cf-46b3-a95b-7f704f7465ac")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -16390,17 +16389,17 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "8541b3f1-e4e0-40e9-8ec5-41ffcbb0dc4d")
-		(at 173.3303 139.4612)
+		(at 173.2325 141.12)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q34"
-			(at 0 -2.4 0)
+			(at 0.0375 -2.1 0)
 			(layer "F.SilkS")
 			(uuid "066c6f0b-d296-480a-85b5-6197507cfdd4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -16730,8 +16729,8 @@
 			(uuid "d9165558-2c25-41fe-aee7-f7c2579dc769")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -16785,13 +16784,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q66"
-			(at 0 -2.4 0)
+			(at -1.230266 -2.17 0)
 			(layer "F.SilkS")
 			(uuid "00ea45ac-acd3-403c-b890-b9c9eb61b039")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -17121,8 +17120,8 @@
 			(uuid "6a728bf4-1502-42e8-b669-1b3c6b6309e3")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -17181,8 +17180,8 @@
 			(uuid "9a1c3326-6c7e-4aeb-adda-57280aea8725")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -17512,8 +17511,8 @@
 			(uuid "73fb2ef9-2fd9-47f5-bd6a-2523aa352b54")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -17572,8 +17571,8 @@
 			(uuid "dff97f6f-6bf3-49b8-8ec1-684f2f2630c6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -17903,8 +17902,8 @@
 			(uuid "2bb20b5e-bea7-445b-95b5-a1a1901eea85")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -17963,8 +17962,8 @@
 			(uuid "46404252-6155-4541-b0b1-4c5cc1eb05e7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -18294,8 +18293,8 @@
 			(uuid "13096bdc-e731-4ae3-9bbb-889ed8ffdd85")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -18349,13 +18348,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at -3.376282 0.067016 0)
+			(at -2.706282 0.057016 0)
 			(layer "F.SilkS")
 			(uuid "b53c7191-d5d8-428c-9031-f943ffc931e6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -18685,8 +18684,8 @@
 			(uuid "34e38daf-7aab-43a9-bffd-302b35b873ac")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -18740,13 +18739,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q65"
-			(at 0 -2.4 0)
+			(at -1.160266 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "4be3abcd-e0ab-4ffa-9143-6e90fdd19524")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19076,8 +19075,8 @@
 			(uuid "518a69a1-2607-4195-a50d-fbb4bcfd9a51")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19136,8 +19135,8 @@
 			(uuid "cf838497-9f85-42e4-85e5-f925d33f8d67")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19467,8 +19466,8 @@
 			(uuid "15892fe9-91a1-4fa2-8f7c-a9452acc7471")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19518,17 +19517,17 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "9d6fbeee-6470-4548-b22e-a53e10ab0345")
-		(at 168.7553 139.4612)
+		(at 168.6575 141.12)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q42"
-			(at 0 -2.4 0)
+			(at 0.0025 -2.12 0)
 			(layer "F.SilkS")
 			(uuid "8e347ddf-c425-4bcd-9e90-77f42090421c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19858,8 +19857,8 @@
 			(uuid "d0261c3c-7b98-471e-b5ee-4ba0d3ad09f5")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19918,8 +19917,8 @@
 			(uuid "00d424d0-04f7-44e1-b5d1-7743e343c35f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -20249,8 +20248,8 @@
 			(uuid "e21c09db-3508-4ee6-929a-35e15e32ddfe")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -20304,13 +20303,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q30"
-			(at 0 -2.4 0)
+			(at 0.0475 -2.2745 0)
 			(layer "F.SilkS")
 			(uuid "bc364181-8f3b-4acb-bb22-7dc2c278e4b4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -20640,8 +20639,8 @@
 			(uuid "8d891644-a178-4040-ab88-0271a89a653d")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -20700,8 +20699,8 @@
 			(uuid "914f26af-2abb-4b53-80fe-7e8087d29d36")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21031,8 +21030,8 @@
 			(uuid "b6e1e52b-163c-4296-a6cf-bc409c32b231")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21086,13 +21085,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q31"
-			(at 0 -2.4 0)
+			(at -0.0625 -2.2645 0)
 			(layer "F.SilkS")
 			(uuid "907261b6-8a86-4e26-980d-57c187dfca1e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21422,8 +21421,8 @@
 			(uuid "188736b2-b3d2-41d6-87b5-34f6e3f490f7")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21482,8 +21481,8 @@
 			(uuid "1eb49c5d-379d-4fd6-a338-d2ff94f9545a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21813,8 +21812,8 @@
 			(uuid "bbdeec4c-c657-40e0-99f1-3786bfb3eb88")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21864,7 +21863,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "b5d76f64-5974-439f-8e55-f742957ee253")
-		(at 168.7553 135.0112)
+		(at 168.6575 136.67)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q39"
@@ -21873,8 +21872,8 @@
 			(uuid "1bf10ad8-ca49-456e-8289-5b92ef8fca96")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22204,8 +22203,8 @@
 			(uuid "665e9588-9268-4d1f-a35c-2dcc09b0f490")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22264,8 +22263,8 @@
 			(uuid "e6e11735-8a4f-4404-8d01-a7b1f2710c6d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22595,8 +22594,8 @@
 			(uuid "a54a2ef3-61a6-47e9-86bb-497b3a825acb")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22655,8 +22654,8 @@
 			(uuid "e13ea7dd-affb-4b52-adad-1350a1b59edf")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22986,8 +22985,8 @@
 			(uuid "741fcd48-d393-463d-850e-9f3b7c686685")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23046,8 +23045,8 @@
 			(uuid "a52dd4b2-5670-48fe-aba0-470fe27b7f26")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23377,8 +23376,8 @@
 			(uuid "424ecdd1-cfa2-442d-bcf1-1fb6ada7fa23")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23437,8 +23436,8 @@
 			(uuid "f1e1636d-90bd-4d51-928c-e9cf1e8b4568")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23768,8 +23767,8 @@
 			(uuid "5ba08a11-7831-4a64-812a-981aea43270e")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23828,8 +23827,8 @@
 			(uuid "0f4a611a-a7d4-462a-9359-63e6532e7cc5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -24159,8 +24158,8 @@
 			(uuid "31a7f49b-79cd-4750-ab95-acc5b0c862d6")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -24214,13 +24213,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q61"
-			(at 2.8767 0.0372 180)
+			(at 2.5975 0.05 180)
 			(layer "F.SilkS")
 			(uuid "74bfc6a0-0d2c-441f-b77e-411e08cbe842")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -24550,8 +24549,8 @@
 			(uuid "96fc9932-c0ce-4833-b420-e12738b0eae9")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -24601,17 +24600,17 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "d06a4de0-70a8-4c44-992b-4d1457cb1f76")
-		(at 168.7553 143.9112)
+		(at 168.6575 145.57)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q48"
-			(at 0 -2.4 0)
+			(at 0.0325 -2.17 0)
 			(layer "F.SilkS")
 			(uuid "f055a47b-e28a-421e-a926-f8bfdc72ad0d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -24941,8 +24940,8 @@
 			(uuid "04a01b4c-fce3-4e12-b519-c726a107e930")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -25001,8 +25000,8 @@
 			(uuid "389efee9-6ac4-45b4-9607-a1f7b5942808")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -25332,8 +25331,8 @@
 			(uuid "9d229d3f-766b-4908-8692-6f9f1c0a9636")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -25392,8 +25391,8 @@
 			(uuid "b99fdec4-b7dd-4ff2-9808-b4bc971b6f1f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -25723,8 +25722,8 @@
 			(uuid "619669f8-aa30-41fa-8fe5-0e6c6005b1f5")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -25778,13 +25777,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
-			(at -3.452282 0.176016 0)
+			(at -2.782282 -0.023984 0)
 			(layer "F.SilkS")
 			(uuid "3338e449-9e4c-4f56-af4a-9fced67e59f5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26114,8 +26113,8 @@
 			(uuid "30b18693-d527-4797-8e51-e45a57e8ccae")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26165,17 +26164,17 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "d8ad5bf9-6187-45de-bff6-e17fe821e205")
-		(at 173.3303 143.9112)
+		(at 173.2325 145.57)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q52"
-			(at 0 -2.4 0)
+			(at -0.0025 -2.14 0)
 			(layer "F.SilkS")
 			(uuid "8c6c0ae2-5de6-484e-ba1d-2ade4d088ac6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26505,8 +26504,8 @@
 			(uuid "a9e84341-491f-4d83-ad16-2cd012352899")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26565,8 +26564,8 @@
 			(uuid "856dd582-d09e-4a8c-bfb4-64275e7d879a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26896,8 +26895,8 @@
 			(uuid "9a568662-362e-4682-81ed-bd382f4cd134")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26951,13 +26950,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q62"
-			(at 0 -2.4 0)
+			(at 0.4625 -2.2245 0)
 			(layer "F.SilkS")
 			(uuid "389ac77b-c7f7-46c8-beed-74464c0f3a4b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -27288,8 +27287,8 @@
 			(uuid "88a716b6-cb22-4058-88f1-f6ba703ec51c")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -27348,8 +27347,8 @@
 			(uuid "c9041f5b-ba72-4b2c-b25c-22612a8309e8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -27679,8 +27678,8 @@
 			(uuid "dedde0aa-b639-420e-8215-2cb885792273")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -27734,13 +27733,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q46"
-			(at 0 -2.4 0)
+			(at -0.00595 2.6476 0)
 			(layer "F.SilkS")
 			(uuid "08d8e0b7-a2f4-4ecb-97a7-0eb93a87ff6d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -28070,8 +28069,8 @@
 			(uuid "4b905302-3e02-46d0-85bc-12271a9f7414")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -28130,8 +28129,8 @@
 			(uuid "5913defa-ca37-49a8-83e2-4f748f8b40eb")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -28461,8 +28460,8 @@
 			(uuid "2e7a63cc-bb72-46b3-9aa5-388f25d4218c")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -28516,13 +28515,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q22"
-			(at 0 -2.4 0)
+			(at -0.0825 -2.14 0)
 			(layer "F.SilkS")
 			(uuid "6d73325d-01df-4b0f-b993-3b8f9828c011")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -28852,8 +28851,8 @@
 			(uuid "19e3cedf-fea0-4250-8e0f-cc72d6b55557")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -28907,13 +28906,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q23"
-			(at 2.8259 0.0068 180)
+			(at 2.5175 0.01 180)
 			(layer "F.SilkS")
 			(uuid "6e7d3469-609e-40cb-955e-154a2e8c6f86")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -29243,8 +29242,8 @@
 			(uuid "a12fa64e-bca6-4781-813c-5b95670fe0ba")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -29294,7 +29293,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "f5c572c6-32c9-4f81-aa6a-4802519bd63d")
-		(at 173.3303 135.0112)
+		(at 173.2325 136.67)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q44"
@@ -29303,8 +29302,8 @@
 			(uuid "6c3ce1c1-761e-4f74-af86-fd758f86762f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -29634,8 +29633,8 @@
 			(uuid "51471927-c74e-4d89-b315-96f8afe1f738")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -29694,8 +29693,8 @@
 			(uuid "e40acad6-a663-444f-b51f-f79939586121")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -30025,8 +30024,8 @@
 			(uuid "b4ca9077-d3ed-4e0d-8d08-cb9c16aaba27")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -30080,13 +30079,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q74"
-			(at 0 -2.4 90)
+			(at 1.4725 1.626 180)
 			(layer "F.SilkS")
 			(uuid "abf9199e-3386-4846-9e08-a4ee97e10700")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -30416,8 +30415,8 @@
 			(uuid "46e7d1a7-cea4-4628-825a-1255dc35070e")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -30633,8 +30632,8 @@
 		(uuid "15658fc5-a03e-4e3b-86c8-0064a5b762d8")
 	)
 	(segment
-		(start 171.100532 131.585)
-		(end 171.063516 131.622016)
+		(start 171.173032 132.19)
+		(end 171.136016 132.227016)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -30761,8 +30760,8 @@
 		(uuid "39741f03-7c07-41aa-8bfb-21fcf743a938")
 	)
 	(segment
-		(start 170.7343 140.4112)
-		(end 170.643816 140.320716)
+		(start 170.6365 142.07)
+		(end 170.546016 141.979516)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -30833,8 +30832,8 @@
 		(uuid "4bbbb4b0-61fc-4482-b97e-91d4f2f4deeb")
 	)
 	(segment
-		(start 172.3928 140.4112)
-		(end 170.7343 140.4112)
+		(start 172.295 142.07)
+		(end 170.6365 142.07)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -30865,8 +30864,8 @@
 		(uuid "59131ed5-a80c-46fc-a25d-bb99de0bb878")
 	)
 	(segment
-		(start 172.3928 135.9612)
-		(end 170.7843 135.9612)
+		(start 172.295 137.62)
+		(end 170.6865 137.62)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -31001,8 +31000,8 @@
 		(uuid "8cb412c3-f295-4bba-b3ba-bdcc292f5484")
 	)
 	(segment
-		(start 172.44 131.585)
-		(end 171.100532 131.585)
+		(start 172.5125 132.19)
+		(end 171.173032 132.19)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -31017,8 +31016,8 @@
 		(uuid "8fd42643-3be6-4e88-93b9-c0e272e1924e")
 	)
 	(segment
-		(start 170.9093 144.8612)
-		(end 170.818816 144.770716)
+		(start 170.8115 146.52)
+		(end 170.721016 146.429516)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -31049,8 +31048,8 @@
 		(uuid "a2e90800-eb80-423e-93b1-002df13aed19")
 	)
 	(segment
-		(start 172.3928 144.8612)
-		(end 170.9093 144.8612)
+		(start 172.295 146.52)
+		(end 170.8115 146.52)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -31121,8 +31120,8 @@
 		(uuid "bf2d605c-3263-4d9e-a169-c23b5d738a0e")
 	)
 	(segment
-		(start 170.7843 135.9612)
-		(end 170.668816 135.845716)
+		(start 170.6865 137.62)
+		(end 170.571016 137.504516)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -31369,7 +31368,7 @@
 		(uuid "63a7ea37-50fd-4967-8413-a4fadb24c072")
 	)
 	(via
-		(at 171.063516 131.622016)
+		(at 171.136016 132.227016)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -31393,7 +31392,7 @@
 		(uuid "7348fdb8-26a3-4d0e-bb25-49c2af12f186")
 	)
 	(via
-		(at 170.668816 135.845716)
+		(at 170.571016 137.504516)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -31449,7 +31448,7 @@
 		(uuid "8e6343b0-7bb1-47a9-b52c-caaa011cf20a")
 	)
 	(via
-		(at 170.643816 140.320716)
+		(at 170.546016 141.979516)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -31473,7 +31472,7 @@
 		(uuid "96dcc617-393a-4c49-a36e-4adae5fa2fa8")
 	)
 	(via
-		(at 170.818816 144.770716)
+		(at 170.721016 146.429516)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -31665,8 +31664,8 @@
 		(uuid "403c437a-4354-4b12-aa10-6afe3e0d4b74")
 	)
 	(segment
-		(start 169.535 131.585)
-		(end 170.04 132.09)
+		(start 169.6075 132.19)
+		(end 170.1125 132.695)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
@@ -31713,8 +31712,8 @@
 		(uuid "76e80081-77db-451d-bce7-72905641f3fa")
 	)
 	(segment
-		(start 167.8178 144.8612)
-		(end 167.8178 145.520716)
+		(start 167.72 146.52)
+		(end 167.72 147.179516)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
@@ -31801,8 +31800,8 @@
 		(uuid "bea08f5c-c08e-4e8a-95f3-0222f2547568")
 	)
 	(segment
-		(start 168.3475 131.585)
-		(end 169.535 131.585)
+		(start 168.42 132.19)
+		(end 169.6075 132.19)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
@@ -31889,7 +31888,7 @@
 		(uuid "5ae6eb6d-12c2-487e-9645-a6742ef8c689")
 	)
 	(via
-		(at 167.8178 145.520716)
+		(at 167.72 147.179516)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -31953,7 +31952,7 @@
 		(uuid "b934252e-3264-45f9-b6ca-c531e1f14861")
 	)
 	(via
-		(at 170.04 132.09)
+		(at 170.1125 132.695)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -32586,44 +32585,36 @@
 		(uuid "aafc4e7d-643e-4595-8cdc-6a1f9ac1d7b3")
 	)
 	(segment
-		(start 174.2678 143.002)
-		(end 174.2678 135.0112)
+		(start 174.17 144.6608)
+		(end 174.17 136.67)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 12)
 		(uuid "3b6fb909-9d95-48bd-b48b-8ff2b4577dc6")
 	)
 	(segment
-		(start 174.2678 143.9112)
-		(end 174.2678 143.002)
+		(start 174.17 145.57)
+		(end 174.17 144.6608)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 12)
 		(uuid "a1f6d554-32ab-4cac-8c13-dbb7116a5e6e")
 	)
 	(segment
-		(start 169.6928 135.0112)
-		(end 174.2678 135.0112)
+		(start 169.595 136.67)
+		(end 174.17 136.67)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 12)
 		(uuid "dd62e6a0-d426-41b1-a8a8-6a3ff056caae")
 	)
 	(via
-		(at 174.2678 143.002)
+		(at 174.17 144.6608)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 12)
 		(uuid "03690ea0-805e-43d1-a892-35e24959ea13")
-	)
-	(segment
-		(start 176.276 142.24)
-		(end 175.514 143.002)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 12)
-		(uuid "334d27a3-2f3d-4ffd-bd6f-e6643f6669b6")
 	)
 	(segment
 		(start 175.8188 116.4844)
@@ -32632,6 +32623,14 @@
 		(layer "B.Cu")
 		(net 12)
 		(uuid "583b2489-ae45-491f-b74c-5019640802cc")
+	)
+	(segment
+		(start 176.276 143.5748)
+		(end 175.19 144.6608)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 12)
+		(uuid "76b97d80-4391-4fa7-ae58-57f61404b3df")
 	)
 	(segment
 		(start 176.4278 81.4578)
@@ -32666,8 +32665,16 @@
 		(uuid "b81b2b0c-c5b0-4a65-8348-de93927c1c81")
 	)
 	(segment
-		(start 175.514 143.002)
-		(end 174.2678 143.002)
+		(start 176.276 142.24)
+		(end 176.276 143.5748)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 12)
+		(uuid "c31236f0-0e9d-478d-a3c5-bdf776da333c")
+	)
+	(segment
+		(start 175.19 144.6608)
+		(end 174.17 144.6608)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 12)
@@ -33306,15 +33313,15 @@
 		(uuid "fc281485-ba2c-458c-ab1c-e12072d8e5c0")
 	)
 	(segment
-		(start 167.8178 134.0612)
-		(end 172.3928 134.0612)
+		(start 167.72 135.72)
+		(end 172.295 135.72)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 20)
 		(uuid "81e41056-4114-41ff-b3d8-09153b0f62b0")
 	)
 	(via
-		(at 170.7642 134.0866)
+		(at 170.6664 135.7454)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -33322,8 +33329,8 @@
 		(uuid "30e09c1e-27d2-4895-a4f5-9b4f63a603a3")
 	)
 	(segment
-		(start 173.7614 134.0866)
-		(end 170.7642 134.0866)
+		(start 173.6636 135.7454)
+		(end 170.6664 135.7454)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 20)
@@ -33346,6 +33353,14 @@
 		(uuid "9d983cf5-0711-495f-87e2-d5e733504e21")
 	)
 	(segment
+		(start 174.8032 134.6058)
+		(end 174.901 134.508)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 20)
+		(uuid "9da239ca-7b5e-4d9d-b5ce-ec65d7e58a5a")
+	)
+	(segment
 		(start 174.901 126.1339)
 		(end 174.901 132.947)
 		(width 0.2)
@@ -33354,12 +33369,20 @@
 		(uuid "cbb7b340-5aa3-4897-8168-9daf38c13106")
 	)
 	(segment
-		(start 174.901 132.947)
-		(end 173.7614 134.0866)
+		(start 174.8032 134.6058)
+		(end 173.6636 135.7454)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 20)
 		(uuid "d179394e-078f-4888-ade4-37d52d432fd6")
+	)
+	(segment
+		(start 174.901 134.508)
+		(end 174.901 132.77)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 20)
+		(uuid "dc268873-b6cc-4f4b-9832-bed0e5900694")
 	)
 	(segment
 		(start 184.37285 141.2342)
@@ -34346,8 +34369,8 @@
 		(uuid "f1131c8b-76ba-45ea-a8ba-c6ab861ddb71")
 	)
 	(segment
-		(start 174.3025 126.765)
-		(end 174.3025 130.6225)
+		(start 174.375 127.37)
+		(end 174.375 131.2275)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 35)
@@ -34360,6 +34383,22 @@
 		(layer "F.Cu")
 		(net 35)
 		(uuid "58ce727b-e3cb-4700-8457-d0d0055a7135")
+	)
+	(segment
+		(start 174.3025 127.9975)
+		(end 174.3 128)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "c699974a-b26f-4821-813d-81a0287576a1")
+	)
+	(segment
+		(start 174.3025 126.765)
+		(end 174.3025 127.9975)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "e327d5d3-5bd1-4dc9-a401-ccb66db737c8")
 	)
 	(via
 		(at 174.3 128)
@@ -34546,36 +34585,36 @@
 		(uuid "e772f239-ef7d-4143-9ccf-5d3285058a89")
 	)
 	(segment
-		(start 170.2225 130.635)
-		(end 172.869468 130.635)
+		(start 172.941968 131.24)
+		(end 170.295 131.24)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 39)
-		(uuid "3da4a322-d8d5-4ea1-a07d-6ceabf669328")
+		(uuid "837a0363-152a-4629-9a4b-26764ea8d510")
 	)
 	(segment
-		(start 172.869468 130.635)
-		(end 173.4785 130.025968)
+		(start 172.4275 127.715)
+		(end 173.551 128.8385)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 39)
-		(uuid "b0b40801-252d-48f2-a488-2eac8db1a835")
+		(uuid "97fd75c4-1194-46a5-9849-055e28b4cabd")
 	)
 	(segment
-		(start 173.4785 128.766)
-		(end 172.4275 127.715)
+		(start 173.551 128.8385)
+		(end 173.551 130.630968)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 39)
-		(uuid "e277a78a-6b75-4757-9e4c-7035ea6873c2")
+		(uuid "ec6155e0-0c3e-43bb-beec-14b60e215ec0")
 	)
 	(segment
-		(start 173.4785 130.025968)
-		(end 173.4785 128.766)
+		(start 173.551 130.630968)
+		(end 172.941968 131.24)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 39)
-		(uuid "f539fefb-a623-430b-8ce5-a681d076c2fd")
+		(uuid "f2a3b1c9-a6f7-4877-ab76-2c28d52a992b")
 	)
 	(segment
 		(start 194.425 86.9955)
@@ -35170,15 +35209,15 @@
 		(uuid "cfe3886b-e285-4fce-989f-54756ac9cb1f")
 	)
 	(segment
-		(start 167.8178 142.9612)
-		(end 172.3928 142.9612)
+		(start 167.72 144.62)
+		(end 172.295 144.62)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 51)
 		(uuid "eee08a5d-c6ee-4b78-9601-9b7699920d88")
 	)
 	(via
-		(at 171.0182 143.002)
+		(at 170.9204 144.6608)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -35186,68 +35225,20 @@
 		(uuid "90838709-e1d7-4eb2-aba7-87ac97963504")
 	)
 	(segment
-		(start 172.9232 143.002)
-		(end 175.703 140.2222)
+		(start 175.703 141.7832)
+		(end 172.8254 144.6608)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 51)
-		(uuid "00ca9712-bc86-49a8-8fc0-b24f172835aa")
+		(uuid "15aa2a52-1e66-452b-ab90-da8eced80f8c")
 	)
 	(segment
-		(start 171.0182 143.002)
-		(end 172.9232 143.002)
+		(start 172.8254 144.6608)
+		(end 170.9204 144.6608)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 51)
-		(uuid "0f1686a3-6531-49e4-87cd-d486b111e544")
-	)
-	(segment
-		(start 175.2288 125.2304)
-		(end 175.2288 116.5073)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 51)
-		(uuid "3daf4f0f-b315-440b-8590-55949a28fb7d")
-	)
-	(segment
-		(start 175.6278 81.4578)
-		(end 175.6278 82.681)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 51)
-		(uuid "41cb3bc3-4337-4113-82b1-635800cdb2a2")
-	)
-	(segment
-		(start 175.703 125.7046)
-		(end 175.2288 125.2304)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 51)
-		(uuid "45a85ca0-e654-4e45-92bb-836cf903062e")
-	)
-	(segment
-		(start 176.0268 115.7093)
-		(end 175.2288 116.5073)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 51)
-		(uuid "49d8bfba-90d8-4722-b2b1-5660f0f76d1b")
-	)
-	(segment
-		(start 176.0268 83.08)
-		(end 176.0268 115.7093)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 51)
-		(uuid "af99141f-166d-4bcc-b7e7-0a0c688210fa")
-	)
-	(segment
-		(start 175.703 140.2222)
-		(end 175.703 125.7046)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 51)
-		(uuid "e47c5b47-9951-4c76-9f0b-573369ef9b7b")
+		(uuid "15d51c0e-a0b1-4fe0-981b-56b35a8afa88")
 	)
 	(segment
 		(start 175.6278 82.681)
@@ -35255,7 +35246,55 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net 51)
-		(uuid "f85b055e-3b35-4e62-80a2-b2993213fa6b")
+		(uuid "4de602c0-e109-40af-a71f-d21c3ba0436c")
+	)
+	(segment
+		(start 175.2288 125.2304)
+		(end 175.703 125.7046)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 51)
+		(uuid "517ec350-ea78-4c2a-b811-3f3b2a91e16a")
+	)
+	(segment
+		(start 176.0268 115.7093)
+		(end 175.2288 116.5073)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 51)
+		(uuid "677d383f-b4f6-4ab0-9853-dee8f8b340fd")
+	)
+	(segment
+		(start 176.0268 83.08)
+		(end 176.0268 115.7093)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 51)
+		(uuid "71be60d1-2dd6-4ffd-8705-c6f59f735880")
+	)
+	(segment
+		(start 175.703 125.7046)
+		(end 175.703 141.7832)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 51)
+		(uuid "77817a1a-5c5a-4c5c-8ead-c1c30af10908")
+	)
+	(segment
+		(start 175.2288 116.5073)
+		(end 175.2288 125.2304)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 51)
+		(uuid "7de51764-561a-4e5e-b862-5cc52fb7d376")
+	)
+	(segment
+		(start 175.6278 81.4578)
+		(end 175.6278 82.681)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 51)
+		(uuid "d6ae08ce-9b0f-4175-a332-d079b00c251a")
 	)
 	(segment
 		(start 182.165484 87.308273)
@@ -35882,23 +35921,23 @@
 		(uuid "e02093ce-0b7e-4c39-88b7-043c7fe3a3da")
 	)
 	(segment
-		(start 170.75 129.685)
-		(end 168.3475 129.685)
+		(start 170.8225 130.29)
+		(end 168.42 130.29)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 61)
 		(uuid "1bafc874-f2a8-4d5f-90fa-7d23f8a57db2")
 	)
 	(segment
-		(start 172.44 129.685)
-		(end 170.75 129.685)
+		(start 172.5125 130.29)
+		(end 170.8225 130.29)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 61)
 		(uuid "717e7a1e-6717-429b-98ec-6f135021b588")
 	)
 	(via
-		(at 170.75 129.685)
+		(at 170.8225 130.29)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -35906,47 +35945,47 @@
 		(uuid "7839d350-d057-4594-80d8-12a33308b96b")
 	)
 	(segment
-		(start 172.45 81.45)
-		(end 172.45 128.35)
+		(start 172.45 128.6625)
+		(end 170.8225 130.29)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 61)
-		(uuid "5dab7e1c-7a5a-4d10-9579-3c1434679754")
+		(uuid "4dac392f-456e-46d2-b7c4-9ec3837f4b24")
 	)
 	(segment
-		(start 171.15 129.65)
-		(end 172.45 128.35)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 61)
-		(uuid "5e25c058-45f4-421a-a238-16f7eff6addd")
-	)
-	(segment
-		(start 171.15 129.65)
-		(end 170.7 129.65)
+		(start 171.2225 130.255)
+		(end 170.7725 130.255)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 61)
 		(uuid "6280d3c1-e766-406e-9d46-d6348841c104")
 	)
 	(segment
-		(start 170.8404 138.5112)
-		(end 172.3928 138.5112)
+		(start 172.45 81.45)
+		(end 172.45 128.6625)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 61)
+		(uuid "765152b9-a393-42e8-80e0-fa22d24ddd36")
+	)
+	(segment
+		(start 170.7426 140.17)
+		(end 172.295 140.17)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 62)
 		(uuid "3b259ef2-6eda-4898-9db3-5c45c2831ee5")
 	)
 	(segment
-		(start 167.8178 138.5112)
-		(end 170.8404 138.5112)
+		(start 167.72 140.17)
+		(end 170.7426 140.17)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 62)
 		(uuid "fdfdebd1-66b2-4d07-855f-5c4175b41c01")
 	)
 	(via
-		(at 170.8404 138.5112)
+		(at 170.7426 140.17)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -35959,23 +35998,7 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net 62)
-		(uuid "2565ae93-5f40-420e-9992-0e6e4efc4542")
-	)
-	(segment
-		(start 175.302 136.5084)
-		(end 173.2788 138.5316)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 62)
-		(uuid "3928aa83-8183-4d33-8754-007284d36ce6")
-	)
-	(segment
-		(start 174.4288 84.64)
-		(end 174.4288 125.0946)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 62)
-		(uuid "68247aba-3a48-4637-8c99-361e1459a465")
+		(uuid "226abedd-df79-4cbd-8e19-d1ac81881396")
 	)
 	(segment
 		(start 174.4288 125.0946)
@@ -35983,7 +36006,23 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net 62)
-		(uuid "84901589-206f-400d-aee8-663b1bc6d8bf")
+		(uuid "777288bd-9eb4-4c0f-b473-2f84e1c8d7f5")
+	)
+	(segment
+		(start 173.181 140.1904)
+		(end 170.768 140.1904)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 62)
+		(uuid "7bd76bff-cadc-4f62-8bf3-41fa1bd5f504")
+	)
+	(segment
+		(start 174.4288 84.64)
+		(end 174.4288 125.0946)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 62)
+		(uuid "8b99b29d-24de-4492-b69e-4d1e1f00c375")
 	)
 	(segment
 		(start 174.8278 81.4578)
@@ -35991,23 +36030,23 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net 62)
-		(uuid "9708d226-6167-4f87-a41d-047d4737f9ea")
-	)
-	(segment
-		(start 173.2788 138.5316)
-		(end 170.8658 138.5316)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 62)
-		(uuid "d4470fd3-68ac-4374-a4af-ba2b407fd201")
+		(uuid "c1a879c7-6e70-4e4b-8df2-15adc0ed0938")
 	)
 	(segment
 		(start 175.302 125.9678)
-		(end 175.302 136.5084)
+		(end 175.302 138.0694)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 62)
-		(uuid "e1e04012-8380-4da5-957e-c414d31f6ec6")
+		(uuid "d5bed8a3-7731-4525-93a0-19ebd46f78a6")
+	)
+	(segment
+		(start 175.302 138.0694)
+		(end 173.181 140.1904)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 62)
+		(uuid "f7a45e6c-ec00-4977-957b-ddcd2e4cbd6f")
 	)
 	(segment
 		(start 175.640484 89.034516)
@@ -36426,96 +36465,96 @@
 		(uuid "fd0fa985-402b-4346-af7e-21340731f490")
 	)
 	(segment
-		(start 171.862268 136.6012)
-		(end 168.4578 136.6012)
+		(start 171.764468 138.26)
+		(end 168.36 138.26)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "0c44a0f9-9053-4866-9fbd-faa5ef8fe4f5")
 	)
 	(segment
-		(start 172.822268 139.4612)
-		(end 173.4313 138.852168)
+		(start 172.724468 141.12)
+		(end 173.3335 140.510968)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "3ad0cf7e-7fe6-464f-b845-a4293b9d673a")
 	)
 	(segment
-		(start 173.4313 138.852168)
-		(end 173.4313 138.170232)
+		(start 173.3335 140.510968)
+		(end 173.3335 139.829032)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "64bef71b-c694-456a-b0af-d76248fa7d40")
 	)
 	(segment
-		(start 173.4313 138.170232)
-		(end 171.862268 136.6012)
+		(start 173.3335 139.829032)
+		(end 171.764468 138.26)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "94d8edfb-a8e4-4472-84e0-de21b4b7da92")
 	)
 	(segment
-		(start 169.6928 139.4612)
-		(end 172.822268 139.4612)
+		(start 169.595 141.12)
+		(end 172.724468 141.12)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "afeaadc5-5674-4aa1-af25-25b4d835f8ec")
 	)
 	(segment
-		(start 168.4578 136.6012)
-		(end 167.8178 135.9612)
+		(start 168.36 138.26)
+		(end 167.72 137.62)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "d068141e-3c32-4f63-8c49-30bf546e5039")
 	)
 	(segment
-		(start 173.4313 143.302168)
-		(end 173.4313 142.620232)
+		(start 173.3335 144.960968)
+		(end 173.3335 144.279032)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 72)
 		(uuid "18b11712-6aea-4e3c-913b-7b8d1ca97250")
 	)
 	(segment
-		(start 172.822268 143.9112)
-		(end 173.4313 143.302168)
+		(start 172.724468 145.57)
+		(end 173.3335 144.960968)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 72)
 		(uuid "3230a95b-3937-49e8-9c9d-71723c4f8f97")
 	)
 	(segment
-		(start 169.6928 143.9112)
-		(end 172.822268 143.9112)
+		(start 169.595 145.57)
+		(end 172.724468 145.57)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 72)
 		(uuid "633efce1-7057-438e-9966-51e612575a11")
 	)
 	(segment
-		(start 171.823268 141.0122)
-		(end 168.4188 141.0122)
+		(start 171.725468 142.671)
+		(end 168.321 142.671)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 72)
 		(uuid "87ff1783-3dd8-4dee-ad97-df7e7aab0335")
 	)
 	(segment
-		(start 168.4188 141.0122)
-		(end 167.8178 140.4112)
+		(start 168.321 142.671)
+		(end 167.72 142.07)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 72)
 		(uuid "c0d14eac-85c2-4746-84ee-6a11bfcbfdd5")
 	)
 	(segment
-		(start 173.4313 142.620232)
-		(end 171.823268 141.0122)
+		(start 173.3335 144.279032)
+		(end 171.725468 142.671)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 72)
