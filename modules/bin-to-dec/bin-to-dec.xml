@@ -1,0 +1,2321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/roald/tech_projects/transistor-clock/modules/bin-to-dec/bin-to-dec.kicad_sch</source>
+    <date>2026-03-30T12:13:53+0200</date>
+    <tool>Eeschema 9.0.7-9.0.7~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bin-to-dec.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/nand_4/" tstamps="/0df26d3b-1463-4745-9b60-c38ec60dc515/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand4.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/nand2_1/" tstamps="/c84f6135-6667-4c7e-9ce8-5338f93253d6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/nand3_1/" tstamps="/530f4a73-a970-4746-bcba-3e8469feb6d6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/nand3_2/" tstamps="/0116c8b8-acf2-4a2d-9acc-1877dd54dc54/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/nand3_3/" tstamps="/8eb59a0a-a6b5-4c7a-93c8-93363f95f6df/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/nand2_2/" tstamps="/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/nand3_5/" tstamps="/340fe050-4e03-4495-887c-2b320191ae2b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/nand3_6/" tstamps="/fec95502-397e-49b4-ab5c-479e0dcea3be/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/nand3_7/" tstamps="/d5a242e0-d8fc-4458-96de-1d5b6736456d/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/nand3_4/" tstamps="/2de32665-e87d-455a-9dc4-3d41a6ceca30/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/nand2_3/" tstamps="/8559444b-ed80-4591-94fd-530ce32ce577/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="13" name="/nand3_9/" tstamps="/7ddadf58-0ee8-48d3-a79f-2e5afd4c29a5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="14" name="/nand3_8/" tstamps="/90c3191a-ec1d-4955-af75-1ddc38e74d58/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nand3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC part number">C1590</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC part number" value="C1590"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="bin-to-dec.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff4ee82c-da8a-4b6f-b9d0-7b34bcdc83aa</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC part number">C1590</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC part number" value="C1590"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="bin-to-dec.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f65ffe5c-b47f-403b-a323-a0cf8c32b27c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC part number">C1590</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC part number" value="C1590"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="bin-to-dec.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8230d6f9-8857-4d0a-a548-4bfb4a938f91</tstamps>
+    </comp>
+    <comp ref="Q25">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand_4"/>
+      <property name="Sheetfile" value="nand4.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand_4/" tstamps="/0df26d3b-1463-4745-9b60-c38ec60dc515/"/>
+      <tstamps>acf02ad6-49f3-49ff-a0a9-718dccaa7b30</tstamps>
+    </comp>
+    <comp ref="Q26">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand_4"/>
+      <property name="Sheetfile" value="nand4.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand_4/" tstamps="/0df26d3b-1463-4745-9b60-c38ec60dc515/"/>
+      <tstamps>cfabc3d2-efac-4db0-9453-9a84da087881</tstamps>
+    </comp>
+    <comp ref="Q27">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand_4"/>
+      <property name="Sheetfile" value="nand4.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand_4/" tstamps="/0df26d3b-1463-4745-9b60-c38ec60dc515/"/>
+      <tstamps>cfb17e07-5472-4924-b093-08ee80b8d213</tstamps>
+    </comp>
+    <comp ref="Q28">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand_4"/>
+      <property name="Sheetfile" value="nand4.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand_4/" tstamps="/0df26d3b-1463-4745-9b60-c38ec60dc515/"/>
+      <tstamps>2d8d4f51-269f-4046-a188-38cf7efc22d7</tstamps>
+    </comp>
+    <comp ref="Q33">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand_4"/>
+      <property name="Sheetfile" value="nand4.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand_4/" tstamps="/0df26d3b-1463-4745-9b60-c38ec60dc515/"/>
+      <tstamps>44e693ce-bb65-4b47-bbe1-de9bfad803a6</tstamps>
+    </comp>
+    <comp ref="Q34">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand_4"/>
+      <property name="Sheetfile" value="nand4.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand_4/" tstamps="/0df26d3b-1463-4745-9b60-c38ec60dc515/"/>
+      <tstamps>76af46e4-0b4c-44f0-a03a-2d28dd48ef6a</tstamps>
+    </comp>
+    <comp ref="Q35">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand_4"/>
+      <property name="Sheetfile" value="nand4.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand_4/" tstamps="/0df26d3b-1463-4745-9b60-c38ec60dc515/"/>
+      <tstamps>bb06c368-8160-4ab3-9c58-fc0b9e93d317</tstamps>
+    </comp>
+    <comp ref="Q36">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand_4"/>
+      <property name="Sheetfile" value="nand4.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand_4/" tstamps="/0df26d3b-1463-4745-9b60-c38ec60dc515/"/>
+      <tstamps>8ddf2c12-8705-4cce-9548-f0c516f3cf75</tstamps>
+    </comp>
+    <comp ref="Q23">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand2_1"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_1/" tstamps="/c84f6135-6667-4c7e-9ce8-5338f93253d6/"/>
+      <tstamps>979308b0-0772-43ab-989f-4fe9092daeda</tstamps>
+    </comp>
+    <comp ref="Q24">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand2_1"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_1/" tstamps="/c84f6135-6667-4c7e-9ce8-5338f93253d6/"/>
+      <tstamps>e5a06c3a-ed64-41b1-ae0b-1a6a58288472</tstamps>
+    </comp>
+    <comp ref="Q31">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand2_1"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_1/" tstamps="/c84f6135-6667-4c7e-9ce8-5338f93253d6/"/>
+      <tstamps>8feb5ee6-7518-4933-b259-7263193e62ef</tstamps>
+    </comp>
+    <comp ref="Q32">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand2_1"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_1/" tstamps="/c84f6135-6667-4c7e-9ce8-5338f93253d6/"/>
+      <tstamps>fa7a95eb-d224-4395-ab01-91091cba8502</tstamps>
+    </comp>
+    <comp ref="Q19">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_1"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_1/" tstamps="/530f4a73-a970-4746-bcba-3e8469feb6d6/"/>
+      <tstamps>5bb41b06-c910-43a2-ae15-d98c587a3bb2</tstamps>
+    </comp>
+    <comp ref="Q20">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_1"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_1/" tstamps="/530f4a73-a970-4746-bcba-3e8469feb6d6/"/>
+      <tstamps>95b8bb3a-cb7c-442e-80f7-5196712ac285</tstamps>
+    </comp>
+    <comp ref="Q21">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_1"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_1/" tstamps="/530f4a73-a970-4746-bcba-3e8469feb6d6/"/>
+      <tstamps>4e730e18-6add-4093-975c-7e7c45e21814</tstamps>
+    </comp>
+    <comp ref="Q22">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_1"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_1/" tstamps="/530f4a73-a970-4746-bcba-3e8469feb6d6/"/>
+      <tstamps>dc1d3cc1-be51-4716-a2f1-056b1d907d82</tstamps>
+    </comp>
+    <comp ref="Q29">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_1"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_1/" tstamps="/530f4a73-a970-4746-bcba-3e8469feb6d6/"/>
+      <tstamps>01d4527e-6824-4dd8-a548-e8351d3b919b</tstamps>
+    </comp>
+    <comp ref="Q30">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_1"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_1/" tstamps="/530f4a73-a970-4746-bcba-3e8469feb6d6/"/>
+      <tstamps>8d3843ee-a2e3-4151-af47-09c568cf9855</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_2"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_2/" tstamps="/0116c8b8-acf2-4a2d-9acc-1877dd54dc54/"/>
+      <tstamps>5bb41b06-c910-43a2-ae15-d98c587a3bb2</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_2"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_2/" tstamps="/0116c8b8-acf2-4a2d-9acc-1877dd54dc54/"/>
+      <tstamps>95b8bb3a-cb7c-442e-80f7-5196712ac285</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_2"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_2/" tstamps="/0116c8b8-acf2-4a2d-9acc-1877dd54dc54/"/>
+      <tstamps>4e730e18-6add-4093-975c-7e7c45e21814</tstamps>
+    </comp>
+    <comp ref="Q16">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_2"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_2/" tstamps="/0116c8b8-acf2-4a2d-9acc-1877dd54dc54/"/>
+      <tstamps>dc1d3cc1-be51-4716-a2f1-056b1d907d82</tstamps>
+    </comp>
+    <comp ref="Q17">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_2"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_2/" tstamps="/0116c8b8-acf2-4a2d-9acc-1877dd54dc54/"/>
+      <tstamps>01d4527e-6824-4dd8-a548-e8351d3b919b</tstamps>
+    </comp>
+    <comp ref="Q18">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_2"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_2/" tstamps="/0116c8b8-acf2-4a2d-9acc-1877dd54dc54/"/>
+      <tstamps>8d3843ee-a2e3-4151-af47-09c568cf9855</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_3"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_3/" tstamps="/8eb59a0a-a6b5-4c7a-93c8-93363f95f6df/"/>
+      <tstamps>95b8bb3a-cb7c-442e-80f7-5196712ac285</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_3"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_3/" tstamps="/8eb59a0a-a6b5-4c7a-93c8-93363f95f6df/"/>
+      <tstamps>dc1d3cc1-be51-4716-a2f1-056b1d907d82</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_3"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_3/" tstamps="/8eb59a0a-a6b5-4c7a-93c8-93363f95f6df/"/>
+      <tstamps>8d3843ee-a2e3-4151-af47-09c568cf9855</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_3"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_3/" tstamps="/8eb59a0a-a6b5-4c7a-93c8-93363f95f6df/"/>
+      <tstamps>5bb41b06-c910-43a2-ae15-d98c587a3bb2</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_3"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_3/" tstamps="/8eb59a0a-a6b5-4c7a-93c8-93363f95f6df/"/>
+      <tstamps>4e730e18-6add-4093-975c-7e7c45e21814</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_3"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_3/" tstamps="/8eb59a0a-a6b5-4c7a-93c8-93363f95f6df/"/>
+      <tstamps>01d4527e-6824-4dd8-a548-e8351d3b919b</tstamps>
+    </comp>
+    <comp ref="Q65">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand2_2"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_2/" tstamps="/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54/"/>
+      <tstamps>979308b0-0772-43ab-989f-4fe9092daeda</tstamps>
+    </comp>
+    <comp ref="Q66">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand2_2"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_2/" tstamps="/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54/"/>
+      <tstamps>e5a06c3a-ed64-41b1-ae0b-1a6a58288472</tstamps>
+    </comp>
+    <comp ref="Q67">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand2_2"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_2/" tstamps="/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54/"/>
+      <tstamps>8feb5ee6-7518-4933-b259-7263193e62ef</tstamps>
+    </comp>
+    <comp ref="Q68">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand2_2"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_2/" tstamps="/9ee95dfd-f3ee-48c6-9665-30ae2b1f5b54/"/>
+      <tstamps>fa7a95eb-d224-4395-ab01-91091cba8502</tstamps>
+    </comp>
+    <comp ref="Q62">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_5"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_5/" tstamps="/340fe050-4e03-4495-887c-2b320191ae2b/"/>
+      <tstamps>95b8bb3a-cb7c-442e-80f7-5196712ac285</tstamps>
+    </comp>
+    <comp ref="Q63">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_5"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_5/" tstamps="/340fe050-4e03-4495-887c-2b320191ae2b/"/>
+      <tstamps>dc1d3cc1-be51-4716-a2f1-056b1d907d82</tstamps>
+    </comp>
+    <comp ref="Q64">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_5"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_5/" tstamps="/340fe050-4e03-4495-887c-2b320191ae2b/"/>
+      <tstamps>8d3843ee-a2e3-4151-af47-09c568cf9855</tstamps>
+    </comp>
+    <comp ref="Q72">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_5"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_5/" tstamps="/340fe050-4e03-4495-887c-2b320191ae2b/"/>
+      <tstamps>5bb41b06-c910-43a2-ae15-d98c587a3bb2</tstamps>
+    </comp>
+    <comp ref="Q73">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_5"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_5/" tstamps="/340fe050-4e03-4495-887c-2b320191ae2b/"/>
+      <tstamps>4e730e18-6add-4093-975c-7e7c45e21814</tstamps>
+    </comp>
+    <comp ref="Q74">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_5"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_5/" tstamps="/340fe050-4e03-4495-887c-2b320191ae2b/"/>
+      <tstamps>01d4527e-6824-4dd8-a548-e8351d3b919b</tstamps>
+    </comp>
+    <comp ref="Q59">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_6"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_6/" tstamps="/fec95502-397e-49b4-ab5c-479e0dcea3be/"/>
+      <tstamps>95b8bb3a-cb7c-442e-80f7-5196712ac285</tstamps>
+    </comp>
+    <comp ref="Q60">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_6"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_6/" tstamps="/fec95502-397e-49b4-ab5c-479e0dcea3be/"/>
+      <tstamps>dc1d3cc1-be51-4716-a2f1-056b1d907d82</tstamps>
+    </comp>
+    <comp ref="Q61">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_6"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_6/" tstamps="/fec95502-397e-49b4-ab5c-479e0dcea3be/"/>
+      <tstamps>8d3843ee-a2e3-4151-af47-09c568cf9855</tstamps>
+    </comp>
+    <comp ref="Q69">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_6"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_6/" tstamps="/fec95502-397e-49b4-ab5c-479e0dcea3be/"/>
+      <tstamps>5bb41b06-c910-43a2-ae15-d98c587a3bb2</tstamps>
+    </comp>
+    <comp ref="Q70">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_6"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_6/" tstamps="/fec95502-397e-49b4-ab5c-479e0dcea3be/"/>
+      <tstamps>4e730e18-6add-4093-975c-7e7c45e21814</tstamps>
+    </comp>
+    <comp ref="Q71">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_6"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_6/" tstamps="/fec95502-397e-49b4-ab5c-479e0dcea3be/"/>
+      <tstamps>01d4527e-6824-4dd8-a548-e8351d3b919b</tstamps>
+    </comp>
+    <comp ref="Q49">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_7"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_7/" tstamps="/d5a242e0-d8fc-4458-96de-1d5b6736456d/"/>
+      <tstamps>95b8bb3a-cb7c-442e-80f7-5196712ac285</tstamps>
+    </comp>
+    <comp ref="Q50">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_7"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_7/" tstamps="/d5a242e0-d8fc-4458-96de-1d5b6736456d/"/>
+      <tstamps>dc1d3cc1-be51-4716-a2f1-056b1d907d82</tstamps>
+    </comp>
+    <comp ref="Q51">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_7"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_7/" tstamps="/d5a242e0-d8fc-4458-96de-1d5b6736456d/"/>
+      <tstamps>8d3843ee-a2e3-4151-af47-09c568cf9855</tstamps>
+    </comp>
+    <comp ref="Q54">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_7"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_7/" tstamps="/d5a242e0-d8fc-4458-96de-1d5b6736456d/"/>
+      <tstamps>5bb41b06-c910-43a2-ae15-d98c587a3bb2</tstamps>
+    </comp>
+    <comp ref="Q55">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_7"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_7/" tstamps="/d5a242e0-d8fc-4458-96de-1d5b6736456d/"/>
+      <tstamps>4e730e18-6add-4093-975c-7e7c45e21814</tstamps>
+    </comp>
+    <comp ref="Q56">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_7"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_7/" tstamps="/d5a242e0-d8fc-4458-96de-1d5b6736456d/"/>
+      <tstamps>01d4527e-6824-4dd8-a548-e8351d3b919b</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_4"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_4/" tstamps="/2de32665-e87d-455a-9dc4-3d41a6ceca30/"/>
+      <tstamps>95b8bb3a-cb7c-442e-80f7-5196712ac285</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_4"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_4/" tstamps="/2de32665-e87d-455a-9dc4-3d41a6ceca30/"/>
+      <tstamps>dc1d3cc1-be51-4716-a2f1-056b1d907d82</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_4"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_4/" tstamps="/2de32665-e87d-455a-9dc4-3d41a6ceca30/"/>
+      <tstamps>8d3843ee-a2e3-4151-af47-09c568cf9855</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_4"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_4/" tstamps="/2de32665-e87d-455a-9dc4-3d41a6ceca30/"/>
+      <tstamps>5bb41b06-c910-43a2-ae15-d98c587a3bb2</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_4"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_4/" tstamps="/2de32665-e87d-455a-9dc4-3d41a6ceca30/"/>
+      <tstamps>4e730e18-6add-4093-975c-7e7c45e21814</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_4"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_4/" tstamps="/2de32665-e87d-455a-9dc4-3d41a6ceca30/"/>
+      <tstamps>01d4527e-6824-4dd8-a548-e8351d3b919b</tstamps>
+    </comp>
+    <comp ref="Q52">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand2_3"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_3/" tstamps="/8559444b-ed80-4591-94fd-530ce32ce577/"/>
+      <tstamps>979308b0-0772-43ab-989f-4fe9092daeda</tstamps>
+    </comp>
+    <comp ref="Q53">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand2_3"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_3/" tstamps="/8559444b-ed80-4591-94fd-530ce32ce577/"/>
+      <tstamps>e5a06c3a-ed64-41b1-ae0b-1a6a58288472</tstamps>
+    </comp>
+    <comp ref="Q57">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand2_3"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_3/" tstamps="/8559444b-ed80-4591-94fd-530ce32ce577/"/>
+      <tstamps>8feb5ee6-7518-4933-b259-7263193e62ef</tstamps>
+    </comp>
+    <comp ref="Q58">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand2_3"/>
+      <property name="Sheetfile" value="nand.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand2_3/" tstamps="/8559444b-ed80-4591-94fd-530ce32ce577/"/>
+      <tstamps>fa7a95eb-d224-4395-ab01-91091cba8502</tstamps>
+    </comp>
+    <comp ref="Q37">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_9"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_9/" tstamps="/7ddadf58-0ee8-48d3-a79f-2e5afd4c29a5/"/>
+      <tstamps>95b8bb3a-cb7c-442e-80f7-5196712ac285</tstamps>
+    </comp>
+    <comp ref="Q38">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_9"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_9/" tstamps="/7ddadf58-0ee8-48d3-a79f-2e5afd4c29a5/"/>
+      <tstamps>dc1d3cc1-be51-4716-a2f1-056b1d907d82</tstamps>
+    </comp>
+    <comp ref="Q39">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_9"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_9/" tstamps="/7ddadf58-0ee8-48d3-a79f-2e5afd4c29a5/"/>
+      <tstamps>8d3843ee-a2e3-4151-af47-09c568cf9855</tstamps>
+    </comp>
+    <comp ref="Q43">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_9"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_9/" tstamps="/7ddadf58-0ee8-48d3-a79f-2e5afd4c29a5/"/>
+      <tstamps>5bb41b06-c910-43a2-ae15-d98c587a3bb2</tstamps>
+    </comp>
+    <comp ref="Q44">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_9"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_9/" tstamps="/7ddadf58-0ee8-48d3-a79f-2e5afd4c29a5/"/>
+      <tstamps>4e730e18-6add-4093-975c-7e7c45e21814</tstamps>
+    </comp>
+    <comp ref="Q45">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_9"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_9/" tstamps="/7ddadf58-0ee8-48d3-a79f-2e5afd4c29a5/"/>
+      <tstamps>01d4527e-6824-4dd8-a548-e8351d3b919b</tstamps>
+    </comp>
+    <comp ref="Q40">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_8"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_8/" tstamps="/90c3191a-ec1d-4955-af75-1ddc38e74d58/"/>
+      <tstamps>95b8bb3a-cb7c-442e-80f7-5196712ac285</tstamps>
+    </comp>
+    <comp ref="Q41">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_8"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_8/" tstamps="/90c3191a-ec1d-4955-af75-1ddc38e74d58/"/>
+      <tstamps>dc1d3cc1-be51-4716-a2f1-056b1d907d82</tstamps>
+    </comp>
+    <comp ref="Q42">
+      <value>DMP3099L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C2940610</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMP3099L" description="-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C2940610"/>
+      <property name="Sheetname" value="nand3_8"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_8/" tstamps="/90c3191a-ec1d-4955-af75-1ddc38e74d58/"/>
+      <tstamps>8d3843ee-a2e3-4151-af47-09c568cf9855</tstamps>
+    </comp>
+    <comp ref="Q46">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_8"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_8/" tstamps="/90c3191a-ec1d-4955-af75-1ddc38e74d58/"/>
+      <tstamps>5bb41b06-c910-43a2-ae15-d98c587a3bb2</tstamps>
+    </comp>
+    <comp ref="Q47">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_8"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_8/" tstamps="/90c3191a-ec1d-4955-af75-1ddc38e74d58/"/>
+      <tstamps>4e730e18-6add-4093-975c-7e7c45e21814</tstamps>
+    </comp>
+    <comp ref="Q48">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="LCSC part number">C8545</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC part number" value="C8545"/>
+      <property name="Sheetname" value="nand3_8"/>
+      <property name="Sheetfile" value="nand3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/nand3_8/" tstamps="/90c3191a-ec1d-4955-af75-1ddc38e74d58/"/>
+      <tstamps>01d4527e-6824-4dd8-a548-e8351d3b919b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x26_Odd_Even">
+      <description>Generic connector, double row, 02x26, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x26_Odd_Even</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x26, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+        <pin num="47" name="Pin_47" type="passive"/>
+        <pin num="48" name="Pin_48" type="passive"/>
+        <pin num="49" name="Pin_49" type="passive"/>
+        <pin num="50" name="Pin_50" type="passive"/>
+        <pin num="51" name="Pin_51" type="passive"/>
+        <pin num="52" name="Pin_52" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="DMP3099L">
+      <description>-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMP3099L</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Description">-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q16" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q18" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q20" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q22" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q23" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q25" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q30" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q32" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q34" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q35" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q36" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q37" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q38" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q39" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q40" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q41" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q42" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q49" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q50" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q51" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q52" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q58" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q59" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q60" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q61" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q62" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q63" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q64" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q65" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q68" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="2" name="/nand2_1_A" class="Default">
+      <node ref="Q24" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q32" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="3" name="/nand2_1_B" class="Default">
+      <node ref="Q23" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q31" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="4" name="/nand2_1_out" class="Default">
+      <node ref="Q23" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q24" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q32" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="5" name="/nand2_2_A" class="Default">
+      <node ref="Q66" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q68" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="6" name="/nand2_2_B" class="Default">
+      <node ref="Q65" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q67" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="7" name="/nand2_2_out" class="Default">
+      <node ref="Q65" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q66" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q68" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="8" name="/nand2_3_A" class="Default">
+      <node ref="Q53" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q58" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="9" name="/nand2_3_B" class="Default">
+      <node ref="Q52" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q57" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="10" name="/nand2_3_out" class="Default">
+      <node ref="Q52" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q53" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q58" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="11" name="/nand3_1_A" class="Default">
+      <node ref="Q29" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q30" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="12" name="/nand3_1_B" class="Default">
+      <node ref="Q21" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q22" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="13" name="/nand3_1_C" class="Default">
+      <node ref="Q19" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q20" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="14" name="/nand3_1_out" class="Default">
+      <node ref="Q20" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q22" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q29" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q30" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="15" name="/nand3_2_A" class="Default">
+      <node ref="Q17" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q18" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="16" name="/nand3_2_B" class="Default">
+      <node ref="Q15" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q16" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="17" name="/nand3_2_C" class="Default">
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="18" name="/nand3_2_out" class="Default">
+      <node ref="Q16" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q17" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q18" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="19" name="/nand3_3_A" class="Default">
+      <node ref="Q11" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="20" name="/nand3_3_B" class="Default">
+      <node ref="Q10" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="21" name="/nand3_3_C" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="22" name="/nand3_3_out" class="Default">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="23" name="/nand3_4_A" class="Default">
+      <node ref="Q14" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="24" name="/nand3_4_B" class="Default">
+      <node ref="Q13" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="25" name="/nand3_4_C" class="Default">
+      <node ref="Q12" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="26" name="/nand3_4_out" class="Default">
+      <node ref="Q14" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="27" name="/nand3_5_A" class="Default">
+      <node ref="Q64" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q74" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="28" name="/nand3_5_B" class="Default">
+      <node ref="Q63" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q73" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="29" name="/nand3_5_C" class="Default">
+      <node ref="Q62" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q72" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="30" name="/nand3_5_out" class="Default">
+      <node ref="Q62" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q63" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q64" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q74" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="31" name="/nand3_6_A" class="Default">
+      <node ref="Q61" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q71" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="32" name="/nand3_6_B" class="Default">
+      <node ref="Q60" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q70" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="33" name="/nand3_6_C" class="Default">
+      <node ref="Q59" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q69" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="34" name="/nand3_6_out" class="Default">
+      <node ref="Q59" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q60" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q61" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q71" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="35" name="/nand3_7_A" class="Default">
+      <node ref="Q51" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q56" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="36" name="/nand3_7_B" class="Default">
+      <node ref="Q50" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q55" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="37" name="/nand3_7_C" class="Default">
+      <node ref="Q49" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q54" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="38" name="/nand3_7_out" class="Default">
+      <node ref="Q49" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q50" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q51" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q56" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="39" name="/nand3_8_A" class="Default">
+      <node ref="Q42" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q48" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="40" name="/nand3_8_B" class="Default">
+      <node ref="Q41" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q47" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="41" name="/nand3_8_C" class="Default">
+      <node ref="Q40" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q46" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="42" name="/nand3_8_out" class="Default">
+      <node ref="Q40" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q41" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q42" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q48" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="43" name="/nand3_9_A" class="Default">
+      <node ref="Q39" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q45" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="44" name="/nand3_9_B" class="Default">
+      <node ref="Q38" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q44" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="45" name="/nand3_9_C" class="Default">
+      <node ref="Q37" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q43" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="46" name="/nand3_9_out" class="Default">
+      <node ref="Q37" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q38" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q39" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q45" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="47" name="/nand4_A" class="Default">
+      <node ref="Q25" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q33" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="48" name="/nand4_B" class="Default">
+      <node ref="Q26" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q34" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="49" name="/nand4_C" class="Default">
+      <node ref="Q27" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q35" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="50" name="/nand4_D" class="Default">
+      <node ref="Q28" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q36" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="51" name="/nand4_out" class="Default">
+      <node ref="Q25" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q33" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q34" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q35" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q36" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="52" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q19" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q28" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q31" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q43" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q46" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q54" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q57" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q67" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q69" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q72" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(Q10-D)" class="Default">
+      <node ref="Q10" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(Q10-S)" class="Default">
+      <node ref="Q10" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(Q12-D)" class="Default">
+      <node ref="Q12" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(Q13-D)" class="Default">
+      <node ref="Q13" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(Q15-D)" class="Default">
+      <node ref="Q15" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q17" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q15-S)" class="Default">
+      <node ref="Q15" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(Q19-D)" class="Default">
+      <node ref="Q19" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q21" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(Q21-D)" class="Default">
+      <node ref="Q21" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q29" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(Q24-S)" class="Default">
+      <node ref="Q24" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q31" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(Q26-D)" class="Default">
+      <node ref="Q26" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q33" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(Q26-S)" class="Default">
+      <node ref="Q26" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q27" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(Q27-S)" class="Default">
+      <node ref="Q27" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q28" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(Q43-D)" class="Default">
+      <node ref="Q43" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q44" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(Q44-D)" class="Default">
+      <node ref="Q44" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q45" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(Q46-D)" class="Default">
+      <node ref="Q46" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q47" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(Q47-D)" class="Default">
+      <node ref="Q47" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q48" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(Q53-S)" class="Default">
+      <node ref="Q53" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q57" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(Q54-D)" class="Default">
+      <node ref="Q54" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q55" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(Q55-D)" class="Default">
+      <node ref="Q55" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q56" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(Q66-S)" class="Default">
+      <node ref="Q66" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q67" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(Q69-D)" class="Default">
+      <node ref="Q69" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q70" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(Q70-D)" class="Default">
+      <node ref="Q70" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q71" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(Q72-D)" class="Default">
+      <node ref="Q72" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q73" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(Q73-D)" class="Default">
+      <node ref="Q73" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q74" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+  </nets>
+</export>

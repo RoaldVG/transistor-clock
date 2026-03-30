@@ -1189,6 +1189,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8545"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe067587-f652-4721-bd7b-1a2e4ae2a085")
 		)
@@ -1264,6 +1273,15 @@
 			)
 		)
 		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2940610"
 			(at 162.56 60.96 0)
 			(effects
 				(font
@@ -1356,6 +1374,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8545"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e758e598-379f-4982-8819-1c0235513cbe")
 		)
@@ -1432,6 +1459,15 @@
 			)
 		)
 		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2940610"
 			(at 133.35 60.96 0)
 			(effects
 				(font

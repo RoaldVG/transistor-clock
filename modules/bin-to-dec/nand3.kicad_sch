@@ -1089,6 +1089,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8545"
+			(at 135.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3355085b-4b79-4aea-acdb-4924ed428c94")
 		)
@@ -1189,6 +1198,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C8545"
 			(at 135.89 83.82 0)
 			(effects
 				(font
@@ -1305,6 +1323,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8545"
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21d44274-c872-437b-a903-75b93e7f3aab")
 		)
@@ -1405,6 +1432,15 @@
 			)
 		)
 		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2940610"
 			(at 124.46 54.61 0)
 			(effects
 				(font
@@ -1618,6 +1654,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2940610"
+			(at 170.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c75a595d-bb62-45ed-92b7-e2249e8a161e")
 		)
@@ -1815,6 +1860,15 @@
 			)
 		)
 		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2940610"
 			(at 148.59 54.61 0)
 			(effects
 				(font
