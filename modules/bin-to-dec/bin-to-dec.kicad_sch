@@ -4236,7 +4236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8230d6f9-8857-4d0a-a548-4bfb4a938f91")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 223.901 81.3378 0)
 			(effects
 				(font
@@ -4290,6 +4290,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C1590"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "05826cb0-c795-45e1-80fe-95e4851075e3")
 		)
@@ -4299,7 +4308,7 @@
 		(instances
 			(project "bin-to-dec"
 				(path "/b244e12b-f85f-4579-ba5e-848643f54694"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4419,6 +4428,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x26, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" ""
 			(at 58.42 86.36 0)
 			(effects
 				(font
@@ -4656,6 +4674,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C1590"
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "70fac398-217a-46c0-9f0a-73edb5e1a410")
 		)
@@ -4681,7 +4708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff4ee82c-da8a-4b6f-b9d0-7b34bcdc83aa")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 202.311 81.3378 0)
 			(effects
 				(font
@@ -4735,6 +4762,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C1590"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01396d10-9168-4b6b-809a-7427dd52e30e")
 		)
@@ -4744,7 +4780,7 @@
 		(instances
 			(project "bin-to-dec"
 				(path "/b244e12b-f85f-4579-ba5e-848643f54694"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)

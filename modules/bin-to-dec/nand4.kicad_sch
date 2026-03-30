@@ -1111,7 +1111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d8d4f51-269f-4046-a188-38cf7efc22d7")
-		(property "Reference" "Q28"
+		(property "Reference" "Q6"
 			(at 147.447 124.5178 0)
 			(effects
 				(font
@@ -1168,6 +1168,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C8545"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "379ed14f-2e53-462c-b252-e6ed101863e3")
 		)
@@ -1180,7 +1189,7 @@
 		(instances
 			(project "bin-to-dec"
 				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
-					(reference "Q28")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -1196,7 +1205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44e693ce-bb65-4b47-bbe1-de9bfad803a6")
-		(property "Reference" "Q33"
+		(property "Reference" "Q58"
 			(at 147.447 86.4178 0)
 			(effects
 				(font
@@ -1253,6 +1262,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C8545"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cdc4f13-ba70-4f9b-b989-9d71b001ceaf")
 		)
@@ -1265,7 +1283,7 @@
 		(instances
 			(project "bin-to-dec"
 				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
-					(reference "Q33")
+					(reference "Q58")
 					(unit 1)
 				)
 			)
@@ -1280,7 +1298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76af46e4-0b4c-44f0-a03a-2d28dd48ef6a")
-		(property "Reference" "Q34"
+		(property "Reference" "Q59"
 			(at 129.413 73.6022 0)
 			(effects
 				(font
@@ -1337,6 +1355,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C2940610"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b7563b4-97d8-4735-affd-4423d9776e5b")
 		)
@@ -1349,7 +1376,7 @@
 		(instances
 			(project "bin-to-dec"
 				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
-					(reference "Q34")
+					(reference "Q59")
 					(unit 1)
 				)
 			)
@@ -1364,7 +1391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ddf2c12-8705-4cce-9548-f0c516f3cf75")
-		(property "Reference" "Q36"
+		(property "Reference" "Q54"
 			(at 177.673 73.6022 0)
 			(effects
 				(font
@@ -1421,6 +1448,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C2940610"
+			(at 182.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4377906-d565-4552-ba2e-473354407c45")
 		)
@@ -1433,7 +1469,7 @@
 		(instances
 			(project "bin-to-dec"
 				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
-					(reference "Q36")
+					(reference "Q54")
 					(unit 1)
 				)
 			)
@@ -1515,7 +1551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acf02ad6-49f3-49ff-a0a9-718dccaa7b30")
-		(property "Reference" "Q25"
+		(property "Reference" "Q12"
 			(at 110.617 73.6022 0)
 			(effects
 				(font
@@ -1572,6 +1608,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C2940610"
+			(at 105.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "799acb2b-4eb0-48d8-856e-9f7bb19cfb38")
 		)
@@ -1584,7 +1629,7 @@
 		(instances
 			(project "bin-to-dec"
 				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
-					(reference "Q25")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -1599,7 +1644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb06c368-8160-4ab3-9c58-fc0b9e93d317")
-		(property "Reference" "Q35"
+		(property "Reference" "Q55"
 			(at 153.543 73.6022 0)
 			(effects
 				(font
@@ -1656,6 +1701,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C2940610"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c02a1b1-65c6-4516-8ca3-a70ed91824dd")
 		)
@@ -1668,7 +1722,7 @@
 		(instances
 			(project "bin-to-dec"
 				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
-					(reference "Q35")
+					(reference "Q55")
 					(unit 1)
 				)
 			)
@@ -1750,7 +1804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfabc3d2-efac-4db0-9453-9a84da087881")
-		(property "Reference" "Q26"
+		(property "Reference" "Q16"
 			(at 147.447 100.3878 0)
 			(effects
 				(font
@@ -1807,6 +1861,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C8545"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb550977-f6d1-4126-b8d4-841c41abdc20")
 		)
@@ -1819,7 +1882,7 @@
 		(instances
 			(project "bin-to-dec"
 				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
-					(reference "Q26")
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -1835,7 +1898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfb17e07-5472-4924-b093-08ee80b8d213")
-		(property "Reference" "Q27"
+		(property "Reference" "Q7"
 			(at 147.447 110.5478 0)
 			(effects
 				(font
@@ -1892,6 +1955,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C8545"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c24cdb50-ac46-41f5-81a6-2da3313f8cf0")
 		)
@@ -1904,7 +1976,7 @@
 		(instances
 			(project "bin-to-dec"
 				(path "/b244e12b-f85f-4579-ba5e-848643f54694/0df26d3b-1463-4745-9b60-c38ec60dc515"
-					(reference "Q27")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
