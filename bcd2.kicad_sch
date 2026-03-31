@@ -445,7 +445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1312d0c6-e673-4662-a840-199d10c9bd99")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0181"
 			(at 55.88 102.87 0)
 			(effects
 				(font
@@ -495,7 +495,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e5d5ceff-c3df-4aeb-b3ac-c735ee65b6d1"
-					(reference "#PWR0201")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
