@@ -1098,15 +1098,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part number" "C8545"
-			(at 135.89 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3355085b-4b79-4aea-acdb-4924ed428c94")
 		)
@@ -1216,15 +1207,6 @@
 			)
 		)
 		(property "LCSC Part #" "C8545"
-			(at 135.89 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part number" "C8545"
 			(at 135.89 83.82 0)
 			(effects
 				(font
@@ -1350,15 +1332,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part number" "C8545"
-			(at 135.89 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "21d44274-c872-437b-a903-75b93e7f3aab")
 		)
@@ -1468,15 +1441,6 @@
 			)
 		)
 		(property "LCSC Part #" "C15127"
-			(at 124.46 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part number" "C2940610"
 			(at 124.46 54.61 0)
 			(effects
 				(font
@@ -1699,15 +1663,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part number" "C2940610"
-			(at 170.18 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c75a595d-bb62-45ed-92b7-e2249e8a161e")
 		)
@@ -1914,15 +1869,6 @@
 			)
 		)
 		(property "LCSC Part #" "C15127"
-			(at 148.59 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part number" "C2940610"
 			(at 148.59 54.61 0)
 			(effects
 				(font

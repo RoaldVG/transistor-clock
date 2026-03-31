@@ -4290,15 +4290,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part number" "C1590"
-			(at 220.98 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "05826cb0-c795-45e1-80fe-95e4851075e3")
 		)
@@ -4428,15 +4419,6 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x26, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part number" ""
 			(at 58.42 86.36 0)
 			(effects
 				(font
@@ -4674,15 +4656,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part number" "C1590"
-			(at 210.82 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "70fac398-217a-46c0-9f0a-73edb5e1a410")
 		)
@@ -4754,15 +4727,6 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
-			(at 199.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part number" "C1590"
 			(at 199.39 82.55 0)
 			(effects
 				(font

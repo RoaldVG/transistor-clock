@@ -1168,15 +1168,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part number" "C8545"
-			(at 142.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "379ed14f-2e53-462c-b252-e6ed101863e3")
 		)
@@ -1254,15 +1245,6 @@
 			)
 		)
 		(property "LCSC Part #" "C8545"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part number" "C8545"
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -1355,15 +1337,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part number" "C2940610"
-			(at 134.62 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7b7563b4-97d8-4735-affd-4423d9776e5b")
 		)
@@ -1440,15 +1413,6 @@
 			)
 		)
 		(property "LCSC Part #" "C15127"
-			(at 182.88 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part number" "C2940610"
 			(at 182.88 72.39 0)
 			(effects
 				(font
@@ -1608,15 +1572,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part number" "C2940610"
-			(at 105.41 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "799acb2b-4eb0-48d8-856e-9f7bb19cfb38")
 		)
@@ -1693,15 +1648,6 @@
 			)
 		)
 		(property "LCSC Part #" "C15127"
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part number" "C2940610"
 			(at 158.75 72.39 0)
 			(effects
 				(font
@@ -1861,15 +1807,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part number" "C8545"
-			(at 142.24 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fb550977-f6d1-4126-b8d4-841c41abdc20")
 		)
@@ -1947,15 +1884,6 @@
 			)
 		)
 		(property "LCSC Part #" "C8545"
-			(at 142.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part number" "C8545"
 			(at 142.24 111.76 0)
 			(effects
 				(font
