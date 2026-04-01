@@ -4260,22 +4260,10 @@
 		(uuid "b06416cd-99a5-45e1-b3e7-c9bf0e555e8d")
 	)
 	(junction
-		(at 176.276 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5c52e93-7c3d-4ef2-9fc9-6568a4c32928")
-	)
-	(junction
 		(at 64.77 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b71784f7-ac0c-4c9d-a809-8d9b8a77029f")
-	)
-	(junction
-		(at 176.276 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf8b46a0-a000-4e28-ba5e-e073bc0e960d")
 	)
 	(junction
 		(at 100.33 92.71)
@@ -4413,7 +4401,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 27.94) (xy 176.276 27.94)
+			(xy 171.45 27.94) (xy 175.26 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4570,16 +4558,6 @@
 			(type default)
 		)
 		(uuid "2bfce9b5-78d6-48f1-9406-5f99439f7607")
-	)
-	(wire
-		(pts
-			(xy 176.276 27.94) (xy 176.53 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e08ac14-bd47-4966-9cd8-6370ab21d2eb")
 	)
 	(wire
 		(pts
@@ -4943,7 +4921,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 25.4) (xy 176.276 25.4)
+			(xy 171.45 25.4) (xy 175.26 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5483,16 +5461,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.276 25.4) (xy 176.53 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f73e79ce-503f-4135-beee-fa08b0c5d65f")
-	)
-	(wire
-		(pts
 			(xy 68.58 55.88) (xy 68.58 62.23)
 		)
 		(stroke
@@ -5542,7 +5510,7 @@
 		(uuid "6ac69740-815b-4a99-8ebb-1889b3a221eb")
 	)
 	(label "Sqr1"
-		(at 175.26 27.94 180)
+		(at 171.45 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5552,7 +5520,7 @@
 		(uuid "b4120cd3-582c-4e3e-aa49-ec0019612170")
 	)
 	(label "Clk"
-		(at 175.26 25.4 180)
+		(at 171.45 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10382,7 +10350,7 @@
 		)
 	)
 	(sheet
-		(at 176.276 23.622)
+		(at 175.26 23.622)
 		(size 12.7 6.858)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10399,7 +10367,7 @@
 		)
 		(uuid "2c36a9e9-de42-4705-9ad4-94f4cc168e2f")
 		(property "Sheetname" "counters"
-			(at 176.276 22.9104 0)
+			(at 175.26 22.9104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,7 +10376,7 @@
 			)
 		)
 		(property "Sheetfile" "counters.kicad_sch"
-			(at 176.276 31.0646 0)
+			(at 175.26 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10417,7 +10385,7 @@
 			)
 		)
 		(pin "Clk" input
-			(at 176.276 25.4 180)
+			(at 175.26 25.4 180)
 			(uuid "564eb1ac-f4d8-406c-9fa3-ede442a90718")
 			(effects
 				(font
@@ -10427,7 +10395,7 @@
 			)
 		)
 		(pin "Sqr1" input
-			(at 176.276 27.94 180)
+			(at 175.26 27.94 180)
 			(uuid "5abf040b-ced6-4631-abb3-dd9fe5a81fe4")
 			(effects
 				(font
