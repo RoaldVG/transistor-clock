@@ -760,7 +760,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GAQY210S"
 			(at 133.35 115.1198 0)
 			(effects
 				(font
@@ -795,6 +795,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7435113"
+			(at 129.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b86f9f45-8f50-4af7-bf97-a34d2df09255")
 		)
@@ -808,7 +817,7 @@
 			(uuid "57b3380a-dad5-4183-ace9-316ff0845633")
 		)
 		(instances
-			(project ""
+			(project "SSR"
 				(path "/e87a2758-91f7-4ecb-a75d-85b6b7264f27/0f4e9512-9bf4-4bde-8f90-172f78a48656"
 					(reference "U3")
 					(unit 1)
@@ -895,7 +904,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 120.7079 119.888 0)
 			(effects
 				(font
@@ -931,6 +940,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23138"
+			(at 121.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d61b1af6-836f-44e3-93d2-8cd4cb66808e")
 		)
@@ -938,7 +956,7 @@
 			(uuid "2b1ffa9c-c7d2-40f2-82df-c674ecc26b40")
 		)
 		(instances
-			(project ""
+			(project "SSR"
 				(path "/e87a2758-91f7-4ecb-a75d-85b6b7264f27/0f4e9512-9bf4-4bde-8f90-172f78a48656"
 					(reference "R3")
 					(unit 1)
@@ -1064,7 +1082,7 @@
 			(uuid "27e6d04d-2671-4a73-9f45-511162bdbf77")
 		)
 		(instances
-			(project ""
+			(project "SSR"
 				(path "/e87a2758-91f7-4ecb-a75d-85b6b7264f27/0f4e9512-9bf4-4bde-8f90-172f78a48656"
 					(reference "#PWR03")
 					(unit 1)
