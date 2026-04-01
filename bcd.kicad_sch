@@ -5,6 +5,4036 @@
 	(uuid "fe93132c-fae7-4e2e-a34c-ce3b83f88fb8")
 	(paper "A4")
 	(lib_symbols
+		(symbol "custom:jk-flipflops"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "jk-flipflops_1_1"
+				(rectangle
+					(start 7.62 0)
+					(end 13.97 -9.525)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_2_1"
+				(rectangle
+					(start 3.81 -1.27)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 1.27 -3.81 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -8.89 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -13.97 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -17.78 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -6.35 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_3_1"
+				(rectangle
+					(start 6.35 -3.81)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -11.43 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_4_1"
+				(rectangle
+					(start 6.35 -2.54)
+					(end 17.78 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -5.08 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -10.16 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -15.24 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -19.05 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_5_1"
+				(rectangle
+					(start 6.35 -3.81)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -11.43 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jk-flipflops_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "jk-flipflops_1_1_1"
+				(rectangle
+					(start 7.62 0)
+					(end 13.97 -9.525)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_1_2_1"
+				(rectangle
+					(start 3.81 -1.27)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 1.27 -3.81 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -8.89 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -13.97 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -17.78 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -6.35 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_1_3_1"
+				(rectangle
+					(start 6.35 -3.81)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -11.43 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_1_4_1"
+				(rectangle
+					(start 6.35 -2.54)
+					(end 17.78 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -5.08 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -10.16 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -15.24 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -19.05 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_1_5_1"
+				(rectangle
+					(start 6.35 -3.81)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -11.43 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jk-flipflops_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "jk-flipflops_2_1_1"
+				(rectangle
+					(start 7.62 0)
+					(end 13.97 -9.525)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_2_2_1"
+				(rectangle
+					(start 3.81 -1.27)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 1.27 -3.81 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -8.89 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -13.97 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -17.78 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -6.35 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_2_3_1"
+				(rectangle
+					(start 6.35 -3.81)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -11.43 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_2_4_1"
+				(rectangle
+					(start 6.35 -2.54)
+					(end 17.78 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -5.08 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -10.16 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -15.24 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -19.05 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_2_5_1"
+				(rectangle
+					(start 6.35 -3.81)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -11.43 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jk-flipflops_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "jk-flipflops_3_1_1"
+				(rectangle
+					(start 7.62 0)
+					(end 13.97 -9.525)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_3_2_1"
+				(rectangle
+					(start 3.81 -1.27)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 1.27 -3.81 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -8.89 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -13.97 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -17.78 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -6.35 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_3_3_1"
+				(rectangle
+					(start 6.35 -3.81)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -11.43 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_3_4_1"
+				(rectangle
+					(start 6.35 -2.54)
+					(end 17.78 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -5.08 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -10.16 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -15.24 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -19.05 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_3_5_1"
+				(rectangle
+					(start 6.35 -3.81)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -11.43 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jk-flipflops_4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "jk-flipflops_4_1_1"
+				(rectangle
+					(start 7.62 0)
+					(end 13.97 -9.525)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_4_2_1"
+				(rectangle
+					(start 3.81 -1.27)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 1.27 -3.81 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -8.89 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -13.97 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -17.78 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -6.35 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_4_3_1"
+				(rectangle
+					(start 6.35 -3.81)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -11.43 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_4_4_1"
+				(rectangle
+					(start 6.35 -2.54)
+					(end 17.78 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -5.08 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -10.16 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -15.24 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -19.05 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "jk-flipflops_4_5_1"
+				(rectangle
+					(start 6.35 -3.81)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 0)
+					(length 2.54)
+					(name "J"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -11.43 0)
+					(length 2.54)
+					(name "Clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 270)
+					(length 2.54)
+					(name "Pre"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "Clr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -130,6 +4160,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 55.88 99.06)
@@ -138,130 +4269,96 @@
 		(uuid "036ccf2e-1c30-4b93-9fd2-d31738d91b4d")
 	)
 	(junction
-		(at 121.92 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "142bdabc-9ec4-4c93-bcae-ac0721ed393b")
-	)
-	(junction
 		(at 114.3 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "142df056-0d33-40c5-a02f-1743f550cbc7")
 	)
 	(junction
-		(at 144.78 111.76)
+		(at 129.54 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ba8a3ae-b96a-47fa-aef6-29b895f0b183")
+		(uuid "66e9f382-be77-4967-b502-8c5695a29c1e")
 	)
 	(junction
-		(at 88.9 143.51)
+		(at 87.63 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2dfa6241-0361-4fc5-a644-1ad26aa58e65")
-	)
-	(junction
-		(at 90.17 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30f63dfe-8879-40b2-80d0-26d2b282a3b8")
-	)
-	(junction
-		(at 64.77 114.935)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4728f913-f1cc-4b1b-a421-320a2adfa9a8")
-	)
-	(junction
-		(at 151.13 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d2acd6f-9db9-4208-87d5-557bfee7d1cb")
-	)
-	(junction
-		(at 121.92 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "523f843d-6838-45b4-83ef-ae85fa30384b")
-	)
-	(junction
-		(at 120.65 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68c6d12a-9fdf-484c-af86-4d822815e3e6")
-	)
-	(junction
-		(at 173.99 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b0385da-84e5-4a36-85ea-17317963ad45")
+		(uuid "70fcf536-9347-488f-8fb5-0ec0c840a89a")
 	)
 	(junction
 		(at 114.3 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a97980e7-8d46-447f-8ee2-ea5f4df943d2")
+		(uuid "7b1b2067-eaf1-4d47-b433-ee2e5efb570f")
 	)
 	(junction
-		(at 151.13 143.51)
+		(at 87.63 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b3e69d1c-d7f2-480c-9b0a-0d256d35e192")
+		(uuid "a63c33d3-2002-4f2e-b805-1d1460920018")
 	)
 	(junction
-		(at 208.28 91.44)
+		(at 149.86 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9c07211-1773-40a4-8a0d-f0270ef778b6")
+		(uuid "a79957cc-6215-412f-972d-7777667ff8ce")
 	)
 	(junction
-		(at 90.17 113.03)
+		(at 97.79 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f9bd34d7-3ae3-4688-aa78-8d422d8be61b")
+		(uuid "b6fb6fb9-aa92-4821-b2f6-9f39a006f93e")
 	)
 	(junction
-		(at 85.09 109.22)
+		(at 62.23 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc71bb89-38b4-409a-8e5c-ac722f8a035c")
+		(uuid "c9519e2b-8e77-4c44-a181-9cba5fb73179")
 	)
 	(junction
-		(at 64.77 112.395)
+		(at 119.38 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fea2513d-dd6f-4e20-915c-bae362e9f459")
+		(uuid "cc0f27ac-d783-4d9c-b136-5fb95e3c02fc")
+	)
+	(junction
+		(at 85.09 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce9aea54-8f6b-44a5-a9eb-75ff95b7e16b")
+	)
+	(junction
+		(at 144.78 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8ebeefb-168f-4805-a077-4766d874a75b")
+	)
+	(no_connect
+		(at 129.54 104.14)
+		(uuid "01f331bc-29d7-416c-982d-9b98eebaf7f2")
+	)
+	(no_connect
+		(at 160.02 104.14)
+		(uuid "832baf41-6f82-4f96-9011-2a3ea23e7bad")
+	)
+	(no_connect
+		(at 74.93 104.14)
+		(uuid "c774c4ce-2e32-45b8-886e-21f6bb431072")
+	)
+	(no_connect
+		(at 97.79 104.14)
+		(uuid "ec66cac6-c41e-4137-b104-8c1bd3371841")
 	)
 	(wire
 		(pts
-			(xy 173.99 85.09) (xy 173.99 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0039f2f1-5d0f-4f25-bc0d-b66911dec185")
-	)
-	(wire
-		(pts
-			(xy 55.88 99.06) (xy 90.17 99.06)
+			(xy 55.88 99.06) (xy 87.63 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00e40864-afa3-4913-9447-fd64eaec70f0")
-	)
-	(wire
-		(pts
-			(xy 151.13 118.11) (xy 151.13 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c0bb36-ddf5-4fac-b30a-a8dd49b37887")
 	)
 	(wire
 		(pts
@@ -275,43 +4372,53 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 118.11) (xy 120.65 118.11)
+			(xy 62.23 109.22) (xy 62.23 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d90c570-4364-4816-97f3-521cef9ea706")
+		(uuid "0e48a138-e934-49b0-b844-a82179186d15")
 	)
 	(wire
 		(pts
-			(xy 91.44 115.57) (xy 90.17 115.57)
+			(xy 62.23 119.38) (xy 66.04 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1773a93e-8a98-4384-bfb7-ee4c460a1f62")
+		(uuid "1cf46976-190e-403f-8fe0-6db951eb8d3e")
 	)
 	(wire
 		(pts
-			(xy 90.17 113.03) (xy 91.44 113.03)
+			(xy 151.13 109.22) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26d36cb3-2a4c-40d1-bfb8-1a3e3a0dc35b")
+		(uuid "2214e66c-078f-473f-90cd-4409a30f5b8b")
 	)
 	(wire
 		(pts
-			(xy 62.23 143.51) (xy 88.9 143.51)
+			(xy 119.38 109.22) (xy 119.38 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b3d5b6c-75e5-46fb-b246-4328a1f993a2")
+		(uuid "221e0daa-98ae-4dec-bab4-a2d75a2ece12")
+	)
+	(wire
+		(pts
+			(xy 82.55 111.76) (xy 85.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1fd825-329b-479d-aa70-3d574627d769")
 	)
 	(wire
 		(pts
@@ -325,83 +4432,73 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 111.76) (xy 85.09 111.76)
+			(xy 85.09 114.3) (xy 85.09 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30f625ef-14b2-43ff-a6a1-65d805ef9a27")
+		(uuid "2c1f5981-54cd-4fb4-a884-a59baea115ff")
 	)
 	(wire
 		(pts
-			(xy 90.17 99.06) (xy 121.92 99.06)
+			(xy 129.54 123.19) (xy 129.54 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37a20123-6181-4515-8417-e67ff134cf39")
+		(uuid "3206afdf-854a-410b-8c32-0596a0c3e857")
 	)
 	(wire
 		(pts
-			(xy 146.05 109.22) (xy 153.67 109.22)
+			(xy 87.63 119.38) (xy 88.9 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cd24071-80c4-477c-93ad-7f26a3b1f3e2")
+		(uuid "332b3383-f96f-4d4e-beb9-64262b1c5b35")
 	)
 	(wire
 		(pts
-			(xy 208.28 91.44) (xy 214.63 91.44)
+			(xy 144.78 114.3) (xy 144.78 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f968588-870c-415c-a2c2-27e268e931ca")
+		(uuid "3484a625-a91b-478a-927c-52a7b1da4b07")
 	)
 	(wire
 		(pts
-			(xy 64.77 115.57) (xy 64.77 114.935)
+			(xy 149.86 119.38) (xy 151.13 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49afc1a0-42ca-4f24-97f6-225ffc6b529c")
+		(uuid "3ea715e7-2e41-417d-97ff-1568508ab40f")
 	)
 	(wire
 		(pts
-			(xy 208.28 91.44) (xy 208.28 143.51)
+			(xy 88.9 114.3) (xy 85.09 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ce70137-e96e-4b25-b78c-463f2280b78d")
+		(uuid "44cfa8bb-e11b-4567-8b66-55359eb809f4")
 	)
 	(wire
 		(pts
-			(xy 205.74 91.44) (xy 208.28 91.44)
+			(xy 87.63 99.06) (xy 119.38 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d779012-c6bf-49cb-8bc5-afc6ab1c1406")
-	)
-	(wire
-		(pts
-			(xy 121.92 99.06) (xy 151.13 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f2a62bf-2ae9-478e-b8f4-61fd14b5c22e")
+		(uuid "4f675f59-5efa-437d-a353-8f996fb979b4")
 	)
 	(wire
 		(pts
@@ -415,33 +4512,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 118.11) (xy 62.23 143.51)
+			(xy 114.3 114.3) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54e5ffd2-63bf-47e3-bd31-847da5bcd7b7")
+		(uuid "52f039ed-bc9d-4844-8342-4880f30b56ba")
 	)
 	(wire
 		(pts
-			(xy 114.3 92.71) (xy 185.42 92.71)
+			(xy 114.3 92.71) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "556b593c-0fa8-416c-bfc5-88d7ad0bc94d")
-	)
-	(wire
-		(pts
-			(xy 64.77 114.935) (xy 64.77 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5582865f-ad87-4f35-a19f-be08ee675a56")
 	)
 	(wire
 		(pts
@@ -455,37 +4542,27 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 115.57) (xy 123.19 115.57)
+			(xy 149.86 92.71) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58fff88e-fc30-49cd-a4a0-511999d025fa")
+		(uuid "5f39baad-046f-4f4c-a058-f1b5725beb81")
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 185.42 88.9)
+			(xy 119.38 99.06) (xy 119.38 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c75c981-b440-466a-b730-516499c01183")
+		(uuid "5fb65779-3376-4b9c-933a-45918caa3c86")
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 146.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "610f2071-d232-4854-9a5f-a141673d2c02")
-	)
-	(wire
-		(pts
-			(xy 52.07 109.22) (xy 64.77 109.22)
+			(xy 53.34 114.3) (xy 66.04 114.3)
 		)
 		(stroke
 			(width 0)
@@ -495,7 +4572,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 143.51) (xy 120.65 143.51)
+			(xy 74.93 143.51) (xy 97.79 143.51)
 		)
 		(stroke
 			(width 0)
@@ -505,97 +4582,77 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 109.22) (xy 123.19 109.22)
+			(xy 97.79 143.51) (xy 129.54 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a0a4c74-df09-4710-8b24-1e8d4c4ad37d")
+		(uuid "650cbbb6-e2bb-4c66-ad16-20b3bd9a5f89")
 	)
 	(wire
 		(pts
-			(xy 121.92 113.03) (xy 123.19 113.03)
+			(xy 129.54 143.51) (xy 160.02 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f6c99da-a9bd-41c5-9e96-5156d1ca3337")
+		(uuid "68e57bbc-4447-4517-85c5-6023c3618e9b")
 	)
 	(wire
 		(pts
-			(xy 153.67 118.11) (xy 151.13 118.11)
+			(xy 120.65 109.22) (xy 119.38 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f8f17cb-d2fc-4408-9bad-c5edaed1633b")
+		(uuid "78d95ad7-ec32-4a78-a39d-2006d442f017")
 	)
 	(wire
 		(pts
-			(xy 85.09 109.22) (xy 91.44 109.22)
+			(xy 173.99 85.09) (xy 173.99 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b6be15a-f381-4d88-b6af-2ede50358884")
+		(uuid "840ce029-a2b7-4d1b-b3a9-1d5988d0e0c0")
 	)
 	(wire
 		(pts
-			(xy 151.13 143.51) (xy 208.28 143.51)
+			(xy 97.79 123.19) (xy 97.79 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c987a4a-0fea-4a11-9222-9679d6445335")
+		(uuid "8eb2b02e-a112-4f6f-999a-ea5c6fbd04a7")
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 151.13 113.03)
+			(xy 87.63 109.22) (xy 87.63 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81f08edd-81b0-47d3-8a87-85e65f5243d2")
+		(uuid "90e92d8e-71f7-426a-87d6-21b34d5122ee")
 	)
 	(wire
 		(pts
-			(xy 64.77 111.76) (xy 55.88 111.76)
+			(xy 88.9 109.22) (xy 87.63 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "890fafa8-972c-4978-978b-e1a9e3299ce2")
+		(uuid "a0a45532-14f7-4f8b-a759-ccd0c2ab3a35")
 	)
 	(wire
 		(pts
-			(xy 151.13 113.03) (xy 153.67 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c92c975-df0b-40a8-a6de-414c92a8ba6a")
-	)
-	(wire
-		(pts
-			(xy 88.9 118.11) (xy 88.9 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "966567cf-613f-4818-b218-b37161bf4062")
-	)
-	(wire
-		(pts
-			(xy 85.09 111.76) (xy 85.09 109.22)
+			(xy 85.09 85.09) (xy 85.09 111.76)
 		)
 		(stroke
 			(width 0)
@@ -605,23 +4662,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 115.57) (xy 82.55 115.57)
+			(xy 55.88 109.22) (xy 62.23 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4ef6d0f-edc3-41e3-bef3-f18052e76cdc")
-	)
-	(wire
-		(pts
-			(xy 90.17 115.57) (xy 90.17 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5eaba8b-b728-4ac2-93af-5dbecc280efc")
+		(uuid "a3f5043e-91c7-46ec-8f24-d02a0b91a9c0")
 	)
 	(wire
 		(pts
@@ -635,53 +4682,33 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 111.76) (xy 115.57 109.22)
+			(xy 120.65 114.3) (xy 114.3 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac04dea2-25d1-44f0-a8ca-05a82ced6076")
+		(uuid "aebeae6b-584a-4068-8b9f-3c53c0dcf322")
 	)
 	(wire
 		(pts
-			(xy 120.65 143.51) (xy 151.13 143.51)
+			(xy 74.93 123.19) (xy 74.93 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad355e9e-9b6a-4ebd-8575-b7a72810a84a")
+		(uuid "b20ae7c1-7fc8-42ca-9ea7-d69d002251a0")
 	)
 	(wire
 		(pts
-			(xy 90.17 99.06) (xy 90.17 113.03)
+			(xy 119.38 119.38) (xy 120.65 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae31e4e9-02de-48e7-8417-fdc4def58b58")
-	)
-	(wire
-		(pts
-			(xy 85.09 85.09) (xy 85.09 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a00ce3-f501-4d1f-a5c4-d97f786b2782")
-	)
-	(wire
-		(pts
-			(xy 64.77 112.395) (xy 64.77 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7ffddc9-6b42-485d-a92a-96d024fee2b8")
+		(uuid "b886877a-7408-43f7-bd18-4035ad9004a9")
 	)
 	(wire
 		(pts
@@ -695,13 +4722,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 113.03) (xy 121.92 115.57)
+			(xy 87.63 99.06) (xy 87.63 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c18386ab-9cec-44d2-a12f-196c3116a881")
+		(uuid "bcf8d922-11bd-4a44-b133-e2faf5f9eb63")
 	)
 	(wire
 		(pts
@@ -715,27 +4742,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 115.57) (xy 153.67 115.57)
+			(xy 66.04 109.22) (xy 62.23 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8872df7-43dd-41be-bfbe-f2ebdd4d0990")
+		(uuid "cda54f35-de0b-413b-9f0a-532e63c7d7e8")
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 173.99 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cebb8cbe-c233-45ba-bd96-a97b96a86d77")
-	)
-	(wire
-		(pts
-			(xy 55.88 99.06) (xy 55.88 111.76)
+			(xy 55.88 99.06) (xy 55.88 109.22)
 		)
 		(stroke
 			(width 0)
@@ -745,33 +4762,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 113.03) (xy 151.13 115.57)
+			(xy 149.86 109.22) (xy 149.86 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d25cca2b-9e5d-4f0b-ac32-d50f7d428f1b")
-	)
-	(wire
-		(pts
-			(xy 121.92 99.06) (xy 121.92 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2a11e5b-5ae9-43b6-a9d4-a1ad54567a8f")
-	)
-	(wire
-		(pts
-			(xy 120.65 118.11) (xy 120.65 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da41ca63-8d9a-498b-a3e8-92c8f2742091")
+		(uuid "d9377419-afd2-4ce0-a9b5-3193058448cf")
 	)
 	(wire
 		(pts
@@ -785,23 +4782,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 111.76) (xy 115.57 111.76)
+			(xy 160.02 123.19) (xy 160.02 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e199787b-7259-4c62-a884-cf066eb6e345")
-	)
-	(wire
-		(pts
-			(xy 146.05 111.76) (xy 146.05 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3bd543e-6558-4cec-8a6d-068ffad0c652")
+		(uuid "de7f4ffc-db07-4115-9fc5-c399a4dd84a3")
 	)
 	(wire
 		(pts
@@ -815,23 +4802,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 118.11) (xy 62.23 118.11)
+			(xy 151.13 114.3) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0dcd2f5-522a-486b-aa2a-ab3617a59284")
-	)
-	(wire
-		(pts
-			(xy 91.44 118.11) (xy 88.9 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbef3387-5c6f-4b8c-9c19-39a3c487b7b7")
+		(uuid "f61698cc-0189-481a-a450-3e070206778a")
 	)
 	(hierarchical_label "\\Q1"
 		(shape output)
@@ -844,17 +4821,6 @@
 		)
 		(uuid "099529f6-03b3-47c2-b76d-e7142676b462")
 	)
-	(hierarchical_label "Out"
-		(shape output)
-		(at 214.63 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c1d5ff7-a27c-480e-ac2b-360e71b1a5a6")
-	)
 	(hierarchical_label "Q0"
 		(shape output)
 		(at 85.09 85.09 90)
@@ -866,9 +4832,20 @@
 		)
 		(uuid "14192dda-42f8-4413-926f-0f105d3ab949")
 	)
+	(hierarchical_label "Clr"
+		(shape input)
+		(at 160.02 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "366ed80d-52ea-46e2-94cb-01cba235f216")
+	)
 	(hierarchical_label "CLK"
 		(shape input)
-		(at 52.07 109.22 180)
+		(at 53.34 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -944,6 +4921,193 @@
 		(uuid "e2c69e4e-1f58-48d2-9edb-ed86cd5335ac")
 	)
 	(symbol
+		(lib_name "jk-flipflops_2")
+		(lib_id "custom:jk-flipflops")
+		(at 85.09 102.87 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "218b681e-0570-4327-8f64-78ccf275da29")
+		(property "Reference" "U6"
+			(at 99.9333 102.6625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 99.9333 105.0868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "45"
+			(uuid "19849751-ea55-4960-9140-01bf3caf85de")
+		)
+		(pin "6"
+			(uuid "a6a12637-152e-481e-8d21-8c0066f65a6e")
+		)
+		(pin "39"
+			(uuid "046b8227-5d5a-4487-9758-1bc1d4080959")
+		)
+		(pin "20"
+			(uuid "093dfe77-2188-4583-b404-33d83ed75b6f")
+		)
+		(pin "2"
+			(uuid "0468fb14-b26d-4ae2-89db-147c8d41b73f")
+		)
+		(pin "49"
+			(uuid "2f0c729a-99db-4250-aa9f-7e1cb01504dc")
+		)
+		(pin "30"
+			(uuid "29532b94-935e-43a1-9c46-d325392eafa3")
+		)
+		(pin "47"
+			(uuid "92e24cf3-943c-419f-b8f3-59f7f5b0d3bd")
+		)
+		(pin "12"
+			(uuid "4daa0ad6-6f78-427e-bab8-4b8ade1446a7")
+		)
+		(pin "28"
+			(uuid "83b6691a-6436-4fc7-a946-ce1e85f78d81")
+		)
+		(pin "19"
+			(uuid "3e245a28-1c27-4010-bbae-dc4b51d71e78")
+		)
+		(pin "51"
+			(uuid "fdfe182b-0837-4dac-b778-205b943b6864")
+		)
+		(pin "23"
+			(uuid "ca128a66-c548-4b72-ab7e-c57e37b59013")
+		)
+		(pin "26"
+			(uuid "6307ab8e-7dd4-4408-9f76-959761e7ccf5")
+		)
+		(pin "21"
+			(uuid "de56f4ac-1c7b-47db-aeb5-3fc133e860ea")
+		)
+		(pin "32"
+			(uuid "35b2be53-3ddc-4869-bdb2-b0303fe869ed")
+		)
+		(pin "41"
+			(uuid "d571ea93-288c-419e-8ebc-2c2bd47cfba7")
+		)
+		(pin "8"
+			(uuid "24ab900f-f541-44f5-96b6-4ddb0f51d330")
+		)
+		(pin "18"
+			(uuid "40bee2cb-8251-449b-a2ff-605400855083")
+		)
+		(pin "10"
+			(uuid "12247411-4c28-48f9-84f0-77501befdfb5")
+		)
+		(pin "35"
+			(uuid "513d81bb-a1d4-4760-ace3-8d914fa82e3d")
+		)
+		(pin "34"
+			(uuid "366e66d5-ffe9-430e-803d-642c72be227e")
+		)
+		(pin "14"
+			(uuid "f5206e35-9b74-45d1-a36f-934815853f4c")
+		)
+		(pin "22"
+			(uuid "cc7a8874-c704-45c0-82bc-900bb81e1c25")
+		)
+		(pin "25"
+			(uuid "10c47af6-beef-46f8-b367-80e6a02c5e9e")
+		)
+		(pin "9"
+			(uuid "06698b73-b15e-4527-b0fe-56b7e0de1eb3")
+		)
+		(pin "43"
+			(uuid "61e86d1c-2fdd-4433-8588-c8ce52ddc9fd")
+		)
+		(pin "35"
+			(uuid "601c0ec5-4aae-4eee-b605-119779507102")
+		)
+		(pin "16"
+			(uuid "4f4d1f26-3349-46cb-ad76-74273978b77c")
+		)
+		(pin "46"
+			(uuid "ee7de44a-d6bf-40a9-b507-1ccffa9ef621")
+		)
+		(pin "4"
+			(uuid "f1b37ac8-9123-455a-999d-dc3ba627f60c")
+		)
+		(pin "24"
+			(uuid "5fb82fad-f837-4a55-9d07-70cb4350c4f5")
+		)
+		(pin "37"
+			(uuid "ed1abdf3-9e6f-4b6b-9bf5-af7c44cdb8a7")
+		)
+		(pin "33"
+			(uuid "010c3a2c-5039-4540-bccd-9d9dc7ade7f7")
+		)
+		(pin "29"
+			(uuid "736d6a14-a94b-4b69-9530-3391794a3570")
+		)
+		(pin "36"
+			(uuid "10a3d91d-e050-46bc-a053-031bd3ac88e1")
+		)
+		(pin "3"
+			(uuid "54811c2e-1e86-484f-a8e8-79e1c6055258")
+		)
+		(pin "27"
+			(uuid "c958890d-6f57-4dba-86f6-41f544bca65c")
+		)
+		(instances
+			(project ""
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
+					(reference "U8")
+					(unit 3)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
+					(reference "U6")
+					(unit 3)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
+					(reference "U7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 55.88 99.06 0)
 		(unit 1)
@@ -1017,521 +5181,27 @@
 			)
 		)
 	)
-	(sheet
-		(at 123.19 107.95)
-		(size 13.97 13.335)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 264.16 127 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "0f6f66b6-6937-4b6a-a090-d2ad2a4ac496")
-		(property "Sheetname" "jk-flipflop2"
-			(at 123.19 107.2384 0)
+		(uuid "297da3f0-bf1e-41c9-b1f1-e4b11d2f5fa9")
+		(property "Reference" "#PWR014"
+			(at 267.97 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "jkflipflop.kicad_sch"
-			(at 123.19 121.8696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 123.19 109.22 180)
-			(uuid "830e0abc-ecc3-4329-aba5-b3bb91702fdf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Clr" input
-			(at 123.19 118.11 180)
-			(uuid "0f1a9774-5f2b-49cd-a40f-4104d52be5bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "J" input
-			(at 123.19 113.03 180)
-			(uuid "19e3c329-9cb6-476e-8255-0ee41574b88d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "K" input
-			(at 123.19 115.57 180)
-			(uuid "48da8f8f-fc80-40e3-869e-36c488853f07")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Preset" input
-			(at 137.16 119.38 0)
-			(uuid "d563ad0e-ffdf-42a9-872b-3ecd64ce66bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Q" output
-			(at 137.16 111.76 0)
-			(uuid "6733a74c-cf6c-4e9f-af46-b2da6924b92f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "\\Q" output
-			(at 137.16 115.57 0)
-			(uuid "c3e009a4-f77d-4dc3-8d39-b91143475312")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
-					(page "92")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
-					(page "97")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
-					(page "102")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 153.67 107.95)
-		(size 13.97 13.335)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "5047e15a-bbdf-4073-accf-743d6aa8ed9a")
-		(property "Sheetname" "jk-flipflop3"
-			(at 153.67 107.2384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "jkflipflop.kicad_sch"
-			(at 153.67 121.8696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 153.67 109.22 180)
-			(uuid "e0e7ac6e-ca77-46f1-8f1c-396f4f9fa5fb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Clr" input
-			(at 153.67 118.11 180)
-			(uuid "18cc56e6-6748-47bc-9d08-85df7bd4df0e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "J" input
-			(at 153.67 113.03 180)
-			(uuid "59138d1a-6b66-4eb3-b39b-fb89aafa7ebd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "K" input
-			(at 153.67 115.57 180)
-			(uuid "c8a6d1a8-3cb6-48a6-8325-aab3149116f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Preset" input
-			(at 167.64 119.38 0)
-			(uuid "7e3251be-3278-4586-a54b-6200ff324e75")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Q" output
-			(at 167.64 111.76 0)
-			(uuid "68a7c1da-74e9-46ea-bc2e-908c22523638")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "\\Q" output
-			(at 167.64 115.57 0)
-			(uuid "2426d97f-5727-4793-a67d-67d891239e34")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
-					(page "107")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
-					(page "112")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
-					(page "117")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 91.44 107.95)
-		(size 13.97 13.335)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "5a24db74-34dd-4b69-bd86-fd3ee6fa9a56")
-		(property "Sheetname" "jk-flipflop1"
-			(at 91.44 107.2384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "jkflipflop.kicad_sch"
-			(at 91.44 121.8696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 91.44 109.22 180)
-			(uuid "13f21e30-d2e1-49c6-a31a-c72b2f024bdc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Clr" input
-			(at 91.44 118.11 180)
-			(uuid "bf49231c-6626-4121-bd7e-dd034de2a8d1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "J" input
-			(at 91.44 113.03 180)
-			(uuid "3726ec0c-9f6e-4905-bcdb-ac28a3ad99c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "K" input
-			(at 91.44 115.57 180)
-			(uuid "e9edd202-2109-49a8-aac4-64cc26059a6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Preset" input
-			(at 105.41 119.38 0)
-			(uuid "665811d5-c312-4f48-a58b-d72d42a27bdb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Q" output
-			(at 105.41 111.76 0)
-			(uuid "dd15f508-136f-47f3-8812-7b31b17f14b6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "\\Q" output
-			(at 105.41 115.57 0)
-			(uuid "5ac8afff-dea9-4716-ab89-0eba025a4287")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
-					(page "62")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
-					(page "68")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
-					(page "87")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 64.77 107.315)
-		(size 13.97 13.335)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "6b6939a5-39c1-431e-877c-946ab8d1637f")
-		(property "Sheetname" "jk-flipflop"
-			(at 64.77 106.6034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "jkflipflop.kicad_sch"
-			(at 64.77 121.2346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 64.77 109.22 180)
-			(uuid "e48b8c6d-0a4f-449d-98d1-4c3748dbf0c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Clr" input
-			(at 64.77 118.11 180)
-			(uuid "31bbb0a0-d7ff-421b-91d4-b065624464ab")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "J" input
-			(at 64.77 112.395 180)
-			(uuid "36fe3067-6a98-41e8-a56b-feceeab7471c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "K" input
-			(at 64.77 114.935 180)
-			(uuid "2577d98c-f374-453f-bf71-95d949b9ae9a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Preset" input
-			(at 78.74 118.745 0)
-			(uuid "7fecb792-595b-453a-98f4-da9e8f86ab44")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Q" output
-			(at 78.74 111.76 0)
-			(uuid "a50c31dc-d571-42fb-86e1-2480af4338ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "\\Q" output
-			(at 78.74 115.57 0)
-			(uuid "db545a52-1550-4f38-8744-740d0eacabf2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
-					(page "56")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
-					(page "152")
-				)
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
-					(page "216")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 185.42 86.36)
-		(size 20.32 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "ef45f8fe-f8b4-480d-abd7-c9b5575c64d8")
-		(property "Sheetname" "NAND2"
-			(at 185.42 85.6484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "nand.kicad_sch"
-			(at 185.42 97.1046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "A" input
-			(at 185.42 88.9 180)
-			(uuid "9408cf17-025d-47c6-9d22-597be505eb7d")
+		(property "Value" "+3V3"
+			(at 260.985 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,19 +5209,74 @@
 				(justify left)
 			)
 		)
-		(pin "B" input
-			(at 185.42 92.71 180)
-			(uuid "4325887a-6fe1-4e69-84a3-66a4a978f9cf")
+		(property "Footprint" ""
+			(at 264.16 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(pin "Out" output
-			(at 205.74 91.44 0)
-			(uuid "ad4efacb-3097-492e-93e5-76b73de472ba")
+		(property "Datasheet" ""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6266cdc7-c116-4f9b-891c-6bd940a787d3")
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c33c5d1-9a00-4e38-ac04-b3742ef78372")
+		(property "Reference" "#PWR020"
+			(at 257.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.9851 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,16 +5284,796 @@
 				(justify right)
 			)
 		)
+		(property "Footprint" ""
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "534e6d76-4dfb-4e51-bc1c-57bb74dbda30")
+		)
 		(instances
-			(project "transistor-clock"
+			(project ""
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
+					(reference "#PWR022")
+					(unit 1)
+				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
-					(page "136")
+					(reference "#PWR020")
+					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
-					(page "172")
+					(reference "#PWR021")
+					(unit 1)
 				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "jk-flipflops_4")
+		(lib_id "custom:jk-flipflops")
+		(at 147.32 102.87 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c442807-4268-4ec7-8bcf-683b60ace08b")
+		(property "Reference" "U6"
+			(at 162.1633 102.6625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 162.1633 105.0868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "45"
+			(uuid "19849751-ea55-4960-9140-01bf3caf85df")
+		)
+		(pin "6"
+			(uuid "a6a12637-152e-481e-8d21-8c0066f65a6f")
+		)
+		(pin "39"
+			(uuid "046b8227-5d5a-4487-9758-1bc1d408095a")
+		)
+		(pin "20"
+			(uuid "093dfe77-2188-4583-b404-33d83ed75b70")
+		)
+		(pin "2"
+			(uuid "0468fb14-b26d-4ae2-89db-147c8d41b740")
+		)
+		(pin "49"
+			(uuid "2f0c729a-99db-4250-aa9f-7e1cb01504dd")
+		)
+		(pin "30"
+			(uuid "29532b94-935e-43a1-9c46-d325392eafa4")
+		)
+		(pin "47"
+			(uuid "92e24cf3-943c-419f-b8f3-59f7f5b0d3be")
+		)
+		(pin "12"
+			(uuid "4daa0ad6-6f78-427e-bab8-4b8ade1446a8")
+		)
+		(pin "28"
+			(uuid "83b6691a-6436-4fc7-a946-ce1e85f78d82")
+		)
+		(pin "19"
+			(uuid "3e245a28-1c27-4010-bbae-dc4b51d71e79")
+		)
+		(pin "51"
+			(uuid "fdfe182b-0837-4dac-b778-205b943b6865")
+		)
+		(pin "23"
+			(uuid "ca128a66-c548-4b72-ab7e-c57e37b59014")
+		)
+		(pin "26"
+			(uuid "6307ab8e-7dd4-4408-9f76-959761e7ccf6")
+		)
+		(pin "21"
+			(uuid "de56f4ac-1c7b-47db-aeb5-3fc133e860eb")
+		)
+		(pin "32"
+			(uuid "35b2be53-3ddc-4869-bdb2-b0303fe869ee")
+		)
+		(pin "41"
+			(uuid "d571ea93-288c-419e-8ebc-2c2bd47cfba8")
+		)
+		(pin "8"
+			(uuid "24ab900f-f541-44f5-96b6-4ddb0f51d331")
+		)
+		(pin "18"
+			(uuid "40bee2cb-8251-449b-a2ff-605400855084")
+		)
+		(pin "10"
+			(uuid "12247411-4c28-48f9-84f0-77501befdfb6")
+		)
+		(pin "35"
+			(uuid "513d81bb-a1d4-4760-ace3-8d914fa82e3e")
+		)
+		(pin "34"
+			(uuid "366e66d5-ffe9-430e-803d-642c72be227f")
+		)
+		(pin "14"
+			(uuid "f5206e35-9b74-45d1-a36f-934815853f4d")
+		)
+		(pin "22"
+			(uuid "cc7a8874-c704-45c0-82bc-900bb81e1c26")
+		)
+		(pin "25"
+			(uuid "10c47af6-beef-46f8-b367-80e6a02c5e9f")
+		)
+		(pin "9"
+			(uuid "06698b73-b15e-4527-b0fe-56b7e0de1eb4")
+		)
+		(pin "43"
+			(uuid "61e86d1c-2fdd-4433-8588-c8ce52ddc9fe")
+		)
+		(pin "35"
+			(uuid "601c0ec5-4aae-4eee-b605-119779507103")
+		)
+		(pin "16"
+			(uuid "4f4d1f26-3349-46cb-ad76-74273978b77d")
+		)
+		(pin "46"
+			(uuid "ee7de44a-d6bf-40a9-b507-1ccffa9ef622")
+		)
+		(pin "4"
+			(uuid "f1b37ac8-9123-455a-999d-dc3ba627f60d")
+		)
+		(pin "24"
+			(uuid "5fb82fad-f837-4a55-9d07-70cb4350c4f6")
+		)
+		(pin "37"
+			(uuid "ed1abdf3-9e6f-4b6b-9bf5-af7c44cdb8a8")
+		)
+		(pin "33"
+			(uuid "010c3a2c-5039-4540-bccd-9d9dc7ade7f8")
+		)
+		(pin "29"
+			(uuid "736d6a14-a94b-4b69-9530-3391794a3571")
+		)
+		(pin "36"
+			(uuid "10a3d91d-e050-46bc-a053-031bd3ac88e2")
+		)
+		(pin "3"
+			(uuid "54811c2e-1e86-484f-a8e8-79e1c6055259")
+		)
+		(pin "27"
+			(uuid "c958890d-6f57-4dba-86f6-41f544bca65d")
+		)
+		(instances
+			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
-					(page "237")
+					(reference "U8")
+					(unit 5)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
+					(reference "U6")
+					(unit 5)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
+					(reference "U7")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "jk-flipflops_3")
+		(lib_id "custom:jk-flipflops")
+		(at 116.84 104.14 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79a502da-967b-46f1-a148-3cd806378537")
+		(property "Reference" "U6"
+			(at 131.6833 102.6625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 131.6833 105.0868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "45"
+			(uuid "19849751-ea55-4960-9140-01bf3caf85e0")
+		)
+		(pin "6"
+			(uuid "a6a12637-152e-481e-8d21-8c0066f65a70")
+		)
+		(pin "39"
+			(uuid "046b8227-5d5a-4487-9758-1bc1d408095b")
+		)
+		(pin "20"
+			(uuid "093dfe77-2188-4583-b404-33d83ed75b71")
+		)
+		(pin "2"
+			(uuid "0468fb14-b26d-4ae2-89db-147c8d41b741")
+		)
+		(pin "49"
+			(uuid "2f0c729a-99db-4250-aa9f-7e1cb01504de")
+		)
+		(pin "30"
+			(uuid "29532b94-935e-43a1-9c46-d325392eafa5")
+		)
+		(pin "47"
+			(uuid "92e24cf3-943c-419f-b8f3-59f7f5b0d3bf")
+		)
+		(pin "12"
+			(uuid "4daa0ad6-6f78-427e-bab8-4b8ade1446a9")
+		)
+		(pin "28"
+			(uuid "83b6691a-6436-4fc7-a946-ce1e85f78d83")
+		)
+		(pin "19"
+			(uuid "3e245a28-1c27-4010-bbae-dc4b51d71e7a")
+		)
+		(pin "51"
+			(uuid "fdfe182b-0837-4dac-b778-205b943b6866")
+		)
+		(pin "23"
+			(uuid "ca128a66-c548-4b72-ab7e-c57e37b59015")
+		)
+		(pin "26"
+			(uuid "6307ab8e-7dd4-4408-9f76-959761e7ccf7")
+		)
+		(pin "21"
+			(uuid "de56f4ac-1c7b-47db-aeb5-3fc133e860ec")
+		)
+		(pin "32"
+			(uuid "35b2be53-3ddc-4869-bdb2-b0303fe869ef")
+		)
+		(pin "41"
+			(uuid "d571ea93-288c-419e-8ebc-2c2bd47cfba9")
+		)
+		(pin "8"
+			(uuid "24ab900f-f541-44f5-96b6-4ddb0f51d332")
+		)
+		(pin "18"
+			(uuid "40bee2cb-8251-449b-a2ff-605400855085")
+		)
+		(pin "10"
+			(uuid "12247411-4c28-48f9-84f0-77501befdfb7")
+		)
+		(pin "35"
+			(uuid "513d81bb-a1d4-4760-ace3-8d914fa82e3f")
+		)
+		(pin "34"
+			(uuid "366e66d5-ffe9-430e-803d-642c72be2280")
+		)
+		(pin "14"
+			(uuid "f5206e35-9b74-45d1-a36f-934815853f4e")
+		)
+		(pin "22"
+			(uuid "cc7a8874-c704-45c0-82bc-900bb81e1c27")
+		)
+		(pin "25"
+			(uuid "10c47af6-beef-46f8-b367-80e6a02c5ea0")
+		)
+		(pin "9"
+			(uuid "06698b73-b15e-4527-b0fe-56b7e0de1eb5")
+		)
+		(pin "43"
+			(uuid "61e86d1c-2fdd-4433-8588-c8ce52ddc9ff")
+		)
+		(pin "35"
+			(uuid "601c0ec5-4aae-4eee-b605-119779507104")
+		)
+		(pin "16"
+			(uuid "4f4d1f26-3349-46cb-ad76-74273978b77e")
+		)
+		(pin "46"
+			(uuid "ee7de44a-d6bf-40a9-b507-1ccffa9ef623")
+		)
+		(pin "4"
+			(uuid "f1b37ac8-9123-455a-999d-dc3ba627f60e")
+		)
+		(pin "24"
+			(uuid "5fb82fad-f837-4a55-9d07-70cb4350c4f7")
+		)
+		(pin "37"
+			(uuid "ed1abdf3-9e6f-4b6b-9bf5-af7c44cdb8a9")
+		)
+		(pin "33"
+			(uuid "010c3a2c-5039-4540-bccd-9d9dc7ade7f9")
+		)
+		(pin "29"
+			(uuid "736d6a14-a94b-4b69-9530-3391794a3572")
+		)
+		(pin "36"
+			(uuid "10a3d91d-e050-46bc-a053-031bd3ac88e3")
+		)
+		(pin "3"
+			(uuid "54811c2e-1e86-484f-a8e8-79e1c605525a")
+		)
+		(pin "27"
+			(uuid "c958890d-6f57-4dba-86f6-41f544bca65e")
+		)
+		(instances
+			(project ""
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
+					(reference "U8")
+					(unit 4)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
+					(reference "U6")
+					(unit 4)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
+					(reference "U7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:jk-flipflops")
+		(at 259.08 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1b16dfb-454c-4bcb-ba9d-661caf146c9b")
+		(property "Reference" "U6"
+			(at 273.685 128.0103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 273.685 130.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "45"
+			(uuid "19849751-ea55-4960-9140-01bf3caf85e1")
+		)
+		(pin "6"
+			(uuid "a6a12637-152e-481e-8d21-8c0066f65a71")
+		)
+		(pin "39"
+			(uuid "046b8227-5d5a-4487-9758-1bc1d408095c")
+		)
+		(pin "20"
+			(uuid "093dfe77-2188-4583-b404-33d83ed75b72")
+		)
+		(pin "2"
+			(uuid "0468fb14-b26d-4ae2-89db-147c8d41b742")
+		)
+		(pin "49"
+			(uuid "2f0c729a-99db-4250-aa9f-7e1cb01504df")
+		)
+		(pin "30"
+			(uuid "29532b94-935e-43a1-9c46-d325392eafa6")
+		)
+		(pin "47"
+			(uuid "92e24cf3-943c-419f-b8f3-59f7f5b0d3c0")
+		)
+		(pin "12"
+			(uuid "4daa0ad6-6f78-427e-bab8-4b8ade1446aa")
+		)
+		(pin "28"
+			(uuid "83b6691a-6436-4fc7-a946-ce1e85f78d84")
+		)
+		(pin "19"
+			(uuid "3e245a28-1c27-4010-bbae-dc4b51d71e7b")
+		)
+		(pin "51"
+			(uuid "fdfe182b-0837-4dac-b778-205b943b6867")
+		)
+		(pin "23"
+			(uuid "ca128a66-c548-4b72-ab7e-c57e37b59016")
+		)
+		(pin "26"
+			(uuid "6307ab8e-7dd4-4408-9f76-959761e7ccf8")
+		)
+		(pin "21"
+			(uuid "de56f4ac-1c7b-47db-aeb5-3fc133e860ed")
+		)
+		(pin "32"
+			(uuid "35b2be53-3ddc-4869-bdb2-b0303fe869f0")
+		)
+		(pin "41"
+			(uuid "d571ea93-288c-419e-8ebc-2c2bd47cfbaa")
+		)
+		(pin "8"
+			(uuid "24ab900f-f541-44f5-96b6-4ddb0f51d333")
+		)
+		(pin "18"
+			(uuid "40bee2cb-8251-449b-a2ff-605400855086")
+		)
+		(pin "10"
+			(uuid "12247411-4c28-48f9-84f0-77501befdfb8")
+		)
+		(pin "35"
+			(uuid "513d81bb-a1d4-4760-ace3-8d914fa82e40")
+		)
+		(pin "34"
+			(uuid "366e66d5-ffe9-430e-803d-642c72be2281")
+		)
+		(pin "14"
+			(uuid "f5206e35-9b74-45d1-a36f-934815853f4f")
+		)
+		(pin "22"
+			(uuid "cc7a8874-c704-45c0-82bc-900bb81e1c28")
+		)
+		(pin "25"
+			(uuid "10c47af6-beef-46f8-b367-80e6a02c5ea1")
+		)
+		(pin "9"
+			(uuid "06698b73-b15e-4527-b0fe-56b7e0de1eb6")
+		)
+		(pin "43"
+			(uuid "61e86d1c-2fdd-4433-8588-c8ce52ddca00")
+		)
+		(pin "35"
+			(uuid "601c0ec5-4aae-4eee-b605-119779507105")
+		)
+		(pin "16"
+			(uuid "4f4d1f26-3349-46cb-ad76-74273978b77f")
+		)
+		(pin "46"
+			(uuid "ee7de44a-d6bf-40a9-b507-1ccffa9ef624")
+		)
+		(pin "4"
+			(uuid "f1b37ac8-9123-455a-999d-dc3ba627f60f")
+		)
+		(pin "24"
+			(uuid "5fb82fad-f837-4a55-9d07-70cb4350c4f8")
+		)
+		(pin "37"
+			(uuid "ed1abdf3-9e6f-4b6b-9bf5-af7c44cdb8aa")
+		)
+		(pin "33"
+			(uuid "010c3a2c-5039-4540-bccd-9d9dc7ade7fa")
+		)
+		(pin "29"
+			(uuid "736d6a14-a94b-4b69-9530-3391794a3573")
+		)
+		(pin "36"
+			(uuid "10a3d91d-e050-46bc-a053-031bd3ac88e4")
+		)
+		(pin "3"
+			(uuid "54811c2e-1e86-484f-a8e8-79e1c605525b")
+		)
+		(pin "27"
+			(uuid "c958890d-6f57-4dba-86f6-41f544bca65f")
+		)
+		(instances
+			(project ""
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "jk-flipflops_1")
+		(lib_id "custom:jk-flipflops")
+		(at 64.77 105.41 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e97d03e9-df4f-4cb6-a0bb-e594ab3d8376")
+		(property "Reference" "U6"
+			(at 77.0733 102.6625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 77.0733 105.0868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "45"
+			(uuid "19849751-ea55-4960-9140-01bf3caf85e2")
+		)
+		(pin "6"
+			(uuid "a6a12637-152e-481e-8d21-8c0066f65a72")
+		)
+		(pin "39"
+			(uuid "046b8227-5d5a-4487-9758-1bc1d408095d")
+		)
+		(pin "20"
+			(uuid "093dfe77-2188-4583-b404-33d83ed75b73")
+		)
+		(pin "2"
+			(uuid "0468fb14-b26d-4ae2-89db-147c8d41b743")
+		)
+		(pin "49"
+			(uuid "2f0c729a-99db-4250-aa9f-7e1cb01504e0")
+		)
+		(pin "30"
+			(uuid "29532b94-935e-43a1-9c46-d325392eafa7")
+		)
+		(pin "47"
+			(uuid "92e24cf3-943c-419f-b8f3-59f7f5b0d3c1")
+		)
+		(pin "12"
+			(uuid "4daa0ad6-6f78-427e-bab8-4b8ade1446ab")
+		)
+		(pin "28"
+			(uuid "83b6691a-6436-4fc7-a946-ce1e85f78d85")
+		)
+		(pin "19"
+			(uuid "3e245a28-1c27-4010-bbae-dc4b51d71e7c")
+		)
+		(pin "51"
+			(uuid "fdfe182b-0837-4dac-b778-205b943b6868")
+		)
+		(pin "23"
+			(uuid "ca128a66-c548-4b72-ab7e-c57e37b59017")
+		)
+		(pin "26"
+			(uuid "6307ab8e-7dd4-4408-9f76-959761e7ccf9")
+		)
+		(pin "21"
+			(uuid "de56f4ac-1c7b-47db-aeb5-3fc133e860ee")
+		)
+		(pin "32"
+			(uuid "35b2be53-3ddc-4869-bdb2-b0303fe869f1")
+		)
+		(pin "41"
+			(uuid "d571ea93-288c-419e-8ebc-2c2bd47cfbab")
+		)
+		(pin "8"
+			(uuid "24ab900f-f541-44f5-96b6-4ddb0f51d334")
+		)
+		(pin "18"
+			(uuid "40bee2cb-8251-449b-a2ff-605400855087")
+		)
+		(pin "10"
+			(uuid "12247411-4c28-48f9-84f0-77501befdfb9")
+		)
+		(pin "35"
+			(uuid "513d81bb-a1d4-4760-ace3-8d914fa82e41")
+		)
+		(pin "34"
+			(uuid "366e66d5-ffe9-430e-803d-642c72be2282")
+		)
+		(pin "14"
+			(uuid "f5206e35-9b74-45d1-a36f-934815853f50")
+		)
+		(pin "22"
+			(uuid "cc7a8874-c704-45c0-82bc-900bb81e1c29")
+		)
+		(pin "25"
+			(uuid "10c47af6-beef-46f8-b367-80e6a02c5ea2")
+		)
+		(pin "9"
+			(uuid "06698b73-b15e-4527-b0fe-56b7e0de1eb7")
+		)
+		(pin "43"
+			(uuid "61e86d1c-2fdd-4433-8588-c8ce52ddca01")
+		)
+		(pin "35"
+			(uuid "601c0ec5-4aae-4eee-b605-119779507106")
+		)
+		(pin "16"
+			(uuid "4f4d1f26-3349-46cb-ad76-74273978b780")
+		)
+		(pin "46"
+			(uuid "ee7de44a-d6bf-40a9-b507-1ccffa9ef625")
+		)
+		(pin "4"
+			(uuid "f1b37ac8-9123-455a-999d-dc3ba627f610")
+		)
+		(pin "24"
+			(uuid "5fb82fad-f837-4a55-9d07-70cb4350c4f9")
+		)
+		(pin "37"
+			(uuid "ed1abdf3-9e6f-4b6b-9bf5-af7c44cdb8ab")
+		)
+		(pin "33"
+			(uuid "010c3a2c-5039-4540-bccd-9d9dc7ade7fb")
+		)
+		(pin "29"
+			(uuid "736d6a14-a94b-4b69-9530-3391794a3574")
+		)
+		(pin "36"
+			(uuid "10a3d91d-e050-46bc-a053-031bd3ac88e5")
+		)
+		(pin "3"
+			(uuid "54811c2e-1e86-484f-a8e8-79e1c605525c")
+		)
+		(pin "27"
+			(uuid "c958890d-6f57-4dba-86f6-41f544bca660")
+		)
+		(instances
+			(project ""
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
+					(reference "U8")
+					(unit 2)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/230aee3b-3cdc-400c-8fed-9199df89dadd"
+					(reference "U6")
+					(unit 2)
+				)
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/6fa12e35-b957-4335-be8e-d0857c2dd0bf"
+					(reference "U7")
+					(unit 2)
 				)
 			)
 		)
