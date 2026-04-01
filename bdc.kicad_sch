@@ -2631,7 +2631,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554ba3")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 12)
@@ -2857,7 +2857,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554ba4")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 10)
@@ -3083,7 +3083,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554ba5")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 6)
@@ -3309,7 +3309,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554ba6")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 13)
@@ -3535,7 +3535,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554ba7")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 2)
@@ -3841,7 +3841,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554ba8")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 1)
@@ -4067,7 +4067,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554ba9")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 14)
@@ -4293,7 +4293,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554baa")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 9)
@@ -4519,7 +4519,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554bab")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 5)
@@ -4745,7 +4745,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554bac")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 3)
@@ -5045,7 +5045,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554bad")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 11)
@@ -5271,7 +5271,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554bae")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 8)
@@ -5649,7 +5649,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554baf")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 4)
@@ -5875,7 +5875,7 @@
 			(uuid "1ce14206-639c-4ef7-8dc9-a5ae3e554bb0")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
 					(reference "U5")
 					(unit 7)

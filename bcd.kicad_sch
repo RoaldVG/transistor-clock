@@ -10,15 +10,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 6.604 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "jk-flipflop"
+				(at 11.176 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -62,8 +62,8 @@
 			)
 			(symbol "jk-flipflops_1_1"
 				(rectangle
-					(start 7.62 0)
-					(end 13.97 -9.525)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -72,17 +72,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -3.81 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "J"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -90,17 +90,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -8.89 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "Clk"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -108,17 +108,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -13.97 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,17 +126,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at 5.08 1.27 270)
 					(length 2.54)
-					(name "Vcc"
+					(name "Pre"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "51"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -144,17 +144,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at 5.08 -17.78 90)
 					(length 2.54)
-					(name "Vcc"
+					(name "Clr"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "46"
+					(number "45"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -162,17 +162,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
+				(pin output line
+					(at 12.7 -6.35 180)
 					(length 2.54)
-					(name "GND"
+					(name "Q"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "19"
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -180,71 +180,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
+				(pin output line
+					(at 12.7 -10.16 180)
 					(length 2.54)
-					(name "GND"
+					(name "~{Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "47"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -255,8 +201,8 @@
 			)
 			(symbol "jk-flipflops_2_1"
 				(rectangle
-					(start 3.81 -1.27)
-					(end 15.24 -15.24)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -266,7 +212,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -3.81 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -284,7 +230,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -8.89 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -302,7 +248,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -13.97 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -320,7 +266,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 1.27 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -338,7 +284,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -17.78 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -356,7 +302,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -6.35 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -374,7 +320,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -10.16 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -394,8 +340,8 @@
 			)
 			(symbol "jk-flipflops_3_1"
 				(rectangle
-					(start 6.35 -3.81)
-					(end 17.78 -17.78)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -405,7 +351,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -6.35 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -423,7 +369,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -11.43 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -441,7 +387,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -16.51 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -459,7 +405,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -1.27 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -477,7 +423,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -20.32 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -495,7 +441,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -8.89 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -513,7 +459,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -12.7 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -533,8 +479,8 @@
 			)
 			(symbol "jk-flipflops_4_1"
 				(rectangle
-					(start 6.35 -2.54)
-					(end 17.78 -16.51)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -544,7 +490,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -5.08 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -562,7 +508,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -10.16 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -580,7 +526,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -15.24 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -598,7 +544,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 0 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -616,7 +562,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -19.05 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -634,7 +580,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -7.62 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -652,7 +598,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -11.43 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -672,8 +618,8 @@
 			)
 			(symbol "jk-flipflops_5_1"
 				(rectangle
-					(start 6.35 -3.81)
-					(end 17.78 -17.78)
+					(start 5.08 -4.445)
+					(end 10.795 -13.335)
 					(stroke
 						(width 0)
 						(type solid)
@@ -682,17 +628,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at 3.81 -6.35 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "J"
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "37"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -700,17 +646,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -11.43 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Clk"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "39"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -718,17 +665,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -16.51 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "K"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "41"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -736,17 +684,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -1.27 270)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Pre"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "51"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -754,17 +703,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -20.32 90)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Clr"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "45"
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -772,17 +722,18 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -8.89 180)
+				(pin power_in line
+					(at 2.54 -11.43 0)
 					(length 2.54)
-					(name "Q"
+					(hide yes)
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "49"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -790,17 +741,74 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -12.7 180)
+				(pin power_in line
+					(at 2.54 -11.43 0)
 					(length 2.54)
-					(name "~{Q}"
+					(hide yes)
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "47"
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -816,15 +824,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 6.604 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "jk-flipflop"
+				(at 11.176 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -868,8 +876,8 @@
 			)
 			(symbol "jk-flipflops_1_1_1"
 				(rectangle
-					(start 7.62 0)
-					(end 13.97 -9.525)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -878,17 +886,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -3.81 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "J"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -896,17 +904,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -8.89 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "Clk"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -914,17 +922,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -13.97 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -932,17 +940,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at 5.08 1.27 270)
 					(length 2.54)
-					(name "Vcc"
+					(name "Pre"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "51"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -950,17 +958,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at 5.08 -17.78 90)
 					(length 2.54)
-					(name "Vcc"
+					(name "Clr"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "46"
+					(number "45"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -968,17 +976,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
+				(pin output line
+					(at 12.7 -6.35 180)
 					(length 2.54)
-					(name "GND"
+					(name "Q"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "19"
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -986,71 +994,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
+				(pin output line
+					(at 12.7 -10.16 180)
 					(length 2.54)
-					(name "GND"
+					(name "~{Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "47"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1061,8 +1015,8 @@
 			)
 			(symbol "jk-flipflops_1_2_1"
 				(rectangle
-					(start 3.81 -1.27)
-					(end 15.24 -15.24)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1072,7 +1026,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -3.81 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -1090,7 +1044,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -8.89 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -1108,7 +1062,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -13.97 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -1126,7 +1080,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 1.27 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -1144,7 +1098,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -17.78 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -1162,7 +1116,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -6.35 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -1180,7 +1134,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -10.16 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -1200,8 +1154,8 @@
 			)
 			(symbol "jk-flipflops_1_3_1"
 				(rectangle
-					(start 6.35 -3.81)
-					(end 17.78 -17.78)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1211,7 +1165,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -6.35 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -1229,7 +1183,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -11.43 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -1247,7 +1201,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -16.51 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -1265,7 +1219,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -1.27 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -1283,7 +1237,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -20.32 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -1301,7 +1255,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -8.89 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -1319,7 +1273,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -12.7 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -1339,8 +1293,8 @@
 			)
 			(symbol "jk-flipflops_1_4_1"
 				(rectangle
-					(start 6.35 -2.54)
-					(end 17.78 -16.51)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1350,7 +1304,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -5.08 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -1368,7 +1322,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -10.16 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -1386,7 +1340,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -15.24 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -1404,7 +1358,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 0 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -1422,7 +1376,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -19.05 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -1440,7 +1394,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -7.62 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -1458,7 +1412,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -11.43 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -1478,8 +1432,8 @@
 			)
 			(symbol "jk-flipflops_1_5_1"
 				(rectangle
-					(start 6.35 -3.81)
-					(end 17.78 -17.78)
+					(start 5.08 -4.445)
+					(end 10.795 -13.335)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1488,17 +1442,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at 3.81 -6.35 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "J"
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "37"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1506,17 +1460,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -11.43 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Clk"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "39"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1524,17 +1479,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -16.51 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "K"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "41"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1542,17 +1498,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -1.27 270)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Pre"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "51"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1560,17 +1517,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -20.32 90)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Clr"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "45"
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1578,17 +1536,18 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -8.89 180)
+				(pin power_in line
+					(at 2.54 -11.43 0)
 					(length 2.54)
-					(name "Q"
+					(hide yes)
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "49"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1596,17 +1555,74 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -12.7 180)
+				(pin power_in line
+					(at 2.54 -11.43 0)
 					(length 2.54)
-					(name "~{Q}"
+					(hide yes)
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "47"
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1622,15 +1638,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 6.604 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "jk-flipflop"
+				(at 11.176 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1674,8 +1690,8 @@
 			)
 			(symbol "jk-flipflops_2_1_1"
 				(rectangle
-					(start 7.62 0)
-					(end 13.97 -9.525)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1684,17 +1700,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -3.81 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "J"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1702,17 +1718,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -8.89 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "Clk"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1720,17 +1736,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -13.97 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1738,17 +1754,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at 5.08 1.27 270)
 					(length 2.54)
-					(name "Vcc"
+					(name "Pre"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "51"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1756,17 +1772,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at 5.08 -17.78 90)
 					(length 2.54)
-					(name "Vcc"
+					(name "Clr"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "46"
+					(number "45"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1774,17 +1790,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
+				(pin output line
+					(at 12.7 -6.35 180)
 					(length 2.54)
-					(name "GND"
+					(name "Q"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "19"
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1792,71 +1808,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
+				(pin output line
+					(at 12.7 -10.16 180)
 					(length 2.54)
-					(name "GND"
+					(name "~{Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "47"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1867,8 +1829,8 @@
 			)
 			(symbol "jk-flipflops_2_2_1"
 				(rectangle
-					(start 3.81 -1.27)
-					(end 15.24 -15.24)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1878,7 +1840,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -3.81 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -1896,7 +1858,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -8.89 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -1914,7 +1876,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -13.97 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -1932,7 +1894,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 1.27 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -1950,7 +1912,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -17.78 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -1968,7 +1930,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -6.35 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -1986,7 +1948,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -10.16 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -2006,8 +1968,8 @@
 			)
 			(symbol "jk-flipflops_2_3_1"
 				(rectangle
-					(start 6.35 -3.81)
-					(end 17.78 -17.78)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -2017,7 +1979,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -6.35 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -2035,7 +1997,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -11.43 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -2053,7 +2015,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -16.51 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -2071,7 +2033,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -1.27 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -2089,7 +2051,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -20.32 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -2107,7 +2069,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -8.89 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -2125,7 +2087,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -12.7 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -2145,8 +2107,8 @@
 			)
 			(symbol "jk-flipflops_2_4_1"
 				(rectangle
-					(start 6.35 -2.54)
-					(end 17.78 -16.51)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -2156,7 +2118,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -5.08 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -2174,7 +2136,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -10.16 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -2192,7 +2154,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -15.24 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -2210,7 +2172,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 0 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -2228,7 +2190,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -19.05 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -2246,7 +2208,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -7.62 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -2264,7 +2226,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -11.43 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -2284,8 +2246,8 @@
 			)
 			(symbol "jk-flipflops_2_5_1"
 				(rectangle
-					(start 6.35 -3.81)
-					(end 17.78 -17.78)
+					(start 5.08 -4.445)
+					(end 10.795 -13.335)
 					(stroke
 						(width 0)
 						(type solid)
@@ -2294,17 +2256,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at 3.81 -6.35 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "J"
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "37"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2312,17 +2274,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -11.43 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Clk"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "39"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2330,17 +2293,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -16.51 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "K"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "41"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2348,17 +2312,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -1.27 270)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Pre"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "51"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2366,17 +2331,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -20.32 90)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Clr"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "45"
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2384,17 +2350,18 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -8.89 180)
+				(pin power_in line
+					(at 2.54 -11.43 0)
 					(length 2.54)
-					(name "Q"
+					(hide yes)
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "49"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2402,17 +2369,74 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -12.7 180)
+				(pin power_in line
+					(at 2.54 -11.43 0)
 					(length 2.54)
-					(name "~{Q}"
+					(hide yes)
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "47"
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2428,15 +2452,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 6.604 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "jk-flipflop"
+				(at 11.176 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2480,8 +2504,8 @@
 			)
 			(symbol "jk-flipflops_3_1_1"
 				(rectangle
-					(start 7.62 0)
-					(end 13.97 -9.525)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -2490,17 +2514,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -3.81 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "J"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2508,17 +2532,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -8.89 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "Clk"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2526,17 +2550,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -13.97 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2544,17 +2568,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at 5.08 1.27 270)
 					(length 2.54)
-					(name "Vcc"
+					(name "Pre"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "51"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2562,17 +2586,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at 5.08 -17.78 90)
 					(length 2.54)
-					(name "Vcc"
+					(name "Clr"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "46"
+					(number "45"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2580,17 +2604,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
+				(pin output line
+					(at 12.7 -6.35 180)
 					(length 2.54)
-					(name "GND"
+					(name "Q"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "19"
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2598,71 +2622,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
+				(pin output line
+					(at 12.7 -10.16 180)
 					(length 2.54)
-					(name "GND"
+					(name "~{Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "47"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2673,8 +2643,8 @@
 			)
 			(symbol "jk-flipflops_3_2_1"
 				(rectangle
-					(start 3.81 -1.27)
-					(end 15.24 -15.24)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -2684,7 +2654,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -3.81 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -2702,7 +2672,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -8.89 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -2720,7 +2690,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -13.97 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -2738,7 +2708,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 1.27 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -2756,7 +2726,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -17.78 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -2774,7 +2744,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -6.35 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -2792,7 +2762,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -10.16 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -2812,8 +2782,8 @@
 			)
 			(symbol "jk-flipflops_3_3_1"
 				(rectangle
-					(start 6.35 -3.81)
-					(end 17.78 -17.78)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -2823,7 +2793,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -6.35 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -2841,7 +2811,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -11.43 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -2859,7 +2829,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -16.51 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -2877,7 +2847,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -1.27 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -2895,7 +2865,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -20.32 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -2913,7 +2883,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -8.89 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -2931,7 +2901,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -12.7 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -2951,8 +2921,8 @@
 			)
 			(symbol "jk-flipflops_3_4_1"
 				(rectangle
-					(start 6.35 -2.54)
-					(end 17.78 -16.51)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -2962,7 +2932,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -5.08 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -2980,7 +2950,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -10.16 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -2998,7 +2968,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -15.24 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -3016,7 +2986,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 0 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -3034,7 +3004,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -19.05 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -3052,7 +3022,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -7.62 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -3070,7 +3040,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -11.43 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -3090,8 +3060,8 @@
 			)
 			(symbol "jk-flipflops_3_5_1"
 				(rectangle
-					(start 6.35 -3.81)
-					(end 17.78 -17.78)
+					(start 5.08 -4.445)
+					(end 10.795 -13.335)
 					(stroke
 						(width 0)
 						(type solid)
@@ -3100,17 +3070,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at 3.81 -6.35 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "J"
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "37"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3118,17 +3088,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -11.43 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Clk"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "39"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3136,17 +3107,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -16.51 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "K"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "41"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3154,17 +3126,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -1.27 270)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Pre"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "51"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3172,17 +3145,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -20.32 90)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Clr"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "45"
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3190,17 +3164,18 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -8.89 180)
+				(pin power_in line
+					(at 2.54 -11.43 0)
 					(length 2.54)
-					(name "Q"
+					(hide yes)
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "49"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3208,17 +3183,74 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -12.7 180)
+				(pin power_in line
+					(at 2.54 -11.43 0)
 					(length 2.54)
-					(name "~{Q}"
+					(hide yes)
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "47"
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3234,15 +3266,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 6.604 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "jk-flipflop"
+				(at 11.176 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3286,8 +3318,8 @@
 			)
 			(symbol "jk-flipflops_4_1_1"
 				(rectangle
-					(start 7.62 0)
-					(end 13.97 -9.525)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -3296,17 +3328,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -3.81 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "J"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3314,17 +3346,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -8.89 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "Clk"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3332,17 +3364,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at -3.81 -13.97 0)
 					(length 2.54)
-					(name "Vcc"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3350,17 +3382,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at 5.08 1.27 270)
 					(length 2.54)
-					(name "Vcc"
+					(name "Pre"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "51"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3368,17 +3400,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -2.54 0)
+				(pin input line
+					(at 5.08 -17.78 90)
 					(length 2.54)
-					(name "Vcc"
+					(name "Clr"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "46"
+					(number "45"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3386,17 +3418,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
+				(pin output line
+					(at 12.7 -6.35 180)
 					(length 2.54)
-					(name "GND"
+					(name "Q"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "19"
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3404,71 +3436,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
+				(pin output line
+					(at 12.7 -10.16 180)
 					(length 2.54)
-					(name "GND"
+					(name "~{Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "47"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3479,8 +3457,8 @@
 			)
 			(symbol "jk-flipflops_4_2_1"
 				(rectangle
-					(start 3.81 -1.27)
-					(end 15.24 -15.24)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -3490,7 +3468,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -3.81 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -3508,7 +3486,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -8.89 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -3526,7 +3504,7 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -13.97 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -3544,7 +3522,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 1.27 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -3562,7 +3540,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -17.78 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -3580,7 +3558,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -6.35 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -3598,7 +3576,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -10.16 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -3618,8 +3596,8 @@
 			)
 			(symbol "jk-flipflops_4_3_1"
 				(rectangle
-					(start 6.35 -3.81)
-					(end 17.78 -17.78)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -3629,7 +3607,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -6.35 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -3647,7 +3625,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -11.43 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -3665,7 +3643,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -16.51 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -3683,7 +3661,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -1.27 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -3701,7 +3679,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -20.32 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -3719,7 +3697,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -8.89 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -3737,7 +3715,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -12.7 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -3757,8 +3735,8 @@
 			)
 			(symbol "jk-flipflops_4_4_1"
 				(rectangle
-					(start 6.35 -2.54)
-					(end 17.78 -16.51)
+					(start -1.27 -1.27)
+					(end 10.16 -15.24)
 					(stroke
 						(width 0)
 						(type solid)
@@ -3768,7 +3746,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -5.08 0)
+					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name "J"
 						(effects
@@ -3786,7 +3764,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -10.16 0)
+					(at -3.81 -8.89 0)
 					(length 2.54)
 					(name "Clk"
 						(effects
@@ -3804,7 +3782,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -15.24 0)
+					(at -3.81 -13.97 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -3822,7 +3800,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 0 270)
+					(at 5.08 1.27 270)
 					(length 2.54)
 					(name "Pre"
 						(effects
@@ -3840,7 +3818,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -19.05 90)
+					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "Clr"
 						(effects
@@ -3858,7 +3836,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -7.62 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -3876,7 +3854,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 -11.43 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "~{Q}"
 						(effects
@@ -3896,8 +3874,8 @@
 			)
 			(symbol "jk-flipflops_4_5_1"
 				(rectangle
-					(start 6.35 -3.81)
-					(end 17.78 -17.78)
+					(start 5.08 -4.445)
+					(end 10.795 -13.335)
 					(stroke
 						(width 0)
 						(type solid)
@@ -3906,17 +3884,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at 3.81 -6.35 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "J"
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "37"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3924,17 +3902,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -11.43 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Clk"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "39"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3942,17 +3921,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 -16.51 0)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "K"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "41"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3960,17 +3940,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -1.27 270)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Pre"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "51"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3978,17 +3959,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -20.32 90)
+				(pin power_in line
+					(at 2.54 -6.35 0)
 					(length 2.54)
-					(name "Clr"
+					(hide yes)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "45"
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3996,17 +3978,18 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -8.89 180)
+				(pin power_in line
+					(at 2.54 -11.43 0)
 					(length 2.54)
-					(name "Q"
+					(hide yes)
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "49"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4014,17 +3997,74 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 -12.7 180)
+				(pin power_in line
+					(at 2.54 -11.43 0)
 					(length 2.54)
-					(name "~{Q}"
+					(hide yes)
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "47"
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4921,7 +4961,6 @@
 		(uuid "e2c69e4e-1f58-48d2-9edb-ed86cd5335ac")
 	)
 	(symbol
-		(lib_name "jk-flipflops_2")
 		(lib_id "custom:jk-flipflops")
 		(at 85.09 102.87 0)
 		(unit 3)
@@ -5091,7 +5130,7 @@
 			(uuid "c958890d-6f57-4dba-86f6-41f544bca65c")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
 					(reference "U8")
 					(unit 3)
@@ -5315,7 +5354,7 @@
 			(uuid "534e6d76-4dfb-4e51-bc1c-57bb74dbda30")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
 					(reference "#PWR022")
 					(unit 1)
@@ -5332,7 +5371,7 @@
 		)
 	)
 	(symbol
-		(lib_name "jk-flipflops_4")
+		(lib_name "jk-flipflops_2")
 		(lib_id "custom:jk-flipflops")
 		(at 147.32 102.87 0)
 		(unit 5)
@@ -5502,7 +5541,7 @@
 			(uuid "c958890d-6f57-4dba-86f6-41f544bca65d")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
 					(reference "U8")
 					(unit 5)
@@ -5519,7 +5558,7 @@
 		)
 	)
 	(symbol
-		(lib_name "jk-flipflops_3")
+		(lib_name "jk-flipflops_4")
 		(lib_id "custom:jk-flipflops")
 		(at 116.84 104.14 0)
 		(unit 4)
@@ -5689,7 +5728,7 @@
 			(uuid "c958890d-6f57-4dba-86f6-41f544bca65e")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
 					(reference "U8")
 					(unit 4)
@@ -5706,6 +5745,7 @@
 		)
 	)
 	(symbol
+		(lib_name "jk-flipflops_1")
 		(lib_id "custom:jk-flipflops")
 		(at 259.08 124.46 0)
 		(unit 1)
@@ -5875,7 +5915,7 @@
 			(uuid "c958890d-6f57-4dba-86f6-41f544bca65f")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
 					(reference "U8")
 					(unit 1)
@@ -5892,7 +5932,7 @@
 		)
 	)
 	(symbol
-		(lib_name "jk-flipflops_1")
+		(lib_name "jk-flipflops_3")
 		(lib_id "custom:jk-flipflops")
 		(at 64.77 105.41 0)
 		(unit 2)
@@ -6062,7 +6102,7 @@
 			(uuid "c958890d-6f57-4dba-86f6-41f544bca660")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/213ead95-e2da-4b6f-a756-d929eb6dfb1c"
 					(reference "U8")
 					(unit 2)

@@ -7748,7 +7748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Transformer, single primary, split secondary. Ratio: 9?"
+		(property "Description" "Transformer, single primary, split secondary"
 			(at 58.42 67.31 0)
 			(effects
 				(font
@@ -8284,7 +8284,7 @@
 			(uuid "eaa7a319-65a7-43af-8c0b-407b93a29db9")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "Q87")
 					(unit 1)

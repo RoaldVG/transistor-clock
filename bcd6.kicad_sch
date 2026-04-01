@@ -10,21 +10,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 6.604 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "jk-flipflop"
+				(at 11.176 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -826,21 +824,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 6.604 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "jk-flipflop"
+				(at 11.176 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1642,21 +1638,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 6.604 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "jk-flipflop"
+				(at 11.176 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2453,26 +2447,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "jk-flipflops_4"
+		(symbol "jk-flipflops_3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 6.604 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "jk-flipflop"
+				(at 11.176 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2510,7 +2502,7 @@
 					)
 				)
 			)
-			(symbol "jk-flipflops_4_1_1"
+			(symbol "jk-flipflops_3_1_1"
 				(rectangle
 					(start -1.27 -1.27)
 					(end 10.16 -15.24)
@@ -2649,7 +2641,7 @@
 					)
 				)
 			)
-			(symbol "jk-flipflops_4_2_1"
+			(symbol "jk-flipflops_3_2_1"
 				(rectangle
 					(start -1.27 -1.27)
 					(end 10.16 -15.24)
@@ -2788,7 +2780,7 @@
 					)
 				)
 			)
-			(symbol "jk-flipflops_4_3_1"
+			(symbol "jk-flipflops_3_3_1"
 				(rectangle
 					(start -1.27 -1.27)
 					(end 10.16 -15.24)
@@ -2927,7 +2919,7 @@
 					)
 				)
 			)
-			(symbol "jk-flipflops_4_4_1"
+			(symbol "jk-flipflops_3_4_1"
 				(rectangle
 					(start -1.27 -1.27)
 					(end 10.16 -15.24)
@@ -3066,7 +3058,7 @@
 					)
 				)
 			)
-			(symbol "jk-flipflops_4_5_1"
+			(symbol "jk-flipflops_3_5_1"
 				(rectangle
 					(start 5.08 -4.445)
 					(end 10.795 -13.335)
@@ -4013,6 +4005,7 @@
 		(uuid "ed47188d-dd64-4d60-b3c7-60094d511b55")
 	)
 	(symbol
+		(lib_name "jk-flipflops_1")
 		(lib_id "custom:jk-flipflops")
 		(at 66.04 105.41 0)
 		(unit 1)
@@ -4181,7 +4174,7 @@
 			(uuid "4f255f1e-b0f0-4ebb-b773-fee62a54ced5")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
 					(reference "U10")
 					(unit 1)
@@ -4194,7 +4187,6 @@
 		)
 	)
 	(symbol
-		(lib_name "jk-flipflops_1")
 		(lib_id "custom:jk-flipflops")
 		(at 92.71 105.41 0)
 		(unit 2)
@@ -4363,7 +4355,7 @@
 			(uuid "4f255f1e-b0f0-4ebb-b773-fee62a54ced6")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
 					(reference "U10")
 					(unit 2)
@@ -4376,7 +4368,7 @@
 		)
 	)
 	(symbol
-		(lib_name "jk-flipflops_2")
+		(lib_name "jk-flipflops_3")
 		(lib_id "custom:jk-flipflops")
 		(at 124.46 105.41 0)
 		(unit 3)
@@ -4545,7 +4537,7 @@
 			(uuid "4f255f1e-b0f0-4ebb-b773-fee62a54ced7")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
 					(reference "U10")
 					(unit 3)
@@ -4685,7 +4677,7 @@
 			(uuid "cca126e6-9184-4a99-a439-c7d2a2feca11")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
 					(reference "#PWR011")
 					(unit 1)
@@ -4755,7 +4747,7 @@
 			(uuid "b92233e8-5e66-4c2a-a970-6fd577eb0312")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
 					(reference "#PWR013")
 					(unit 1)
@@ -4768,7 +4760,7 @@
 		)
 	)
 	(symbol
-		(lib_name "jk-flipflops_4")
+		(lib_name "jk-flipflops_2")
 		(lib_id "custom:jk-flipflops")
 		(at 158.75 93.98 0)
 		(unit 5)
@@ -4936,7 +4928,7 @@
 			(uuid "4f255f1e-b0f0-4ebb-b773-fee62a54ced8")
 		)
 		(instances
-			(project ""
+			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/45f6b4b3-4b31-405d-8488-938c33278b8a"
 					(reference "U10")
 					(unit 5)
