@@ -2188,6 +2188,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "23"
 			(uuid "349bd1ec-8799-481e-9a70-f3382cfb3016")
 		)
@@ -2357,6 +2366,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 92.71 105.41 0)
 			(effects
 				(font

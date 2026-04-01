@@ -5609,6 +5609,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C47921"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4153a867-ae7f-453f-b0a0-c95a0a3bb7b2")
 		)
@@ -5671,6 +5680,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22809"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -5742,6 +5760,15 @@
 		)
 		(property "Description" "Zener diode, filled shape"
 			(at 124.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 124.46 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,6 +5859,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 69.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C20526v"
 			(at 69.85 142.24 0)
 			(effects
 				(font
@@ -5977,6 +6013,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C57112"
+			(at 60.96 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c074ce6d-f1f5-4c37-a774-9b9a2a043fed")
 		)
@@ -6063,6 +6108,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C47921"
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c2289f2-0e00-4448-9f4e-c0dc7d1b15c0")
 		)
@@ -6125,6 +6179,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23204"
 			(at 110.49 59.69 0)
 			(effects
 				(font
@@ -6222,6 +6285,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C20526v"
+			(at 124.46 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95710450-4802-4b2f-a0bf-edf9ccd445b9")
 		)
@@ -6286,6 +6358,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C57112"
+			(at 44.45 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,6 +6510,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C158942"
+			(at 113.03 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d0cc6b6-576c-4550-93be-36ce1ada4811")
 		)
@@ -6499,6 +6589,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 227.33 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "350752e9-7dd9-4f60-86d9-d33b63736186")
 		)
@@ -6539,7 +6638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 101.2952 36.83 0)
 			(effects
 				(font
@@ -6558,6 +6657,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16133"
 			(at 100.33 33.02 0)
 			(effects
 				(font
@@ -6702,6 +6810,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 204.47 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe655a84-7b5d-425e-9730-376a0e08f904")
 		)
@@ -6742,7 +6859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 101.2952 85.09 0)
 			(effects
 				(font
@@ -6761,6 +6878,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16133"
 			(at 100.33 81.28 0)
 			(effects
 				(font
@@ -6842,6 +6968,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8545"
+			(at 86.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c6034413-a816-4e3d-98de-5af697fd5fe0")
 		)
@@ -6913,6 +7048,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 128.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba8c1f8c-9108-401e-805f-9cb08552df5b")
 		)
@@ -6965,7 +7109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 109.5248 63.5 0)
 			(effects
 				(font
@@ -6984,6 +7128,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16133"
 			(at 110.49 67.31 0)
 			(effects
 				(font
@@ -7062,6 +7215,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 209.55 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f22b8c6-5b95-4cf5-a26e-c20d91cabf4b")
 		)
@@ -7121,6 +7283,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23204"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -7265,6 +7436,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C21190"
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69ed99aa-1ad1-4cf6-a01c-12a09c06ac36")
 		)
@@ -7335,6 +7515,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "564ae963-f27e-4972-bac9-af7c9f8280ea")
 		)
@@ -7378,7 +7567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 109.5248 36.83 0)
 			(effects
 				(font
@@ -7397,6 +7586,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16133"
 			(at 110.49 40.64 0)
 			(effects
 				(font
@@ -7531,6 +7729,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 55.88 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -7757,6 +7964,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 58.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4928fbb8-0456-4bc2-9fc5-868383528ff9")
 		)
@@ -7924,6 +8140,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C20526v"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "464d4cb7-1802-4103-8692-4f67f3aa47c2")
 		)
@@ -7989,6 +8214,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C73805"
 			(at 40.64 124.46 0)
 			(effects
 				(font
@@ -8067,6 +8301,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 219.71 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ca45374-7b29-420e-93cc-2fbf9738baf2")
 		)
@@ -8126,6 +8369,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 64.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C73805"
 			(at 64.77 124.46 0)
 			(effects
 				(font
@@ -8274,6 +8526,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C15127"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "510b5ec2-a798-4a31-a061-89bf68a4e07e")
 		)
@@ -8413,6 +8674,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 124.46 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9ed9e1f-97c4-43e4-914b-f0c0c20bb9c0")
 		)
@@ -8496,6 +8766,15 @@
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C20526v"
+			(at 124.46 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,6 +8867,15 @@
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C20526v"
+			(at 124.46 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +8995,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 109.5248 77.47 0)
 			(effects
 				(font
@@ -8726,6 +9014,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16133"
 			(at 110.49 81.28 0)
 			(effects
 				(font
@@ -8794,6 +9091,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 30.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 30.48 163.83 0)
 			(effects
 				(font
@@ -9038,6 +9344,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C47921"
+			(at 78.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bae15faf-def0-4642-b99e-8751294a2f68")
 		)
@@ -9106,6 +9421,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C177577"
+			(at 29.21 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e613909f-cef5-4ede-b8e8-5bcd290eb591")
 		)
@@ -9149,7 +9473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 56.1848 180.34 0)
 			(effects
 				(font
@@ -9168,6 +9492,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16133"
 			(at 57.15 184.15 0)
 			(effects
 				(font
@@ -9239,6 +9572,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 223.52 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 223.52 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,6 +9671,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C47921"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96eedd19-a3a4-487a-811c-b123c2cf69a8")
 		)
@@ -9399,6 +9750,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 214.63 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8469643-4e85-4f40-afbd-e9c54665d9a3")
 		)
@@ -9458,6 +9818,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 72.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22809"
 			(at 72.39 124.46 0)
 			(effects
 				(font
@@ -9536,6 +9905,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 138.43 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61094f22-9a23-479a-8d48-86ce81c44cda")
 		)
@@ -9596,6 +9974,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 29.21 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23058"
+			(at 29.21 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,6 +10060,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23204"
+			(at 110.49 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9a761a4-12f8-48c2-9e4b-a802ca3e9ee1")
 		)
@@ -9716,7 +10112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 101.2952 63.5 0)
 			(effects
 				(font
@@ -9735,6 +10131,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C16133"
 			(at 100.33 59.69 0)
 			(effects
 				(font
@@ -9803,6 +10208,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 83.82 163.83 0)
 			(effects
 				(font
@@ -10031,6 +10445,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25971"
+			(at 113.03 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9675eba4-6021-4641-a69b-1b53961451ab")
 		)
@@ -10101,6 +10524,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 138.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "606e143e-b394-4a21-b191-eb43a0cd6b74")
 		)
@@ -10161,6 +10593,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 34.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 34.29 67.31 0)
 			(effects
 				(font
@@ -10260,6 +10701,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C20526v"
+			(at 115.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "14c7b3fe-51d7-4bf6-9b0f-86411f2bdcc8")
 		)
@@ -10326,6 +10776,15 @@
 		)
 		(property "Description" "Zener diode, filled shape"
 			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 124.46 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
