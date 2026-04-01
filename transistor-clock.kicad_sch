@@ -1953,9 +1953,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:DMP3099L"
+		(symbol "Transistor_FET:AO3401A"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1970,7 +1969,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "DMP3099L"
+			(property "Value" "AO3401A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1990,7 +1989,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -2000,7 +1999,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2027,7 +2026,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DMP3099L_0_1"
+			(symbol "AO3401A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2171,7 +2170,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -2194,7 +2193,7 @@
 					)
 				)
 			)
-			(symbol "DMP3099L_1_1"
+			(symbol "AO3401A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -4230,6 +4229,12 @@
 		(uuid "92e1fcec-bd19-4769-98d0-55e34c8d8751")
 	)
 	(junction
+		(at 88.9 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98a1e4fd-b5ee-4fd2-90ea-d7117bfa4b15")
+	)
+	(junction
 		(at 223.52 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4278,12 +4283,6 @@
 		(uuid "c1bfd5f4-6960-426a-bb0b-1612d465c5c8")
 	)
 	(junction
-		(at 88.9 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6132b50-b88d-4f08-b962-cc3984ba61fc")
-	)
-	(junction
 		(at 100.33 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4312,6 +4311,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3719807-cc9c-4ea2-b194-c20f1605d1ba")
+	)
+	(junction
+		(at 88.9 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5e89ac9-eee3-4049-95b9-c2ab354c4b9e")
 	)
 	(junction
 		(at 53.34 120.65)
@@ -4360,12 +4365,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed7e953f-f83d-43af-a62f-34dd5cc197a3")
-	)
-	(junction
-		(at 88.9 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f08ffe42-db88-4da5-849c-58f4f032f51c")
 	)
 	(junction
 		(at 100.33 29.21)
@@ -4808,6 +4807,16 @@
 			(type default)
 		)
 		(uuid "6558e09a-756b-4b20-985b-ac5a0d1002b3")
+	)
+	(wire
+		(pts
+			(xy 88.9 120.65) (xy 118.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674d6f0b-ddfd-4978-b310-177ffb05e772")
 	)
 	(wire
 		(pts
@@ -5451,16 +5460,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 120.65) (xy 118.11 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6eaa7bc-5a2b-4b89-adb6-d8276ac2a8aa")
-	)
-	(wire
-		(pts
 			(xy 68.58 55.88) (xy 68.58 62.23)
 		)
 		(stroke
@@ -5854,83 +5853,6 @@
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:DMP3099L")
-		(at 86.36 125.73 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07cee927-fcc1-4ffe-aa6c-b89538061579")
-		(property "Reference" "Q3"
-			(at 91.567 124.5178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMP3099L"
-			(at 91.567 126.9421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 91.44 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
-			(at 91.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 86.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6258ba6c-254c-44e4-a465-b0ab767df913")
-		)
-		(pin "3"
-			(uuid "734ae641-076e-49d9-8e44-67699dc78dc1")
-		)
-		(pin "1"
-			(uuid "28481d88-f4ed-4a06-bc6c-e40ce8bd9b47")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8288,6 +8210,83 @@
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 86.36 125.73 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d501dd1-6827-4969-9064-d7eb58f53962")
+		(property "Reference" "Q87"
+			(at 91.567 124.5178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 91.567 126.9421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 91.44 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 91.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "510b5ec2-a798-4a31-a061-89bf68a4e07e")
+		)
+		(pin "1"
+			(uuid "a5155d90-c63e-4230-83a2-6e3f3257052b")
+		)
+		(pin "3"
+			(uuid "eaa7a319-65a7-43af-8c0b-407b93a29db9")
+		)
+		(instances
+			(project ""
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
+					(reference "Q87")
 					(unit 1)
 				)
 			)

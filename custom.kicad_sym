@@ -1346,6 +1346,484 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "GAQY210S"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1.2V 1.5kV 120mA 17Ω 230us 350V 350mW 50mA 50us AC,DC One set normally open: 2A (SPST - normally open) SOP-4 Solid State Relays (MOS Output) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GAQY210S_0_1"
+			(rectangle
+				(start -1.27 -1.27)
+				(end 8.89 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy 0.635 -2.54) (xy 0.635 -7.62) (xy -1.27 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.715) (xy 1.27 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -5.715) (xy 0 -4.445) (xy 1.27 -4.445) (xy 0.635 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -4.572) (xy 3.175 -4.572) (xy 2.794 -4.699) (xy 2.794 -4.445) (xy 3.175 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -5.588) (xy 3.175 -5.588) (xy 2.794 -5.715) (xy 2.794 -5.461) (xy 3.175 -5.588)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.826 -2.921) (xy 4.826 -4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.826 -3.683) (xy 4.318 -3.683) (xy 4.318 -6.477) (xy 4.826 -6.477)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.826 -5.715) (xy 4.826 -7.239)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.461 -2.921) (xy 6.604 -2.921) (xy 6.604 -2.54) (xy 8.89 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.461 -3.683) (xy 6.604 -3.683) (xy 6.604 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.461 -5.715) (xy 6.604 -5.715) (xy 6.604 -4.445) (xy 5.461 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.461 -6.477) (xy 6.604 -6.477) (xy 6.604 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.461 -7.239) (xy 6.604 -7.239) (xy 6.604 -7.62) (xy 8.89 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 -3.683) (xy 6.096 -3.556) (xy 6.096 -3.81) (xy 5.588 -3.683)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 -6.477) (xy 6.096 -6.35) (xy 6.096 -6.604) (xy 5.588 -6.477)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.604 -4.445)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.604 -5.08) (xy 7.62 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.604 -5.08)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.604 -5.715)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.239 -3.429) (xy 8.001 -3.429)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.239 -6.731) (xy 8.001 -6.731)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 7.62 -2.54)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -3.429) (xy 7.239 -4.191) (xy 8.001 -4.191) (xy 7.62 -3.429)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 7.62 -5.08)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -6.731) (xy 7.239 -5.969) (xy 8.001 -5.969) (xy 7.62 -6.731)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -7.62) (xy 7.62 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 7.62 -7.62)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GAQY210S_1_1"
+			(polyline
+				(pts
+					(xy 5.334 -2.794) (xy 5.334 -4.572)
+				)
+				(stroke
+					(width 0.3302)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.334 -5.588) (xy 5.334 -7.366)
+				)
+				(stroke
+					(width 0.3302)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -7.62 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -7.62 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "jk-flipflops"
 		(exclude_from_sim no)
 		(in_bom yes)
