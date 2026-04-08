@@ -4962,16 +4962,15 @@
 	)
 	(symbol
 		(lib_id "custom:jk-flipflops")
-		(at 85.09 102.87 0)
+		(at 124.46 105.41 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "218b681e-0570-4327-8f64-78ccf275da29")
 		(property "Reference" "U6"
-			(at 99.9333 102.6625 0)
+			(at 123.698 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,16 +4979,17 @@
 			)
 		)
 		(property "Value" "~"
-			(at 99.9333 105.0868 0)
+			(at 139.3033 107.6268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 102.87 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +4998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 102.87 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +5007,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 102.87 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +5016,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 85.09 102.87 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,16 +5382,15 @@
 	(symbol
 		(lib_name "jk-flipflops_2")
 		(lib_id "custom:jk-flipflops")
-		(at 147.32 102.87 0)
+		(at 261.62 120.65 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c442807-4268-4ec7-8bcf-683b60ace08b")
 		(property "Reference" "U6"
-			(at 162.1633 102.6625 0)
+			(at 267.462 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,16 +5399,17 @@
 			)
 		)
 		(property "Value" "~"
-			(at 162.1633 105.0868 0)
+			(at 276.4633 122.8668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 102.87 0)
+			(at 261.62 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 102.87 0)
+			(at 261.62 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5427,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 102.87 0)
+			(at 261.62 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5436,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 147.32 102.87 0)
+			(at 261.62 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,16 +5578,15 @@
 	(symbol
 		(lib_name "jk-flipflops_4")
 		(lib_id "custom:jk-flipflops")
-		(at 116.84 104.14 0)
+		(at 154.94 105.41 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "79a502da-967b-46f1-a148-3cd806378537")
 		(property "Reference" "U6"
-			(at 131.6833 102.6625 0)
+			(at 154.178 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,16 +5595,17 @@
 			)
 		)
 		(property "Value" "~"
-			(at 131.6833 105.0868 0)
+			(at 169.7833 106.3568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 104.14 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 104.14 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 104.14 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5632,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 116.84 104.14 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,16 +5774,15 @@
 	(symbol
 		(lib_name "jk-flipflops_1")
 		(lib_id "custom:jk-flipflops")
-		(at 259.08 124.46 0)
+		(at 69.85 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1b16dfb-454c-4bcb-ba9d-661caf146c9b")
 		(property "Reference" "U6"
-			(at 273.685 128.0103 0)
+			(at 69.85 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,16 +5791,17 @@
 			)
 		)
 		(property "Value" "~"
-			(at 273.685 130.4346 0)
+			(at 84.455 111.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 124.46 0)
+			(at 69.85 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +5810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 124.46 0)
+			(at 69.85 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +5819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 124.46 0)
+			(at 69.85 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,7 +5828,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 259.08 124.46 0)
+			(at 69.85 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,16 +5970,15 @@
 	(symbol
 		(lib_name "jk-flipflops_3")
 		(lib_id "custom:jk-flipflops")
-		(at 64.77 105.41 0)
+		(at 92.71 105.41 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e97d03e9-df4f-4cb6-a0bb-e594ab3d8376")
 		(property "Reference" "U6"
-			(at 77.0733 102.6625 0)
+			(at 91.948 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,16 +5987,17 @@
 			)
 		)
 		(property "Value" "~"
-			(at 77.0733 105.0868 0)
+			(at 105.0133 105.0868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 105.41 0)
+			(at 92.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 105.41 0)
+			(at 92.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 105.41 0)
+			(at 92.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6024,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 64.77 105.41 0)
+			(at 92.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
