@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "custom:module_ssr"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8206,8 +8206,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23a99de3-0233-4066-b623-9b16fc2617b9")
-		(property "Reference" "U13"
-			(at 180.34 83.82 0)
+		(property "Reference" "U1"
+			(at 180.34 84.7555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,14 +8215,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 180.34 86.36 0)
+			(at 180.34 87.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 176.53 87.63 0)
 			(effects
 				(font
@@ -8363,12 +8363,12 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/a7714f05-6baa-4e42-8e1d-8ccd75369c94"
-					(reference "U13")
+					(reference "U1")
 					(unit 16)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c8a6393e-4b34-48bb-b57a-38ecbb8960e5"
-					(reference "U23")
-					(unit 2)
+					(reference "U2")
+					(unit 16)
 				)
 			)
 		)
@@ -8383,8 +8383,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ba5a6db-ff0c-4f87-93e8-ae0372085412")
-		(property "Reference" "U13"
-			(at 127 83.82 0)
+		(property "Reference" "U1"
+			(at 127 84.7555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,14 +8392,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 127 86.36 0)
+			(at 127 87.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 123.19 87.63 0)
 			(effects
 				(font
@@ -8540,12 +8540,12 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/a7714f05-6baa-4e42-8e1d-8ccd75369c94"
-					(reference "U13")
+					(reference "U1")
 					(unit 14)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c8a6393e-4b34-48bb-b57a-38ecbb8960e5"
-					(reference "U19")
-					(unit 2)
+					(reference "U2")
+					(unit 14)
 				)
 			)
 		)
@@ -8560,8 +8560,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b83322e-69cf-44c1-a78e-35f25c1217b0")
-		(property "Reference" "U13"
-			(at 72.39 107.95 0)
+		(property "Reference" "U1"
+			(at 72.39 108.8855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,14 +8569,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 72.39 110.49 0)
+			(at 72.39 111.3098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 68.58 111.76 0)
 			(effects
 				(font
@@ -8717,12 +8717,12 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/a7714f05-6baa-4e42-8e1d-8ccd75369c94"
-					(reference "U13")
+					(reference "U1")
 					(unit 17)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c8a6393e-4b34-48bb-b57a-38ecbb8960e5"
-					(reference "U25")
-					(unit 2)
+					(reference "U2")
+					(unit 17)
 				)
 			)
 		)
@@ -8737,8 +8737,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ed1335b-c86e-420c-9613-fe66156e165f")
-		(property "Reference" "U13"
-			(at 152.4 83.82 0)
+		(property "Reference" "U1"
+			(at 152.4 84.7555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,14 +8746,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 86.36 0)
+			(at 152.4 87.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 148.59 87.63 0)
 			(effects
 				(font
@@ -8894,12 +8894,12 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/a7714f05-6baa-4e42-8e1d-8ccd75369c94"
-					(reference "U13")
+					(reference "U1")
 					(unit 15)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c8a6393e-4b34-48bb-b57a-38ecbb8960e5"
-					(reference "U21")
-					(unit 2)
+					(reference "U2")
+					(unit 15)
 				)
 			)
 		)
@@ -8914,8 +8914,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e0aa92-c56d-48b5-b2fd-dc924597bc50")
-		(property "Reference" "U13"
-			(at 72.39 83.82 0)
+		(property "Reference" "U1"
+			(at 72.39 84.7555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,14 +8923,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 72.39 86.36 0)
+			(at 72.39 87.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 68.58 87.63 0)
 			(effects
 				(font
@@ -9071,12 +9071,12 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/a7714f05-6baa-4e42-8e1d-8ccd75369c94"
-					(reference "U13")
+					(reference "U1")
 					(unit 12)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c8a6393e-4b34-48bb-b57a-38ecbb8960e5"
-					(reference "U15")
-					(unit 2)
+					(reference "U2")
+					(unit 12)
 				)
 			)
 		)
@@ -9091,8 +9091,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee285414-519a-4322-8cd3-19aebcfd4adb")
-		(property "Reference" "U13"
-			(at 101.6 83.82 0)
+		(property "Reference" "U1"
+			(at 101.6 84.7555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9100,14 +9100,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 101.6 86.36 0)
+			(at 101.6 87.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 97.79 87.63 0)
 			(effects
 				(font
@@ -9248,12 +9248,12 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/a7714f05-6baa-4e42-8e1d-8ccd75369c94"
-					(reference "U13")
+					(reference "U1")
 					(unit 13)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c8a6393e-4b34-48bb-b57a-38ecbb8960e5"
-					(reference "U17")
-					(unit 2)
+					(reference "U2")
+					(unit 13)
 				)
 			)
 		)

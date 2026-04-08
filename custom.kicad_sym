@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_bdc_mpcie"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1844,7 +1844,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9902,7 +9902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_flipflop_mpcie"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10466,7 +10466,7 @@
 						)
 					)
 				)
-				(number "35"
+				(number "31"
 					(effects
 						(font
 							(size 1.27 1.27)

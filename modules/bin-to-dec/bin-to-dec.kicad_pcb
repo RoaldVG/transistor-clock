@@ -14160,14 +14160,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at -15.275 -71.0922 180)
+			(at -15.4722 -71.0922 180)
 			(size 2.6 2.6)
 			(drill 2.6)
 			(layers "*.Cu" "*.Mask" "F.SilkS")
 			(uuid "08660ef1-cf6e-4cbd-95f8-444de09a57ad")
 		)
 		(pad "" connect rect
-			(at -15.275 -71.0922 180)
+			(at -15.4722 -71.0922 180)
 			(size 5.8 5.8)
 			(layers "B.Cu" "B.SilkS")
 			(uuid "ac89d529-fa19-4b8a-9648-ddb053ec0ac4")

@@ -164,7 +164,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "custom:module_bdc_mpcie"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2124,7 +2124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00d222f3-ca36-4541-9787-54349711ff97")
-		(property "Reference" "C43"
+		(property "Reference" "C26"
 			(at 168.021 109.2778 0)
 			(effects
 				(font
@@ -2187,11 +2187,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "C49")
+					(reference "C32")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "C43")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a16f0a2-87bd-4eea-8c20-8196f800d51c")
-		(property "Reference" "U1"
+		(property "Reference" "U14"
 			(at 104.2987 23.1605 0)
 			(effects
 				(font
@@ -2223,7 +2223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_bdc_mpcie"
 			(at 88.9 26.67 0)
 			(effects
 				(font
@@ -2418,11 +2418,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U2")
+					(reference "U15")
 					(unit 4)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U1")
+					(reference "U14")
 					(unit 4)
 				)
 			)
@@ -2438,7 +2438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71596803-90ec-4436-bfb5-af0d5c6150e2")
-		(property "Reference" "C42"
+		(property "Reference" "C25"
 			(at 157.861 109.2778 0)
 			(effects
 				(font
@@ -2501,11 +2501,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "C48")
+					(reference "C31")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "C42")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -2521,7 +2521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95c8a661-3245-434d-803a-2224213cc051")
-		(property "Reference" "U1"
+		(property "Reference" "U14"
 			(at 104.2987 119.6805 0)
 			(effects
 				(font
@@ -2537,7 +2537,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_bdc_mpcie"
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -2732,11 +2732,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U2")
+					(reference "U15")
 					(unit 9)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U1")
+					(reference "U14")
 					(unit 9)
 				)
 			)
@@ -2752,7 +2752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98808f29-f457-445a-8e31-9363b4151427")
-		(property "Reference" "#PWR0237"
+		(property "Reference" "#PWR044"
 			(at 165.1 120.65 0)
 			(effects
 				(font
@@ -2802,11 +2802,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "#PWR0243")
+					(reference "#PWR050")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "#PWR0237")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2822,7 +2822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3caf3d1-fc37-46b7-840b-3872dc16ef68")
-		(property "Reference" "#PWR0236"
+		(property "Reference" "#PWR043"
 			(at 165.1 110.49 0)
 			(effects
 				(font
@@ -2872,11 +2872,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "#PWR0242")
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "#PWR0236")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2892,7 +2892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d4d864-36b6-4ab6-a717-e237b6126d00")
-		(property "Reference" "U1"
+		(property "Reference" "U14"
 			(at 190.5 109.5953 0)
 			(effects
 				(font
@@ -2910,7 +2910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_bdc_mpcie"
 			(at 177.8 110.49 0)
 			(effects
 				(font
@@ -3105,11 +3105,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U2")
+					(reference "U15")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U1")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -3125,7 +3125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c90e7c6f-97b4-4eb9-92c6-47aaf2d8e96e")
-		(property "Reference" "U1"
+		(property "Reference" "U14"
 			(at 104.2987 47.2905 0)
 			(effects
 				(font
@@ -3141,7 +3141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_bdc_mpcie"
 			(at 87.63 50.8 0)
 			(effects
 				(font
@@ -3336,11 +3336,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U2")
+					(reference "U15")
 					(unit 5)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U1")
+					(reference "U14")
 					(unit 5)
 				)
 			)
@@ -3356,7 +3356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfed4b71-3dd7-4f9b-9a8b-1430df7fc8bf")
-		(property "Reference" "U1"
+		(property "Reference" "U14"
 			(at 104.2987 96.8205 0)
 			(effects
 				(font
@@ -3372,7 +3372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_bdc_mpcie"
 			(at 88.9 100.33 0)
 			(effects
 				(font
@@ -3567,11 +3567,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U2")
+					(reference "U15")
 					(unit 7)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U1")
+					(reference "U14")
 					(unit 7)
 				)
 			)
@@ -3587,7 +3587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f13585ac-0648-4a79-8446-f2b74b161b02")
-		(property "Reference" "U1"
+		(property "Reference" "U14"
 			(at 46.355 23.7955 0)
 			(effects
 				(font
@@ -3603,7 +3603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_bdc_mpcie"
 			(at 36.83 27.94 0)
 			(effects
 				(font
@@ -3798,11 +3798,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U2")
+					(reference "U15")
 					(unit 2)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U1")
+					(reference "U14")
 					(unit 2)
 				)
 			)
@@ -3818,7 +3818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc7b4655-6876-412d-a981-e6eb53dd21b7")
-		(property "Reference" "U1"
+		(property "Reference" "U14"
 			(at 104.2987 70.1505 0)
 			(effects
 				(font
@@ -3834,7 +3834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_bdc_mpcie"
 			(at 87.63 73.66 0)
 			(effects
 				(font
@@ -4029,11 +4029,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U2")
+					(reference "U15")
 					(unit 6)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U1")
+					(reference "U14")
 					(unit 6)
 				)
 			)

@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "custom:module_ssr"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8406,8 +8406,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a1c890c-628e-4f9e-b874-927750172a36")
-		(property "Reference" "U11"
-			(at 152.4 100.33 0)
+		(property "Reference" "U2"
+			(at 152.4 101.2655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,14 +8415,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 102.87 0)
+			(at 152.4 103.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 148.59 104.14 0)
 			(effects
 				(font
@@ -8563,15 +8563,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 10)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 10)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 10)
 				)
 			)
@@ -8587,8 +8587,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ae3dcb6-0ff0-4ce1-8bb4-65026331d8ce")
-		(property "Reference" "U11"
-			(at 72.39 74.93 0)
+		(property "Reference" "U2"
+			(at 72.39 75.8655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,14 +8596,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 72.39 77.47 0)
+			(at 72.39 78.2898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 68.58 78.74 0)
 			(effects
 				(font
@@ -8744,15 +8744,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 2)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 2)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 2)
 				)
 			)
@@ -8768,8 +8768,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55ff146d-6df7-4247-b09c-4604e8bf4ec9")
-		(property "Reference" "U11"
-			(at 101.6 100.33 0)
+		(property "Reference" "U2"
+			(at 101.6 101.2655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8777,14 +8777,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 101.6 102.87 0)
+			(at 101.6 103.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 97.79 104.14 0)
 			(effects
 				(font
@@ -8925,15 +8925,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 8)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 8)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 8)
 				)
 			)
@@ -8949,8 +8949,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "645f0bbe-17c1-4a1c-88b9-21127a3fa42c")
-		(property "Reference" "U11"
-			(at 101.6 74.93 0)
+		(property "Reference" "U2"
+			(at 101.6 75.8655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8958,14 +8958,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 101.6 77.47 0)
+			(at 101.6 78.2898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -9106,15 +9106,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 3)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 3)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 3)
 				)
 			)
@@ -9130,8 +9130,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6720ff5d-4c8f-4a84-a892-f8023b0e3853")
-		(property "Reference" "U11"
-			(at 109.22 54.6099 0)
+		(property "Reference" "U2"
+			(at 108.331 54.6678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9140,7 +9140,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 109.22 57.1499 0)
+			(at 108.331 57.0921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +9148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 101.6 49.53 0)
 			(effects
 				(font
@@ -9289,15 +9289,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -9313,8 +9313,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67362229-cbb0-4b19-8115-416507ad4ea4")
-		(property "Reference" "U11"
-			(at 180.34 100.33 0)
+		(property "Reference" "U2"
+			(at 180.34 101.2655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,14 +9322,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 180.34 102.87 0)
+			(at 180.34 103.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 176.53 104.14 0)
 			(effects
 				(font
@@ -9470,15 +9470,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 11)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 11)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 11)
 				)
 			)
@@ -9494,8 +9494,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83112c6e-2617-453b-be67-f5f424f31b26")
-		(property "Reference" "U11"
-			(at 180.34 74.93 0)
+		(property "Reference" "U2"
+			(at 180.34 75.8655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,14 +9503,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 180.34 77.47 0)
+			(at 180.34 78.2898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 176.53 78.74 0)
 			(effects
 				(font
@@ -9651,15 +9651,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 6)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 6)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 6)
 				)
 			)
@@ -9675,7 +9675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a40d516-e6c4-48b3-9ecb-45d128f518bd")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 97.79 64.77 0)
 			(effects
 				(font
@@ -9685,7 +9685,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 63.5 0)
+			(at 97.79 62.5531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9725,15 +9725,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "#PWR023")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9749,8 +9749,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b13777d6-0c49-4341-906e-1189dccbaf80")
-		(property "Reference" "U11"
-			(at 72.39 99.06 0)
+		(property "Reference" "U2"
+			(at 72.39 99.9955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,14 +9758,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 72.39 101.6 0)
+			(at 72.39 102.4198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 68.58 102.87 0)
 			(effects
 				(font
@@ -9906,15 +9906,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 7)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 7)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 7)
 				)
 			)
@@ -9930,8 +9930,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfba3fee-d162-46a8-9279-5ee67a645586")
-		(property "Reference" "U11"
-			(at 127 100.33 0)
+		(property "Reference" "U2"
+			(at 127 101.2655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,14 +9939,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 127 102.87 0)
+			(at 127 103.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 123.19 104.14 0)
 			(effects
 				(font
@@ -10087,15 +10087,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 9)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 9)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 9)
 				)
 			)
@@ -10111,8 +10111,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f499fa00-e99b-4ee7-bb16-0386bdc90c00")
-		(property "Reference" "U11"
-			(at 127.1905 74.93 0)
+		(property "Reference" "U2"
+			(at 127.1905 75.8655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,14 +10120,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 127.1905 77.47 0)
+			(at 127.1905 78.2898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 123.19 78.74 0)
 			(effects
 				(font
@@ -10268,15 +10268,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 4)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 4)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 4)
 				)
 			)
@@ -10292,8 +10292,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc495681-198b-4e23-a51f-be0d67097775")
-		(property "Reference" "U11"
-			(at 152.4 74.93 0)
+		(property "Reference" "U2"
+			(at 152.4 75.8655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,14 +10301,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 77.47 0)
+			(at 152.4 78.2898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:module_ssr"
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -10449,15 +10449,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/66b2acaf-2b89-4371-9fa0-79e20161258b"
-					(reference "U11")
+					(reference "U2")
 					(unit 5)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/9df69b75-0a18-4c9e-a337-da81d4416521"
-					(reference "U13")
+					(reference "U1")
 					(unit 5)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U12")
+					(reference "U9")
 					(unit 5)
 				)
 			)
