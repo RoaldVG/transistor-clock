@@ -8214,7 +8214,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 180.34 87.1798 0)
 			(effects
 				(font
@@ -8391,7 +8391,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 127 87.1798 0)
 			(effects
 				(font
@@ -8568,7 +8568,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 72.39 111.3098 0)
 			(effects
 				(font
@@ -8745,7 +8745,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 152.4 87.1798 0)
 			(effects
 				(font
@@ -8922,7 +8922,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 72.39 87.1798 0)
 			(effects
 				(font
@@ -9099,7 +9099,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 101.6 87.1798 0)
 			(effects
 				(font

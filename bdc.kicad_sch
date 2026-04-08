@@ -2431,7 +2431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15ddbcea-7fb8-424c-bfe9-1f247c81b028")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 154.929 39.0355 0)
 			(effects
 				(font
@@ -2439,7 +2439,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 154.929 41.4598 0)
 			(effects
 				(font
@@ -2474,7 +2474,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 139.7 41.91 0)
 			(effects
 				(font
@@ -2642,15 +2642,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 12)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 12)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 12)
 				)
 			)
@@ -2666,7 +2666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d66b29d-7d5c-4ef8-9e36-715a51fd89c4")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 106.8387 138.7305 0)
 			(effects
 				(font
@@ -2674,7 +2674,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 106.8387 141.1548 0)
 			(effects
 				(font
@@ -2709,7 +2709,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 88.9 142.24 0)
 			(effects
 				(font
@@ -2877,15 +2877,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 10)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 10)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 10)
 				)
 			)
@@ -2901,7 +2901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cb15127-8c54-46fd-bc0e-798eacdd88a0")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 105.5687 63.8005 0)
 			(effects
 				(font
@@ -2909,7 +2909,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 105.5687 66.2248 0)
 			(effects
 				(font
@@ -2944,7 +2944,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 88.9 67.31 0)
 			(effects
 				(font
@@ -3112,15 +3112,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 6)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 6)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 6)
 				)
 			)
@@ -3136,7 +3136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee8db9a-fe56-495a-8b19-b43f76553525")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 194.4687 15.5405 0)
 			(effects
 				(font
@@ -3144,7 +3144,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 194.4687 17.9648 0)
 			(effects
 				(font
@@ -3179,7 +3179,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 175.26 16.51 0)
 			(effects
 				(font
@@ -3347,15 +3347,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 13)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 13)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 13)
 				)
 			)
@@ -3371,7 +3371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b6940f5-c184-43d1-b365-cae0474dd10e")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 47.625 17.4455 0)
 			(effects
 				(font
@@ -3379,7 +3379,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 47.625 19.8698 0)
 			(effects
 				(font
@@ -3414,7 +3414,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 38.1 21.59 0)
 			(effects
 				(font
@@ -3582,15 +3582,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 2)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 2)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 2)
 				)
 			)
@@ -3693,7 +3693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54184999-e8e3-48d5-8df2-a4f1dd41367c")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 191.77 103.2453 0)
 			(effects
 				(font
@@ -3702,7 +3702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 191.77 105.6696 0)
 			(effects
 				(font
@@ -3738,7 +3738,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 179.07 104.14 0)
 			(effects
 				(font
@@ -3906,15 +3906,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3930,7 +3930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "553cb8f1-2851-470a-bda2-6fa9f52b2a7a")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 197.0087 48.5605 0)
 			(effects
 				(font
@@ -3938,7 +3938,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 197.0087 50.9848 0)
 			(effects
 				(font
@@ -3973,7 +3973,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 176.53 49.53 0)
 			(effects
 				(font
@@ -4141,15 +4141,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 14)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 14)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 14)
 				)
 			)
@@ -4165,7 +4165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a8ad50e-871c-4859-a832-40c39393bb63")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 105.5687 113.3305 0)
 			(effects
 				(font
@@ -4173,7 +4173,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 105.5687 115.7548 0)
 			(effects
 				(font
@@ -4208,7 +4208,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 88.9 116.84 0)
 			(effects
 				(font
@@ -4376,15 +4376,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 9)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 9)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 9)
 				)
 			)
@@ -4400,7 +4400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce5104b-e2df-4925-a98f-2971e4689380")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 105.5687 40.9405 0)
 			(effects
 				(font
@@ -4408,7 +4408,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 105.5687 43.3648 0)
 			(effects
 				(font
@@ -4443,7 +4443,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 88.9 44.45 0)
 			(effects
 				(font
@@ -4611,15 +4611,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 5)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 5)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 5)
 				)
 			)
@@ -4635,7 +4635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "978e0c81-4f90-4f0a-8907-e5b7d4ed1c07")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 67.299 44.1155 0)
 			(effects
 				(font
@@ -4643,7 +4643,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 67.299 46.5398 0)
 			(effects
 				(font
@@ -4678,7 +4678,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 54.61 46.99 0)
 			(effects
 				(font
@@ -4846,15 +4846,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 3)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 3)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 3)
 				)
 			)
@@ -4944,7 +4944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b746e98c-71cf-4da9-a882-d7452a5df3af")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 106.8387 165.4005 0)
 			(effects
 				(font
@@ -4952,7 +4952,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 106.8387 167.8248 0)
 			(effects
 				(font
@@ -4987,7 +4987,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 87.63 167.64 0)
 			(effects
 				(font
@@ -5155,15 +5155,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 11)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 11)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 11)
 				)
 			)
@@ -5179,7 +5179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7db5ce7-0a65-4cea-bbf4-a1949920db71")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 59.679 122.8555 0)
 			(effects
 				(font
@@ -5187,7 +5187,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 59.679 125.2798 0)
 			(effects
 				(font
@@ -5222,7 +5222,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 44.45 125.73 0)
 			(effects
 				(font
@@ -5390,15 +5390,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 8)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 8)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 8)
 				)
 			)
@@ -5575,7 +5575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eea5eaae-2d38-4e8e-905f-39592a16ea22")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 105.5687 16.8105 0)
 			(effects
 				(font
@@ -5583,7 +5583,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 105.5687 19.2348 0)
 			(effects
 				(font
@@ -5618,7 +5618,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 90.17 20.32 0)
 			(effects
 				(font
@@ -5786,15 +5786,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 4)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 4)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 4)
 				)
 			)
@@ -5810,7 +5810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f37abe90-a942-4fd3-b5f1-88199d4dc7e9")
-		(property "Reference" "U17"
+		(property "Reference" "U11"
 			(at 105.5687 90.4705 0)
 			(effects
 				(font
@@ -5818,7 +5818,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 105.5687 92.8948 0)
 			(effects
 				(font
@@ -5853,7 +5853,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 90.17 93.98 0)
 			(effects
 				(font
@@ -6021,15 +6021,15 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/49b62d3b-7090-4f14-b374-032413294413"
-					(reference "U19")
+					(reference "U13")
 					(unit 7)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/b52e17f4-8de5-4ac3-9a56-8e7fd7073d2b"
-					(reference "U17")
+					(reference "U11")
 					(unit 7)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e3090ade-adf9-41e7-9c4d-7ceb9518aa28"
-					(reference "U18")
+					(reference "U12")
 					(unit 7)
 				)
 			)

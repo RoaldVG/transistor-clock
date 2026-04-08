@@ -8414,7 +8414,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 152.4 103.6898 0)
 			(effects
 				(font
@@ -8571,7 +8571,7 @@
 					(unit 10)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 10)
 				)
 			)
@@ -8595,7 +8595,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 72.39 78.2898 0)
 			(effects
 				(font
@@ -8752,7 +8752,7 @@
 					(unit 2)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -8776,7 +8776,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 101.6 103.6898 0)
 			(effects
 				(font
@@ -8933,7 +8933,7 @@
 					(unit 8)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 8)
 				)
 			)
@@ -8957,7 +8957,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 101.6 78.2898 0)
 			(effects
 				(font
@@ -9114,7 +9114,7 @@
 					(unit 3)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 3)
 				)
 			)
@@ -9139,7 +9139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 108.331 57.0921 0)
 			(effects
 				(font
@@ -9297,7 +9297,7 @@
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9321,7 +9321,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 180.34 103.6898 0)
 			(effects
 				(font
@@ -9478,7 +9478,7 @@
 					(unit 11)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 11)
 				)
 			)
@@ -9502,7 +9502,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 180.34 78.2898 0)
 			(effects
 				(font
@@ -9659,7 +9659,7 @@
 					(unit 6)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 6)
 				)
 			)
@@ -9757,7 +9757,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 72.39 102.4198 0)
 			(effects
 				(font
@@ -9914,7 +9914,7 @@
 					(unit 7)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 7)
 				)
 			)
@@ -9938,7 +9938,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 127 103.6898 0)
 			(effects
 				(font
@@ -10095,7 +10095,7 @@
 					(unit 9)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 9)
 				)
 			)
@@ -10119,7 +10119,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 127.1905 78.2898 0)
 			(effects
 				(font
@@ -10276,7 +10276,7 @@
 					(unit 4)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 4)
 				)
 			)
@@ -10300,7 +10300,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSR"
 			(at 152.4 78.2898 0)
 			(effects
 				(font
@@ -10457,7 +10457,7 @@
 					(unit 5)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/c88a1bac-4a06-4b38-bc9b-1c7c792dec41"
-					(reference "U9")
+					(reference "U3")
 					(unit 5)
 				)
 			)

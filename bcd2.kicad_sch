@@ -1329,7 +1329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "add02b97-064e-41a9-914c-787e6ca5fa1e")
-		(property "Reference" "U11"
+		(property "Reference" "U5"
 			(at 73.2633 105.0869 0)
 			(effects
 				(font
@@ -1338,7 +1338,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "flipflop"
 			(at 66.04 105.41 0)
 			(effects
 				(font
@@ -1374,7 +1374,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 66.04 105.41 0)
 			(effects
 				(font
@@ -1500,7 +1500,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e5d5ceff-c3df-4aeb-b3ac-c735ee65b6d1"
-					(reference "U11")
+					(reference "U5")
 					(unit 4)
 				)
 			)
@@ -1516,7 +1516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6c7677b-bb23-4899-b1c6-02fd94568e77")
-		(property "Reference" "U12"
+		(property "Reference" "U6"
 			(at 99.9333 105.0869 0)
 			(effects
 				(font
@@ -1525,7 +1525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "flipflop"
 			(at 92.71 105.41 0)
 			(effects
 				(font
@@ -1561,7 +1561,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 92.71 105.41 0)
 			(effects
 				(font
@@ -1687,7 +1687,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/e5d5ceff-c3df-4aeb-b3ac-c735ee65b6d1"
-					(reference "U12")
+					(reference "U6")
 					(unit 4)
 				)
 			)

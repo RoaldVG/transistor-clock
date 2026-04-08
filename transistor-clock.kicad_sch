@@ -457,317 +457,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Zener_Filled"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener_Filled"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode, filled shape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_Filled_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "D_Zener_Filled_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2415,6 +2104,122 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "custom:PSU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.826 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "custom:module_PSU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PSU_1_1"
+				(rectangle
+					(start -6.35 0)
+					(end 6.35 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "AC_in"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2897,28 +2702,10 @@
 		(uuid "03172364-330d-4fab-8f8a-af0629423a9a")
 	)
 	(junction
-		(at 124.46 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08eccbec-464d-45d8-9743-26b880a28872")
-	)
-	(junction
 		(at 87.63 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c5c1926-831a-49c4-9157-945482e45489")
-	)
-	(junction
-		(at 110.49 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d76f4cd-3dc3-4d26-916f-578819290f67")
-	)
-	(junction
-		(at 124.46 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d7d7214-38d5-4d4e-945d-85870e046247")
 	)
 	(junction
 		(at 48.26 185.42)
@@ -2931,18 +2718,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "100d6933-01ed-4458-8838-7917e7b1a051")
-	)
-	(junction
-		(at 110.49 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14842229-9f7f-4e3b-b18e-ae97ffccbaca")
-	)
-	(junction
-		(at 110.49 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dae006d-0279-4d4b-a4bf-1017736ab9d1")
 	)
 	(junction
 		(at 63.5 181.61)
@@ -2969,12 +2744,6 @@
 		(uuid "2be957e3-f230-4a66-8126-9abb5c67b86d")
 	)
 	(junction
-		(at 138.43 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33d458df-ea1d-4939-ba7c-27b45c50b0a4")
-	)
-	(junction
 		(at 63.5 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2993,34 +2762,10 @@
 		(uuid "44036398-5081-41f6-8d26-361a947b5553")
 	)
 	(junction
-		(at 138.43 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47ddcefe-0373-4302-9dbd-f07be062177c")
-	)
-	(junction
-		(at 124.46 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4acf32d4-1ce9-407c-8d6e-399ca36595a6")
-	)
-	(junction
-		(at 100.33 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c825c29-f985-4f51-b64c-78df8d049e44")
-	)
-	(junction
 		(at 87.63 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51d0d529-ce5d-4de6-a4fe-5f1d4ae5653f")
-	)
-	(junction
-		(at 124.46 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "548e7c3d-ec27-4879-bb62-1bec6ac0b8f3")
 	)
 	(junction
 		(at 68.58 62.23)
@@ -3047,24 +2792,6 @@
 		(uuid "6cc604b6-92e7-4e0f-8ee4-ec29cce6bd19")
 	)
 	(junction
-		(at 100.33 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cdcb0a9-b356-4800-b30e-5e717fb00005")
-	)
-	(junction
-		(at 110.49 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70a245b7-aecc-4530-8def-971c7a4acf0f")
-	)
-	(junction
-		(at 124.46 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f547445-d8e2-41bd-9e1a-99cd0189483c")
-	)
-	(junction
 		(at 33.02 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3089,22 +2816,10 @@
 		(uuid "8dd2517c-a9be-45ab-a275-07763c03e4fd")
 	)
 	(junction
-		(at 110.49 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9184fe72-d15c-41f2-93f0-b932345464a4")
-	)
-	(junction
 		(at 39.37 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91c97470-b664-440d-832b-c7dc7f079ad6")
-	)
-	(junction
-		(at 138.43 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92e1fcec-bd19-4769-98d0-55e34c8d8751")
 	)
 	(junction
 		(at 71.12 160.02)
@@ -3149,34 +2864,16 @@
 		(uuid "af54c7c7-cb7b-4ad7-a21f-ecbc2c55bbd7")
 	)
 	(junction
-		(at 110.49 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b06416cd-99a5-45e1-b3e7-c9bf0e555e8d")
-	)
-	(junction
 		(at 64.77 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b71784f7-ac0c-4c9d-a809-8d9b8a77029f")
 	)
 	(junction
-		(at 100.33 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1bc8f22-6435-404f-b23f-7774181e5c6f")
-	)
-	(junction
 		(at 53.34 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1bfd5f4-6960-426a-bb0b-1612d465c5c8")
-	)
-	(junction
-		(at 124.46 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c92ed2d8-950f-4bb5-a0d4-70055ae8b5a5")
 	)
 	(junction
 		(at 39.37 179.07)
@@ -3189,12 +2886,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d531b520-1ac9-488b-a4ba-1fa570a52420")
-	)
-	(junction
-		(at 100.33 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7cad66e-3571-4529-91d0-e68e2e760414")
 	)
 	(junction
 		(at 81.28 124.46)
@@ -3213,12 +2904,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e13733a3-89de-43d3-ab6e-e1c8ce32bb64")
-	)
-	(junction
-		(at 110.49 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3719807-cc9c-4ea2-b194-c20f1605d1ba")
 	)
 	(junction
 		(at 88.9 121.92)
@@ -3251,40 +2936,16 @@
 		(uuid "ea7dc0e3-0929-40cf-ac39-64e7a6538e30")
 	)
 	(junction
-		(at 100.33 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eaa9e30a-2e0d-48a7-8fef-61c78955f447")
-	)
-	(junction
 		(at 72.39 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eae82a12-9d2a-4ec9-8d40-5eedd895da8f")
 	)
 	(junction
-		(at 110.49 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb14c9ec-82c5-474e-bd29-4317feacfd7a")
-	)
-	(junction
 		(at 209.55 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed7e953f-f83d-43af-a62f-34dd5cc197a3")
-	)
-	(junction
-		(at 100.33 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6dac16d-9b00-4f63-8038-a69e3d1281e4")
-	)
-	(junction
-		(at 110.49 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fac533e2-886a-47d0-8649-1a67f22b85cc")
 	)
 	(no_connect
 		(at 128.27 134.62)
@@ -3370,16 +3031,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 138.43 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1268c9dc-32af-42c4-a0d8-e0bc7a5888d6")
-	)
-	(wire
-		(pts
 			(xy 58.42 156.21) (xy 58.42 163.83)
 		)
 		(stroke
@@ -3397,16 +3048,6 @@
 			(type default)
 		)
 		(uuid "155bf6aa-5562-4da5-93b3-2bcca4731493")
-	)
-	(wire
-		(pts
-			(xy 100.33 77.47) (xy 110.49 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "158ed79c-a8c6-4bba-88d9-f19abd39342a")
 	)
 	(wire
 		(pts
@@ -3430,16 +3071,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 92.71) (xy 138.43 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e446f39-1eee-4783-af6c-d3438c81e6fd")
-	)
-	(wire
-		(pts
 			(xy 80.01 165.1) (xy 80.01 175.26)
 		)
 		(stroke
@@ -3450,13 +3081,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 92.71) (xy 119.38 92.71)
+			(xy 87.63 38.1) (xy 100.33 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23187f14-7cde-4986-849c-1170730702d2")
+		(uuid "28a67430-42b4-4e4e-aea3-acab934bc67d")
 	)
 	(wire
 		(pts
@@ -3487,16 +3118,6 @@
 			(type default)
 		)
 		(uuid "2bfce9b5-78d6-48f1-9406-5f99439f7607")
-	)
-	(wire
-		(pts
-			(xy 100.33 55.88) (xy 110.49 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e1118d6-8429-4d21-a59e-b155488b70f2")
 	)
 	(wire
 		(pts
@@ -3540,26 +3161,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 92.71) (xy 100.33 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3760d0a1-1763-4457-bf5f-87542fac0484")
-	)
-	(wire
-		(pts
-			(xy 110.49 63.5) (xy 124.46 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387a0bf5-50be-4f07-a90e-c45dcdc43399")
-	)
-	(wire
-		(pts
 			(xy 88.9 139.7) (xy 107.95 139.7)
 		)
 		(stroke
@@ -3567,16 +3168,6 @@
 			(type default)
 		)
 		(uuid "39c8dd67-34c0-4d83-a87f-7d5138d5c903")
-	)
-	(wire
-		(pts
-			(xy 110.49 71.12) (xy 100.33 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9a8779-69ec-46cb-a570-32e669a65fa1")
 	)
 	(wire
 		(pts
@@ -3620,26 +3211,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 36.83) (xy 124.46 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46189ba5-bde6-4847-bd8b-8ef580004b44")
-	)
-	(wire
-		(pts
-			(xy 138.43 29.21) (xy 148.59 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48906b91-5aa6-43cd-975f-9a543004661f")
-	)
-	(wire
-		(pts
 			(xy 71.12 180.34) (xy 80.01 180.34)
 		)
 		(stroke
@@ -3657,26 +3228,6 @@
 			(type default)
 		)
 		(uuid "4965e259-b68c-4d9e-8a68-211eb2cc3d61")
-	)
-	(wire
-		(pts
-			(xy 138.43 85.09) (xy 138.43 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a8d47eb-31b2-4a58-be21-726f3e5697a7")
-	)
-	(wire
-		(pts
-			(xy 129.54 29.21) (xy 138.43 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a9594b7-622a-4ca8-9529-afafdd8fb115")
 	)
 	(wire
 		(pts
@@ -3790,16 +3341,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 36.83) (xy 138.43 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6558e09a-756b-4b20-985b-ac5a0d1002b3")
-	)
-	(wire
-		(pts
 			(xy 88.9 111.76) (xy 107.95 111.76)
 		)
 		(stroke
@@ -3850,16 +3391,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 44.45) (xy 100.33 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "712ac5e9-4786-4c68-b399-d22836506163")
-	)
-	(wire
-		(pts
 			(xy 87.63 55.88) (xy 100.33 55.88)
 		)
 		(stroke
@@ -3867,16 +3398,6 @@
 			(type default)
 		)
 		(uuid "74074270-a138-48d1-b6ce-788df501b842")
-	)
-	(wire
-		(pts
-			(xy 100.33 92.71) (xy 110.49 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "773c713c-c910-4068-8e08-f90aba146035")
 	)
 	(wire
 		(pts
@@ -3897,16 +3418,6 @@
 			(type default)
 		)
 		(uuid "797ee407-916c-4bab-baec-94b0e2e2877a")
-	)
-	(wire
-		(pts
-			(xy 110.49 77.47) (xy 124.46 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c3c9859-bc71-48aa-805b-5d43f1ec7a7b")
 	)
 	(wire
 		(pts
@@ -3940,13 +3451,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 77.47) (xy 148.59 77.47)
+			(xy 87.63 38.1) (xy 87.63 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fb73af9-298e-4dc3-9c87-5053864d4725")
+		(uuid "81229bd9-ed86-4c96-8ef1-0447e7271a70")
 	)
 	(wire
 		(pts
@@ -3967,16 +3478,6 @@
 			(type default)
 		)
 		(uuid "8a46add3-ef64-455d-951e-c20cf6240ba0")
-	)
-	(wire
-		(pts
-			(xy 87.63 29.21) (xy 100.33 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8af90093-7f95-426d-a82b-01db10be7cfe")
 	)
 	(wire
 		(pts
@@ -4070,16 +3571,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 71.12) (xy 100.33 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d089338-2ea6-4dc1-8854-3c1dcea47e21")
-	)
-	(wire
-		(pts
 			(xy 33.02 125.73) (xy 40.64 125.73)
 		)
 		(stroke
@@ -4100,16 +3591,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 85.09) (xy 124.46 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2035570-4cc5-40a5-8039-094a430e32ba")
-	)
-	(wire
-		(pts
 			(xy 72.39 119.38) (xy 72.39 124.46)
 		)
 		(stroke
@@ -4117,16 +3598,6 @@
 			(type default)
 		)
 		(uuid "a34471de-bc6a-4727-9d68-31609b8b3059")
-	)
-	(wire
-		(pts
-			(xy 138.43 71.12) (xy 124.46 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a602155d-9ad3-4834-81b2-8beb15f2e43d")
 	)
 	(wire
 		(pts
@@ -4160,16 +3631,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 44.45) (xy 110.49 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaab2b5c-6556-49d4-9d9f-4931d382f123")
-	)
-	(wire
-		(pts
 			(xy 44.45 67.31) (xy 44.45 72.39)
 		)
 		(stroke
@@ -4177,16 +3638,6 @@
 			(type default)
 		)
 		(uuid "aadd0bb6-490e-410b-bd5a-2b109e1e81fc")
-	)
-	(wire
-		(pts
-			(xy 110.49 55.88) (xy 119.38 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab098e0b-ccec-400a-980c-565cd7e13bb4")
 	)
 	(wire
 		(pts
@@ -4200,16 +3651,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 55.88) (xy 138.43 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace8e5a2-60f4-4e87-b895-1af4bb09e3b7")
-	)
-	(wire
-		(pts
 			(xy 31.75 167.64) (xy 31.75 181.61)
 		)
 		(stroke
@@ -4217,16 +3658,6 @@
 			(type default)
 		)
 		(uuid "b2059501-03a0-4935-a7a7-17c31b1ea8cc")
-	)
-	(wire
-		(pts
-			(xy 124.46 71.12) (xy 110.49 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b86c6a0c-7810-41cb-85e1-3f5c0a3a7161")
 	)
 	(wire
 		(pts
@@ -4340,16 +3771,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 63.5) (xy 138.43 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c679fde6-f194-4dba-8e14-d16e1242c798")
-	)
-	(wire
-		(pts
 			(xy 223.52 29.21) (xy 227.33 29.21)
 		)
 		(stroke
@@ -4367,16 +3788,6 @@
 			(type default)
 		)
 		(uuid "c8047292-3743-4ee3-a9e5-07448b01bd98")
-	)
-	(wire
-		(pts
-			(xy 138.43 55.88) (xy 148.59 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c85e4788-d31b-4015-a0eb-7afc93ad3c4f")
 	)
 	(wire
 		(pts
@@ -4460,16 +3871,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 29.21) (xy 110.49 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8922254-a06e-416f-a941-85ebbc730f9b")
-	)
-	(wire
-		(pts
 			(xy 39.37 181.61) (xy 39.37 185.42)
 		)
 		(stroke
@@ -4510,26 +3911,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 44.45) (xy 124.46 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e137bc6a-000b-46dd-9035-42a2945d4fc1")
-	)
-	(wire
-		(pts
-			(xy 110.49 29.21) (xy 119.38 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e137e77b-cb4b-4f5b-8ba4-4750f9e3e6cf")
-	)
-	(wire
-		(pts
 			(xy 64.77 125.73) (xy 72.39 125.73)
 		)
 		(stroke
@@ -4537,16 +3918,6 @@
 			(type default)
 		)
 		(uuid "e2b4ee65-1be9-4b23-b64e-01f36bca76d4")
-	)
-	(wire
-		(pts
-			(xy 87.63 29.21) (xy 87.63 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b12cdc-e277-4ecf-bc13-1b5daec1ff41")
 	)
 	(wire
 		(pts
@@ -4597,16 +3968,6 @@
 			(type default)
 		)
 		(uuid "ec44442f-4dc7-47be-af7a-873f6354d439")
-	)
-	(wire
-		(pts
-			(xy 110.49 44.45) (xy 100.33 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edd5e948-17e4-4d2e-b8ea-edd3c03195fd")
 	)
 	(wire
 		(pts
@@ -4873,85 +4234,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener_Filled")
-		(at 124.46 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0334bc40-ff50-46a4-bdc5-1d3946643e95")
-		(property "Reference" "D6"
-			(at 126.492 66.0978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "13V"
-			(at 126.492 68.5221 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, filled shape"
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C21547"
-			(at 124.46 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95285f3b-4bac-4d23-b435-29eb9ad8ea6e")
-		)
-		(pin "2"
-			(uuid "6f91d321-9e5f-4148-8e51-adcd5bfe8ed2")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
 		(at 69.85 133.35 0)
 		(unit 1)
@@ -5132,7 +4414,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 148.59 55.88 0)
+		(at 118.11 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5141,7 +4423,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c2cd528-676e-4c16-bd23-0bffd266ec90")
 		(property "Reference" "#PWR012"
-			(at 148.59 59.69 0)
+			(at 114.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,15 +4432,16 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 148.59 51.7469 0)
+			(at 121.285 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +4450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +4459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 148.59 55.88 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,186 +4718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 110.49 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ff7088f-df7d-4ca6-8006-71cb2e2c5ce4")
-		(property "Reference" "R11"
-			(at 112.268 58.4778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 112.268 60.9021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 108.712 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C23204"
-			(at 110.49 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e3fe160-20e1-4254-9e91-133e302c8558")
-		)
-		(pin "2"
-			(uuid "f7da0816-c533-4558-be35-e45ebc300f15")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 124.46 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "225c9eff-f879-48c5-b27a-4e6d41df5265")
-		(property "Reference" "Q10"
-			(at 124.46 23.5161 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 124.46 25.9404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 126.365 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 124.46 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 124.46 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 124.46 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 124.46 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C20526v"
-			(at 124.46 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95710450-4802-4b2f-a0bf-edf9ccd445b9")
-		)
-		(pin "1"
-			(uuid "26d2c5ae-bd36-483e-b51b-8d9143a890da")
-		)
-		(pin "3"
-			(uuid "17000d64-a8bc-41a6-9f3d-5aea7d67c253")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 63.5 163.83 0)
 		(mirror y)
@@ -5775,7 +4878,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 148.59 77.47 180)
+		(at 118.11 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5784,7 +4887,7 @@
 		(fields_autoplaced yes)
 		(uuid "32494618-8b97-4e17-8733-f5382b819036")
 		(property "Reference" "#PWR013"
-			(at 148.59 73.66 0)
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,15 +4896,16 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 148.59 81.6031 0)
+			(at 121.285 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 77.47 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +4914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 77.47 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +4923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 148.59 77.47 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,44 +5020,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 100.33 33.02 0)
+		(lib_id "custom:PSU")
+		(at 109.22 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "362390dd-88fb-470d-a360-7f10e1bebf1b")
-		(property "Reference" "C7"
-			(at 103.251 31.8078 0)
+		(uuid "388deb1c-f56b-4687-8d63-c2a20219ae59")
+		(property "Reference" "U15"
+			(at 109.22 49.3225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100u"
-			(at 103.251 34.2321 0)
+		(property "Value" "12V"
+			(at 109.22 51.7468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
-			(at 101.2952 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 33.02 0)
+		(property "Footprint" "custom:module_PSU"
+			(at 109.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,8 +5054,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 33.02 0)
+		(property "Datasheet" ""
+			(at 109.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,8 +5063,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C16133"
-			(at 100.33 33.02 0)
+		(property "Description" ""
+			(at 109.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,15 +5073,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "0d1bebc7-2ae5-47d2-993b-f8d671ea8248")
+			(uuid "5dd39d6f-8439-475e-ba9f-fd94c91d939d")
+		)
+		(pin "3"
+			(uuid "c5c62225-affd-4ac1-ab5f-790df66906ca")
 		)
 		(pin "1"
-			(uuid "12bc418c-8d6a-473d-9d4d-b393a8f48a9d")
+			(uuid "1a94a378-ee85-40fe-b59b-ee78ddf28c16")
 		)
 		(instances
-			(project "transistor-clock"
+			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C7")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -6227,7 +5323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "460a6952-e864-49fe-a417-dccf8c32b57b")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 89.408 182.9378 0)
 			(effects
 				(font
@@ -6290,7 +5386,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6367,85 +5463,6 @@
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "486505ff-3933-419b-bf65-d7f72ea1dbbc")
-		(property "Reference" "C9"
-			(at 103.251 80.0678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 103.251 82.4921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
-			(at 101.2952 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C16133"
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f459a70-e468-4637-9753-96e28b83924a")
-		)
-		(pin "1"
-			(uuid "f05b68cb-1284-4887-95ff-2d55c13af8dc")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6860,85 +5877,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 110.49 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64025da6-0707-44be-96ea-b23acf843c5e")
-		(property "Reference" "C11"
-			(at 113.411 66.0978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
-			(at 113.411 68.5221 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
-			(at 109.5248 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C16133"
-			(at 110.49 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c06adcf5-2cb5-4e21-b568-31deddf97f76")
-		)
-		(pin "2"
-			(uuid "6aa74373-636e-4e50-837c-5614740804b3")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 209.55 24.13 90)
 		(unit 1)
@@ -7081,85 +6019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 110.49 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dc62f1a-500a-43dd-af71-b2366fc68903")
-		(property "Reference" "R12"
-			(at 112.268 87.6878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 112.268 90.1121 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 108.712 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C23204"
-			(at 110.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db0f42ab-1380-4092-ba71-e75cfa8f6d63")
-		)
-		(pin "1"
-			(uuid "b1ee27b8-9717-4f5f-b7bd-1e96c20c10a6")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 53.34 111.76 0)
 		(unit 1)
@@ -7235,7 +6094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e7c0da-fb88-4210-9826-ffd89be077ba")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 90.678 134.6778 0)
 			(effects
 				(font
@@ -7298,165 +6157,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 138.43 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fa832cc-742a-48b1-a332-d669a093e876")
-		(property "Reference" "C14"
-			(at 141.351 57.5888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000u"
-			(at 141.351 60.0131 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
-			(at 139.3952 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 138.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C3359"
-			(at 138.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "564ae963-f27e-4972-bac9-af7c9f8280ea")
-		)
-		(pin "2"
-			(uuid "19b0bb87-ae5e-406d-a1fd-0b87ce90481f")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 110.49 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "827cb63c-45a1-4327-8d0e-c02383215fcd")
-		(property "Reference" "C10"
-			(at 113.411 39.4278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
-			(at 113.411 41.8521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
-			(at 109.5248 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C16133"
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ff3fb38-c9ec-4ab6-bf60-87f4cdbc79d7")
-		)
-		(pin "2"
-			(uuid "ce10fea7-794b-426c-9f8e-613cc75cc1b4")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C10")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7472,7 +6173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83a67d28-7d06-4834-9908-4f4e57810d04")
-		(property "Reference" "R8"
+		(property "Reference" "R5"
 			(at 65.278 170.2378 0)
 			(effects
 				(font
@@ -7535,7 +6236,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7543,16 +6244,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 148.59 29.21 0)
+		(at 118.11 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "83f51138-a644-432a-aa8c-6de9a6ff0b84")
 		(property "Reference" "#PWR011"
-			(at 148.59 33.02 0)
+			(at 114.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +6261,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 148.59 25.0769 0)
+			(at 122.2431 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,7 +6269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 29.21 0)
+			(at 118.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7578,7 +6278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 29.21 0)
+			(at 118.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +6287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 148.59 29.21 0)
+			(at 118.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,7 +7013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aef528a-9206-4513-a262-d6889fcfbe71")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 66.548 114.3578 0)
 			(effects
 				(font
@@ -8376,7 +7076,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8384,7 +7084,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 71.12 0)
+		(at 118.11 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8393,7 +7093,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bca99bc-8965-41bd-abbd-b7de8e2cdb6a")
 		(property "Reference" "#PWR09"
-			(at 100.33 77.47 0)
+			(at 124.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,15 +7102,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 75.2531 0)
+			(at 121.285 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 71.12 0)
+			(at 118.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +7120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 71.12 0)
+			(at 118.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +7129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 71.12 0)
+			(at 118.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,7 +7316,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 44.45 0)
+		(at 118.11 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8624,7 +7325,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3781bdc-c07c-498e-a2b1-6c19f9bdbc17")
 		(property "Reference" "#PWR08"
-			(at 100.33 50.8 0)
+			(at 124.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,15 +7334,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 48.5831 0)
+			(at 121.285 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 44.45 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +7352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 44.45 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +7361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 44.45 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,367 +7376,6 @@
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Filled")
-		(at 124.46 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a95ba5b4-0bf5-4a42-abc2-a8fa9b03360d")
-		(property "Reference" "D7"
-			(at 126.492 80.0678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "13V"
-			(at 126.492 82.4921 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 124.46 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, filled shape"
-			(at 124.46 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C21547"
-			(at 124.46 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "639d45e2-f167-480b-a4fc-0960ec8a674c")
-		)
-		(pin "2"
-			(uuid "b7e395d6-4e04-4c3a-aeab-ffc35a2d7e3b")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Filled")
-		(at 124.46 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa2551bc-2897-47a2-a779-db7ffeb21d61")
-		(property "Reference" "D5"
-			(at 126.492 39.4278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V9"
-			(at 126.492 41.8521 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 124.46 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, filled shape"
-			(at 124.46 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2114"
-			(at 124.46 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9ed9e1f-97c4-43e4-914b-f0c0c20bb9c0")
-		)
-		(pin "2"
-			(uuid "d1f508ab-6dbd-4f8a-a3db-d2d0f20192f5")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 124.46 90.17 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad36cda8-7c5b-4a19-bb0e-980c3d220696")
-		(property "Reference" "Q12"
-			(at 124.46 95.9795 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 124.46 98.4038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 126.365 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 124.46 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 124.46 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 124.46 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 124.46 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C20526v"
-			(at 124.46 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6dbd3c78-713b-4b1a-8987-bb52f2228cbe")
-		)
-		(pin "1"
-			(uuid "4e6c3806-79ac-4378-9d3a-5dcdbe524d4b")
-		)
-		(pin "2"
-			(uuid "3b30d7da-9c16-4825-9a72-eb9065b54dae")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 124.46 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afb6682b-585b-41f9-a1e3-d8d8653aa2d6")
-		(property "Reference" "Q11"
-			(at 124.46 50.1861 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 124.46 52.6104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 126.365 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 124.46 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 124.46 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 124.46 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 124.46 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C20526v"
-			(at 124.46 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76a6e810-b9e0-48f3-86ca-a2db5204d132")
-		)
-		(pin "1"
-			(uuid "95f0dc03-20e1-4221-9468-ba7dd49f17af")
-		)
-		(pin "3"
-			(uuid "b85b37d7-a0ab-4f72-9fe8-2b999a31fe6f")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -9108,7 +7449,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 92.71 0)
+		(at 118.11 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9117,7 +7458,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7759b88-c8be-4476-87f0-9c7164e6c937")
 		(property "Reference" "#PWR010"
-			(at 100.33 99.06 0)
+			(at 124.46 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,15 +7467,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 96.8431 0)
+			(at 121.285 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 92.71 0)
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +7485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 92.71 0)
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,7 +7494,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 92.71 0)
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,85 +7509,6 @@
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 110.49 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bab479b5-a4d1-4712-bd83-d46fecf7b3a7")
-		(property "Reference" "C12"
-			(at 113.411 80.0678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
-			(at 113.411 82.4921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
-			(at 109.5248 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C16133"
-			(at 110.49 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de158da6-757a-4983-b57c-2fc0aedd4feb")
-		)
-		(pin "2"
-			(uuid "a6575510-8a00-4de6-97f8-784ca592d66c")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9417,6 +7680,149 @@
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:PSU")
+		(at 109.22 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c16c87a2-7866-4e98-9eba-5581f43f59d0")
+		(property "Reference" "U14"
+			(at 109.22 31.5425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 109.22 33.9668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:module_PSU"
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dd39d6f-8439-475e-ba9f-fd94c91d939d")
+		)
+		(pin "3"
+			(uuid "c5c62225-affd-4ac1-ab5f-790df66906ca")
+		)
+		(pin "1"
+			(uuid "1a94a378-ee85-40fe-b59b-ee78ddf28c16")
+		)
+		(instances
+			(project ""
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:PSU")
+		(at 109.22 80.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbe1e264-01be-4dd9-90f1-39fe05e8d782")
+		(property "Reference" "U16"
+			(at 109.22 67.7375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-12V"
+			(at 109.22 70.1618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:module_PSU"
+			(at 109.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dd39d6f-8439-475e-ba9f-fd94c91d939d")
+		)
+		(pin "3"
+			(uuid "c5c62225-affd-4ac1-ab5f-790df66906ca")
+		)
+		(pin "1"
+			(uuid "1a94a378-ee85-40fe-b59b-ee78ddf28c16")
+		)
+		(instances
+			(project ""
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -9679,7 +8085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1548e31-5355-409f-9df2-1adad0042318")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 74.168 114.3578 0)
 			(effects
 				(font
@@ -9742,165 +8148,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 138.43 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e34a4901-d838-4b9a-8f49-de3af65c15cf")
-		(property "Reference" "C13"
-			(at 141.351 30.9188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000u"
-			(at 141.351 33.3431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
-			(at 139.3952 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 138.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C3359"
-			(at 138.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61094f22-9a23-479a-8d48-86ce81c44cda")
-		)
-		(pin "2"
-			(uuid "8c5c0df1-9c17-4c45-8de1-09d1af22564d")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 110.49 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4726dab-6b90-4ab2-b184-4e442dde8f72")
-		(property "Reference" "R10"
-			(at 112.268 31.8078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 112.268 34.2321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 108.712 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C23204"
-			(at 110.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9a761a4-12f8-48c2-9e4b-a802ca3e9ee1")
-		)
-		(pin "2"
-			(uuid "29a6213a-9e78-4334-9ea8-b246c3339008")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9977,164 +8225,6 @@
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e855f889-2194-42a2-b9c0-d208dc57a472")
-		(property "Reference" "C8"
-			(at 103.251 58.4778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 103.251 60.9021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
-			(at 101.2952 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C16133"
-			(at 100.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac4a0023-9df1-4da6-82f2-f86e8120f596")
-		)
-		(pin "1"
-			(uuid "87de36f5-6e7d-4d37-a237-2f9fdfb692ce")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 138.43 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3224101-9c74-4e22-9f37-e88ae40187f6")
-		(property "Reference" "C15"
-			(at 141.351 80.9568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1000u"
-			(at 141.351 83.3811 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
-			(at 137.4648 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 138.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C3359"
-			(at 138.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "606e143e-b394-4a21-b191-eb43a0cd6b74")
-		)
-		(pin "2"
-			(uuid "3b8ca069-edf1-4ce0-b4ea-8593d14e7319")
-		)
-		(instances
-			(project "transistor-clock"
-				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10330,7 +8420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdcbb87b-4af6-4aa8-9167-dddf950bd753")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 72.898 162.6178 0)
 			(effects
 				(font
@@ -10393,7 +8483,7 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)

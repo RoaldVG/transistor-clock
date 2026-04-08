@@ -2207,7 +2207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a16f0a2-87bd-4eea-8c20-8196f800d51c")
-		(property "Reference" "U14"
+		(property "Reference" "U8"
 			(at 104.2987 23.1605 0)
 			(effects
 				(font
@@ -2215,7 +2215,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 104.2987 25.5848 0)
 			(effects
 				(font
@@ -2250,7 +2250,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 88.9 26.67 0)
 			(effects
 				(font
@@ -2418,11 +2418,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U15")
+					(reference "U9")
 					(unit 4)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U14")
+					(reference "U8")
 					(unit 4)
 				)
 			)
@@ -2521,7 +2521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95c8a661-3245-434d-803a-2224213cc051")
-		(property "Reference" "U14"
+		(property "Reference" "U8"
 			(at 104.2987 119.6805 0)
 			(effects
 				(font
@@ -2529,7 +2529,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 104.2987 122.1048 0)
 			(effects
 				(font
@@ -2564,7 +2564,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -2732,11 +2732,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U15")
+					(reference "U9")
 					(unit 9)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U14")
+					(reference "U8")
 					(unit 9)
 				)
 			)
@@ -2892,7 +2892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d4d864-36b6-4ab6-a717-e237b6126d00")
-		(property "Reference" "U14"
+		(property "Reference" "U8"
 			(at 190.5 109.5953 0)
 			(effects
 				(font
@@ -2901,7 +2901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 190.5 112.0196 0)
 			(effects
 				(font
@@ -2937,7 +2937,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 177.8 110.49 0)
 			(effects
 				(font
@@ -3105,11 +3105,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U15")
+					(reference "U9")
 					(unit 1)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U14")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3125,7 +3125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c90e7c6f-97b4-4eb9-92c6-47aaf2d8e96e")
-		(property "Reference" "U14"
+		(property "Reference" "U8"
 			(at 104.2987 47.2905 0)
 			(effects
 				(font
@@ -3133,7 +3133,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 104.2987 49.7148 0)
 			(effects
 				(font
@@ -3168,7 +3168,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 87.63 50.8 0)
 			(effects
 				(font
@@ -3336,11 +3336,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U15")
+					(reference "U9")
 					(unit 5)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U14")
+					(reference "U8")
 					(unit 5)
 				)
 			)
@@ -3356,7 +3356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfed4b71-3dd7-4f9b-9a8b-1430df7fc8bf")
-		(property "Reference" "U14"
+		(property "Reference" "U8"
 			(at 104.2987 96.8205 0)
 			(effects
 				(font
@@ -3364,7 +3364,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 104.2987 99.2448 0)
 			(effects
 				(font
@@ -3399,7 +3399,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 88.9 100.33 0)
 			(effects
 				(font
@@ -3567,11 +3567,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U15")
+					(reference "U9")
 					(unit 7)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U14")
+					(reference "U8")
 					(unit 7)
 				)
 			)
@@ -3587,7 +3587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f13585ac-0648-4a79-8446-f2b74b161b02")
-		(property "Reference" "U14"
+		(property "Reference" "U8"
 			(at 46.355 23.7955 0)
 			(effects
 				(font
@@ -3595,7 +3595,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 46.355 26.2198 0)
 			(effects
 				(font
@@ -3630,7 +3630,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 36.83 27.94 0)
 			(effects
 				(font
@@ -3798,11 +3798,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U15")
+					(reference "U9")
 					(unit 2)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U14")
+					(reference "U8")
 					(unit 2)
 				)
 			)
@@ -3818,7 +3818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc7b4655-6876-412d-a981-e6eb53dd21b7")
-		(property "Reference" "U14"
+		(property "Reference" "U8"
 			(at 104.2987 70.1505 0)
 			(effects
 				(font
@@ -3826,7 +3826,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "bin-to-dec"
 			(at 104.2987 72.5748 0)
 			(effects
 				(font
@@ -3861,7 +3861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C185937"
 			(at 87.63 73.66 0)
 			(effects
 				(font
@@ -4029,11 +4029,11 @@
 		(instances
 			(project "transistor-clock"
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/17506e18-a9be-4894-89ef-dc197f5398c9"
-					(reference "U15")
+					(reference "U9")
 					(unit 6)
 				)
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2/2c36a9e9-de42-4705-9ad4-94f4cc168e2f/d1a94e5b-c816-4015-8ed8-33cd53e200ca"
-					(reference "U14")
+					(reference "U8")
 					(unit 6)
 				)
 			)
