@@ -11089,6 +11089,12 @@
 		)
 	)
 	(junction
+		(at 52.07 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c4eea00-f57b-4f33-8b32-f297c09f225a")
+	)
+	(junction
 		(at 91.44 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11155,22 +11161,16 @@
 		(uuid "65d7e3a3-19e1-4707-972c-5e533c02a868")
 	)
 	(junction
+		(at 173.99 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ab62bdd-cb5f-4535-ae17-9b4858069cb6")
+	)
+	(junction
 		(at 104.14 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c8b5b6b-a37d-40d3-a0a4-8582f1003e8c")
-	)
-	(junction
-		(at 91.44 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ce6181e-8fa0-435f-abdc-f05c2d44516d")
-	)
-	(junction
-		(at 173.99 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fd17d80-3983-40bf-abb2-d830d5cc00d9")
 	)
 	(junction
 		(at 190.5 100.33)
@@ -11203,6 +11203,12 @@
 		(uuid "85dc5ef2-6128-4e2f-8f31-2cc5cca7dbb0")
 	)
 	(junction
+		(at 91.44 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "895a65f6-b16c-4394-a11a-1793b81d41ad")
+	)
+	(junction
 		(at 148.59 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11231,12 +11237,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa864f01-a92f-48ec-857c-76ff08a2ca77")
-	)
-	(junction
-		(at 52.07 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab963f28-15ef-4021-a0ea-d2ed6e429991")
 	)
 	(junction
 		(at 214.63 154.94)
@@ -11348,16 +11348,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 130.81) (xy 173.99 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "048ebe26-18b9-4a96-9dcc-016a6180c630")
-	)
-	(wire
-		(pts
 			(xy 109.22 100.33) (xy 109.22 102.87)
 		)
 		(stroke
@@ -11408,16 +11398,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 130.81) (xy 101.6 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ad3facf-c21d-40a5-bc94-db8219a3ae7a")
-	)
-	(wire
-		(pts
 			(xy 190.5 96.52) (xy 190.5 100.33)
 		)
 		(stroke
@@ -11445,6 +11425,16 @@
 			(type default)
 		)
 		(uuid "0c7e5ec0-87e6-4e47-a198-c81983403624")
+	)
+	(wire
+		(pts
+			(xy 173.99 130.81) (xy 182.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f69fe01-3bbd-4235-aa38-c393e7a12d76")
 	)
 	(wire
 		(pts
@@ -12168,16 +12158,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 130.81) (xy 60.96 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52ac2c83-1a7f-4107-8075-6ba55e9c353a")
-	)
-	(wire
-		(pts
 			(xy 204.47 113.03) (xy 201.93 113.03)
 		)
 		(stroke
@@ -12275,6 +12255,16 @@
 			(type default)
 		)
 		(uuid "5853ff57-00fd-46ec-b2d7-abba096f2ab3")
+	)
+	(wire
+		(pts
+			(xy 91.44 130.81) (xy 101.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bba9e9a-1460-4112-aea7-21e19454f5af")
 	)
 	(wire
 		(pts
@@ -12425,6 +12415,16 @@
 			(type default)
 		)
 		(uuid "6a14dc71-2052-4904-a6b3-a1215692ac14")
+	)
+	(wire
+		(pts
+			(xy 52.07 130.81) (xy 60.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be85689-b21f-4934-a579-eb2e787d8090")
 	)
 	(wire
 		(pts
@@ -12698,7 +12698,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 130.81) (xy 166.37 130.81)
+			(xy 166.37 130.81) (xy 173.99 130.81)
 		)
 		(stroke
 			(width 0)
@@ -15260,7 +15260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.322 138.43 90)
 			(effects
 				(font
@@ -15340,7 +15340,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.322 152.4 90)
 			(effects
 				(font
@@ -15572,7 +15572,7 @@
 	)
 	(symbol
 		(lib_id "custom:BDC_nands")
-		(at 101.6 96.52 270)
+		(at 62.23 96.52 270)
 		(unit 11)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15580,7 +15580,7 @@
 		(dnp no)
 		(uuid "73ae3409-4a05-48aa-a323-9ab63e8ed5de")
 		(property "Reference" "U9"
-			(at 90.424 114.046 90)
+			(at 51.054 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15589,16 +15589,17 @@
 			)
 		)
 		(property "Value" "bin-to-dec"
-			(at 90.424 116.4703 90)
+			(at 51.054 116.4703 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "custom:module_bdc_mpcie"
-			(at 101.6 96.52 0)
+			(at 62.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15607,7 +15608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 96.52 0)
+			(at 62.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,7 +15617,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 96.52 0)
+			(at 62.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15625,7 +15626,7 @@
 			)
 		)
 		(property "LCSC Part #" "C185937"
-			(at 101.6 96.52 90)
+			(at 62.23 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16051,7 +16052,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 82.042 170.18 90)
 			(effects
 				(font
@@ -16586,7 +16587,7 @@
 	)
 	(symbol
 		(lib_id "custom:BDC_nands")
-		(at 60.96 97.79 270)
+		(at 182.88 97.79 270)
 		(unit 10)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16594,7 +16595,7 @@
 		(dnp no)
 		(uuid "9ce0e243-01c5-4e6d-9735-ad46a96d886b")
 		(property "Reference" "U8"
-			(at 51.816 114.1617 90)
+			(at 173.736 114.1617 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16603,16 +16604,17 @@
 			)
 		)
 		(property "Value" "bin-to-dec"
-			(at 51.816 116.586 90)
+			(at 173.736 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "custom:module_bdc_mpcie"
-			(at 60.96 97.79 0)
+			(at 182.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16621,7 +16623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 97.79 0)
+			(at 182.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16630,7 +16632,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 97.79 0)
+			(at 182.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16639,7 +16641,7 @@
 			)
 		)
 		(property "LCSC Part #" "C185937"
-			(at 60.96 97.79 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17285,7 +17287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "MIN +"
 			(at 41.783 167.5821 90)
 			(effects
 				(font
@@ -17294,7 +17296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
 			(at 43.18 166.37 0)
 			(effects
 				(font
@@ -17321,7 +17323,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C720477"
 			(at 38.1 166.37 0)
 			(effects
 				(font
@@ -17514,7 +17516,7 @@
 	)
 	(symbol
 		(lib_id "custom:BDC_nands")
-		(at 185.42 96.52 270)
+		(at 102.87 96.52 270)
 		(unit 13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17522,7 +17524,7 @@
 		(dnp no)
 		(uuid "d3148568-6fcc-4ed9-b824-6927903f3529")
 		(property "Reference" "U9"
-			(at 173.736 114.1617 90)
+			(at 91.186 114.1617 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17531,7 +17533,7 @@
 			)
 		)
 		(property "Value" "bin-to-dec"
-			(at 173.736 116.586 90)
+			(at 91.186 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17540,7 +17542,7 @@
 			)
 		)
 		(property "Footprint" "custom:module_bdc_mpcie"
-			(at 185.42 96.52 0)
+			(at 102.87 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17549,7 +17551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 96.52 0)
+			(at 102.87 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17558,7 +17560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 96.52 0)
+			(at 102.87 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17567,7 +17569,7 @@
 			)
 		)
 		(property "LCSC Part #" "C185937"
-			(at 185.42 96.52 90)
+			(at 102.87 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17765,6 +17767,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "custom:module_bdc_mpcie"
@@ -18384,7 +18387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "HR +"
 			(at 87.503 185.3621 90)
 			(effects
 				(font
@@ -18393,7 +18396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
 			(at 88.9 184.15 0)
 			(effects
 				(font
@@ -18420,7 +18423,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C720477"
 			(at 83.82 184.15 0)
 			(effects
 				(font
@@ -18571,7 +18574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 82.042 156.21 90)
 			(effects
 				(font

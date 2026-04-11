@@ -256,6 +256,13 @@
 			)
 		)
 	)
+	(pad "" np_thru_hole circle
+		(at -12.85 -58.045)
+		(size 2.6 2.6)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(uuid "64fd5382-1e2a-4393-97e2-3f1c151c4661")
+	)
 	(pad "" connect rect
 		(at -12.85 -58.045)
 		(size 5.8 5.8)
@@ -285,6 +292,13 @@
 		(size 2.3 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c3a39886-dcee-4252-be59-780817a9551d")
+	)
+	(pad "" np_thru_hole circle
+		(at 38.15 -58.045)
+		(size 2.6 2.6)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(uuid "f8b38a33-267c-4f49-9ad9-077f2298a234")
 	)
 	(pad "" connect rect
 		(at 38.15 -58.045)

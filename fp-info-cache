@@ -1,4 +1,4 @@
-26573255307017951
+26578582813641303
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105210,6 +105210,27 @@ Varistor VF
 2
 2
 custom
+CL2-20-12
+
+
+0
+8
+8
+custom
+DST-6-36
+
+
+0
+8
+8
+custom
+module_PSU
+
+
+0
+3
+3
+custom
 module_bdc_mpcie
 
 
@@ -105228,8 +105249,8 @@ module_ssr
 
 
 0
-0
-0
+34
+34
 mpcie
 mpcie-full-card
 
