@@ -1,0 +1,31 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C6",0603,2,10n,C57112
+"C16, C17, C18, C19, C20, C21, C22",0603,7,100n,C14663
+"C2, C4",0603,2,1u,C15849
+"C23, C24, C25, C26, C27, C28, C29, C30, C31, C32",0603,10,10u,C19702
+"C3, C5",0805,2,47u,C16780
+"D1, D2, D3, D4",D_SMA,4,S3MF,C64874
+J1,TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm,1,Screw_Terminal_01x02,
+"J10, J12, J8",PinHeader_1x10_P2.54mm_Vertical,3,Conn_01x10_Socket,
+"J11, J9",PinHeader_1x06_P2.54mm_Vertical,2,Conn_01x06_Socket,
+J13,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03_Socket,
+"J2, J3, J4, J5, J6, J7",PinHeader_1x01_P2.54mm_Vertical,6,Conn_01x01_Socket,
+"Q1, Q2, Q3, Q4, Q9",SOT-23,5,MMBT3904,C20526v
+"Q5, Q7",SOT-23,2,AO3401A,C15127
+"Q6, Q8",SOT-23,2,2N7002,C8545
+"R1, R2, R3, R5, R7, R8",0603,6,15k,C22809
+"R10, R15, R17, R9",0603,4,1k,C21190
+"R14, R16",0603,2,10k,C25804
+"R4, R6",0603,2,120k,C25808
+"RV1, RV2",Potentiometer_Bourns_3214J_Horizontal,2,5k,C58391
+SW1,SW_SPST_EVQPE1,1,MIN +,C720477
+SW2,SW_SPST_EVQPE1,1,HR +,C720477
+TP1,PinHeader_1x02_P2.54mm_Vertical,1,TestPoint_2Pole,
+TR1,DST-6-36,1,Val**,
+TR2,CL2-20-12,1,Val**,
+"U1, U2, U3",module_ssr,3,SSR,
+"U10, U4, U5, U6, U7",module_flipflop_mpcie,5,flipflop,C185937
+"U11, U12, U13, U8, U9",module_bdc_mpcie,5,bin-to-dec,C185937
+U14,module_PSU,1,3V3,
+U15,module_PSU,1,12V,
+U16,module_PSU,1,-12V,

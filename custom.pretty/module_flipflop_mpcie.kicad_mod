@@ -275,16 +275,18 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5ba95b14-2ad6-407d-a4d0-15a932dc7d51")
 	)
-	(pad "" connect circle
+	(pad "" np_thru_hole circle
 		(at 0.006 0)
 		(size 1.6 1.6)
-		(layers "F.SilkS" "Dwgs.User")
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
 		(uuid "e761f01f-d722-4e87-a465-a6f38bac6ea2")
 	)
-	(pad "" connect circle
+	(pad "" np_thru_hole circle
 		(at 25.006 0)
 		(size 1.05 1.05)
-		(layers "F.SilkS" "Dwgs.User")
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
 		(uuid "23560ba0-98ed-4d12-ab74-d971bbe3ab6f")
 	)
 	(pad "" smd rect

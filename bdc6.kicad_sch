@@ -2169,7 +2169,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C57112"
+		(property "LCSC Part #" "C19702"
 			(at 165.1 110.49 0)
 			(effects
 				(font
@@ -2483,7 +2483,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C57112"
+		(property "LCSC Part #" "C19702"
 			(at 154.94 110.49 0)
 			(effects
 				(font
