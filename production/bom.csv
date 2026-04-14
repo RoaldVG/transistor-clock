@@ -6,10 +6,6 @@
 "C3, C5",0805,2,47u,C16780
 "D1, D2, D3, D4",D_SMA,4,S3MF,C64874
 J1,TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm,1,Screw_Terminal_01x02,
-"J10, J12, J8",PinHeader_1x10_P2.54mm_Vertical,3,Conn_01x10_Socket,
-"J11, J9",PinHeader_1x06_P2.54mm_Vertical,2,Conn_01x06_Socket,
-J13,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03_Socket,
-"J2, J3, J4, J5, J6, J7",PinHeader_1x01_P2.54mm_Vertical,6,Conn_01x01_Socket,
 "Q1, Q2, Q3, Q4, Q9",SOT-23,5,MMBT3904,C20526v
 "Q5, Q7",SOT-23,2,AO3401A,C15127
 "Q6, Q8",SOT-23,2,2N7002,C8545
@@ -21,8 +17,8 @@ J13,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03_Socket,
 SW1,SW_SPST_EVQPE1,1,MIN +,C720477
 SW2,SW_SPST_EVQPE1,1,HR +,C720477
 TP1,PinHeader_1x02_P2.54mm_Vertical,1,TestPoint_2Pole,
-TR1,DST-6-36,1,Val**,
-TR2,CL2-20-12,1,Val**,
+TR1,DST-6-36,1,DST-6-36,
+TR2,CL2-20-12,1,CL2-20-12,
 "U1, U2, U3",module_ssr,3,SSR,
 "U10, U4, U5, U6, U7",module_flipflop_mpcie,5,flipflop,C185937
 "U11, U12, U13, U8, U9",module_bdc_mpcie,5,bin-to-dec,C185937

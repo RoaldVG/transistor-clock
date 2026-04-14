@@ -1349,6 +1349,26 @@
 					)
 				)
 			)
+			(symbol "TRANSF3_1_0"
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(symbol "TRANSF3_1_1"
 				(pin passive line
 					(at -5.08 7.62 0)
@@ -1379,24 +1399,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 7.62 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4794,7 +4796,7 @@
 		)
 		(uuid "fd6d6e67-cb59-4ea7-b28e-481f1355d9a3")
 	)
-	(label "Sqr1"
+	(label "Sqr2"
 		(at 128.27 129.54 0)
 		(effects
 			(font
@@ -4844,7 +4846,7 @@
 		)
 		(uuid "c159c9bf-c0b4-43b1-965e-d9ac930a2d27")
 	)
-	(label "Sqr2"
+	(label "Sqr1"
 		(at 128.27 144.78 0)
 		(effects
 			(font
@@ -5813,7 +5815,7 @@
 		(at 227.33 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3609370f-c86f-4323-80ff-074dfcafd0da")
@@ -6262,7 +6264,7 @@
 		(at 204.47 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "47d27291-eead-4c76-bccd-be999c7757eb")
@@ -6660,7 +6662,7 @@
 		(at 209.55 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6527b2e0-b0d6-4e69-9201-f85aed9fca57")
@@ -7691,7 +7693,7 @@
 		(at 219.71 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "98d61339-6da0-4fce-905e-1f3665d0585b")
@@ -8592,7 +8594,7 @@
 		(at 223.52 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d13dd18d-c9b0-43e9-919e-7750392fe1c8")
@@ -8761,15 +8763,14 @@
 	(symbol
 		(lib_id "Transformer:TRANSF3")
 		(at 113.03 137.16 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d7016bfc-7069-41c4-8dcc-5b2750e7e36f")
 		(property "Reference" "TR2"
-			(at 113.03 149.0515 0)
+			(at 113.03 125.2685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8777,7 +8778,7 @@
 			)
 		)
 		(property "Value" "CL2-20-12"
-			(at 113.03 146.6272 0)
+			(at 113.03 127.6928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,7 +8844,7 @@
 		(at 214.63 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "de738f2c-cff3-490f-8205-eaacceed752e")
@@ -9151,7 +9152,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f9e15e9a-e698-44c0-8c91-df17d0135630")
