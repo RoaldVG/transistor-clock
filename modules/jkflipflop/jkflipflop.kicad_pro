@@ -686,6 +686,10 @@
       "NAND3_4"
     ],
     [
+      "ef508077-4643-4ab7-9e99-da8529a8e43b",
+      "NAND2_2"
+    ],
+    [
       "259d22b3-bbdc-4d1c-a30b-6746a4fa5b6c",
       "jk-flipflop4"
     ],
@@ -722,8 +726,68 @@
       "NAND3_4"
     ],
     [
+      "6cc61527-1fc6-4e01-b48e-203d63b5e1ea",
+      "NAND2_1"
+    ],
+    [
       "e2f65bd2-9742-41b7-aa1a-9fa16eb9bcaa",
       "NAND3_2"
+    ],
+    [
+      "ef508077-4643-4ab7-9e99-da8529a8e43b",
+      "NAND2_2"
+    ],
+    [
+      "ef508077-4643-4ab7-9e99-da8529a8e43b",
+      "NAND2_2"
+    ],
+    [
+      "ef508077-4643-4ab7-9e99-da8529a8e43b",
+      "NAND2_2"
+    ],
+    [
+      "1727ffad-0d64-4989-ba0e-0096ec52e5a2",
+      "NAND2_3"
+    ],
+    [
+      "24c8ee23-a8c7-40ef-b0cc-fec3d6f8a7fb",
+      "NAND2_4"
+    ],
+    [
+      "1727ffad-0d64-4989-ba0e-0096ec52e5a2",
+      "NAND2_3"
+    ],
+    [
+      "24c8ee23-a8c7-40ef-b0cc-fec3d6f8a7fb",
+      "NAND2_4"
+    ],
+    [
+      "1727ffad-0d64-4989-ba0e-0096ec52e5a2",
+      "NAND2_3"
+    ],
+    [
+      "24c8ee23-a8c7-40ef-b0cc-fec3d6f8a7fb",
+      "NAND2_4"
+    ],
+    [
+      "1727ffad-0d64-4989-ba0e-0096ec52e5a2",
+      "NAND2_3"
+    ],
+    [
+      "24c8ee23-a8c7-40ef-b0cc-fec3d6f8a7fb",
+      "NAND2_4"
+    ],
+    [
+      "6cc61527-1fc6-4e01-b48e-203d63b5e1ea",
+      "NAND2_1"
+    ],
+    [
+      "6cc61527-1fc6-4e01-b48e-203d63b5e1ea",
+      "NAND2_1"
+    ],
+    [
+      "6cc61527-1fc6-4e01-b48e-203d63b5e1ea",
+      "NAND2_1"
     ]
   ],
   "text_variables": {}

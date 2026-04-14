@@ -14056,6 +14056,36 @@
 		)
 		(uuid "fd7fe839-ba36-4592-8b35-8ae8b4c1be8d")
 	)
+	(label "relays_h1{slash}Out2"
+		(at 266.7 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65100ef5-c2ba-47e7-a214-d46dfd2b62b3")
+	)
+	(label "relays_h1{slash}Out0"
+		(at 246.38 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70753ce4-2d1a-4f88-aa15-35ae8ee95d8b")
+	)
+	(label "relays_h1{slash}Out1"
+		(at 262.89 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de03b154-b75e-423f-9569-ed7467b87f62")
+	)
 	(hierarchical_label "Clk"
 		(shape input)
 		(at 55.88 139.7 180)
