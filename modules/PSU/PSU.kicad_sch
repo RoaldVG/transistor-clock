@@ -740,6 +740,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1461,6 +1644,12 @@
 		(uuid "de6ad551-1a48-4033-a0aa-b071ce7569ca")
 	)
 	(junction
+		(at 134.62 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14b74e4c-03a7-4f27-b272-9e6f0cb2685e")
+	)
+	(junction
 		(at 106.68 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1533,6 +1722,16 @@
 			(type default)
 		)
 		(uuid "2405276a-5bd8-4c65-948d-a6467e056271")
+	)
+	(wire
+		(pts
+			(xy 134.62 80.01) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d4e5a2-c278-4703-8bec-5441e409bdd7")
 	)
 	(wire
 		(pts
@@ -1634,7 +1833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225c9eff-f879-48c5-b27a-4e6d41df5265")
-		(property "Reference" "Q10"
+		(property "Reference" "Q1"
 			(at 120.65 59.0761 90)
 			(effects
 				(font
@@ -1719,7 +1918,7 @@
 		(instances
 			(project "PSU"
 				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
-					(reference "Q10")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1735,7 +1934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "362390dd-88fb-470d-a360-7f10e1bebf1b")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 99.441 67.3678 0)
 			(effects
 				(font
@@ -1798,7 +1997,7 @@
 		(instances
 			(project "PSU"
 				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1809,7 +2008,7 @@
 		(at 154.94 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1884,7 +2083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "827cb63c-45a1-4327-8d0e-c02383215fcd")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 109.601 74.9878 0)
 			(effects
 				(font
@@ -1947,7 +2146,7 @@
 		(instances
 			(project "PSU"
 				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
-					(reference "C10")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1958,7 +2157,7 @@
 		(at 91.44 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2019,6 +2218,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94fc7fea-fec2-4757-8c63-9436c35ec628")
+		(property "Reference" "D2"
+			(at 147.701 76.5753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 147.701 78.9996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97667e5c-7d1f-42f2-a351-6a5f31babe51")
+		)
+		(pin "2"
+			(uuid "39213439-c417-473b-b670-ae290bcabaa2")
+		)
+		(instances
+			(project ""
+				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0829c27-3766-4c9d-b951-9d8ff4b60a22")
+		(property "Reference" "R2"
+			(at 146.558 67.3678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 146.558 69.7921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 143.002 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11ebe073-1a0c-4a74-bb68-922a3ae22cf9")
+		)
+		(pin "1"
+			(uuid "957471d6-c762-43d8-b453-1b6480bed989")
+		)
+		(instances
+			(project ""
+				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 96.52 80.01 0)
 		(unit 1)
@@ -2028,7 +2376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3781bdc-c07c-498e-a2b1-6c19f9bdbc17")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR02"
 			(at 96.52 86.36 0)
 			(effects
 				(font
@@ -2078,7 +2426,7 @@
 		(instances
 			(project "PSU"
 				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
-					(reference "#PWR08")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2094,7 +2442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa2551bc-2897-47a2-a779-db7ffeb21d61")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 122.682 74.9878 90)
 			(effects
 				(font
@@ -2157,7 +2505,7 @@
 		(instances
 			(project "PSU"
 				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2173,7 +2521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b43af9e9-58cc-455f-8bb1-519d0228ce8a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 144.78 68.58 0)
 			(effects
 				(font
@@ -2223,7 +2571,7 @@
 		(instances
 			(project ""
 				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2239,7 +2587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4f07729-1148-4863-9d4c-61e517ec356a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 96.52 67.31 0)
 			(effects
 				(font
@@ -2289,7 +2637,7 @@
 		(instances
 			(project ""
 				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2305,7 +2653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d84c8ac2-53c7-427b-bd2b-5175319fd10e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 149.86 73.66 0)
 			(effects
 				(font
@@ -2355,7 +2703,7 @@
 		(instances
 			(project "PSU"
 				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2371,7 +2719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e34a4901-d838-4b9a-8f49-de3af65c15cf")
-		(property "Reference" "C13"
+		(property "Reference" "C3"
 			(at 137.541 66.4788 0)
 			(effects
 				(font
@@ -2434,7 +2782,7 @@
 		(instances
 			(project "PSU"
 				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
-					(reference "C13")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2450,7 +2798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4726dab-6b90-4ab2-b184-4e442dde8f72")
-		(property "Reference" "R11"
+		(property "Reference" "R1"
 			(at 108.458 67.3678 0)
 			(effects
 				(font
@@ -2513,7 +2861,7 @@
 		(instances
 			(project "PSU"
 				(path "/da8feed1-a20b-452e-b8e4-5030f9f67fed"
-					(reference "R11")
+					(reference "R1")
 					(unit 1)
 				)
 			)
