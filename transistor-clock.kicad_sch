@@ -3710,6 +3710,12 @@
 		(uuid "892090ab-9cd1-4131-9a23-681c73df6bda")
 	)
 	(junction
+		(at 104.14 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ae0c2cc-1cbb-4c8e-a903-ff53493dc602")
+	)
+	(junction
 		(at 90.17 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3846,6 +3852,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed7e953f-f83d-43af-a62f-34dd5cc197a3")
+	)
+	(junction
+		(at 107.95 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe5cf51a-05e6-4c9b-b253-75eb83a3ac2e")
 	)
 	(no_connect
 		(at 39.37 160.02)
@@ -4007,6 +4019,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 129.54) (xy 107.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266feb98-5dd0-4197-a582-b932d2a8b8c1")
+	)
+	(wire
+		(pts
 			(xy 87.63 38.1) (xy 100.33 38.1)
 		)
 		(stroke
@@ -4087,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 139.7) (xy 107.95 139.7)
+			(xy 88.9 139.7) (xy 104.14 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4424,6 +4446,16 @@
 			(type default)
 		)
 		(uuid "856663a7-48db-4750-b2b6-2426016affd2")
+	)
+	(wire
+		(pts
+			(xy 104.14 139.7) (xy 107.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc35705-c935-44a3-a0ed-5800cdf98906")
 	)
 	(wire
 		(pts
@@ -8993,6 +9025,77 @@
 			(project ""
 				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 104.14 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7343609-3cc0-4bfb-8715-615de82c787a")
+		(property "Reference" "TP2"
+			(at 105.537 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 105.537 135.8321 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14178f9-7762-43c3-b2ae-9008e52f49dd")
+		)
+		(pin "2"
+			(uuid "17f34946-6de7-4b2b-8439-5417d128630a")
+		)
+		(instances
+			(project "transistor-clock"
+				(path "/ce10d5bc-995e-4952-aa76-0a08f713a0f2"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
