@@ -3836,7 +3836,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 153.67)
+		(at 50.8 152.4)
 		(size 20.32 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3852,118 +3852,6 @@
 		)
 		(uuid "6979d884-3104-4d4d-a14e-0e449b6f5d88")
 		(property "Sheetname" "jk-flipflop1"
-			(at 110.49 152.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "flipflop.kicad_sch"
-			(at 110.49 170.7646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CLK" input
-			(at 130.81 161.29 0)
-			(uuid "2cd0c3cd-a81b-448e-abdc-c59e0262378a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Clr" input
-			(at 110.49 167.64 180)
-			(uuid "c3f918a8-e125-464f-b4d4-8edd4ed12863")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "J" input
-			(at 130.81 157.48 0)
-			(uuid "7210e611-56a8-449a-abcb-23a5c3b118b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "K" input
-			(at 130.81 165.1 0)
-			(uuid "ddc77153-d133-4661-99b7-456a9d27a3d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Preset" input
-			(at 110.49 156.21 180)
-			(uuid "e151f18d-d537-4534-943e-a1310fdc8a2a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Q" output
-			(at 110.49 163.83 180)
-			(uuid "9b7665eb-f593-4a07-901b-0564b1ada29c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "\\Q" output
-			(at 110.49 160.02 180)
-			(uuid "c2e15ded-c733-4eb5-91f1-d86166a0a1b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "jkflipflop"
-				(path "/8013391e-c8e7-41ee-accd-360f92f3a5d7"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 50.8 152.4)
-		(size 20.32 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9318a685-33db-476b-a8fe-85a58a155206")
-		(property "Sheetname" "jk-flipflop"
 			(at 50.8 151.6884 0)
 			(effects
 				(font
@@ -3983,7 +3871,7 @@
 		)
 		(pin "CLK" input
 			(at 71.12 160.02 0)
-			(uuid "ac91a32a-72fd-4931-934f-c75bc80fac79")
+			(uuid "2cd0c3cd-a81b-448e-abdc-c59e0262378a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +3881,7 @@
 		)
 		(pin "Clr" input
 			(at 50.8 166.37 180)
-			(uuid "e88d7ecb-1df7-4352-8418-bf89468f509b")
+			(uuid "c3f918a8-e125-464f-b4d4-8edd4ed12863")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +3891,7 @@
 		)
 		(pin "J" input
 			(at 71.12 156.21 0)
-			(uuid "fb0cd35e-3ed5-477f-9208-bd68e8386c68")
+			(uuid "7210e611-56a8-449a-abcb-23a5c3b118b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +3901,7 @@
 		)
 		(pin "K" input
 			(at 71.12 163.83 0)
-			(uuid "d203a8c5-0ea6-4245-bf51-e30fa3db14f5")
+			(uuid "ddc77153-d133-4661-99b7-456a9d27a3d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +3911,7 @@
 		)
 		(pin "Preset" input
 			(at 50.8 154.94 180)
-			(uuid "b0760874-7de8-41d0-bd7c-f1f35935c016")
+			(uuid "e151f18d-d537-4534-943e-a1310fdc8a2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +3921,7 @@
 		)
 		(pin "Q" output
 			(at 50.8 162.56 180)
-			(uuid "d3d77b12-7fa7-4843-8b45-398fda69aa35")
+			(uuid "9b7665eb-f593-4a07-901b-0564b1ada29c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +3931,7 @@
 		)
 		(pin "\\Q" output
 			(at 50.8 158.75 180)
-			(uuid "17b84fc8-e034-4a26-a151-85f3a6e13965")
+			(uuid "c2e15ded-c733-4eb5-91f1-d86166a0a1b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +3942,7 @@
 		(instances
 			(project "jkflipflop"
 				(path "/8013391e-c8e7-41ee-accd-360f92f3a5d7"
-					(page "6")
+					(page "2")
 				)
 			)
 		)
@@ -4074,8 +3962,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "caa3c691-168b-4b9f-bbf3-d1a553e02d69")
-		(property "Sheetname" "jk-flipflop3"
+		(uuid "9318a685-33db-476b-a8fe-85a58a155206")
+		(property "Sheetname" "jk-flipflop"
 			(at 114.3 55.1684 0)
 			(effects
 				(font
@@ -4095,7 +3983,7 @@
 		)
 		(pin "CLK" input
 			(at 114.3 63.5 180)
-			(uuid "e75819aa-9746-46d0-80b2-dd7baa02f4dc")
+			(uuid "ac91a32a-72fd-4931-934f-c75bc80fac79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +3993,7 @@
 		)
 		(pin "Clr" input
 			(at 134.62 69.85 0)
-			(uuid "bebc058a-9642-4a84-b14b-e4d6d530e000")
+			(uuid "e88d7ecb-1df7-4352-8418-bf89468f509b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4003,7 @@
 		)
 		(pin "J" input
 			(at 114.3 59.69 180)
-			(uuid "91c68fe5-d03f-46b7-890b-38b4d41821e9")
+			(uuid "fb0cd35e-3ed5-477f-9208-bd68e8386c68")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4013,7 @@
 		)
 		(pin "K" input
 			(at 114.3 67.31 180)
-			(uuid "55fd3a8a-16dc-4d79-906d-440a9ab4a307")
+			(uuid "d203a8c5-0ea6-4245-bf51-e30fa3db14f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4023,7 @@
 		)
 		(pin "Preset" input
 			(at 134.62 58.42 0)
-			(uuid "49bbff78-a511-4116-879d-03b1a764521b")
+			(uuid "b0760874-7de8-41d0-bd7c-f1f35935c016")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,8 +4032,8 @@
 			)
 		)
 		(pin "Q" output
-			(at 134.62 62.23 0)
-			(uuid "868f6510-682f-4cdd-b4b8-8259df62648d")
+			(at 134.62 66.04 0)
+			(uuid "d3d77b12-7fa7-4843-8b45-398fda69aa35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,13 +4042,125 @@
 			)
 		)
 		(pin "\\Q" output
-			(at 134.62 66.04 0)
-			(uuid "3559f202-2cc2-4534-b1d7-823dc25aebd9")
+			(at 134.62 62.23 0)
+			(uuid "17b84fc8-e034-4a26-a151-85f3a6e13965")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(instances
+			(project "jkflipflop"
+				(path "/8013391e-c8e7-41ee-accd-360f92f3a5d7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 153.67)
+		(size 20.32 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "caa3c691-168b-4b9f-bbf3-d1a553e02d69")
+		(property "Sheetname" "jk-flipflop3"
+			(at 110.49 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flipflop.kicad_sch"
+			(at 110.49 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 130.81 161.29 0)
+			(uuid "e75819aa-9746-46d0-80b2-dd7baa02f4dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Clr" input
+			(at 110.49 167.64 180)
+			(uuid "bebc058a-9642-4a84-b14b-e4d6d530e000")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "J" input
+			(at 130.81 157.48 0)
+			(uuid "91c68fe5-d03f-46b7-890b-38b4d41821e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "K" input
+			(at 130.81 165.1 0)
+			(uuid "55fd3a8a-16dc-4d79-906d-440a9ab4a307")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Preset" input
+			(at 110.49 156.21 180)
+			(uuid "49bbff78-a511-4116-879d-03b1a764521b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q" output
+			(at 110.49 160.02 180)
+			(uuid "868f6510-682f-4cdd-b4b8-8259df62648d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "\\Q" output
+			(at 110.49 163.83 180)
+			(uuid "3559f202-2cc2-4534-b1d7-823dc25aebd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
