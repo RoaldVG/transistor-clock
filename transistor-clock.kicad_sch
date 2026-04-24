@@ -5932,7 +5932,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "30k"
 			(at 54.356 164.846 0)
 			(effects
 				(font
@@ -5941,7 +5941,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3214J_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 63.5 163.83 0)
 			(effects
 				(font
@@ -5959,7 +5959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" "Bourns 3296W-1-203LF"
 			(at 63.5 163.83 0)
 			(effects
 				(font
@@ -5968,7 +5968,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C58391"
+		(property "LCSC Part #" ""
 			(at 63.5 163.83 0)
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "30k"
 			(at 47.244 164.592 0)
 			(effects
 				(font
@@ -6589,7 +6589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3214J_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 39.37 163.83 0)
 			(effects
 				(font
@@ -6607,7 +6607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" "Bourns 3296W-1-203LF"
 			(at 39.37 163.83 0)
 			(effects
 				(font
@@ -6616,7 +6616,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C58391"
+		(property "LCSC Part #" ""
 			(at 39.37 163.83 0)
 			(effects
 				(font
@@ -7644,7 +7644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "47k"
 			(at 65.278 172.6621 0)
 			(effects
 				(font
@@ -7680,7 +7680,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22809"
+		(property "LCSC Part #" ""
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 63.5 171.45 0)
 			(effects
 				(font
@@ -7912,7 +7921,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C20526v"
+		(property "LCSC Part #" "C20526"
 			(at 35.56 133.35 0)
 			(effects
 				(font
@@ -7958,7 +7967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "47k"
 			(at 41.148 172.6621 0)
 			(effects
 				(font
@@ -7994,7 +8003,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22809"
+		(property "LCSC Part #" ""
 			(at 39.37 171.45 0)
 			(effects
 				(font
@@ -10343,7 +10352,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C20526v"
+		(property "LCSC Part #" "C20526"
 			(at 105.41 121.92 0)
 			(effects
 				(font

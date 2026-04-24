@@ -7,7 +7,7 @@ const E12: [f64; 12] = [
 ];
 
 
-const TARGET: f64 = 1.0;
+const TARGET: f64 = 2.0;
 const TOL: f64 = 0.001;
 
 #[derive(Clone)]
